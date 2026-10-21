@@ -1,0 +1,7 @@
+{
+  "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+  "status": 200,
+  "bytes": 2185723,
+  "sha256": "9bb6b367298d17a106cc7a12e02b871f3a9f3ef93af5753194c66e546e200f71",
+  "use": "External schedule cross-check of the two NFL questions in the preselected manual sample; no model features or scores selected by game result."
+}

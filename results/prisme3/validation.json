@@ -1,0 +1,11 @@
+{
+  "command": "python -m unittest discover -s tests -p test_prisme3.py -v",
+  "exit_code": 0,
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 28.341,
+  "complete_archive_replay_executed": true,
+  "origin": "Actual unittest command output in this task; no predictive experiment was executed."
+}

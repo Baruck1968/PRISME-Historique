@@ -1,0 +1,53 @@
+{
+  "purpose": "Exact content references for PRISME 3. Mutable upstream URLs are accepted only if SHA-256 matches frozen content.",
+  "sources": [
+    {
+      "path": "results/prisme3/source_checks/contract_types.txt",
+      "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/common/src/contract.ts",
+      "sha256": "8dccfca4ebca8b76fd4605679a3466f4f2ff16feff1923f6b05b4329102477e0",
+      "bytes": 26707
+    },
+    {
+      "path": "results/prisme3/source_checks/close_market.txt",
+      "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/backend/api/src/close-market.ts",
+      "sha256": "d93f5041a83ae950a9a278b4c861a799c1c320e1292495598f2f2f95c3e3c652",
+      "bytes": 1221
+    },
+    {
+      "path": "results/prisme3/source_checks/api_docs.txt",
+      "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/docs/docs/api.md",
+      "sha256": "368d642e108daf35b4248ad7806ae1ef1f84fc151ce0bc075a868e600e74bf44",
+      "bytes": 70219
+    },
+    {
+      "path": "results/prisme3/source_checks/data_docs.txt",
+      "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/docs/docs/data.md",
+      "sha256": "c7d589175b0f31980eda66aa608d0c17b769797f3c84e2c6bacbad12386f4248",
+      "bytes": 2209
+    },
+    {
+      "path": "results/prisme3/source_checks/nfl_readme.txt",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/README.md",
+      "sha256": "42035b4ee0e548389ef91509bc672a861b43c6226a7317507d41536816c9f88a",
+      "bytes": 1017
+    },
+    {
+      "path": "results/prisme3/source_checks/schedule_dictionary.txt",
+      "url": "https://raw.githubusercontent.com/nflverse/nflreadr/main/data-raw/dictionary_schedules.csv",
+      "sha256": "f07a07a0b569b2526c2e3944d6da4f0d0b479cd1ead22fcff7a2fc164e0cf0f4",
+      "bytes": 4516
+    },
+    {
+      "path": "results/prisme3/source_checks/nfl_games.csv",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+      "sha256": "9bb6b367298d17a106cc7a12e02b871f3a9f3ef93af5753194c66e546e200f71",
+      "bytes": 2185723
+    },
+    {
+      "path": "data/prisme2/markets.zip",
+      "url": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/trade-dumps%2Fmanifold-contracts-20240706.json.zip?alt=media&token=ca3ef6b6-fe61-41b4-a789-dcc2d4ea4421",
+      "sha256": "63671168210deda1d96ba6c9e3d7fd1bb1bcd2a5a564c561f56ea12f5bceb8b7",
+      "bytes": 91427545
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "fixed_before_audit": "Local plan written before PRISME 3 archive scan, not an independently timestamped preregistration",
+  "grid_start_utc": "2023-01-02T00:00:00+00:00",
+  "grid_end_utc_inclusive": "2024-06-24T00:00:00+00:00",
+  "grid_step_days": 7,
+  "population": "Every BINARY record in the frozen July 6 2024 market archive, without filtering on final YES/NO outcome",
+  "primary_time_rule": "First calendar grid date at least 48 hours after creation; no replacement observation if ineligible",
+  "unresolved_proxy": "resolutionTime > t, or isResolved false with no resolutionTime. Already resolved and missing resolution chronology are separate exclusions.",
+  "open_proxy": "snapshot closeTime > t; this is only a proxy, NOT proof of historical negotiability",
+  "manual_sample": "First 20 primary proxy-open unresolved market IDs ranked by SHA256(id), without use of outcome labels, price, or performance",
+  "momentum_window_hours": 24,
+  "maximum_price_age_hours": 24,
+  "descriptive_delta_threshold": 0.02,
+  "probability_bin_width": 0.05,
+  "grouping_audit": "Exact NFKC-casefold-whitespace-normalized titles are candidate links only, not verified event keys; topic memberships are not event IDs",
+  "stop_rule": "Do not fit or score any model unless historical negotiability, public outcome still unknown at t, both historical prices and audited common-event keys are verified",
+  "trade_download_rule": "Reuse the verified archive prefix first; do not fetch the full 1 GB while the non-price gates fail",
+  "retrospective_state_warning": "Absence of resolution at t is not absence of public knowledge of its outcome; closeTime and descriptions are snapshots subject to edits",
+  "price_probe_rule": "Before API probing: first four manual-sample markets plus all manual-sample titles starting NFL; read-only timestamp audit only, not a cohort or predictive test.",
+  "external_crosscheck_rule": "Cross-check the NFL questions in the fixed manual sample against nflverse schedules; schedule snapshot does not certify historical exchange state."
+}

@@ -1,0 +1,42 @@
+{
+  "interpretation": "Manually identified common broad event from titles, independent of their outcomes: candidates concerning the same US presidential election. Partial coverage only; no whole-corpus partition and no verified point-in-time criteria.",
+  "candidate_common_event": "US-presidential-election-2024",
+  "members": [
+    {
+      "id": "Ua0kzjbcBjwSySES4hYt",
+      "question": "Will Donald Trump win the 2024 US Presidential Election?",
+      "t_ms": 1672617600000
+    },
+    {
+      "id": "P9kIYDOqTmiFTJXmwzUr",
+      "question": "Will Donald Trump win the 2024 US presidential election?",
+      "t_ms": 1682899200000
+    },
+    {
+      "id": "4amdGgZFKTxUMC3Fym6F",
+      "question": "Will Joe Biden win the 2024 US Presidential Election?",
+      "t_ms": 1672617600000
+    },
+    {
+      "id": "JAi0Fme4Evjo8542ArS2",
+      "question": "Will Joe Biden win the 2024 US presidential election?",
+      "t_ms": 1682899200000
+    },
+    {
+      "id": "o2fKPGSM88oXIWqV0sJB",
+      "question": "Will Joe Biden win the 2024 US Presidential Election?",
+      "t_ms": 1690761600000
+    },
+    {
+      "id": "rNPXlcqi51V8e5O8SriO",
+      "question": "Will Joe Biden win the 2024 US Presidential Election?",
+      "t_ms": 1705276800000
+    },
+    {
+      "id": "IP1Ea0Rvsda69ZHQwpI1",
+      "question": "Will Joe Biden win the 2024 US Presidential Election?",
+      "t_ms": 1707696000000
+    }
+  ],
+  "external_nfl_mapping": "external_schedule_check.json"
+}

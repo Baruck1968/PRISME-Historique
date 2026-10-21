@@ -1,0 +1,274 @@
+{
+  "purpose": "Bounded technical reconstruction probe, not predictive analysis",
+  "selection": "First four manual sample records and NFL titles in that sample",
+  "markets_probed": 6,
+  "requests": 12,
+  "both_fresh_trade_proxies": 0,
+  "certified_complete_trajectories": 0,
+  "limitations": [
+    "Final API records may have changed since t; resting limit orders and post-cutoff fills rejected.",
+    "No full liquidity history, historical mechanism certification, or public-knowledge audit is supplied by a price.",
+    "The selected initiating trade is a probability proxy, not proof of the exact quote at cutoff.",
+    "API evidence does not establish coverage of the historical trade dump."
+  ],
+  "observations": [
+    {
+      "market_id": "wchlU8VyJLiUwNZ0NIJa",
+      "t_ms": 1699228800000,
+      "snapshots": {
+        "t": {
+          "raw_records": 7,
+          "records_updated_after_cutoff": 6,
+          "rejected": {},
+          "cutoff_ms": 1699228800000,
+          "historical_quote_certified": false,
+          "status": "stale_trade_proxy",
+          "trade_id": "a26x5l6Gxp7wkWSclWJW",
+          "executed_ms": 1698609480407,
+          "probability": 0.04458937615639876,
+          "age_ms": 619319593
+        },
+        "t_minus_24h": {
+          "raw_records": 7,
+          "records_updated_after_cutoff": 6,
+          "rejected": {},
+          "cutoff_ms": 1699142400000,
+          "historical_quote_certified": false,
+          "status": "stale_trade_proxy",
+          "trade_id": "a26x5l6Gxp7wkWSclWJW",
+          "executed_ms": 1698609480407,
+          "probability": 0.04458937615639876,
+          "age_ms": 532919593
+        }
+      },
+      "both_proxies_fresh": false,
+      "eligible_for_predictive_analysis": false
+    },
+    {
+      "market_id": "yVIfymH83W03GgzL7ErJ",
+      "t_ms": 1693785600000,
+      "snapshots": {
+        "t": {
+          "raw_records": 8,
+          "records_updated_after_cutoff": 7,
+          "rejected": {
+            "ante_redemption_or_resting_limit": 4
+          },
+          "cutoff_ms": 1693785600000,
+          "historical_quote_certified": false,
+          "status": "stale_trade_proxy",
+          "trade_id": "1zYBGUmPmmVVDcxS0lhd",
+          "executed_ms": 1693180548461,
+          "probability": 0.7795302660858935,
+          "age_ms": 605051539
+        },
+        "t_minus_24h": {
+          "raw_records": 8,
+          "records_updated_after_cutoff": 7,
+          "rejected": {
+            "ante_redemption_or_resting_limit": 4
+          },
+          "cutoff_ms": 1693699200000,
+          "historical_quote_certified": false,
+          "status": "stale_trade_proxy",
+          "trade_id": "1zYBGUmPmmVVDcxS0lhd",
+          "executed_ms": 1693180548461,
+          "probability": 0.7795302660858935,
+          "age_ms": 518651539
+        }
+      },
+      "both_proxies_fresh": false,
+      "eligible_for_predictive_analysis": false
+    },
+    {
+      "market_id": "pQiIxQtBISvS5y9qrbab",
+      "t_ms": 1707696000000,
+      "snapshots": {
+        "t": {
+          "raw_records": 2,
+          "records_updated_after_cutoff": 2,
+          "rejected": {},
+          "cutoff_ms": 1707696000000,
+          "historical_quote_certified": false,
+          "status": "stale_trade_proxy",
+          "trade_id": "VG9WyA8hhM1Una4eYeas",
+          "executed_ms": 1707220752971,
+          "probability": 0.3559727406410414,
+          "age_ms": 475247029
+        },
+        "t_minus_24h": {
+          "raw_records": 2,
+          "records_updated_after_cutoff": 2,
+          "rejected": {},
+          "cutoff_ms": 1707609600000,
+          "historical_quote_certified": false,
+          "status": "stale_trade_proxy",
+          "trade_id": "VG9WyA8hhM1Una4eYeas",
+          "executed_ms": 1707220752971,
+          "probability": 0.3559727406410414,
+          "age_ms": 388847029
+        }
+      },
+      "both_proxies_fresh": false,
+      "eligible_for_predictive_analysis": false
+    },
+    {
+      "market_id": "eYh1KCy8ATsuL9mAaq6q",
+      "t_ms": 1687132800000,
+      "snapshots": {
+        "t": {
+          "raw_records": 45,
+          "records_updated_after_cutoff": 27,
+          "rejected": {
+            "ante_redemption_or_resting_limit": 31
+          },
+          "cutoff_ms": 1687132800000,
+          "historical_quote_certified": false,
+          "status": "stale_trade_proxy",
+          "trade_id": "Czfl6d8stPKEItdAyWrU",
+          "executed_ms": 1686748057715,
+          "probability": 0.23078042681067612,
+          "age_ms": 384742285
+        },
+        "t_minus_24h": {
+          "raw_records": 45,
+          "records_updated_after_cutoff": 27,
+          "rejected": {
+            "ante_redemption_or_resting_limit": 31
+          },
+          "cutoff_ms": 1687046400000,
+          "historical_quote_certified": false,
+          "status": "stale_trade_proxy",
+          "trade_id": "Czfl6d8stPKEItdAyWrU",
+          "executed_ms": 1686748057715,
+          "probability": 0.23078042681067612,
+          "age_ms": 298342285
+        }
+      },
+      "both_proxies_fresh": false,
+      "eligible_for_predictive_analysis": false
+    },
+    {
+      "market_id": "6G7Hcqq3a2XTAv1sTmhI",
+      "t_ms": 1694995200000,
+      "snapshots": {
+        "t": {
+          "raw_records": 0,
+          "records_updated_after_cutoff": 0,
+          "rejected": {},
+          "cutoff_ms": 1694995200000,
+          "historical_quote_certified": false,
+          "status": "no_eligible_trade"
+        },
+        "t_minus_24h": {
+          "raw_records": 0,
+          "records_updated_after_cutoff": 0,
+          "rejected": {},
+          "cutoff_ms": 1694908800000,
+          "historical_quote_certified": false,
+          "status": "no_eligible_trade"
+        }
+      },
+      "both_proxies_fresh": false,
+      "eligible_for_predictive_analysis": false
+    },
+    {
+      "market_id": "wrMLxLV0yRCRB7fyOaVp",
+      "t_ms": 1694995200000,
+      "snapshots": {
+        "t": {
+          "raw_records": 7,
+          "records_updated_after_cutoff": 3,
+          "rejected": {
+            "ante_redemption_or_resting_limit": 5
+          },
+          "cutoff_ms": 1694995200000,
+          "historical_quote_certified": false,
+          "status": "fresh_trade_proxy",
+          "trade_id": "bIKWph87s2QrnICAiI2i",
+          "executed_ms": 1694990270821,
+          "probability": 0.3900000000000002,
+          "age_ms": 4929179
+        },
+        "t_minus_24h": {
+          "raw_records": 6,
+          "records_updated_after_cutoff": 5,
+          "rejected": {
+            "ante_redemption_or_resting_limit": 5
+          },
+          "cutoff_ms": 1694908800000,
+          "historical_quote_certified": false,
+          "status": "stale_trade_proxy",
+          "trade_id": "1civYng8cHf3NtFgDaxD",
+          "executed_ms": 1694639398824,
+          "probability": 0.3899999999999999,
+          "age_ms": 269401176
+        }
+      },
+      "both_proxies_fresh": false,
+      "eligible_for_predictive_analysis": false
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1699228800001&contractId=wchlU8VyJLiUwNZ0NIJa&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:24.532428+00:00",
+      "sha256": "7180242f6405cbd5598c3df0c81c6d61fff803e5e386041b7bcf20de04c3fd13"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1699142400001&contractId=wchlU8VyJLiUwNZ0NIJa&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:24.790198+00:00",
+      "sha256": "7180242f6405cbd5598c3df0c81c6d61fff803e5e386041b7bcf20de04c3fd13"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1693785600001&contractId=yVIfymH83W03GgzL7ErJ&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:25.133787+00:00",
+      "sha256": "7450ea0fff00340d609c184cc1ed1966438e6b8378ce33d833c8728d7f3e66b7"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1693699200001&contractId=yVIfymH83W03GgzL7ErJ&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:25.565105+00:00",
+      "sha256": "7450ea0fff00340d609c184cc1ed1966438e6b8378ce33d833c8728d7f3e66b7"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1707696000001&contractId=pQiIxQtBISvS5y9qrbab&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:25.998199+00:00",
+      "sha256": "7ae52b71d23fbf590b73681edbdbc65d62b3cc4bb36b7a2f01a5698b847c4402"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1707609600001&contractId=pQiIxQtBISvS5y9qrbab&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:26.346983+00:00",
+      "sha256": "7ae52b71d23fbf590b73681edbdbc65d62b3cc4bb36b7a2f01a5698b847c4402"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1687132800001&contractId=eYh1KCy8ATsuL9mAaq6q&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:26.828457+00:00",
+      "sha256": "8678ad252b3a3ec3a60ccf011b38b33c90326af70a89012187eb1f5624fa58c3"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1687046400001&contractId=eYh1KCy8ATsuL9mAaq6q&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:27.091084+00:00",
+      "sha256": "8678ad252b3a3ec3a60ccf011b38b33c90326af70a89012187eb1f5624fa58c3"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1694995200001&contractId=6G7Hcqq3a2XTAv1sTmhI&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:27.345791+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1694908800001&contractId=6G7Hcqq3a2XTAv1sTmhI&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:27.561600+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1694995200001&contractId=wrMLxLV0yRCRB7fyOaVp&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:27.779286+00:00",
+      "sha256": "751e60f0a9e9fb13dc443a4281850b496c8b7a837ec7a7428e790b03e52babc9"
+    },
+    {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1694908800001&contractId=wrMLxLV0yRCRB7fyOaVp&limit=1000",
+      "retrieved_utc": "2026-10-21T13:11:28.002270+00:00",
+      "sha256": "57011a2a77abd23c66f998b84d2c9936c9875fa015d7d5f4c226b4b98914daaf"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "status": "feasibility_not_validated_predictive_analysis_not_run",
+  "calendar_selection_independent_of_resolution": true,
+  "calendar_grid_dates": 78,
+  "primary_proxy_candidates": 69393,
+  "manual_records_reviewed": 20,
+  "historical_tradability_and_public_ignorance_jointly_verified": 0,
+  "price_probe_markets": 6,
+  "fresh_proxy_pairs_in_probe": 0,
+  "full_corpus_price_coverage_measured": false,
+  "event_partition_complete": false,
+  "partial_event_evidence": {
+    "repeated_title_groups": 544,
+    "markets_in_repeated_title_groups": 1448,
+    "manually_linked_election_markets": 7,
+    "nfl_event_ids_crosschecked": 2
+  },
+  "models_fitted": 0,
+  "brier": null,
+  "log_loss": null,
+  "delta_effect": null,
+  "confidence_interval": null,
+  "p_value": null,
+  "probability_strata": [
+    {
+      "lower": 0.0,
+      "upper": 0.05,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.05,
+      "upper": 0.1,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.1,
+      "upper": 0.15,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.15,
+      "upper": 0.2,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.2,
+      "upper": 0.25,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.25,
+      "upper": 0.3,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.3,
+      "upper": 0.35,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.35,
+      "upper": 0.4,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.4,
+      "upper": 0.45,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.45,
+      "upper": 0.5,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.5,
+      "upper": 0.55,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.55,
+      "upper": 0.6,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.6,
+      "upper": 0.65,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.65,
+      "upper": 0.7,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.7,
+      "upper": 0.75,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.75,
+      "upper": 0.8,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.8,
+      "upper": 0.85,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.85,
+      "upper": 0.9,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.9,
+      "upper": 0.95,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    },
+    {
+      "lower": 0.95,
+      "upper": 1.0,
+      "rise": null,
+      "fall": null,
+      "neutral": null,
+      "status": "not_measured_on_verified_corpus"
+    }
+  ],
+  "interpretation": "No evidence for or against predictive momentum from this feasibility audit. Zero verified is not proof of zero eligible markets."
+}

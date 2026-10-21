@@ -1,0 +1,782 @@
+[
+  {
+    "t_ms": 1672617600000,
+    "t_utc": "2023-01-02T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 8689,
+      "closed_in_final_snapshot_proxy": 867,
+      "open_unresolved_proxy_only": 5726,
+      "not_created_or_missing_creation": 85043
+    }
+  },
+  {
+    "t_ms": 1673222400000,
+    "t_utc": "2023-01-09T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 9672,
+      "closed_in_final_snapshot_proxy": 531,
+      "open_unresolved_proxy_only": 6704,
+      "not_created_or_missing_creation": 83418
+    }
+  },
+  {
+    "t_ms": 1673827200000,
+    "t_utc": "2023-01-16T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 10060,
+      "closed_in_final_snapshot_proxy": 460,
+      "open_unresolved_proxy_only": 7402,
+      "not_created_or_missing_creation": 82403
+    }
+  },
+  {
+    "t_ms": 1674432000000,
+    "t_utc": "2023-01-23T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 10339,
+      "closed_in_final_snapshot_proxy": 434,
+      "open_unresolved_proxy_only": 7826,
+      "not_created_or_missing_creation": 81726
+    }
+  },
+  {
+    "t_ms": 1675036800000,
+    "t_utc": "2023-01-30T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 10682,
+      "closed_in_final_snapshot_proxy": 416,
+      "open_unresolved_proxy_only": 8283,
+      "not_created_or_missing_creation": 80944
+    }
+  },
+  {
+    "t_ms": 1675641600000,
+    "t_utc": "2023-02-06T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 11223,
+      "closed_in_final_snapshot_proxy": 419,
+      "open_unresolved_proxy_only": 8632,
+      "not_created_or_missing_creation": 80051
+    }
+  },
+  {
+    "t_ms": 1676246400000,
+    "t_utc": "2023-02-13T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 11586,
+      "closed_in_final_snapshot_proxy": 406,
+      "open_unresolved_proxy_only": 9174,
+      "not_created_or_missing_creation": 79159
+    }
+  },
+  {
+    "t_ms": 1676851200000,
+    "t_utc": "2023-02-20T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 12037,
+      "closed_in_final_snapshot_proxy": 389,
+      "open_unresolved_proxy_only": 9593,
+      "not_created_or_missing_creation": 78306
+    }
+  },
+  {
+    "t_ms": 1677456000000,
+    "t_utc": "2023-02-27T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 12527,
+      "closed_in_final_snapshot_proxy": 408,
+      "open_unresolved_proxy_only": 9835,
+      "not_created_or_missing_creation": 77555
+    }
+  },
+  {
+    "t_ms": 1678060800000,
+    "t_utc": "2023-03-06T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 13336,
+      "closed_in_final_snapshot_proxy": 440,
+      "open_unresolved_proxy_only": 10027,
+      "not_created_or_missing_creation": 76522
+    }
+  },
+  {
+    "t_ms": 1678665600000,
+    "t_utc": "2023-03-13T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 13622,
+      "closed_in_final_snapshot_proxy": 428,
+      "open_unresolved_proxy_only": 10535,
+      "not_created_or_missing_creation": 75740
+    }
+  },
+  {
+    "t_ms": 1679270400000,
+    "t_utc": "2023-03-20T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 14227,
+      "closed_in_final_snapshot_proxy": 423,
+      "open_unresolved_proxy_only": 11120,
+      "not_created_or_missing_creation": 74555
+    }
+  },
+  {
+    "t_ms": 1679875200000,
+    "t_utc": "2023-03-27T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 14800,
+      "closed_in_final_snapshot_proxy": 405,
+      "open_unresolved_proxy_only": 11702,
+      "not_created_or_missing_creation": 73418
+    }
+  },
+  {
+    "t_ms": 1680480000000,
+    "t_utc": "2023-04-03T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 15691,
+      "closed_in_final_snapshot_proxy": 482,
+      "open_unresolved_proxy_only": 11919,
+      "not_created_or_missing_creation": 72233
+    }
+  },
+  {
+    "t_ms": 1681084800000,
+    "t_utc": "2023-04-10T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 16451,
+      "closed_in_final_snapshot_proxy": 380,
+      "open_unresolved_proxy_only": 12630,
+      "not_created_or_missing_creation": 70864
+    }
+  },
+  {
+    "t_ms": 1681689600000,
+    "t_utc": "2023-04-17T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 17005,
+      "closed_in_final_snapshot_proxy": 373,
+      "open_unresolved_proxy_only": 13094,
+      "not_created_or_missing_creation": 69853
+    }
+  },
+  {
+    "t_ms": 1682294400000,
+    "t_utc": "2023-04-24T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 17560,
+      "closed_in_final_snapshot_proxy": 349,
+      "open_unresolved_proxy_only": 13652,
+      "not_created_or_missing_creation": 68764
+    }
+  },
+  {
+    "t_ms": 1682899200000,
+    "t_utc": "2023-05-01T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 18093,
+      "closed_in_final_snapshot_proxy": 395,
+      "open_unresolved_proxy_only": 13868,
+      "not_created_or_missing_creation": 67969
+    }
+  },
+  {
+    "t_ms": 1683504000000,
+    "t_utc": "2023-05-08T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 18779,
+      "closed_in_final_snapshot_proxy": 362,
+      "open_unresolved_proxy_only": 14213,
+      "not_created_or_missing_creation": 66971
+    }
+  },
+  {
+    "t_ms": 1684108800000,
+    "t_utc": "2023-05-15T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 19197,
+      "closed_in_final_snapshot_proxy": 364,
+      "open_unresolved_proxy_only": 14699,
+      "not_created_or_missing_creation": 66065
+    }
+  },
+  {
+    "t_ms": 1684713600000,
+    "t_utc": "2023-05-22T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 19681,
+      "closed_in_final_snapshot_proxy": 346,
+      "open_unresolved_proxy_only": 15098,
+      "not_created_or_missing_creation": 65200
+    }
+  },
+  {
+    "t_ms": 1685318400000,
+    "t_utc": "2023-05-29T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 20102,
+      "closed_in_final_snapshot_proxy": 355,
+      "open_unresolved_proxy_only": 15357,
+      "not_created_or_missing_creation": 64511
+    }
+  },
+  {
+    "t_ms": 1685923200000,
+    "t_utc": "2023-06-05T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 20717,
+      "closed_in_final_snapshot_proxy": 451,
+      "open_unresolved_proxy_only": 15582,
+      "not_created_or_missing_creation": 63575
+    }
+  },
+  {
+    "t_ms": 1686528000000,
+    "t_utc": "2023-06-12T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 21225,
+      "closed_in_final_snapshot_proxy": 426,
+      "open_unresolved_proxy_only": 16059,
+      "not_created_or_missing_creation": 62615
+    }
+  },
+  {
+    "t_ms": 1687132800000,
+    "t_utc": "2023-06-19T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 21610,
+      "closed_in_final_snapshot_proxy": 404,
+      "open_unresolved_proxy_only": 16452,
+      "not_created_or_missing_creation": 61859
+    }
+  },
+  {
+    "t_ms": 1687737600000,
+    "t_utc": "2023-06-26T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 21934,
+      "closed_in_final_snapshot_proxy": 403,
+      "open_unresolved_proxy_only": 16824,
+      "not_created_or_missing_creation": 61164
+    }
+  },
+  {
+    "t_ms": 1688342400000,
+    "t_utc": "2023-07-03T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 22666,
+      "closed_in_final_snapshot_proxy": 528,
+      "open_unresolved_proxy_only": 16812,
+      "not_created_or_missing_creation": 60319
+    }
+  },
+  {
+    "t_ms": 1688947200000,
+    "t_utc": "2023-07-10T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 23068,
+      "closed_in_final_snapshot_proxy": 467,
+      "open_unresolved_proxy_only": 17220,
+      "not_created_or_missing_creation": 59570
+    }
+  },
+  {
+    "t_ms": 1689552000000,
+    "t_utc": "2023-07-17T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 23471,
+      "closed_in_final_snapshot_proxy": 450,
+      "open_unresolved_proxy_only": 17503,
+      "not_created_or_missing_creation": 58901
+    }
+  },
+  {
+    "t_ms": 1690156800000,
+    "t_utc": "2023-07-24T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 23965,
+      "closed_in_final_snapshot_proxy": 402,
+      "open_unresolved_proxy_only": 17956,
+      "not_created_or_missing_creation": 58002
+    }
+  },
+  {
+    "t_ms": 1690761600000,
+    "t_utc": "2023-07-31T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 24476,
+      "closed_in_final_snapshot_proxy": 391,
+      "open_unresolved_proxy_only": 18487,
+      "not_created_or_missing_creation": 56971
+    }
+  },
+  {
+    "t_ms": 1691366400000,
+    "t_utc": "2023-08-07T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 25377,
+      "closed_in_final_snapshot_proxy": 425,
+      "open_unresolved_proxy_only": 19112,
+      "not_created_or_missing_creation": 55411
+    }
+  },
+  {
+    "t_ms": 1691971200000,
+    "t_utc": "2023-08-14T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 25926,
+      "closed_in_final_snapshot_proxy": 406,
+      "open_unresolved_proxy_only": 19784,
+      "not_created_or_missing_creation": 54209
+    }
+  },
+  {
+    "t_ms": 1692576000000,
+    "t_utc": "2023-08-21T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 26513,
+      "closed_in_final_snapshot_proxy": 415,
+      "open_unresolved_proxy_only": 20152,
+      "not_created_or_missing_creation": 53245
+    }
+  },
+  {
+    "t_ms": 1693180800000,
+    "t_utc": "2023-08-28T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 27063,
+      "closed_in_final_snapshot_proxy": 404,
+      "open_unresolved_proxy_only": 20871,
+      "not_created_or_missing_creation": 51987
+    }
+  },
+  {
+    "t_ms": 1693785600000,
+    "t_utc": "2023-09-04T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 28045,
+      "closed_in_final_snapshot_proxy": 476,
+      "open_unresolved_proxy_only": 21206,
+      "not_created_or_missing_creation": 50598
+    }
+  },
+  {
+    "t_ms": 1694390400000,
+    "t_utc": "2023-09-11T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 28743,
+      "closed_in_final_snapshot_proxy": 427,
+      "open_unresolved_proxy_only": 21856,
+      "not_created_or_missing_creation": 49299
+    }
+  },
+  {
+    "t_ms": 1694995200000,
+    "t_utc": "2023-09-18T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 29554,
+      "closed_in_final_snapshot_proxy": 427,
+      "open_unresolved_proxy_only": 22610,
+      "not_created_or_missing_creation": 47734
+    }
+  },
+  {
+    "t_ms": 1695600000000,
+    "t_utc": "2023-09-25T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 30354,
+      "closed_in_final_snapshot_proxy": 418,
+      "open_unresolved_proxy_only": 23374,
+      "not_created_or_missing_creation": 46179
+    }
+  },
+  {
+    "t_ms": 1696204800000,
+    "t_utc": "2023-10-02T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 31378,
+      "closed_in_final_snapshot_proxy": 503,
+      "open_unresolved_proxy_only": 23494,
+      "not_created_or_missing_creation": 44950
+    }
+  },
+  {
+    "t_ms": 1696809600000,
+    "t_utc": "2023-10-09T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 32265,
+      "closed_in_final_snapshot_proxy": 492,
+      "open_unresolved_proxy_only": 24082,
+      "not_created_or_missing_creation": 43486
+    }
+  },
+  {
+    "t_ms": 1697414400000,
+    "t_utc": "2023-10-16T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 33162,
+      "open_unresolved_proxy_only": 24975,
+      "closed_in_final_snapshot_proxy": 476,
+      "not_created_or_missing_creation": 41712
+    }
+  },
+  {
+    "t_ms": 1698019200000,
+    "t_utc": "2023-10-23T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 34297,
+      "open_unresolved_proxy_only": 25694,
+      "closed_in_final_snapshot_proxy": 480,
+      "not_created_or_missing_creation": 39854
+    }
+  },
+  {
+    "t_ms": 1698624000000,
+    "t_utc": "2023-10-30T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 35430,
+      "open_unresolved_proxy_only": 26243,
+      "closed_in_final_snapshot_proxy": 478,
+      "not_created_or_missing_creation": 38174
+    }
+  },
+  {
+    "t_ms": 1699228800000,
+    "t_utc": "2023-11-06T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 36760,
+      "open_unresolved_proxy_only": 26847,
+      "closed_in_final_snapshot_proxy": 502,
+      "not_created_or_missing_creation": 36216
+    }
+  },
+  {
+    "t_ms": 1699833600000,
+    "t_utc": "2023-11-13T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 37794,
+      "open_unresolved_proxy_only": 27762,
+      "closed_in_final_snapshot_proxy": 493,
+      "not_created_or_missing_creation": 34276
+    }
+  },
+  {
+    "t_ms": 1700438400000,
+    "t_utc": "2023-11-20T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 38829,
+      "open_unresolved_proxy_only": 28134,
+      "closed_in_final_snapshot_proxy": 513,
+      "not_created_or_missing_creation": 32849
+    }
+  },
+  {
+    "t_ms": 1701043200000,
+    "t_utc": "2023-11-27T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 39861,
+      "open_unresolved_proxy_only": 28510,
+      "closed_in_final_snapshot_proxy": 507,
+      "not_created_or_missing_creation": 31447
+    }
+  },
+  {
+    "t_ms": 1701648000000,
+    "t_utc": "2023-12-04T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 41716,
+      "open_unresolved_proxy_only": 28189,
+      "closed_in_final_snapshot_proxy": 502,
+      "not_created_or_missing_creation": 29918
+    }
+  },
+  {
+    "t_ms": 1702252800000,
+    "t_utc": "2023-12-11T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 42721,
+      "open_unresolved_proxy_only": 28635,
+      "closed_in_final_snapshot_proxy": 438,
+      "not_created_or_missing_creation": 28531
+    }
+  },
+  {
+    "t_ms": 1702857600000,
+    "t_utc": "2023-12-18T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 43755,
+      "open_unresolved_proxy_only": 29091,
+      "closed_in_final_snapshot_proxy": 340,
+      "not_created_or_missing_creation": 27139
+    }
+  },
+  {
+    "t_ms": 1703462400000,
+    "t_utc": "2023-12-25T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 44739,
+      "open_unresolved_proxy_only": 29498,
+      "closed_in_final_snapshot_proxy": 328,
+      "not_created_or_missing_creation": 25760
+    }
+  },
+  {
+    "t_ms": 1704067200000,
+    "t_utc": "2024-01-01T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 46413,
+      "open_unresolved_proxy_only": 26982,
+      "closed_in_final_snapshot_proxy": 2237,
+      "not_created_or_missing_creation": 24693
+    }
+  },
+  {
+    "t_ms": 1704672000000,
+    "t_utc": "2024-01-08T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 51920,
+      "open_unresolved_proxy_only": 24719,
+      "closed_in_final_snapshot_proxy": 1167,
+      "not_created_or_missing_creation": 22519
+    }
+  },
+  {
+    "t_ms": 1705276800000,
+    "t_utc": "2024-01-15T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 53141,
+      "open_unresolved_proxy_only": 25489,
+      "closed_in_final_snapshot_proxy": 599,
+      "not_created_or_missing_creation": 21096
+    }
+  },
+  {
+    "t_ms": 1705881600000,
+    "t_utc": "2024-01-22T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 53972,
+      "open_unresolved_proxy_only": 26382,
+      "closed_in_final_snapshot_proxy": 462,
+      "not_created_or_missing_creation": 19509
+    }
+  },
+  {
+    "t_ms": 1706486400000,
+    "t_utc": "2024-01-29T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 54594,
+      "open_unresolved_proxy_only": 27228,
+      "closed_in_final_snapshot_proxy": 418,
+      "not_created_or_missing_creation": 18085
+    }
+  },
+  {
+    "t_ms": 1707091200000,
+    "t_utc": "2024-02-05T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 55377,
+      "open_unresolved_proxy_only": 27573,
+      "closed_in_final_snapshot_proxy": 551,
+      "not_created_or_missing_creation": 16824
+    }
+  },
+  {
+    "t_ms": 1707696000000,
+    "t_utc": "2024-02-12T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 55867,
+      "open_unresolved_proxy_only": 28334,
+      "closed_in_final_snapshot_proxy": 537,
+      "not_created_or_missing_creation": 15587
+    }
+  },
+  {
+    "t_ms": 1708300800000,
+    "t_utc": "2024-02-19T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 56507,
+      "open_unresolved_proxy_only": 28835,
+      "closed_in_final_snapshot_proxy": 524,
+      "not_created_or_missing_creation": 14459
+    }
+  },
+  {
+    "t_ms": 1708905600000,
+    "t_utc": "2024-02-26T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 56994,
+      "open_unresolved_proxy_only": 29562,
+      "closed_in_final_snapshot_proxy": 526,
+      "not_created_or_missing_creation": 13243
+    }
+  },
+  {
+    "t_ms": 1709510400000,
+    "t_utc": "2024-03-04T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 57866,
+      "open_unresolved_proxy_only": 29799,
+      "closed_in_final_snapshot_proxy": 608,
+      "not_created_or_missing_creation": 12052
+    }
+  },
+  {
+    "t_ms": 1710115200000,
+    "t_utc": "2024-03-11T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 58669,
+      "open_unresolved_proxy_only": 30263,
+      "closed_in_final_snapshot_proxy": 599,
+      "not_created_or_missing_creation": 10794
+    }
+  },
+  {
+    "t_ms": 1710720000000,
+    "t_utc": "2024-03-18T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 59236,
+      "open_unresolved_proxy_only": 30665,
+      "closed_in_final_snapshot_proxy": 585,
+      "not_created_or_missing_creation": 9839
+    }
+  },
+  {
+    "t_ms": 1711324800000,
+    "t_utc": "2024-03-25T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 59929,
+      "open_unresolved_proxy_only": 31033,
+      "closed_in_final_snapshot_proxy": 583,
+      "not_created_or_missing_creation": 8780
+    }
+  },
+  {
+    "t_ms": 1711929600000,
+    "t_utc": "2024-04-01T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 60561,
+      "open_unresolved_proxy_only": 31353,
+      "closed_in_final_snapshot_proxy": 643,
+      "not_created_or_missing_creation": 7768
+    }
+  },
+  {
+    "t_ms": 1712534400000,
+    "t_utc": "2024-04-08T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 61372,
+      "open_unresolved_proxy_only": 31543,
+      "closed_in_final_snapshot_proxy": 675,
+      "not_created_or_missing_creation": 6735
+    }
+  },
+  {
+    "t_ms": 1713139200000,
+    "t_utc": "2024-04-15T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 61892,
+      "open_unresolved_proxy_only": 31918,
+      "closed_in_final_snapshot_proxy": 652,
+      "not_created_or_missing_creation": 5863
+    }
+  },
+  {
+    "t_ms": 1713744000000,
+    "t_utc": "2024-04-22T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 62458,
+      "open_unresolved_proxy_only": 31958,
+      "closed_in_final_snapshot_proxy": 678,
+      "not_created_or_missing_creation": 5231
+    }
+  },
+  {
+    "t_ms": 1714348800000,
+    "t_utc": "2024-04-29T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 62949,
+      "open_unresolved_proxy_only": 32068,
+      "closed_in_final_snapshot_proxy": 659,
+      "not_created_or_missing_creation": 4649
+    }
+  },
+  {
+    "t_ms": 1714953600000,
+    "t_utc": "2024-05-06T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 63677,
+      "open_unresolved_proxy_only": 32005,
+      "closed_in_final_snapshot_proxy": 712,
+      "not_created_or_missing_creation": 3931
+    }
+  },
+  {
+    "t_ms": 1715558400000,
+    "t_utc": "2024-05-13T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 64013,
+      "open_unresolved_proxy_only": 32186,
+      "closed_in_final_snapshot_proxy": 701,
+      "not_created_or_missing_creation": 3425
+    }
+  },
+  {
+    "t_ms": 1716163200000,
+    "t_utc": "2024-05-20T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 64436,
+      "open_unresolved_proxy_only": 32596,
+      "closed_in_final_snapshot_proxy": 706,
+      "not_created_or_missing_creation": 2587
+    }
+  },
+  {
+    "t_ms": 1716768000000,
+    "t_utc": "2024-05-27T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 64794,
+      "open_unresolved_proxy_only": 32542,
+      "closed_in_final_snapshot_proxy": 690,
+      "not_created_or_missing_creation": 2299
+    }
+  },
+  {
+    "t_ms": 1717372800000,
+    "t_utc": "2024-06-03T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 65314,
+      "open_unresolved_proxy_only": 32151,
+      "closed_in_final_snapshot_proxy": 853,
+      "not_created_or_missing_creation": 2007
+    }
+  },
+  {
+    "t_ms": 1717977600000,
+    "t_utc": "2024-06-10T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 65689,
+      "open_unresolved_proxy_only": 32181,
+      "closed_in_final_snapshot_proxy": 835,
+      "not_created_or_missing_creation": 1620
+    }
+  },
+  {
+    "t_ms": 1718582400000,
+    "t_utc": "2024-06-17T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 66045,
+      "open_unresolved_proxy_only": 32304,
+      "closed_in_final_snapshot_proxy": 821,
+      "not_created_or_missing_creation": 1155
+    }
+  },
+  {
+    "t_ms": 1719187200000,
+    "t_utc": "2024-06-24T00:00:00+00:00",
+    "counts": {
+      "already_resolved_proxy": 66300,
+      "open_unresolved_proxy_only": 32480,
+      "closed_in_final_snapshot_proxy": 829,
+      "not_created_or_missing_creation": 716
+    }
+  }
+]

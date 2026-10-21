@@ -1,0 +1,165 @@
+{
+  "method": "Manual inspection of 20 SHA256-ranked records. Two supplementary NFL schedule checks; no complete news or edit-history audit. Not a claim that outcomes were actually known.",
+  "records": [
+    {
+      "id": "wchlU8VyJLiUwNZ0NIJa",
+      "t_ms": 1699228800000,
+      "question": "Will @ampdot and @Tetraspace date for six months?",
+      "review_note": "Compatibilité relationnelle : critère privé et évolutif ; aucune chronologie de connaissance publique établie.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "yVIfymH83W03GgzL7ErJ",
+      "t_ms": 1693785600000,
+      "question": "Will \"Disney Stock Rebound\" before 2030?",
+      "review_note": "Action Disney : le texte annonce une résolution PROB et des critères subjectifs ; ne pas assimiler ce BINARY à une issue YES/NO objective.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "pQiIxQtBISvS5y9qrbab",
+      "t_ms": 1707696000000,
+      "question": "Will Europe see a rise in terrorist attacks in 2024?",
+      "review_note": "Attaques en Europe : évaluation future par un podcast ; méthode textuelle courante, pas de version à t.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "eYh1KCy8ATsuL9mAaq6q",
+      "t_ms": 1687132800000,
+      "question": "Is @goth600 actually hired by Elon Musk?",
+      "review_note": "Embauche : le texte mentionne déjà un tweet « You are hired » ; statut de l’offre et information publique à t non vérifiés.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "4lnvp6bDBXr7LWdqIZTA",
+      "t_ms": 1704672000000,
+      "question": "Will someone convince me of ANYTHING that contradicts my (essentially mainstream) knowledge of COVID before 2026? ",
+      "review_note": "Conviction COVID : critère subjectif dépendant du créateur ; pas de journal de critères ni preuve de négociabilité à t.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "SmwyECDp4j6CO9NE0Klr",
+      "t_ms": 1705276800000,
+      "question": "Will I consider myself “doom-pilled” by EOY 2024?",
+      "review_note": "Doom-pilled : auto-évaluation future ; conditions et état au temps t non versionnés.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "6G7Hcqq3a2XTAv1sTmhI",
+      "t_ms": 1694995200000,
+      "question": "NFL Week 4 (Oct 1): Will the Houston Texans beat the Pittsburgh Steelers?",
+      "review_note": "NFL Texans–Steelers : calendrier externe 329 h après t ; événement identifié, état de négociation historique non prouvé.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "dKmDXzRBQxEzdWR0yBtA",
+      "t_ms": 1686528000000,
+      "question": "Will Donald Trump lose a single state in the 2024 Republican primaries?",
+      "review_note": "Primaires républicaines : clarification des critères présente dans le texte courant ; chronologie des éditions absente.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "dDHfnL7yT18fbFN3CfRm",
+      "t_ms": 1717977600000,
+      "question": "Will Hunter Biden be found guilty for any of the 3 charges in the gun case?",
+      "review_note": "Procès Hunter Biden : date de verdict dépendante de l’actualité ; l’horodatage de résolution ne date pas la connaissance publique.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "g6kJIG3W5tG39P76LiYE",
+      "t_ms": 1699228800000,
+      "question": "Will the US attack Iran by Jan 15th 2024?",
+      "review_note": "Iran : événement pouvant remplir le critère avant l’échéance ; aucun audit d’actualité complet à t.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "6i6Pz8U48Q83WwJOYngP",
+      "t_ms": 1694390400000,
+      "question": "Will Justin Sun be in jail, dead, disappeared or on the run by 1st Jan 2030",
+      "review_note": "Justin Sun : description quasi vide ; critère composite, aucune chronologie d’information publique.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "WZeoQ9pJs8M2CdnNEUPk",
+      "t_ms": 1696204800000,
+      "question": "Wird Manifold vor 2025 eine Internationalisierung anstreben?",
+      "review_note": "Internationalisation : critères multiples, texte courant ; état historique et modifications non documentés.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "1IVWrEjK6TNoUO7eIhFj",
+      "t_ms": 1672617600000,
+      "question": "Will vegan pizza be commonly available at one of the big four pizza chains in the US by the end of 2024?",
+      "review_note": "Pizza vegan : critère commercial diffus ; disponibilité et connaissance publique ne sont pas datées par la résolution.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "Pxuhz81HZYibTi8XUqz8",
+      "t_ms": 1711929600000,
+      "question": "Will USA Have a cyber Attack in June 2024",
+      "review_note": "Cyberattaque : description quasi vide ; événement ambigu et sources à reconstruire.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "tsYoempJMzv07MGxOP0D",
+      "t_ms": 1691366400000,
+      "question": "Will synths Camp and IOI next year?",
+      "review_note": "Camp/IOI : description quasi vide et titre ambigu ; calendrier événementiel non établi.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "jWddYUFI29NpkmtRptZq",
+      "t_ms": 1678060800000,
+      "question": "Will white win in Manifold Plays Chess, part 3?",
+      "review_note": "Échecs : texte enrichi des coups joués ; utiliser le texte courant comme information disponible à t serait injustifié.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "KmEdGIGKGfNtzBKVGrfd",
+      "t_ms": 1711324800000,
+      "question": "Will GPT-4 become free on ChatGPT when OpenAI releases GPT-4.5/GPT-5?",
+      "review_note": "GPT-4 : fenêtre liée à une annonce ; ouverture historique et versions des critères non établies.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "Ikkp0Oj8UVu2oNlyiY91",
+      "t_ms": 1712534400000,
+      "question": "What will US federal government spending as a percent of GDP be in 2035?",
+      "review_note": "Dépenses publiques : BINARY malgré une question quantitative ; vérifier le critère de transformation/résolution avant toute inclusion.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "0hpal30gU9FmtEHa2Vr8",
+      "t_ms": 1690761600000,
+      "question": "Will Alberto Núñez Feijóo resign as PP leader before EOY?",
+      "review_note": "Feijóo : le texte courant fait référence à une élection passée ; la connaissance d’un éventuel départ à t doit être auditée séparément.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    },
+    {
+      "id": "wrMLxLV0yRCRB7fyOaVp",
+      "t_ms": 1694995200000,
+      "question": "NFL Week 2 (Sep 17): Will the New England Patriots beat the Miami Dolphins?",
+      "review_note": "NFL Patriots–Dolphins : calendrier externe seulement 20 minutes après t ; événement identifié, état exact du marché non attesté.",
+      "historical_tradability_verified": false,
+      "public_outcome_unknown_at_t_verified": false
+    }
+  ]
+}

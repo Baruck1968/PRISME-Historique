@@ -1,0 +1,2547 @@
+{
+  "rule": "Exact NFKC-casefold-whitespace-normalized titles are candidate links only, not verified event keys; topic memberships are not event IDs",
+  "candidate_markets": 69393,
+  "distinct_normalized_titles": 68489,
+  "repeated_title_groups": 544,
+  "markets_in_repeated_title_groups": 1448,
+  "verified_common_event_keys": 0,
+  "warning": "Equal titles can mean different dates/events; different titles can mean the same event. No predictive split uses these links.",
+  "groups": {
+    "will donald trump be the republican nominee for president in 2024?": [
+      "pz4dHnKYn49woBUK83Mq",
+      "r1wn97L80yAxLALCQe1p"
+    ],
+    "will joe biden win the 2024 us presidential election?": [
+      "4amdGgZFKTxUMC3Fym6F",
+      "JAi0Fme4Evjo8542ArS2",
+      "o2fKPGSM88oXIWqV0sJB",
+      "rNPXlcqi51V8e5O8SriO",
+      "IP1Ea0Rvsda69ZHQwpI1"
+    ],
+    "will donald trump win the 2024 us presidential election?": [
+      "Ua0kzjbcBjwSySES4hYt",
+      "P9kIYDOqTmiFTJXmwzUr"
+    ],
+    "will biden be the 2024 democratic nominee?": [
+      "YTIuuSsNRn2OlA4KykRM",
+      "CtXGJjpdV1ko1H6Rfu2v",
+      "6E5ttKLVMfvgQoSuGx7o",
+      "YjnDIMxO1GtjRlie2JhC"
+    ],
+    "will ai wipe out humanity before the year 2100": [
+      "mZoOercJWPMFPM6XxKfI",
+      "Pbfcr93n0dVEHQWUn043"
+    ],
+    "will ai outcompete best humans in competitive programming before the end of 2023?": [
+      "EygA0P2reULSDzKiIkXF",
+      "kIShRhdgp3kqRgj8Ch6n"
+    ],
+    "will an ai get gold on any international math olympiad by 2025?": [
+      "BcJbQTDX1rdmaLYGKUOz",
+      "2ZBhiY7yD11CxXulOV0M"
+    ],
+    "will sweden join nato before 2024?": [
+      "QKFpHGWpxEpnIo87Nr94",
+      "LElUhonYfDuZvAp66qS8"
+    ],
+    "will there be a serious radiation incident at any nuclear plant in ukraine by 2024?": [
+      "Rw4AxxuYfeatdue8UaQe",
+      "BY2t3Ha9fxwPKwMOtfYL"
+    ],
+    "does god exist?": [
+      "a1dex5bwF19qXJGSL7U7",
+      "6rUkzH4qIS4ei6Q3AgUm"
+    ],
+    "did the dobbs v. jackson leak come from the left?": [
+      "e4kvNOkMZahBgKIHsNUi",
+      "jqVvqi7j9vMTum4P92NI"
+    ],
+    "will china invade taiwan by the end of 2024?": [
+      "k4XTBQLFuDvBljexbalv",
+      "DoDA2XYRlLWrqG1VchQl",
+      "BjTJaXUJcoCsLTvCsCO2"
+    ],
+    "will nasa land a person on the moon before 2026?": [
+      "K7FnC8Ns6bqWI0GcDQ3R",
+      "1tJI0SzQBQColDzgf91I"
+    ],
+    "will trump be charged by the da in fulton county georgia for his attempts to overturn election in georgia?": [
+      "GEP53ydAJ46Yf84KohdM",
+      "ss2RwiL9OjEbLOZO9URn",
+      "Tqv0ywJWwUkvXpEMd0Si"
+    ],
+    "will elon musk step down from being tesla ceo before 2024?": [
+      "DreezzZ09K5d4ee1E64l",
+      "xLKkxlkKwczW0X1RdKzi"
+    ],
+    "will mike pence run for president in 2024?": [
+      "7DmMDRYV47OK9oiwaSkr",
+      "DFCmfW1IoFEEP5kmaLmp"
+    ],
+    "is the universe fully deterministic?": [
+      "NKDPES0vQFtES19IyFQm",
+      "1bu6rWWRxY7mzm2Z5py0"
+    ],
+    "will liz cheney run for president in 2024?": [
+      "SdZJzvfkNfbUnvTKrLGI",
+      "GSqPBWMbBR5Vbk4Vx2to"
+    ],
+    "will bernie sanders run for president in 2024?": [
+      "9cuzSSGtmp3pB3DgxONW",
+      "DUOmPyY3LfmzcKrzQNpF"
+    ],
+    "did covid-19 come from a laboratory?": [
+      "4MkPyu5D9MRLPREODSD7",
+      "j8OZxOzhPPkqih5hdIUY"
+    ],
+    "will ukraine have control over crimea by the end of 2023": [
+      "8dD3vNDbHnPCx3movLl9",
+      "IYWXpd9zyyPWhvgvlN78"
+    ],
+    "will the fed cut rates in 2023?": [
+      "UTNIaUBUr60Sh2zE2EVe",
+      "hMMNOb7iwTTJRmU6lgqh"
+    ],
+    "will trump be charged by the doj by the end of 2023 for crimes related to removing documents from the white house to his home mar-a-lago?": [
+      "L0OMUzA1gr9pea7TaDLh",
+      "AA6qRZKvfiT1IpVNWSAz"
+    ],
+    "will erling haaland be the premier league top scorer?": [
+      "5R9mFEyLuEZ8EA1M7gR0",
+      "Vz82WrIiE71Pf0C7GfqD"
+    ],
+    "will i drop out of college?": [
+      "WkdmUbnqTxIbAnhFDgar",
+      "B0ImbhjZCL3iTQimHqFU",
+      "CXSwJbnLgShJSUlV1coV",
+      "ydKWGVNuEaZSCKFCrRTS"
+    ],
+    "is pi^pi^pi^pi an integer?": [
+      "vfuupIy5bVrDmiKz4EJ2",
+      "qBwKQ24L7M02FflOXjV9"
+    ],
+    "donald trump's return on twitter: will @realdonaldtrump tweet in 2023?": [
+      "usSjx2AtbUvfg7QNq5g2",
+      "f7ILZzgjkTpYuHwdhHY2"
+    ],
+    "can @isaacking be trusted to buy and sell trading cards?": [
+      "ls6AqgVoHhgG7r24LEAb",
+      "04Apoy1fuUjVWpWAqh5Q"
+    ],
+    "will this market resolve?": [
+      "53uXLX05lq5hi2FTKszB",
+      "YfuhQi6VgSg0W0oiYocP",
+      "ZDeiOZJiBEF0aANM1bCB"
+    ],
+    "will russia nuke ukraine?": [
+      "TCu9mfpMPGM9i7wjSGWC",
+      "RZf64JqHKT9xtEr6t7ub"
+    ],
+    "republicans win democratically and then end democracy swiftly, satisfying militiants and quelling uprisings; civil war is avoided, but democracy becomes an empty shell and no part of the federal government regains democratic control by 2028": [
+      "5LEXLdr44NP5GR3bNiia",
+      "zynFKVL38JLPzD78Ex5m"
+    ],
+    "will anthropic give money back as part of sbf/ftx/alameda bankruptcy proceedings?": [
+      "F4GVOWH7w6cIjHxZOjEO",
+      "izBUt1gEAwTP0cu33z6D"
+    ],
+    "will sergey lavrov still be the foreign minister of russia on january 1, 2024?": [
+      "UqxSPNVXgDyhapyKBLe6",
+      "9HNjb25WjVc3k3JLCKOY"
+    ],
+    "is the earth flat?": [
+      "nQMKrKLzHzqctFAPCdZ1",
+      "eS3zfhPNejxSnMGV6s0D"
+    ],
+    "will manifold hit 10,000 active users daily (7d average) in 2023?": [
+      "CWR0Ee1nLkS8DXXjJsFo",
+      "5ID3Jppfsrk0khjFg0RU"
+    ],
+    "will kevin mccarthy endorse trump?": [
+      "2B6VTKK9r3fjuOQXcMpH",
+      "im8QsH1Xx4f8BZ4Duluv"
+    ],
+    "will marco rubio endorse trump?": [
+      "o8btYPlagwLMHyNcZhAw",
+      "gkg3BezgjlZNaphnfNAh"
+    ],
+    "will sbf be convicted before trump?": [
+      "q80kLPgJJA121ewcCbap",
+      "FIshfQzWAxKa3v2wnjxb"
+    ],
+    "is integer factorization np-complete?": [
+      "fqBylTv3sUsGEz9pxxmQ",
+      "xb4UdArwmPuumM6hw6PT"
+    ],
+    "will a nuclear weapon be detonated in 2023?": [
+      "5S3AApt7AYNMYmdDFaq0",
+      "2V4mFj9ngyjvgQvoKTI3",
+      "68q8QvRQzSIaRcsLeDh4"
+    ],
+    "will a democrat win the 2023 kentucky gubernatorial election?": [
+      "4PSv6wW6iYK6iFJmxCw0",
+      "xYaqf5nYiDUtZBom7j15"
+    ],
+    "will rochelle walensky remain director of the centers for disease control and prevention through 2023?": [
+      "Y7fKZxj99wdfvnIuEOPq",
+      "hePHkDyJDF6PzsMnhkz5"
+    ],
+    "will 2023 be the hottest year on record?": [
+      "onMAJ1OtuHSRdIXwxW2p",
+      "kP2ejsTEg3QT2PigCesV"
+    ],
+    "will a cannabis store be opened in germany before the 31st of december 2024?": [
+      "CfNRhXAaboGkemPLS3Eu",
+      "iFQbgGECZVCZ50Sy0gHG"
+    ],
+    "will the identity of satoshi nakamoto be known before 2035?": [
+      "m1sjW50B2iVa5lv6vVX4",
+      "A7ZQSJUWac9nRGcYo1ji"
+    ],
+    "will gavin newsom run for president in 2028?": [
+      "am9xH59tAlU6zSfggASR",
+      "zZjiDGmrSxQyZwWR8uU4"
+    ],
+    "will elon musk formally announce that he will be founding a cell phone manufacturing company by the end of 2023?": [
+      "YJZvIks6cGPf89THKukJ",
+      "XJ4OFpssSxBvjBEKKQIp"
+    ],
+    "will bitcoin switch to proof of stake before 2030?": [
+      "GoZ3gPR0xwc5wxMxR1L1",
+      "4wKWpZguB4DOdOLZEsy2"
+    ],
+    "will the s&p 500 close above 4000 at the end of 2023?": [
+      "2RgOGUwA8kpIuFZgILT2",
+      "zLADnd3CV6otjU0IW5Or"
+    ],
+    "will donald trump win the 2024 presidential election?": [
+      "SsAdHNNaI9hRRMe1XqgG",
+      "WFSNAbYz2W7V9i4SHfwy",
+      "Rz2NHMAZm2YwnOzc64xN",
+      "aPh5gZB4GjNJvXN6kju3"
+    ],
+    "will elon musk be the richest man in the world in the end of 2023?": [
+      "4KtkoB2zNhcJYEUfZmrK",
+      "XZCgR2mMOCkmoJuFaEg9"
+    ],
+    "will sbf take a plea deal?": [
+      "Z2yWYL3pcDbUT5R0qC46",
+      "SbBQFpYf1a01PSPYVm8F"
+    ],
+    "resolves to market minus 10%": [
+      "uHga2tN5480EPFyngSgp",
+      "Ovr3JI5Iixag5xDOycwU"
+    ],
+    "resolves to market plus 10%": [
+      "GEPp8CWPKpp7YuoyGtTO",
+      "7Ws06aBNsn1VNntv7pMe"
+    ],
+    "is alana credibly accused of incorrect, fraudulent, or misjudged market resolution on manifold markets by the end of 2023?": [
+      "cUqwLeqxHHh47ISno4WP",
+      "OdYC7AoldEgCbwmLRS84"
+    ],
+    "will i find a partner in 2023?": [
+      "AnmeBayP5FYhkYJv8zSW",
+      "8fyc92uEsqeujdAHBgdD",
+      "xdAsm2OdxlyKP09moSRd"
+    ],
+    "will manifold publish info about mana (ṁ) supply?": [
+      "hASlXzzBxo4EPNU4OCgd",
+      "E10WfQvj0bA9vEW3KW0s"
+    ],
+    "will any of my markets get me a cease-and-desist or legal threat by 2030?": [
+      "m1z7DL2TpYoPnuwtSr0W",
+      "0xSYVe4dYZJd39Eoc6LI"
+    ],
+    "will texas experience blackouts this winter?": [
+      "12zE2bkjPKl9GZLzmiBd",
+      "q1tMmpxTqKbRk22OXVOz"
+    ],
+    "21. will donald trump make at least one tweet in 2023?": [
+      "R9ywbZdVqmhJpxpU70xs",
+      "4DPM3aWmR5w8Fr2ur2LT"
+    ],
+    "will sbf plead guilty?": [
+      "YBxwKfe5eY2Ynw1ACGYI",
+      "7vI4IcpOG7vauBst7YyU"
+    ],
+    "will erdogan win the 2023 turkish presidential election?": [
+      "b98of9WhXy0dJzhZlZah",
+      "QkCtxZOcLtJe8q2vrs7s"
+    ],
+    "will hiroyuki nishimura own 4chan by the end of 2023?": [
+      "GfWUEsqppgShQOPVtOII",
+      "cOIXhNE4GNwnjUTEHKty"
+    ],
+    "will i get my apple watch move and exercise rings at least 6/7 days this week?": [
+      "Bnud51UFquO2Gt8J4Frc",
+      "75500sJrTnkQ7WwjOgBp",
+      "UNMzDKatpaKr41zx1Gxd",
+      "IwDZOhRlXAVxSNlNlnZ6",
+      "Te671HkFpySjXdErZLix",
+      "0tTKwWk9l3KjFjCk6NbO",
+      "FdFujIW8QqshHT6UJj9L",
+      "RKATforfOSpuRr6w9KQL"
+    ],
+    "will there be an official rule against creating a new market by copying other market creator's market description before the end of 2023?": [
+      "VyVaOXpdUQjTW8TIHuJq",
+      "vQX5P0BdzvWOmqXVUpAI"
+    ],
+    "will i run a sub 1:45 half marathon?": [
+      "FBPxLMtBkOsCtiTejFMi",
+      "iEnTlWjT3RV1ItrrKFIZ"
+    ],
+    "this market resolves yes unless traders get emotionally involved on both sides": [
+      "YzxmTEIbiQWRNlgVaL5h",
+      "Zg32fIIitRhl6Yeik8E5"
+    ],
+    "will andrew tate be found guilty of human (sex) trafficking?": [
+      "G6Lj2ccHZyp8aHzwVchb",
+      "Lk07h7BRHNLT7LXFbK3K"
+    ],
+    "will opensea join the s&p 500?": [
+      "b2rqKuBlyxflfFXDOmcb",
+      "y91S4RQqhGY2p5U6lfI5"
+    ],
+    "will google search include a chatbot at end of june 2023?": [
+      "5ssg7ccYrrsEwZLYh9tP",
+      "P2dsMI183TlSOVqFonmD"
+    ],
+    "will destiny play a game with lilypichu?": [
+      "8p0zOcrU162NHXjR2OWn",
+      "rOtm2dBLmVkJ5Gka8H8y"
+    ],
+    "will forsen achieve a sub 30min run this month?": [
+      "YEFFeGZZvwNia3IzjxvS",
+      "9x3AOeZkr7RqqCvK8pme"
+    ],
+    "will destiny miss a day of streaming in the next week?": [
+      "eRuSKYl4qkUaaPyIgKFq",
+      "4TLW9uquZ9FtyggnBvVS",
+      "yl4DvYUXwHsq5yUOM14P"
+    ],
+    "will destiny miss a day of streaming in the next month?": [
+      "YqDlsp9nD87hl2KOAyMh",
+      "Rph4NmfWQhj5qf45uXvr"
+    ],
+    "will manifold guess the character i am thinking of?": [
+      "JyVrFcP8QOGg7WkiWmT8",
+      "oJVb1Kep8rVeVShIlWrk"
+    ],
+    "will destiny's side channel lnodd get to 80k subscribers by the end of january?": [
+      "3TPW7TmyUySG0vpi9J0g",
+      "QbwLHhTC8lVfpla5b9Hw"
+    ],
+    "will destiny debate someone else other than sneako about the tate sex trafficking allegations in january on his stream?": [
+      "ET4FITU1LSomjpGvbvoE",
+      "4t5S8PjI7j7vMggKYAuK"
+    ],
+    "will destiny post a video in january that reaches 350k views?": [
+      "ohBr0YwiwiY7ou6lsqZC",
+      "wJifroe30gJjlnId5Jyk"
+    ],
+    "will we have another supabase outage this year?": [
+      "1JKt7ReyCrg0urniL2yx",
+      "FOjsLIQPSjterD4QM6bi"
+    ],
+    "will lex fridman interview joe biden by 2024?": [
+      "w5PWOt2ZXAWBAnJLsagi",
+      "qgURTXwvAkLZJzVsP7Wj"
+    ],
+    "will this market resolve to yes?": [
+      "258z3BXNjfyDLUIkWSNp",
+      "3WHTFXR1Phf6c6pkwJTb"
+    ],
+    "will google search include a chatbot at end of 2023?": [
+      "SmzyKeC8zlLszuH39Tw5",
+      "xkqAkPgpogdZVOU9rcxt",
+      "vGg3qZnSGqutI93KPXHu"
+    ],
+    "will i write the \"i do not limit my horizons\" affirmation every day for the next 100 days?": [
+      "18MF9QK7phmtDwTKLRrR",
+      "edGk4EAxPUBnsUsoPxLG"
+    ],
+    "i'm auctioning away m$1000. will the highest bid be at least m$500?": [
+      "CX0Zbnqd8Q30BfqxWNVA",
+      "y7Y2mf9YGsFUqvdN7cxX",
+      "bzl7truN6r5tgaiMDqCM"
+    ],
+    "will sbf ever be elected president?": [
+      "h6NaTgKcYFaSspPjjdo6",
+      "ypYVVyfpwTP14d5Sr6VE"
+    ],
+    "ai: will someone open-source a $10m model by 2025?": [
+      "sg1JkUzk5HnnKZxtTvG2",
+      "sXAg7TqEjBdDRTxive4B"
+    ],
+    "will @rachelweinberg marry me?": [
+      "um9QoVUNVXaA2T7NRwDI",
+      "3aXzsIqJHRt5slxqDeFJ"
+    ],
+    "will the us and germany both send tanks to ukraine by the end of july 2023?": [
+      "Zj5agn5qrD9Qsz4k80EW",
+      "WGC24zLsEu8CVWAFG4vA"
+    ],
+    "will destiny get another 10k stream by the end of january?": [
+      "WuJHA9s71URbedU5fflZ",
+      "VR1lTFKTOkMDlJZCAzv4"
+    ],
+    "will someone other than destiny hit a 800+ on got rhythm on stream by the end of february?": [
+      "dsdrQJxmW6eG5p62dVRh",
+      "IWwV4MOYZjbarb6gRIKA"
+    ],
+    "will someone other than destiny hit a 900+ on got rhythm on stream by the end of february?": [
+      "nORUCmdNNK7ueZaCKSi6",
+      "8zVueBsEIyvtwEO8sxb2"
+    ],
+    "in the next five years, will the people who make the doomsday clock declare doomsday?": [
+      "7Fy9QG07b2H5daaQOOks",
+      "yZXidNsmsQcjjK4bOOa6"
+    ],
+    "will france win the 2026 fifa world cup?": [
+      "jSfjEF0CcRzIOKcfnQtB",
+      "XOJ8Tfrg8s2iqPFwauO8"
+    ],
+    "will i do a research year at one of the top 10 us universities?": [
+      "gHtFJcQUX3DOglIlvyj2",
+      "1U4BkvVAZP1CLyA7FGsX"
+    ],
+    "will i do at least one pomodoro of work on 8 of the next 9 days?": [
+      "Mv5aZEZT4AJWgrajYZRK",
+      "oWPVIIaut85UcmVQoxCo"
+    ],
+    "will china invade taiwan by 2025?": [
+      "nNupLRA1zp76r56LI0Q1",
+      "XRHksomxN5CAlXCVtXqS"
+    ],
+    "will manifold markets have a wikipedia page this year?": [
+      "n3ylQkNIfxbUUcwz73Im",
+      "vVpXZJZhDw7zsNc0bl7I"
+    ],
+    "mark": [
+      "CA89tKOKn1yLyqlcKBXR",
+      "fbSUBPur5GSomlXBIO5u"
+    ],
+    "will any destiny lnod video that's posted in february get to 150k views within the same month?": [
+      "bUhJKMxp4K5A59Rs5iqV",
+      "CCqV0YEb3VP6krj8zYgj"
+    ],
+    "will vaush's main channel hit 6.5 million views in february?": [
+      "lSqBU2hV4b9ZQl438Cem",
+      "MQMqzWATAcwYKL8Kt3iE"
+    ],
+    "champions league: will psg win against bayern munich?": [
+      "hFanOk7HSVLGIYzSKxRj",
+      "uO8g7WGG1MhX29v3A2oi"
+    ],
+    "will i regret using nicotine gum": [
+      "SJUAlvkGpPhfsK0E8vU8",
+      "Qc83vLHiMb8vZB8FEBKq"
+    ],
+    "will there be a song created by an ai system in the year-end top 100 billboards chart by 2026?": [
+      "QnGZyS7XfpXUfujacWdO",
+      "RSqGM38FNzn7IALhe4AW"
+    ],
+    "will this question resolve to yes? (see the description for the resolution criteria)": [
+      "NtOjyef9cCX6uk577K7z",
+      "KhOp945SjkHRgtq1maYt"
+    ],
+    "will iran have a nuclear weapon by 2030?": [
+      "WcGkQSCP4mUJ7qUNPmVH",
+      "5uy3YEb4anlmAhWSh0V7"
+    ],
+    "will there be a “wardrobe malfunction” during the super bowl halftime show?": [
+      "m7GeyIETE4nv4R1Cl3cq",
+      "8R8jE2ngaKozVLLyjeFe"
+    ],
+    "will the denver broncos make it to the playoffs next year?": [
+      "B0hhq6G1gGMJymgLWjgw",
+      "2DgqUOXFa4wFBNhhuF0h"
+    ],
+    "will this be the most bet on super bowl ever?": [
+      "NudPfue72I4VbNdUmkQV",
+      "213f1OQ2i1cWJldecsAo"
+    ],
+    "-": [
+      "t20H7BHIFQ9FPc0uJkk9",
+      "SQOPAS9f89aY9qySTJH8",
+      "0h73ap8oKp8LxUEaBpaT",
+      "SXpnQu2fj1iCzMVak9BZ",
+      "IY4xVcLfzWObgTAYfuVo",
+      "sXfqII2zZM9ipueB2Y9l",
+      "pw88OMV2J6YwG6dGGaet",
+      "fXzKvbVjwLztYYaAz04l",
+      "tcH9RD05lnkaxj9WeQ4Y",
+      "40YKOthGGM71a32EXhFf"
+    ],
+    "will forsen beat the enderdragon by the end of this month?": [
+      "8mzJMszHZQvUpyPv5RAz",
+      "Hbj2PvGLI5KjXcpjX6yT"
+    ],
+    "will joe biden openly convert to ea by the end of his current term": [
+      "9BEmtcjqdXpb4poaVEae",
+      "FnoScwE4zSgSOcGbfsXL"
+    ],
+    "will 'starfield' be nominated for game of the year at the game awards 2023?": [
+      "OL8Iv2kqUQqNnOONbJ38",
+      "DrzCe4XZb733jv7prdq4"
+    ],
+    "in 2028, will ai be at least as big a political issue as abortion?": [
+      "nOXCmJFNsLx08PjOc4Qk",
+      "tz7thfVjAaspdASh7nxL",
+      "Owr8xBk3exwhEoGPIG6x"
+    ],
+    "conditional on clearing the launch tower, will starship pass max q?": [
+      "HZ2ufMJcSMY0iOLaZ9rD",
+      "2okeyowGD7yMuD5LRU9N"
+    ],
+    "will eliezer yudkowsky be employed at one of the top ai labs in 2023 or 2024?": [
+      "IaY3zSvsmJto8ULg4mfy",
+      "VYrxtFDdngorYLrZYSMJ"
+    ],
+    "will i go to the proof dance?": [
+      "xMDFDbJ7zbNWCxMP8IFM",
+      "8JfF9wCJh3GbUcYuxzr7"
+    ],
+    "will destiny start a league of legends game on stream before april 1st, 2023?": [
+      "PVB5ZHjP6AGXnTjKWc2O",
+      "btUEwYczJPJzEXHZivr3"
+    ],
+    "will my room be clean next week?": [
+      "LW8pURnncC1etBGhOKm8",
+      "lOsl0fBDkMCgQXzyFQsL"
+    ],
+    "will kamala harris be on the 2024 democratic ticket?": [
+      "tRiBcvWMst81h4CZrCA3",
+      "TcW5I0C7w7sVuqBFEKqA"
+    ],
+    "will destiny talk to lav again this month?": [
+      "tWQ6DLrSaFQ8ifC1GIOj",
+      "kAjaeqIh9CEhI4kIMnxi"
+    ],
+    "will i get my apple watch move and exercise rings at least 5/7 days this week?": [
+      "lHbk5yZY3N9VpJlVmhML",
+      "jKODK7rKFA71mXCaZYsx",
+      "mjrSePvzfkcGQ1XyddGx",
+      "hbRicD4zpscNROvFBDJM",
+      "KtGC2lpLWZUxw58A4URV",
+      "U55mhkmIl6DelmgJ8rir",
+      "mQ4fgwRvGJgotRo3Aa5w",
+      "GhyRA24AHcpQNxDdaipP",
+      "n7UyuhfAptYdLQRibnji",
+      "SRNueSWBS9mwijdDsvME"
+    ],
+    "will destiny have another convo with adin ross in march?": [
+      "MlZds1gozv2qJI2TKvji",
+      "jnGULkXNjLa6hQOmJBzi"
+    ],
+    "will i get into mit?": [
+      "GvoD9Uk5sDTil2bjG0rd",
+      "IPH9PJfHO3ZbkZtZNhjG"
+    ],
+    "will i have access to the new spotify dj feature in 1 week?": [
+      "6Alddy9pqC84r9IslU8O",
+      "qLAAMRxbjvKyIQfboe8X"
+    ],
+    "will i be able to change this market's cover image before it closes?": [
+      "4aDGQQJetoEx0Ah785HU",
+      "4BZSpJWXvNLI4dceaCLy"
+    ],
+    "will we find out in 2023 about a nation state using llms for generating propaganda messages?": [
+      "1tGci7CKuli7MpdwNDmN",
+      "cfNoUnAVwC9h5oodMgIH"
+    ],
+    "will i make mop?": [
+      "HSyHTNLtnU8brEDNimx4",
+      "nbaVmmE6rHTHQu0tsNYx",
+      "SrrN8MMTZ9xefzkPdr6X"
+    ],
+    "will new zealand win the 2023 rugby world cup?": [
+      "nVzDcrrXypKnq9htibQZ",
+      "6zbqFlJP2hbxOu7Mf3v8"
+    ],
+    "will vladimir putin visit china in 2023?": [
+      "sO2KNcyDB54d7DoEEAzy",
+      "1DLwc6lfVvAuxE3Ld1Ld"
+    ],
+    "will this market get at least 75 traders by the end of march? [advertisement feature test]": [
+      "nZYJBqlPA4XWZW91NLrn",
+      "RswWAePaPl90CR985tRt",
+      "OWwzUjYxbZBCSdHBLPDo",
+      "4Q1j4Pw21PyWBPCuPgdn",
+      "0yfar7900B0PnqPvoyCV",
+      "ivijUYEsSsbs0CTYMoLD",
+      "PYwlRZK4y325pIH9PI5w",
+      "BGdUVYQQgg1XyASOX3oL"
+    ],
+    "will i get into ross?": [
+      "93S0qIJkqacMgADjOwdV",
+      "IctSW1EDhvrsImdyWXYU"
+    ],
+    "has chatgpt peaked?": [
+      "KayNPZrFKu2xGsiSTOq1",
+      "zq2eLM2XTA8yC1Iplnb0"
+    ],
+    "natural language robot by 2030?": [
+      "Yapp8Rn6MnXvhLZIhUSj",
+      "Rjg1oPg5mRUVjtxQ7Hyx"
+    ],
+    "will there be large-scale rioting in the us before april 15th, 2023?": [
+      "8pND9DTfLlLEtN8dGNye",
+      "mnQMHWoBnW9GwNAFq2OC"
+    ],
+    "will \"crystal ballin'\" have released more minutes of content than \"the market manipulation podcast\" by end of june?": [
+      "Z8MG2qD7hgjRQhac6hTt",
+      "Womk7B6jSFDGLzeA2tJH"
+    ],
+    "will boards of canada release a new album in 2023?": [
+      "tBW17VQAFfJOru6kJVA5",
+      "x4yXjl09BdZKt5pST432"
+    ],
+    "will i still be within the top 5 market creators at the end of 2023?": [
+      "hL6VDflTDJrwjnw8LcKw",
+      "2VHI1iRErqG8oRctAJvH"
+    ],
+    "will the linked market close at a probability that differs from this market's by at least 5%?": [
+      "aaainD9El5ZhPu0rXqmS",
+      "5vkSAYPoaNOBatGkIVmt"
+    ],
+    "this market resolves as yes if someone has >= 5k no shares": [
+      "Aa9wlJFq6C6lb5PyK5Gk",
+      "W1VgSY9hHXrkUIEX1f1x"
+    ],
+    "is qorantos gay?": [
+      "p4OmnhsAIl3vUhT0JDw9",
+      "auiUqwzysJYgdy24xIf3"
+    ],
+    "is the euler-mascheroni constant irrational?": [
+      "ZkGI5bsBKJ0CnpTKXa4Z",
+      "rSq0mHxophZQZK0CB1Ef"
+    ],
+    "is the euler-mascheroni constant transcendental?": [
+      "OcwKyIVGSoJUmOLAfYcV",
+      "xLfLWqCHCHOoPZBZnnsX"
+    ],
+    "has chatgpt peaked? (q2)": [
+      "vfof137qFhDWFO6yzsDX",
+      "F6bAyd6WNs70Su440wNH"
+    ],
+    "will openai + an ai alignment organization announce a major breakthrough in ai alignment? (2024)": [
+      "xxfuZh5yJXeQ8gFFkWu1",
+      "GMQHfKaCJTOPdIE3UYM5"
+    ],
+    "will at least 2 people die in israel’s judicial reform protests?": [
+      "WreapP9f3gkMzTPyNEjk",
+      "Cs5xq0963I37f3P8cEw3"
+    ],
+    "will this market resolve at a prime number?": [
+      "2KIC7z6tQoYJISHovqm7",
+      "u3J3UHQwjLAbUNFjdYup",
+      "Z2MUKiftQCE4p2TSKPEh",
+      "2hpEEnLF5Fffqm8mo7aW",
+      "uEDRuPg1mHIi1dMmJC1N",
+      "L3OQMKTTBu3i32LqNt6t",
+      "SAkkAeFPUS80J73bd7IH",
+      "BJE3pGm33M430lJnNUJ8"
+    ],
+    "will there be more yes positions than no positions?": [
+      "1kC4UZ0mXXgjEn48AFPe",
+      "OPzODcXebw9QitFpHoIY"
+    ],
+    "will there be more yes positions than no positions? (over m$1000)": [
+      "Thgkz7BYfJ3CnEvhZIKw",
+      "hKgvbzng98g2nf682Nwr"
+    ],
+    "this market resolves to the legendre symbol (x,p) [see description]": [
+      "canZiMYxKFhPXbqzPUWT",
+      "YXYICp2b9fV2fl81JGtW"
+    ],
+    "will donald trump propose a solution for the existential threat of ai by the end of 2023?": [
+      "foARpgjyo1Pbcehmkxsz",
+      "vXaL9T8YqdIJLqsRXPN8",
+      "5zWXFcOK2HZR6GZoUeT3",
+      "3kdMz3zS7MzcpBJT1NVI",
+      "cJGCgyBrQv4PiNEUe9cH",
+      "0Fja9DC5KA7lGcaOAJpA",
+      "knsvLDKWN6stP3uS5PG6",
+      "OodlMDWkYtJ3eWUmvaiV",
+      "zlYaQ0nmIJirpNy2PAGY"
+    ],
+    "will memex have at least 7 commits by april 20th?": [
+      "1gNAppWTLwFXUT1e3wdh",
+      "klbRhy83DlSGTjsPmjsC"
+    ],
+    "test": [
+      "Hpmm52xlkfPTns6SAl3y",
+      "0by2BETp6xVCseoZ8p3U",
+      "QNtv1Y6W4uMPrSXiw8m1",
+      "uTibGYkFBex6p7b23wax",
+      "0PhC5UOUgCcvetJU4saj",
+      "9lN9fF1cXxeFMuma9i95",
+      "bWlyzSMGiIQkbz5WX3zE",
+      "LXsGQahw5gapXDFYVINp",
+      "rnuYo9CBQtzi5eNPWAn4"
+    ],
+    "no politician will ever say anything about ai": [
+      "EjUqUs14nZtHmaSSePE2",
+      "graRnyvRMnG6r6kPBRJl"
+    ],
+    "will the experience machines substack post 2+ times a month for the rest of the year?": [
+      "6VSEyHJPjZoMgO7XKa5K",
+      "4mbJ63vA4l3tBSb2vdZ4"
+    ],
+    "will the automated decipherment of enciphered historical manuscripts change history?": [
+      "8dNH9seyZh28fSdC0MaR",
+      "JttjaDqccACnu9NcCZri"
+    ],
+    "will a human walk on the moon again before 2029?": [
+      "P505Kqjuc7mJn2B5I6jB",
+      "F55sAtkcHzugcd3diLJh"
+    ],
+    "will a human walk on the moon again before 2030?": [
+      "4YNAbhWwcXPPTCHFp9i1",
+      "2sqTUI8uy1mHr1jazUiW"
+    ],
+    "will a human walk on the moon again before 2031?": [
+      "PuQb5y0tAVzAOgAISAqy",
+      "FzNH9VGpSfPGYsnVCcHK"
+    ],
+    "will a human walk on the moon again before 2032?": [
+      "XrYS9PnB8zyY4tiEpXj3",
+      "XVY4zufdECeb24lpb6kJ"
+    ],
+    "will a human walk on the moon again before 2033?": [
+      "SUn5KJHmEYE8uQptdSXZ",
+      "WnDG9F83XxlyRUVPV0S5"
+    ],
+    "will yes have more palindromic prime positions than no?": [
+      "HaOYaADlqeaCSHD5K7fq",
+      "xYUW3pDSLfHZslw03hiQ"
+    ],
+    "will there be more consecutive yes positions than no positions?": [
+      "ooLfYlrtnnDQqEmvOyrh",
+      "Yyl9p2NLNwcXJqgCEzDo"
+    ],
+    "will the total number of people staying in nyc homeless shelters exceed 100,000 for any day of 2023?": [
+      "D7zRshrg5fXnpUsBWJaA",
+      "fM8aFZFrhkklJ8zBIKAH"
+    ],
+    "will i live to be 150 years old?": [
+      "WsN04kCj1qigtynhRFNl",
+      "KdEudpbnOztIw5ovm7nW"
+    ],
+    "will openai hint at or claim to have agi by 2025 end?": [
+      "C8MtRn2ixX8Y0rV2Oqcy",
+      "Bc8KcWUKzDKTijO8Xpif"
+    ],
+    "will destiny talk to nick fuentes again in 2023?": [
+      "8bc3MPk3CgIdECZm1Rcw",
+      "8oeUq0fvBB66DyEnvIBn"
+    ],
+    "do scaling laws happen because models experience a ton of tiny phase changes which average out to a smooth curve?": [
+      "FOGGKbnHCL4kxXuyeicu",
+      "n2DBfdb4qC9ul4sApd8T"
+    ],
+    "will i profit in \"am i pretty\"?": [
+      "6u4v0xEadp9QiIZGf26X",
+      "GxUjFTWgUCRSHtXR1gvr"
+    ],
+    "will ai be a major topic during the 2024 presidential debates in the united states?": [
+      "3yTE1Ai5jR4iIoikaqzE",
+      "1e3ISQVpNZAXJtdPcX2S",
+      "Dqjidd4ZRqZiGkqMkNRc"
+    ],
+    "will ivanka trump be the first female elected president?": [
+      "w57mydT5XGBEjn1vTl8Y",
+      "dd5tixNTNRZfc2uN4foV"
+    ],
+    "will anyone post a solution to the cipher in the description?": [
+      "v7LAz0bokBgfsfGWO0ok",
+      "t3dphNOToGa4E6Z3u8tY"
+    ],
+    "by the end of 2023, will manifold be credibly blamed for seriously damaging isaac's life by enabling their gambling?": [
+      "eCklBQdEOHwxnLojdSxd",
+      "x3RKMVWiOhch6ba2IsYB"
+    ],
+    "will this market ever become an ancient market?": [
+      "omrduUY2pco84M5ghOzf",
+      "U1TfuSchN60RfbaO9OSb"
+    ],
+    "will apple release a smartphone that can securely attach to the skin while biking by the end of 2027?": [
+      "yo5B1v6mhLllNxF52T1a",
+      "XE8xFuFb1rw49Gc34Lj7"
+    ],
+    "will disney win their lawsuit against ron desantis?": [
+      "usgGPFgmigSZBtDpgOms",
+      "7F6ysBazj2gewZ9ad4ld"
+    ],
+    "will destiny talk to jidion again by the end of may?": [
+      "rTEcvfZfmUNcwZknujNr",
+      "2iNYI0G1dclljcX3H3dV"
+    ],
+    "will vladimir putin be president of russia at the end of 2026?": [
+      "8qsUDe6fWAryzU8709aR",
+      "fPOldr6WKX5e1Zxq92DB"
+    ],
+    "will vladimir putin be president of russia at the end of 2027?": [
+      "eEISnKDDU8x9b5k108sK",
+      "KqP2478cF3ptZ1TTaDOI"
+    ],
+    "will ron desantis be the republican nominee for president in 2028?": [
+      "BQIrpU74mtDaSXKVxuWg",
+      "LRSjGExRJoDvWisY6nWq"
+    ],
+    "will i be promoted to diamond?": [
+      "qjq7UOLo4pJ1XcNijJow",
+      "ZMymu5Z6CG18eaX6iRld",
+      "sdwh7rPozHGDcGugTimj",
+      "hMrweFwcTRDG3e30ZuPI",
+      "DYdbTdIWIXYjyUiWB1zr",
+      "fnhP2eheeMJv0UEYlPf6"
+    ],
+    "will ai be a time person of the year in 2023?": [
+      "F6RlkvnqehWLYh2AKQxO",
+      "VeidijCRJ78NoiToLniz",
+      "WKe0ftuW9T1r3ub5UkWn"
+    ],
+    "will i promote to diamond this season?": [
+      "dQOpPzqQBrRWJwlEbdJR",
+      "sIhaX8Mikj5l6VBc9XyY",
+      "HA7IJeFo9mqk6IJlI7KB",
+      "VBRMiVAanGY0B0pIq3rc",
+      "20on5LcXngbHguCe7PbK",
+      "djGl1swWj5aTkWjC6Ie0"
+    ],
+    "will yet another \"trustworthy-ish\" user lose their badge in 2023?": [
+      "7wVLiiDiR0X6BhqXGCc4",
+      "iT2deKf9ZcJUVE5qFaRQ"
+    ],
+    "will destiny talk to sneako again in may?": [
+      "W1hETMs4q0t54Avqa3e4",
+      "0ba0dE1bEacXILBCGlkF"
+    ],
+    "will llm training costs fall 100x by 2028?": [
+      "4YvJO5XQHw7mJJ8C48qs",
+      "rEZ4euWHREDBK32MWYsq"
+    ],
+    "will ai wipe out humanity before the year 2030?": [
+      "BKr7KGDSkT6U3dGlqxIk",
+      "Ide0brMftTAknwNsOSJG"
+    ],
+    "of the next five astralcodexten posts, what percentage will be subscriber locked?": [
+      "95fBbkSVHnT51cOBCYxu",
+      "xQJmNpyId70i5W305yR3"
+    ],
+    "will ai wipe out humanity before the year 2025?": [
+      "NXgARdD3G9DlGhXzP4K4",
+      "BhKYpwF3i3HQR8oBGrkP",
+      "OYYWyf4i86yyICsOYhiG"
+    ],
+    "will ai wipe out humanity before the year 2024?": [
+      "8KYvQOQMawVikl7Xm8a5",
+      "n2nxULWSvq5QoSjaoUai"
+    ],
+    "will ai wipe out humanity before the year 2026?": [
+      "kblxaI9zP95U5lzbReaz",
+      "axwg7y0dOkNFNiosLbh3"
+    ],
+    "will there be more yes positions than no positions? (multiples of m$25)": [
+      "L8jwe29BFBPNgdOJvvwK",
+      "HwZ9TSF1MDdjoI2vsfSI"
+    ],
+    "will claude be public during 2023?": [
+      "kfveWTqPkdFA5t4ifxKo",
+      "2t0VetULJo5px9L68puv"
+    ],
+    "will destiny go live by 2pm on may 16th?": [
+      "LR3ycKfxgFYFT3I8Wb9C",
+      "K3B1UiXZG83o1xNnvAf3"
+    ],
+    "will destiny go live by 2pm on may 21st?": [
+      "Saoc3XIgpM5ZnpOB4Pvt",
+      "RQ1qeXKrX1G2q8ecIlyo"
+    ],
+    "will i encounter issue number 2 when i resolve this market?": [
+      "q2MLvMwdn4hqCtmswnIx",
+      "rSWAyQmw3Tjrgt1jjDI0",
+      "7cvIRPZuqyQP4885fgvE",
+      "GGQYZu9OaDm3DfSFMvK8",
+      "Qly8kF3VqoN0qgOoquVj",
+      "peweJJWyXX6LGZu3z7IW",
+      "6oPuHD2zV295dVEnGiOZ",
+      "yo0pNNX4tX8MkCB7ZtRF",
+      "2B6OBQCsfDcCWZxtE11f",
+      "3PJen8ixYSjWfQrrC5MQ",
+      "wtXmtHFnHiVWI7dSKrVG",
+      "m3MVyoLUprcdf85jMKet",
+      "brgk6IkKcPlR7TG0WJtl",
+      "CeQLoxzlWBl1Aweez3iE",
+      "e94uFHNnQEWnQry95AmL",
+      "s5uSA4dRnqbarzo5GIo7",
+      "k1HKGLQvcYNiyweHo3X0",
+      "hqlWP4eKCraHtHYFsrxO",
+      "WwTIPAlJk4Hi8SYd4a06",
+      "611AyoN2musY6ayK4Iuy",
+      "pqGRn8CLzGeaXSz05Lpr",
+      "zOtMfD0xXmxYWoh5vdU2"
+    ],
+    "will i encounter issue number 1 when i resolve this market?": [
+      "iTBYsBdAIAydgYE66adH",
+      "1GnlJ9Ob0XEddKvaluqk",
+      "1dgxxWDLVbTBjYEsqgDW",
+      "o1o4PwPfXz4MWlnadJNQ",
+      "DeNDJkcdgB2qS3ne67U2",
+      "4v2y13vVKhbzNo5WVl8B",
+      "YWgPvXXt2HA1Bf9WBrp5",
+      "9m02tZj2mwcUyhlFsQru",
+      "yLiLFTmDozpitbzV7df7",
+      "8VHZb1gBMFGXn2JwYb9m",
+      "5Lb2Vo4yBk6EDPub1SW2",
+      "HVtiR78TbrH6WSai9rgm",
+      "HmKyC6N3YTnWgLDpLjYj",
+      "UYsTrOPB2MUCXfzxuZjO",
+      "NMzyZNVRNfrqc4beKJzB",
+      "25p2yWP8Ks4YQyaYOaMX",
+      "RGSYGsuhYZElRMxJCQ5K",
+      "1s374696GVJzPh68ezNL",
+      "bK1MCZZQYBZSk7cWruWp",
+      "DLjgrvMnixvpGDSBSPWG",
+      "wvE9k7QMHzAjfL1Ebbaj",
+      "OL3kbCCLutIAFNlaBXCz",
+      "Dx8YZCayvyMgrdUwufby",
+      "nWADhPj0wP4qLO5kaeAd",
+      "G1eKu2lU8jKkhB44oi76",
+      "rHPPPfzBZmQxP4lF5s9A",
+      "OnLQGcmZgZKpzhItI31K",
+      "G2FUEYz6GyMCsw9sIe5x",
+      "X4G8gbm09M9PWzxvloCe",
+      "lm8jqJAhS7gU80R0GEJG",
+      "TQy9ceUPkvdiPjWvzjzG",
+      "O0kLexbEywCvRWrDaO5v"
+    ],
+    "will anyone post an interesting math/algorithms koan/problem/exercise in the comments of this that i'll spend 1h+on?": [
+      "6F0D1nFBPf65a9xwoQPU",
+      "m5CLQx4MSpfpwPuos0i3",
+      "xrxKeDLZ9xwlompqRxqB",
+      "2xK1yv9kW39oMLp003mH"
+    ],
+    "will anyone post an interesting math/algorithms koan/problem/exercise in the comments of this that i'll spend 8h+ on?": [
+      "RTCEtCQpA7DkT1BKz3Xu",
+      "dDaOykizU5jPlvy7yOo8"
+    ],
+    "personal: will i successfully write and publish a substack article on time every two weeks for the remainder of 2023?": [
+      "CSBZwhIvZdanVkzPRF8j",
+      "XP8mVD0lcEslIJWrNyjN"
+    ],
+    "if putin is forced out of power, will he be placed under house arrest, exiled, or similar?": [
+      "FPsV36dOOgXIdnv4rphO",
+      "JZ3FkDoRSFYnZj07KfYF",
+      "6sTTr0NqjbMBgB0kWB0g"
+    ],
+    "will i end up in rank 1 in my league?": [
+      "b9lvnzwGSOVzSJHJ5RHS",
+      "e3VEBfqh4exvUbIqrHEM",
+      "XLnfDK7A8XPqaD2OTXzo"
+    ],
+    "will anyone post an interesting math/algorithms koan/problem/exercise in the comments of this that i'll spend 30+min on?": [
+      "mOrBzE5eY2CD18KDKrwP",
+      "LXNzBfIEo9hAL4b4nfk9",
+      "DoBRXG2idxsRyGx1Xs3T",
+      "Myu2cv6hE4nJSxbfZrNU",
+      "5HVVsSYnIdPDxMUlKdbL"
+    ],
+    "will i get a girlfriend before i graduate high school?": [
+      "wTm2FZk3SEvUnmsS12yp",
+      "M608UW1ESsGlMaU4XGLJ"
+    ],
+    "will tesla have a chatgpt moment in self-driving cars by 2024 year-end?": [
+      "oE4K0KQmkxEIou5mjX14",
+      "o1U0lmZ75LZW3fvm4TZx"
+    ],
+    "i will resolve this however i want to": [
+      "lMpwpHMkPrPSgiu4c744",
+      "4Aot7Z6yOARMeqBdFF5l"
+    ],
+    "will i get kazuha?": [
+      "rJOMIuJOvyOvffueXpSh",
+      "WcWnirEMeR1vyxMQJ3uG"
+    ],
+    "will we achieve pretty clear evidence of high goodness for function correctness v2.0 in one week?": [
+      "a0S6wL9n38j964rVZFn0",
+      "fs9ECp3jlO3u6S5zazHF"
+    ],
+    "how will i resolve this market?": [
+      "z5OrkmVvecoDC2gSnBK1",
+      "eKM6MKzjQybVZmEl0VhG",
+      "L7VTJrulyS7q61x7cebo"
+    ],
+    "will kabosu - the \"doge\" shiba inu dog live through 2023?": [
+      "sL09uLO7hsWtlKITTDJg",
+      "t3XjLiU5K9Gk9cVgCVqi"
+    ],
+    "will the main finding of study 1 from “relational diversity in social portfolios predicts well-being” in pnas replicate?": [
+      "G72wZYUoPps14xsNOtVN",
+      "J91rYn6sAYrIzycDbk0I"
+    ],
+    "will i demote to platinum this season?": [
+      "Ga2ckj0Lmr7OcVjAvayW",
+      "GDd0IJO2eSVrhM3Wa3sn",
+      "lkottqZ1dbTTVivQ8cv3",
+      "Dp5Ob4ZCnNQRmHtSpAZK"
+    ],
+    "will california ab 645 (speed safety cameras) pass in the legislature?": [
+      "N2lIIOilMpHGFVj0grj8",
+      "4AgOxahgj9H01ziv4KoF"
+    ],
+    "will amazon begin to accept bitcoin as payment by the end of 2024?": [
+      "oa96miEANsAEi2CO4NvA",
+      "XHILq95n0pRaYUP8rEre"
+    ],
+    "will i promote to platinum this season?": [
+      "vi24iBl6mSD3H1mIxLvM",
+      "sXMKVJysC19jU1ZNQPJy",
+      "eOJvS4nLjjRL30eHWzrt",
+      "dmGDwcHzgWVu7oq7VTXK",
+      "TjUPvGTNaaaqWlqn3fcm"
+    ],
+    "will i make jmo next year?": [
+      "ZqAVnUmJ1ib06uULWeGJ",
+      "wiQjhMxpumn17uYjDx55"
+    ],
+    "will mana spent on boosted markets continue to decrease?": [
+      "PXeOAyE9OMomB1SUo8yf",
+      "W5JjYHkcGS9XoCNgcmAg"
+    ],
+    "will manifold hit 5,000 active users daily (7d average) in 2024?": [
+      "AIDMiifUivbyqWO7HtRT",
+      "aVCWs8PW8amRLtcWbyEA"
+    ],
+    "will lex fridman interview vladimir putin by end of 2023?": [
+      "etka6V8IgKYg9AGQdJrv",
+      "piQR9VCvmq9wDCINkelu"
+    ],
+    "will manifold host a conference in 2023?": [
+      "QyKEQ4E3iPrBHzMLiKpU",
+      "RSFXNOcxAiL89Doo9v56"
+    ],
+    "will destiny talk to anastasiya aka. ukrainian ana again in june?": [
+      "uvcqa5K9gFecrI8dCui4",
+      "SQtecJ4mVKGpYG6Qb6dp"
+    ],
+    "will destiny talk to pxie again in june?": [
+      "1F7iC44Kg3F0cxDHaneB",
+      "LkI4AAax2wl5GTR4B9gS"
+    ],
+    "will destiny talk to trainwrecks again in june?": [
+      "3kNYmVwvc8aZQKMAre39",
+      "KkU5Co2MMWJ4WnUVkZ1a"
+    ],
+    "will donald trump be elected president after having been convicted of at least one federal charge?": [
+      "BB61dm1AXKDsWUw9dFUI",
+      "k8nuDIfSSB3lxaoXK1UF"
+    ],
+    "will @boltonbailey promote to ???": [
+      "K3WWvzHF3k5V8Q1IPjJT",
+      "mJJBQKnh7nX9ghzfajFz"
+    ],
+    "will i be promoted to platinum?": [
+      "jufdoWt7ETejYQxbB054",
+      "7czPp3WYQTT8bagPGlWf",
+      "wkrayguqPGYNP5xsSttL",
+      "kAUoIn5gw1dU1Y9zyNW2"
+    ],
+    "will the tontine surviving player count be 286 (1/25) or less as of 2023-12-31?": [
+      "9WCkHjyZgrV3icXSrQC8",
+      "bnItgUHJyUqk8qpL1lhu"
+    ],
+    "will @lexfridman interview volodymyr zelenskyy before the end of 2023?": [
+      "vHDDnTWdSKlNnmzNDZDy",
+      "Ew8SF7FYSA55h4HZzupe"
+    ],
+    "will a major country achieve complete carbon neutrality by 2040?": [
+      "M9mp0Px9BffadnHjFHkK",
+      "nwTKuSLnVu7LmeiwhjaY"
+    ],
+    "no regular public passenger flights from the us to taiwan for a month, before 2039": [
+      "x9T4gXoH4FsBpCj3Dmow",
+      "d3GoLj1y1WmAs0WjPgUD"
+    ],
+    "will conor mcgregor return to the ufc in 2023?": [
+      "HdZ2LXTNTS3cpZBD5YWL",
+      "up6vBYIfZWrrck7xwjll"
+    ],
+    "will i make it to 300-day prediction streak?": [
+      "sWW77H8ezDKc3oW5qNpy",
+      "vW1mxs19zX1qCKKixd4g"
+    ],
+    "will r/pics return to normal operation by the end of the month?": [
+      "B0dWGBuuk5exXUcleydy",
+      "8fOsOp9HOUhIuJGJHFvP"
+    ],
+    "will apple stock (aapl) hit $200 by oct 31?": [
+      "eSO9sSqb9m37RD9F8ofL",
+      "ScOUovnqIebT4OJ4nPod"
+    ],
+    "will texas experience blackouts this summer?": [
+      "vuxHklDqRGBVNvvTaGfU",
+      "WihPXpdrcUUw2Wnfoydj"
+    ],
+    "will russia have a civil war by the end of 2024?": [
+      "NTvZoXTwxclEN3qidYap",
+      "q45EEBeZSkaJLQQcgbTl"
+    ],
+    "will there be a successful coup in russia by the end of 2024?": [
+      "A0uKxcIjjHNxw7vtXEKl",
+      "evi4ahl2DS8rHqzFZ0V4"
+    ],
+    "will there be a coup attempt in russia by the end of 2024?": [
+      "lCOnxcFEWFUKPzftm7QG",
+      "tFuwAsAdLAkaxEA2AvX2"
+    ],
+    "will the wagner group actually start a coup by the end of 2024?": [
+      "2slBzh6e1LYXHstncFa3",
+      "hfe8qwEK1SRg5sK7EdYG"
+    ],
+    "will valve officially launch counter-strike 2 before august?": [
+      "09JcK64Ai3OpGnufPceO",
+      "sIiD1bnq59uSfljX66mo"
+    ],
+    "will i resolve this market to yes?": [
+      "yMMvM0Lca0msRAdeuACB",
+      "jsSLZYYP5IRrg7Bg1Xat"
+    ],
+    "will the turkish lira (try/usd) fall below $0.03 by the end of 2023?": [
+      "2YeOEilyvPRp3BCvQp4G",
+      "SysP0RNGGSkD5hEOPwGY"
+    ],
+    "will destiny talk to adam22 again by the end of august?": [
+      "Jby0teCzrKU2pRUJYBEf",
+      "j5x7XvedYhbEy2QMEYFt"
+    ],
+    "will a hurricane of any strength make landfall in the us by the end of july?": [
+      "ilNCj8QWjRxaH38mES0t",
+      "eBcCuJZpBQM7txzcCbON"
+    ],
+    "july 2023: will bitcoin hit $40,000?": [
+      "BjVdEsMOCHBH4t0Wj904",
+      "2NdgWhsOyVj33PoqFsL4"
+    ],
+    "will @[redacted] promote to master?": [
+      "RbOqOAh6biUUUUPnDU6d",
+      "Q4lvt31xM0gtkSAqPGQw",
+      "Lqa17zh4UTz0eXoYf83K"
+    ],
+    "will @nicodelon promote to master?": [
+      "HrwVkMM8yeEbsrXauILy",
+      "h9M2rz0ZQGskltxUHIxD"
+    ],
+    "will any new nuclear power plants start producing power in america by the end of 2035?": [
+      "OqTO5U36yQieBc0u9Drb",
+      "bInpKqKMAxC2uKkjo8tG",
+      "4jcXSAVlAVRVrkcBY3nQ"
+    ],
+    "will the next starship orbital launch attempt occur before the end of october 2023?": [
+      "jjQEytHjgyHlf4WCTvd4",
+      "gbk4Av7VpKZ5BBcAbUTB"
+    ],
+    "will donald trump post on threads in 2023?": [
+      "nDtGA685msIDKGM6xqlk",
+      "MqK6HZ6Z119FjcGPsW53"
+    ],
+    "will bitcoin btc open higher on august 1st than it opened on july 1st?": [
+      "oj4YJJXULVvars3p97EN",
+      "Y0xr5BxDqoJ7z0XqfBJ4"
+    ],
+    "will humanity wipe out ai before the year 2030?": [
+      "V8yCiS5qDVulo2qdgt1x",
+      "yH3HbNBu7vsMxxKrrevu"
+    ],
+    "will there be a us government shutdown before the end of 2024?": [
+      "2bGbxE354IiN8rGW9Kn3",
+      "iRLQzxM7roseBJtLNvra"
+    ],
+    "will any new nuclear power plants start producing power in america by the end of 2029?": [
+      "l2cWJ6u5fFVBz6dXvPkt",
+      "JWKlSlbuf2vop8NsVU2E",
+      "eTVsknEw1AIpTNOmWlIr"
+    ],
+    "will threads be available in the eu by the end of 2023?": [
+      "1lcluzbQsnbfBHukgMHQ",
+      "X3ZtTHgGxQjK9zpf0SKE"
+    ],
+    "if i don't end up first in my league, will it be because i bet a whole bunch on a market overconfidently and get btfoed?": [
+      "e0Tk7tDxeyZE2sraJd40",
+      "WqEmpoWsRNcD4c4whD21"
+    ],
+    "will i remain king of bronze?": [
+      "vdzLT8ruWUY0kMgWE8n6",
+      "DghjBlw6uoJK2xXsHJwq"
+    ],
+    "will @tripping promote to master?": [
+      "bi8ZYZS1WZkx0wL8uOjw",
+      "CU7dQ89KmQw6Bh0hfrvW",
+      "sgC1TZs3F7wvWvKv5nHN"
+    ],
+    "this market resolves yes with a 90% probability": [
+      "tNGvuff0oYcOGD3yCn1k",
+      "XghCkXnv4CTdASz1XTHi"
+    ],
+    "will leagues season 4 have a league chat?": [
+      "ZB9l8Yfe7d3bAjIcCo2P",
+      "zPg2JHSxj1fQ6teUcKFR"
+    ],
+    "will the brooklyn nets win at least 41 games (nba 2023-2024)?": [
+      "feou1d7ht3zXBXJsjVkV",
+      "QKP6czSheny5iHrasgar"
+    ],
+    "will leo messi become mls 2024 top scorer?": [
+      "HXX8qdJQlb7yeugUVTNS",
+      "ilb68yDUJZsXIIuCyfr1"
+    ],
+    "will barbie achieve 90% or higher on the rotten tomatoes critic score?": [
+      "VlmLDw9qjQLNtcYESAyb",
+      "YqdFXdeL8OAL3M3U1got"
+    ],
+    "will goiás beat grêmio on monday, july 31, 2023? - campeonato brasileiro série a": [
+      "xty88LdvLw5khJfGiQiD",
+      "7XjgxTLgJamil8IvFwKB"
+    ],
+    "will cdc atlético beat racing club on monday, july 31, 2023? - copa libertadores": [
+      "sAIdENvp6Yug7nNAeoEl",
+      "h4GP3fomjAhLdnhgqQ0l",
+      "bn6EKSzyzHpvWOfW3MT9"
+    ],
+    "will club bolívar beat paranaense on monday, july 31, 2023? - copa libertadores": [
+      "i5q7LcX614v8QM7OJfeZ",
+      "zlO0gFdOcM2n6Qzi0LVi",
+      "KkdNy5FQQ1d3JdyiFZ9U"
+    ],
+    "will flamengo beat olimpia on monday, july 31, 2023? - copa libertadores": [
+      "A6MQHXIK15YJdqwp3hob",
+      "X3V18geJKwplImSoOyyp",
+      "46t1nWiENl9UmZ2O3MCR"
+    ],
+    "will mineiro beat palmeiras on monday, july 31, 2023? - copa libertadores": [
+      "J422vcDmH5XBU9Ce8tBz",
+      "uQsFq4mOM2JfU8SroAQu",
+      "nkg3ufCuniMSzwf5KPsC"
+    ],
+    "will dep. pereira beat independiente on monday, july 31, 2023? - copa libertadores": [
+      "AZji17YuBO9sVxb8j9uy",
+      "QKhIP8EcX2LD9xr0lKfc",
+      "hvu2XvcAgD7u4Ovk6yNQ"
+    ],
+    "will argentinos jrs beat fluminense on monday, july 31, 2023? - copa libertadores": [
+      "Ymb7cfAC3ivmegGb44Qq",
+      "FcOqSB9enmx4KpNmCTna",
+      "PnPSMOHU8tecvK8Stu4R"
+    ],
+    "will river plate beat internacional on monday, july 31, 2023? - copa libertadores": [
+      "h8NvCtmjW2cLM6fyHnCv",
+      "V6pdrX0NL4toE0fv1Is6",
+      "aFDuSQrqQFT1duD5NsYM"
+    ],
+    "will club nacional beat boca juniors on monday, july 31, 2023? - copa libertadores": [
+      "VP2Qnsib5S4h7myyy8CI",
+      "08HghGOzboLeFh7Uaplz",
+      "jRTH1gLg6fskmqBJbUMF"
+    ],
+    "will @jack demote to diamond?": [
+      "lRshg6pvyLTX8MA59YuH",
+      "t4x17U22Th94tH9vDmtx"
+    ],
+    "will @gen demote to diamond?": [
+      "zA4C69q6tiT9VmjNwlYT",
+      "hpK962TTGEB6fqp5mb0P",
+      "4SHg4N1cxVtjymF0nMZe"
+    ],
+    "will @uftg demote to diamond?": [
+      "Km55DyoAGZ34QOMPOr2T",
+      "qo5iZHszaqhaAXF94kyw"
+    ],
+    "will @akzzz123 demote to diamond?": [
+      "21edBDxMLKogjeLmgGii",
+      "qYm1BMjxCwHR2Ha4wN6c"
+    ],
+    "will @alexbgoode demote to diamond?": [
+      "QFILXpM17y8ggHlEPVcW",
+      "vmBzy1PiDOrD0VG7iVpc"
+    ],
+    "will @optimusprime demote to diamond?": [
+      "eb90Lm5tDZ5UGb29Wyta",
+      "E2KbDCkwnIglNk3Ma1NF"
+    ],
+    "will twitter rebrand in 2023?": [
+      "rUUxol6LemuFp50dEJMQ",
+      "UuNRaZxGMxD90hmq1Yi4"
+    ],
+    "will x.com launch in 2023?": [
+      "bgfyohL2aevwM3KM6ZtV",
+      "Ui5ocsAtWmnP62F7P0vc"
+    ],
+    "in 2028, will an ai be able to generate a full high-quality movie to a prompt?": [
+      "x7zGt1Ayr8i8Jl1Fanzc",
+      "apafy05Dgu3ISp4OhnjZ"
+    ],
+    "will i get my apple watch move ring at least 5/7 days this week?": [
+      "uUenknica4UTzFN1M2l6",
+      "RR2eCTmbPMkDEeDcIXUH",
+      "nGQiqUCwpWOWbwjqgL65",
+      "yzufL1jZEoIePpCKQU24",
+      "8CmdKNxP3rGoeXCXqImO",
+      "JswWEEkdf15PIbGquucT",
+      "9KMr8sbNItkZaRLz7IWp",
+      "4I1HB8La2MOALYKgyn90",
+      "Gg9WMVQpGQX0J1bCth6J",
+      "2G5Nln8HNtfYe0ppTcMc",
+      "JdOcAoQkC8E4PxokfOwd",
+      "IWPx1QqnVA7Z8zkn4mY7",
+      "DsRzASsT47tK4blsZsLu",
+      "jBprh90s3Who5OWr89XS",
+      "FZ8xrdNVVp8pPabt2dVQ",
+      "yWHYgKmYGSMlGrPzkoN7",
+      "WeQugxj3zgVeaGtMey9Z",
+      "9FWJ42FT9hvTulYMYIhl",
+      "b2II5K5lqy42t478lANz",
+      "MywzKkm3phVU0zglhibl",
+      "WhJErBI4iPSWusjiv0Js",
+      "WbAxdFBVOSphGYKhDwfO"
+    ],
+    "will i gamble again?": [
+      "rQcosL4dMlC597GHM9VA",
+      "tv9bAb1kmOyB3ro60C7M",
+      "pMb68dq8Kb2ZsXC6kVl2"
+    ],
+    "will my stock portfolio go up next week?(july 28 ~ december 31)": [
+      "SZKzKJX6auu33ds6MWiT",
+      "jjoHBapCfku3oV7BMnv2"
+    ],
+    "will kucoin be insolvent by the end of 2024?": [
+      "imf1wBqNa8TjlzcwyTZO",
+      "UPfAJr7qOR6zZyS29AEj"
+    ],
+    "will the s&p 500 increase by over 10% in one day in september 2023?": [
+      "9fakJCe5sOUyqS0on8yp",
+      "GSQmeYcKJIyeTqkYdboD"
+    ],
+    "will the s&p 500 increase by over 10% in one day in october 2023?": [
+      "6Gdo5ja859KzZFzXlqt8",
+      "M3ef9bIodFlKrQCB2xu9"
+    ],
+    "will valve officially launch counter-strike 2 before sept.?": [
+      "PnCYC1kUfWIKdXoXWmrM",
+      "PYdAa2QTCTLRHvEtom3O",
+      "egzFvDQCArmEevKzgKnz",
+      "IFwM5NWCkNqbGO6zAlUo",
+      "pojcDpsnjyjv4dkQOiFz",
+      "mRR16UE7r5qt9H051UXO",
+      "ADsAvaOoLPO1WV5lFlYH",
+      "4afwvkrI66aFARow9Lz8",
+      "wAXC2AXmNyIFve4OptXG",
+      "Tfaz5Ev46vbD9X0HlzZD",
+      "OEU9TQ42lK9KATVppJdb"
+    ],
+    "will i attend manifest 2023?": [
+      "HO3aozyAUsjRCNkAKC8E",
+      "Yuo6IAR216TtlpSu99W4",
+      "6SNinz1h7pgRvSrOmKtA",
+      "sccGBovb4q2VUkXaDsKl",
+      "AFaBrvpZBRnmcJWa28wJ"
+    ],
+    "will i promote to diamond?": [
+      "xcPI3mhdBGgdKPICK8KU",
+      "9YEzXAPHjC70K5CO08JA"
+    ],
+    "will noam chomsky become a centenarian?": [
+      "hXDrFr0tfcwtASTa9naa",
+      "szUrSgdNQDBxn14E5D7E"
+    ],
+    "will we get agi before 2026?": [
+      "sXZ0cKV9KJe0nkF7nKNV",
+      "VPhhCbZ5S8zj4owac8As"
+    ],
+    "will a hurricane hit new york / new jersey this year?": [
+      "4yVxzSFg0NGLuTCXgQkk",
+      "WzCxtSPIJ0t9Pp0466dg"
+    ],
+    "will berkshire hathaway have a market cap > $1 trillion by the end of 2024?": [
+      "eX3zHeFcHrn6E5LseG7n",
+      "uzbcJsiWMIWlAbvM6Ves"
+    ],
+    "will the israeli high court issue a ruling on the \"reasonableness\" law before october 1, 2023?": [
+      "95K4ThkrJqpnK1UK9WWN",
+      "QdFAJJsYW57XtCOyPezD"
+    ],
+    "are we living in a simulation?": [
+      "6QRoNMJVAJhJyqD1x8sg",
+      "LIRyF1P26Q210vWUc1cq"
+    ],
+    "will equidam be the standard for startup valution by the end of 2023?": [
+      "eE1tzqR18OOQbJOM0aOZ",
+      "F6AkhUpLyKfVAU4o2teL"
+    ],
+    "will a new f-zero game be released before 2030?": [
+      "X35D3fG9HbkDbL92nIbj",
+      "zkBcP9o1riuMI76DqrRQ"
+    ],
+    "will taylor swift be the #1 global artist on spotify charts every week for the rest of 2023?": [
+      "ZclFVlLpb1EsWw43WCJj",
+      "dcRseHUCaZIwFBhmImy1"
+    ],
+    "will julian assange be extradited to the usa by the end of 2024?": [
+      "lhjiBQv8iow82irPRRJE",
+      "BxJYmdCvayx4C8Iugpy6"
+    ],
+    "will @firstuserhere demote to diamond?": [
+      "AmcY6vxdqE2c7ZgT3278",
+      "NQRg0VjyZj0SFQZ1QwjA"
+    ],
+    "transfermarkt ⚽ will kylian mbappe's next market value exceed €180.00m?": [
+      "96ylqD35ei4edZjikKE2",
+      "L7yr7crK2Pij8lUrY1cc"
+    ],
+    "transfermarkt ⚽ will leo messi's next market value exceed €30.00m?": [
+      "DLXXUKjGTxzUf6hWy8bl",
+      "XJODUuByNZZ7BjcMELTA"
+    ],
+    "binary induction game v1: if the next state is 0, will it be 0↑ ?": [
+      "SjgN6hyrXXkv1PXHHvo8",
+      "EoxKgwzvhkjd2VXRjYsz",
+      "vrl0EenKLe17yvrs64Ix",
+      "pQ2r7BiH7nUg9Xy6Qpkq",
+      "dqNpk2DtUPLp7Xkr1rcv",
+      "s2alhsOofp95psR8dyZU",
+      "sGHDwyZYlV6Al2KLd6Au",
+      "uHcQZwSFtS6OZftxXlN9",
+      "8g5av7q4R8gbtoNaKBYG"
+    ],
+    "binary induction game v1: if the next state is 1, will it be 1↑ ?": [
+      "3axUKN0jGtg29H30ZJHI",
+      "TsoMokhhKPmLxsftlqrL",
+      "tLNzlBldOyvTco8MuXeP",
+      "mpk2z2jol44UMUxW8feV",
+      "uBOv187lf5IcdmQ04JAK",
+      "BSsXvkFbz1e3WV3y0vKf",
+      "BsEJrRNqOvEJp8SGmJUE",
+      "jp7QLzG7kRnmDKOFcQd3",
+      "Z5QUMRmrZg5eQIEGsOER"
+    ],
+    "will @mp promote to master?": [
+      "Sbru9IhlUUxHhcSxYnCB",
+      "SS8rlWTS2tTs7vW6N1Rk"
+    ],
+    "will i buy new shoes?": [
+      "AA6uNbwOCq6mGfHBgCxf",
+      "6tUIWtONFTk1dOVnya1Z"
+    ],
+    "china will adopt a policy where for some job positions, having at least three children is required": [
+      "Ntt3m17vwoqekMsZ8c36",
+      "wbxc7jBKg5e8kpc2x5In"
+    ],
+    "will there be a riot in america in the next month?": [
+      "seYwag7C0hiCJ5grPzmj",
+      "9FisIklcT8qkKn3xAhJ1",
+      "7gkUlJekaCLK6vq0lQD0",
+      "XB8lH8UABG9DX7akVKiq"
+    ],
+    "will manifold have a day below 1200 engaged users in the remainder of 2023?": [
+      "egDEBVES56fguIxzF2Q8",
+      "Aov0Sw4vfSCaTpbLkkYe"
+    ],
+    "will f give h cs": [
+      "ktMohfI6n4kB3Fc6opFe",
+      "vIjyp58CWazv6j5S5QO4"
+    ],
+    "will we get agi before 2027?": [
+      "K6a5FaIDE1jEwvLIBoiB",
+      "5WEpXLx31YdM11zOdo4h"
+    ],
+    "will we get agi before 2028?": [
+      "ckEcKJJmfK6MunQmaSgc",
+      "HQObM8ZeuU0YQ3HUdGZ2"
+    ],
+    "will this market resolve between 30 to 40% or 60 to 70%?": [
+      "k4WPTolVOrBlLpL8oP15",
+      "vrwbs0kJFjVHAvGRhEmp",
+      "noXD7c7pbZ5JMYeDjPnk"
+    ],
+    "will i make a profit in two weeks?": [
+      "XxTXtA7u9YXlahKLp5qw",
+      "mzWnvQfMo8Hnumsd5Bg0"
+    ],
+    "will @charlie get to bed by 12:50am at least 4 times this week?": [
+      "bqGq29dTTEs3L0PhKKYo",
+      "glI9MSu15HYE5PnOlRdy"
+    ],
+    "will a big tech ceo run for president of the us by 2032": [
+      "HfJTJrWpuwhOrpkIXeoE",
+      "jZTt4pl8JCAfZgyvqxti"
+    ],
+    "will putin flee to the prc before the end of 2025?": [
+      "ZBmgT13rhmHNpLAY1TCu",
+      "av1mzotJmtJtanzRrlWu"
+    ],
+    "will unc win the acc?": [
+      "0e9yNWdG3olDWCPyfTS8",
+      "2pIdonrXpd57s1AwA4X2"
+    ],
+    "will i resolve this question to 'yes'?": [
+      "xpVDFOGDTJ1uYmCtwWLI",
+      "GrE6ByTOFO2yNXJqiZ2Z",
+      "wCff0fzAqLUZ7zk7s2WY",
+      "lB5fB5jopkPWHMZew7HR",
+      "OLllKdTBGjmllOKhM3uO",
+      "v2f4801ihkIGayhyqQpg"
+    ],
+    "will i get fu xuan?": [
+      "lWipBVdYoXskSzO9eivE",
+      "6GRy0y6fImueo1imuXcx"
+    ],
+    "will elon musk father another child in 2023?": [
+      "UOQMZrH8M0hzSM7KeArO",
+      "BxXAlGN70GCJ95aDrhBC"
+    ],
+    "will i promote to masters?": [
+      "AlUiGIXkgBXA9vA4av2g",
+      "DM2VOqK2pzT3qCYAzAWG"
+    ],
+    "will i resolve this question to yes?": [
+      "8MXyUXbRquiJIW1i2wDR",
+      "IrFL3ei5C0854Dzdo1sj",
+      "aGuUnVmxlUTjcHoWxadH",
+      "9jjtXqYMm6odnOAPUQEV",
+      "3JLVlrSQ94F59g8vQhQo"
+    ],
+    "will @charlie get to bed by 12:50am at least 3 times this week?": [
+      "NpZmHsTInSmLbs2LYIma",
+      "zYTkeU6g3qrKB9RI9NRc"
+    ],
+    "\"is this the biggest physics news for decades?\"": [
+      "IUUFQioAJaXMx7zdXdVg",
+      "LQQPMLwXDSFGFzoPtLvp"
+    ],
+    "will ai become a strategic geopolitical weapon by 2040?": [
+      "7CmDjknBvnwK7y0pC1r4",
+      "pXMGwZWTa3lqkebmxQTQ"
+    ],
+    "will google have the best llm by eoy 2024?": [
+      "bYA6xae86cpKkh0fTyyu",
+      "H9deHdMT6JEB8er13osn"
+    ],
+    "will elon musk sell twitter by the end of 2024?": [
+      "yARAaI6B384cRHvqbLGc",
+      "GwAoGMzrPNc5uUrkVP5Q"
+    ],
+    "": [
+      "AHanOXH9PbFSbZRc5Wps",
+      "6qL4ownH9fZr5tn7bSus",
+      "SzdhV1fWXQIKXgDoVxBc"
+    ],
+    "if the republican ticket is donald trump and kristi noem in 2024, will they win the election?": [
+      "ZOeYUHOC0vP7DF80QEyk",
+      "kC9XOCZabotAy0mtt4na"
+    ],
+    "if the republican ticket is donald trump and byron donalds in 2024, will they win the election?": [
+      "4R7cRHmkqvT6TKrf1gnU",
+      "DVszfmfwncsni89jtrH2",
+      "ySI9oyje990RM1u4EEup"
+    ],
+    "will bryan johnson measure his blood microplastics in 2024": [
+      "TDBX4Al8oZtQFy1L3eyp",
+      "dpkWKCe0A5eeZ896LSAG"
+    ],
+    "will somebody clone this question?": [
+      "bsIevrz4MT9vucX6lm8O",
+      "YVvlQBDEZaz8AYIzyP4V"
+    ],
+    "any of these 30 llm-generated disasters happens in the usa in 2024": [
+      "m9vAamvIn0X5VcvR6pDu",
+      "DOp4bjU8GiOg3DxCPGtT"
+    ],
+    "will a democrat win the 2028 presidential election?": [
+      "hUxUVH64uO3c9mmEdiRP",
+      "iQhvjJCZS67hBlxCP5uM"
+    ],
+    "yes": [
+      "PQNmNjbKwq4qWG2pH3O9",
+      "P3zmcoaeuhYNLyYCnZjU"
+    ],
+    "will ron desantis endorse trump for president in 2023?": [
+      "vDkppGUwFj8Xiy8mavIH",
+      "818bo8mdZu77jnGo6RHl"
+    ],
+    "will haas score points at the 2023 formula 1 las vegas grand prix?": [
+      "zRZcgC1syy65s44nYZwn",
+      "YfJ17oAdxAJfrwBrMwhR"
+    ],
+    "will apple announce it has agreed to acquire disney by the end of 2024?": [
+      "UsQAAZUqVLOeF51a2uni",
+      "8oAmDuWZVGjIYO6aPwsM"
+    ],
+    "will i make imo 2024": [
+      "LCeAlKEHqc1stbJ0ohK5",
+      "oOnDk4wHAOUZxqE6tRAV"
+    ],
+    "will i make imo 2024?": [
+      "QGPmC2VY9YuDSQTd7mmK",
+      "tnr67dSj32xMXa2lLDQa",
+      "Xyo0zaou3SjiXe8qyG9q"
+    ],
+    "will this market resolve between 20 to 40% or 60 to 80%?": [
+      "r09C0KkymcwzhK3NsCg5",
+      "5RtkE4fRSuXmjvdQ81f8",
+      "jpnUGCx36g2ZnAfXrvha"
+    ],
+    "will i get into college": [
+      "0OVy9LPZT7GGzyoQCeFh",
+      "cIVG4T0xCcnYNnOomkJG"
+    ],
+    "will newsom announce feinstein's replacement by october 2?": [
+      "sqTVJ60nlGKV763HfAGm",
+      "TUkgtZ5vfWjLwigkfhJM"
+    ],
+    "will newsom appoint a black woman as feinstein's replacement?": [
+      "gfZfLnaLMmFOS4Qnt2Wi",
+      "MQXRzyjvAiwGYZwrVQmK"
+    ],
+    "will manifold raise the price to create a yes/no market to above 50 mana before eoy 2024": [
+      "tUmEK5UM97UFCBYNfARX",
+      "K9Vcria8IvFRVhZNVD79"
+    ],
+    "will the s&p 500 increase by over 10% in one day in january 2024?": [
+      "YCOwmFPvDieYwbOThPGh",
+      "C2kHcIFgki6CE9rZ7v6U"
+    ],
+    "will i have 100+ twitter/x followers at market close?": [
+      "lTpwuipXgEW2SMM13xhF",
+      "G1ibTQ33OI1LuPkNGXLZ"
+    ],
+    "will gravity still exist on jan 1 2025?": [
+      "PB05PznBaYzk8OvnLZAT",
+      "1AhUdQuL3dPHrXEEuUQW"
+    ],
+    "will xi jinping visit the us in 2024?": [
+      "6fCdlY0ezY5CUJrerHbV",
+      "MliKc1GcAc40fLACqguG"
+    ],
+    "for the next kick or keep will there be at least 2 no-shows?": [
+      "ggeUWAYjJ0NA0jJyLY7e",
+      "5k5WYakcWvLzzSyAK2b4"
+    ],
+    "will the banque de france introduce a wholesale digital currency before the bank of england": [
+      "c9K4b6yBo3MYVZ6U9esz",
+      "qpC4KvxBLeihYdBkV02d"
+    ],
+    "set and get my burpee goal this week?": [
+      "kwMidnqcSHr8ov93SrEL",
+      "ZkRWB7Jf6Dn1aHW8wSCz",
+      "pxE3vSC4sCoRzusrPY6o",
+      "tkjwsItuQqe9927otYQ8",
+      "R1H4yvvMNd43iRbuApbM",
+      "mkNihzDsgRFRsSzirR1C",
+      "qjN4ynC8y4x8WgER88JU",
+      "PhpoOfmnOaEiSHc8Jnxs",
+      "Ns3lPkq8YDJ5c0vpMq1z",
+      "ndXF7rT9SOgVYeDoBlZU",
+      "I78bT9gChqt90Uaw48vv",
+      "AB4q2gcb2Zne7j3B83IL"
+    ],
+    "is there life after death?": [
+      "ZmAf2LDlbUFuJzWJ60Sc",
+      "pVnhQ1FSR6GuxbKACLaE"
+    ],
+    "will hamas conduct a massive terror attack in a u.s. city before 2025?": [
+      "8IilYbSt4LXOuivKuYPF",
+      "5rsMh3VWk3DMWHVV18NO",
+      "NKPnLI9WminkmTBSRvmu"
+    ],
+    "will the us rescue at least one american hostage from hamas by oct 31?": [
+      "CKmv0GJvu8q0iVOYfnTu",
+      "IxhGiU8rndr19pYuXgnc"
+    ],
+    "will india win the cricket world cup?": [
+      "Jtre9WzaGLeeWQfHaveZ",
+      "WyccFqg4llCOfg2BMVHz"
+    ],
+    "will i be promoted to masters?": [
+      "J0FX8IMo2paBIz5PBy8w",
+      "useViq600ZEs1Xcl8Tbz"
+    ],
+    "will nasa confirm the discovery of aliens before 2025?": [
+      "eAiW9bGpkzd04EUiPYs8",
+      "pydX2VJSEhYzskbduvUa",
+      "Wl57R3IYVsMtcTMSS1z6",
+      "mCQ1Aa9YO4IqXCFmKCWa"
+    ],
+    "will the average global temperature in 2024 exceed 2023?": [
+      "TPkEjiNb1wVCIGFnPcDD",
+      "JZKqYt0hOxSHcjOIMpFA"
+    ],
+    "will i run a marathon in 2024?": [
+      "GALz6sYq9TJ9fKjtPeoP",
+      "D4eGfYRND2I1zexODbfu",
+      "fsYEgs7Ud7x1i4f1KkV7"
+    ],
+    "will the sec approve any bitcoin spot etf in 2024?": [
+      "YGEn632efU3XGmeahkMh",
+      "B2kniCQdqueTeQOpmzhk"
+    ],
+    "will my available balance hit zero because of limit orders being filled, causing all my other limit orders to cancel?": [
+      "hLgtg7GSTYZ5zITEBhH3",
+      "YxCyw7gAg46tHsRG80mE"
+    ],
+    "will i find someone to be in a reverse relationship with before i find someone to be in a real relationship with?": [
+      "eaMo3tixGYdpzlkyPzqO",
+      "FjIyhHGeSkFm479j732U"
+    ],
+    "will usyk vs. fury fight happen this year?": [
+      "GRt8MEcItereIY1EYma0",
+      "eowHVapSp6vN7UYyM4qr"
+    ],
+    "will canadas overall fertility rate increase in the next decade?": [
+      "zGeYP6UFmvio9cTZNjEf",
+      "LR7TLFuk85CJVgbjiM2L"
+    ],
+    "will this ticket win any prize on the next mega millions draw?": [
+      "Pt8r0rmUOTJbFfQt9X8P",
+      "89V4WxGWHc4afnUwdlAh"
+    ],
+    "will this ticket win any prize on the next powerball draw?": [
+      "Dvqu1yrPAKQJX7NLrteZ",
+      "d2couw9n6ENcFkHk4pn7",
+      "AnWYqXjhMyIJb24o2FZQ"
+    ],
+    "will elon musk announce that he has a plan for peace in the middle east that only he is smart enough to implement?": [
+      "p6XWaAp90MzrcOv7vyck",
+      "WqEoqkS5CncOqvE89RS2"
+    ],
+    "will any of these tickets win any prize on the next powerball?": [
+      "fXzYyEoRaWMZwLZO2OE9",
+      "hYwYfNmHa4giifcp2C73"
+    ],
+    "will there be a military conflict between israel and iran during 2024?": [
+      "79oSBVcSKcqVDoKxRaOk",
+      "dGJaKr7YKzZPE5c3Wkzy"
+    ],
+    "will others try to cop a plea deal in the fani willis georgia indictments by midnight of december 31, 2023?": [
+      "yMR7AWliPiO9nDVSPwT3",
+      "fUbwR5HUk93bIYBz7vLt"
+    ],
+    "will house speaker mike johnson face a motion to vacate the speakership before the november general election?": [
+      "Q2be1CaAzbJrEW72Pici",
+      "YUgocqpkyJiJIpor8eP2"
+    ],
+    "will the the spot price of an ounce of gold hit $2200 before december 31st 2023?": [
+      "ENrTlVcBaku4mocDgLF3",
+      "9UdSB5yQsdo0PM6sGb5q"
+    ],
+    "will @lumi and @emmy date for six months?": [
+      "yMRzscDtNeD2zVBnbYKs",
+      "mayUfoV6Gz517CuoU8B5"
+    ],
+    "will @skeptick and @alainazulli date for six months?": [
+      "CbT3UjtjQJEBqEGSfgbC",
+      "B2TRE6dxU6ouEAvb19CV"
+    ],
+    "will the s&p 500 increase in november 2023?": [
+      "cTqFOo7PqQml9oQ2WREX",
+      "LojcVLiALk429RawX2TE"
+    ],
+    "will the braves win the 2024 world series?": [
+      "zjUVDY1pyvKHUbEf6XxW",
+      "LQ0ydpLjw3wax4bzDsbX"
+    ],
+    "will i be demoted to platinum league?": [
+      "AF3GuYbK9Q3TVL0N5htW",
+      "O7A01rdpKehlENJZTVmu",
+      "VP5mly8WCGTW7e0vDcvM",
+      "0RVoggkpLXg8hmDdiEcE"
+    ],
+    "will i remain in diamond league?": [
+      "0cGDHqvrrotABr3MIV47",
+      "kvcrPNzOJvHfPhBwP35B",
+      "wEFNK7cXcOrtzpeO5VHb",
+      "C9LmTHCGBFeLxLQAZDWn"
+    ],
+    "will i be promoted to masters league?": [
+      "G1BWKdrkdAFESiJfK2eD",
+      "QiUgIVnnW7uuHhC2wu1D",
+      "KDrOgvT0KPdfttEcJ72r",
+      "59vTNmzSEPdC3iFoz8xW"
+    ],
+    "if i get demoted, will it be because of a spike in ai risk?": [
+      "HYRuk6hJPkyLslwHzgdn",
+      "gsbUUzWLSAM4AvDxC9GF",
+      "bjaWgDlX0jOEMXwa2AEu",
+      "StJu6Saert2cEzrzpILy"
+    ],
+    "will anyone commit violence in order to slow the progression of ai?": [
+      "YxMtlBuHza6BVpdRJGuN",
+      "4RIyPGuCXWFBUMi7Bi4r"
+    ],
+    "will these tickets win any prize on the next powerball": [
+      "mAOs0WYWDinXO3R6zelQ",
+      "DwCdtVYYXkMuopEPAIRW",
+      "8MD299zbWPBKgQQqsReb",
+      "EDu4w66F6dHfI3NBwUKZ",
+      "EsI4ddVk2NBlcPi0D8QX"
+    ],
+    "will shohei ohtani’s new contract be over $550,000,000 total?": [
+      "9PPirVjNUXq7KvhGQ49r",
+      "9cMh0DxtExKVLGYn4fMo"
+    ],
+    "will this ticket win anything on the next powerball draw?": [
+      "TgIHbvEQZS8LCGZT1v8E",
+      "XTdiJ469D9mOabWcyXBm",
+      "NmmohsqO6nOsv69GlPI5",
+      "jrP5xgTTgKgSIXkwct5a",
+      "evfxde9xhI83d4hBg4Ii",
+      "3IOspUeBuu6Zt47o9oG7",
+      "EvM9C3hLQtxnEqbXy8DB",
+      "iO8dDWdvifVMznwT6gng",
+      "nfmaGsWoVPVgaqfjopmO",
+      "JMwhwIvvHsNJMlrVxFiW",
+      "hCZloedFW8XMuWJYaPAX",
+      "FPY3sWFZ3LPKbTsh0WC9",
+      "kPGU1ukDlQxt4CNkTjAb",
+      "7g6zEMeCTf1dOS47W8hz",
+      "13ud5AYPNioymzyBQVlf",
+      "Xt7zdUZqLsiVpvjzHK7S",
+      "lhUcOkrJTSn68wM9More",
+      "DNtFZUDtmc7br1rmld1C",
+      "XzH81F74T5mbqW40BDk7"
+    ],
+    "will a south american country be the next world cup champion in 2026?": [
+      "OOCSDoOqW0H62UtrhYST",
+      "GaO3ZSaOWg1vnK6VPCqU"
+    ],
+    "will michael connelly’s “resurrection walk” hit the nytimes best seller list by 1/31/24? (top 15 hard cover fiction)": [
+      "eixmIILNU9xDbSaIh1Kl",
+      "NDZrsPNgSj5dxMYq4Tup"
+    ],
+    "this year's mlb world series had the lowest tv ratings in the history of ratings. will the 2024 world series better?": [
+      "2FZxxr1dSOKHTX8mU5s7",
+      "wNVahR2FafLTghKw2l9R"
+    ],
+    "will i finish rank one in diamond league?": [
+      "JR9NwQBA60SbDIVIVdv9",
+      "4VuklKxQSosAKnoFSKrS",
+      "H5s0e4zOALP7klGTfUAu",
+      "aVuJd3ydMTrAQrEKpw47"
+    ],
+    "⚽ will kylian mbappe ever win ballon d'or?": [
+      "9TEzbKY8rDmIhMfFIA3m",
+      "C0oedo4jEfKCuaOqMljB"
+    ],
+    "this market resolves prob, but if someone tries to snipe it right before close, i'll extend it.": [
+      "C7ra8Ze2jOBxUMpWzIGZ",
+      "q9LZ8CRi6XQjQykzRrZd",
+      "Iz78wkSBtvtl4UrkCTmx",
+      "LcftHwiDAshYJVNOBDYF",
+      "iLDFvkc0Q8tCe6ok0QWd",
+      "Iegx4vq2cKvc5i3vzuQ3",
+      "6lW7LutzwhrpNOAj7qqk",
+      "Ti5shWTSwvmESZnh9xGb",
+      "rUTsBWFwLe5ZchWWpxqy",
+      "b9JY6wOR9rZJTfVD7XVw"
+    ],
+    "will the s&p500 end 2023 up over 20% year over year?": [
+      "kBO8boJEO6Nw87eKGgNw",
+      "ieCdblI2BFpaRC4on9pr"
+    ],
+    "will i get promoted to diamond this season?": [
+      "cD6gDkRsf04JVSXB3K6P",
+      "bUAcBf5mQ2QZnCEEoe8p"
+    ],
+    "local san mateo: will yi fang have removed their mask requirement sign by mid 2024": [
+      "0LabByOFXsG7T5tT99aY",
+      "p5gH4QgEl5jEXIdo5u3t"
+    ],
+    "will ilya sutskever continue at openai til end 2024?": [
+      "QOOoPHuIBkQLgTBXtNWs",
+      "EXYh6fiWwDfYXIdKNTzq"
+    ],
+    "will sam altman return to openai?": [
+      "lPlllRcukKrAPm2l6k4M",
+      "mNPwgY49FlRk9Vqnv8UZ"
+    ],
+    "will openai release gpt-5 before the end of 2024?": [
+      "BvCy70uzYcknqNRLHlsY",
+      "v1szZQLMJx7WsP3EQEra"
+    ],
+    "will this ticket win anything on the next powerball?": [
+      "XyORvFR4OWXzDrGGANym",
+      "zGnOs0uQRQEG7TI2WaPT"
+    ],
+    "will we get agi before 2029?": [
+      "qfbmVECblEwwPj50qJ46",
+      "vbFbnc7bl8Q6CTPtG3FG"
+    ],
+    "will mikhail mishustin stay the prime minister of russia through 2024?": [
+      "2ArSXfxwCsbNAg45dzEh",
+      "UXTXeal10VUwqqkWHRYm"
+    ],
+    "will an economic union be formed between the canzuk nations before 2045?": [
+      "TLdabCNaTcnJua8aXlBM",
+      "xEzhLVJlg1KcQevq2j6y"
+    ],
+    "will there be any suspected acts of sabotage to military shipments for ukraine on romania's territory by eoy?": [
+      "p931zmR9aig4Q4FpSWH8",
+      "192WYw9euaVkQjOUDPjk"
+    ],
+    "will jude bellingham win ballon d’or 2024?": [
+      "LzOjFa53cFLReGXmPR76",
+      "gIDJtCxsqcVMrOMangju"
+    ],
+    "will the campaign to redefine the concept of \"sex\" on wikipedia be successful?": [
+      "Zvpu5Q92XVEP6ETNb4IC",
+      "0QiDaDe06pYBThM6oM6f"
+    ],
+    "poland: will zbigniew ziobro be jailed by 2030?": [
+      "4iMDEaZJoDFIGCFOWu0Y",
+      "FaM8pVOTO1smP2oIanyk"
+    ],
+    "no": [
+      "VYK24GrmqaeJ3EkgltWr",
+      "C1lT3ay5Oo8siAReGp3D"
+    ],
+    "will i qualify for imo 2024?": [
+      "rXuIgPqSGVXft9pzUk5S",
+      "L43IAkKgQzi6RXtlOV3h"
+    ],
+    "will my usa tst score be higher than my tstst score": [
+      "oL2wSmKNCu7rV6UKXe1N",
+      "R8ZmMpN3gIIX19s3WTep"
+    ],
+    "will the s&p 500 increase in december 2023?": [
+      "Y4e8dnBSLMxPpNfCK03R",
+      "PY0dbsXTKTPuspvtP47z"
+    ],
+    "test market resolves no": [
+      "wFyqHgZw8cXFofVvqJUX",
+      "N8uPqVRl6EUiAg6oQB4H",
+      "HRcCE7Ql6WTyeDd3Tg6n"
+    ],
+    "will i make it to a 2 year prediction streak?": [
+      "ALffDd7xGIYoTWSUg7jG",
+      "OUnQH3LMTRpH4Dsg6Kku"
+    ],
+    "will reddit ipo in 2024?": [
+      "kKwcLchDwTRRbWPyKhpI",
+      "x9Qe2teST9XuKKkuX7d1"
+    ],
+    "am i eating good?": [
+      "bCBRYWzy9Tni4nsbc0kx",
+      "56SEO1U5jMJf8Fjg13q5",
+      "qleaP61uv8wzDllYL4pq",
+      "sNsvOYPLkrGxDECIGbaO",
+      "Ytw14Okt01DcDIbDTumS",
+      "jXixGqOdL142RO2yDe6C"
+    ],
+    "will i get a girlfriend by the end of 2024?": [
+      "ronmPgNLkIlxJB4tphwl",
+      "ADdgJIDBmfHKoQBWb5eS"
+    ],
+    "will the all-time top post about david grusch's revelations on r/ufos be surpassed by another post before 2025?": [
+      "8HyGr4DLNqggQwkobywV",
+      "L5rpYQW68mjNTBWRXrdK"
+    ],
+    "will bill belichick be hc of a different nfl team by the 2024-25 nfl season?": [
+      "1tvINfm3h0HKq8heTYzH",
+      "QThwVpXSfDjoMRVOcJl6"
+    ],
+    "will vladimir putin be the leader of russia at the end of 2032?": [
+      "Noyl19gNy42UlX7eYlAb",
+      "lnT1RpyAMhJJ4OL82jBc"
+    ],
+    "will this question resolve no?": [
+      "XvHBvPa9UgiRzVdgIFrF",
+      "iiYM8m5aNYPGxtVA2ppV"
+    ],
+    "aa": [
+      "WgM0Ny62IRCa06q0TeJN",
+      "eFE6oGXu03f9tEUlcu8S",
+      "rT2akFtZEuJKJKuR379k",
+      "iDU8h12tJIgpqgIh8325",
+      "jrhNjjtXY5amAfpbaThZ",
+      "8dYCTtwm6MgBIORhKUzX",
+      "FXwVRWg22y4iml4A7QCn",
+      "gCP8AYsafvMQ4LIw5M39",
+      "iwm0r8lT4Mvb3VYhM7t5",
+      "56xu43lIoRe2X9qZr7Mx",
+      "nssKAopnY3oQAEVysKDg",
+      "sf2GODIiCYe6b6b4wWnk",
+      "NcOEN16zX2dfczsTRqYH",
+      "SFbQdp6ZbZODAqwdFJid",
+      "lX0Sb8NgAhmFG7Bif4rg",
+      "bX5qn5bpc2XMY4mO0O5k",
+      "Jn3ZXBvYBxynKC8S9M9A",
+      "gQ0drQRYxTrYI3di6tGT"
+    ],
+    "before 2035, will there exist any ai that can perform arbitrary tasks in minecraft?": [
+      "G0GmOyaD1Qx3LoXfP9N7",
+      "zQfbBhmRX11VDdoF4sQl"
+    ],
+    "will i quit manifold by january 15th 2024 and donate all my mana?": [
+      "v9szZuEksYIly6QFyJtK",
+      "yWVjzxs8MX4N1T9CmL0O"
+    ],
+    "will the israel/hamas conflict conclusively end in 2024 ?": [
+      "EKhoUm8nRlnYb6AuqoBm",
+      "MzsHBKLMmILgNnRLwZys"
+    ],
+    "will the republican nominee’s choice for running mate be someone serving in congress?": [
+      "YIBzwh5qMlygVXP2aIkE",
+      "ChcGrQmrWdKEvUfckhzz"
+    ],
+    "will the boston celtics win the 2023-2024 nba championship?": [
+      "7iVZck650SeyA0UKeVwR",
+      "eVqAT31bFWfEFZBHiryA"
+    ],
+    "will this market resolve before my next birthday?": [
+      "fF55DjVqAmttqiE2uU76",
+      "J2pCxt45vCHQ9uOznRMl",
+      "tJcaVLmS1QCowLaPsH9J"
+    ],
+    "rawr": [
+      "VA22xLAoVkjIaKXTK01B",
+      "k79repN4E4Hh5wPvPKjl"
+    ],
+    "will waymo be fully deployed in la by the end of 2024?": [
+      "pnTPl7tV1RPOUSD3XCsy",
+      "KDGJ1HSOZ3CTuygU0nmL"
+    ],
+    "will waymo work on highways in 2024?": [
+      "UNtVjNgLX1UDI2BOLGNj",
+      "KMIHjJqhNCT8USTHGvyL"
+    ],
+    "week 17: will chris olave end the game against the buccaneers with 120+ receiving yards? (12/31)": [
+      "P5WMoG62q8e2ogJTiv3C",
+      "vLpIQu7Z9dlc3yjOp40g"
+    ],
+    "will i be significantly happier in 2024?": [
+      "fud55KJa2hsJsrZfmVUe",
+      "hs578fQWosEeqYnTmbOz"
+    ],
+    "will donald trump outlive joe biden?": [
+      "X1vnXCQWS3eEV1M799eH",
+      "L0HfVzQdZvXIWjv93Pfu"
+    ],
+    "will germany accept refugees from gaza by the end of 2024?": [
+      "dsQI7L2442LybmgHrcBd",
+      "YnsgL9TJGqg4lCrtZjHz"
+    ],
+    "will there be over $400 worth of mana sold on any day in jan 2024?": [
+      "sRasV5FMLEhZPrsUc0gl",
+      "w6KM9bX1makUYxslHDav"
+    ],
+    "will there be over $450 worth of mana sold on any day in jan 2024?": [
+      "pZbtYKk6LPZKbRdVPGZ6",
+      "gngGkqYlB36COmlAgwno"
+    ],
+    "will there be over $500 worth of mana sold on any day in jan 2024?": [
+      "JC7rRE8zrdqHdVidHGoR",
+      "OrqxqIF112R6D9Q5TW8Y"
+    ],
+    "will there be over $600 worth of mana sold on any day in jan 2024?": [
+      "WzpCPWFfTjuEKmezSE2N",
+      "6kbGYh8tdKqoTXP0p084"
+    ],
+    "will there be over $700 worth of mana sold on any day in jan 2024?": [
+      "Ntpot27lvxspcKBD02dw",
+      "zQZD5PJ18YzH0b5L0wNY"
+    ],
+    "will there be over $800 worth of mana sold on any day in jan 2024?": [
+      "NHzHR4y0ZogdVpCxp9tK",
+      "vhKVxkLZQJ4stqivBV9Q"
+    ],
+    "will there be over $900 worth of mana sold on any day in jan 2024?": [
+      "QqtMnBoZmb73P8yJHlvy",
+      "8bOyokS9s5rrZZcOxRTi"
+    ],
+    "will there be over $1000 worth of mana sold on any day in jan 2024?": [
+      "BG7AdtibHy1XSHFYX23z",
+      "WMRmHNSjTVAWqMGtSJTU"
+    ],
+    "will there be over $1100 worth of mana sold on any day in jan 2024?": [
+      "lKnmYMKxSxXj2Zyz6awL",
+      "jkrSUsGtSVeWqQpzmBaD"
+    ],
+    "will there be over $1200 worth of mana sold on any day in jan 2024?": [
+      "i0y9BTVnyypA2ILIFQBf",
+      "ak9Nhz4jy89RueWNjd97"
+    ],
+    "will there be over $1300 worth of mana sold on any day in jan 2024?": [
+      "6t9zSfQxYDZhGfe0Twjk",
+      "uLwdZWkp5mi00F0SvpOS"
+    ],
+    "will there be over $1400 worth of mana sold on any day in jan 2024?": [
+      "pzDw9glwApxdABN4AQnq",
+      "GHXeB9pcKIkcrIXlWtwd"
+    ],
+    "will there be over $1500 worth of mana sold on any day in jan 2024?": [
+      "4FnSMJLjXdsGYsKY6UkL",
+      "ykzW8Z6BbRNCwM8fBBPf"
+    ],
+    "will there be over $1600 worth of mana sold on any day in jan 2024?": [
+      "QKBE53ahRfYvaf4CsT3Y",
+      "isJlbLxZHyYGl5tuqqpa"
+    ],
+    "will there be over $1700 worth of mana sold on any day in jan 2024?": [
+      "zeC0As8ZUnOdp6Q2V2Iy",
+      "r4sP51Cr7p1HixOLPX9x"
+    ],
+    "will there be over $1800 worth of mana sold on any day in jan 2024?": [
+      "ru3uMJDgS43aYIDB2VGB",
+      "BPPrcF4ZOI7W91VMbSuk"
+    ],
+    "will biden 2024 democratic nominee market be in [86%,87%] at the end of jan 07, 2024?": [
+      "OvnhRS4GL12WxVZreWna",
+      "4C97Kwmnd0nzwT0g7RAm"
+    ],
+    "will biden 2024 democratic nominee market be in [86%,87%] at the end of jan 08, 2024?": [
+      "W8u4wXAZ7ca7mktzZit7",
+      "hqej965dybLStYGfaOMz"
+    ],
+    "will the s&p 500 index close higher on apr 01, 2024 compared to the previous trading day?": [
+      "kCCLTL1h9RtdDpmh8DDz",
+      "1SpShpGvYoxK29ieYKmN"
+    ],
+    "will bitcoin hit $100k in 2024?": [
+      "hKB9iD8knG4R2RuSyyCu",
+      "7RJk8EdUxRDeSi1fR07A"
+    ],
+    "will i make it to 180 days (6 months) streak with shakepay's \"shakingsats\" free satoshi program?": [
+      "LFGut37nE5ER8yQexSNN",
+      "lmEKtLdDPhsMgTv4EUHW"
+    ],
+    "will minerva university survive the next 10 years?": [
+      "XdXYrDLpwSYQN9L7dz0I",
+      "ooceP5QW5LOG0Ws9BJpl"
+    ],
+    "will i write 1 mini blog post every day for the first 15 days of january?": [
+      "95w4gC4OsBSRshYTX0vI",
+      "zAsFSdupj8yvbcq4Gv4z"
+    ],
+    "⚽will james milner become a player with the most premier league games?": [
+      "UzPLLQsJYWiER00thwHv",
+      "qDAhMqhh3nSp964AOldr",
+      "ieJGSJqzeHgApwZvGbhk",
+      "dvs8P36n0UUCdZTtHn2D"
+    ],
+    "will i accept an offer to work as a w2 employee in 2024?": [
+      "A3b8OyejvDqUqj9iWKI5",
+      "SxEDLc7NWhTgon94iJZO"
+    ],
+    "discourse 2024: popularity of history podcasts will intensify?": [
+      "vUZQo4mQzeDHEhdKCPsW",
+      "QhbAWF0PkeiAnA3dOdub"
+    ],
+    "discourse 2024: boom in educational associations that serve to counteract left-wing pedagogy and curricula?": [
+      "Qk706CpgRhvBaGhIHqHV",
+      "K9SozobXkifXQbyA7IkA"
+    ],
+    "will manifold *ban* duplicate questions in 2024?": [
+      "asECi4Drhkus71JgHVnw",
+      "EQmXhOmU7IJdmBVYkXYj"
+    ],
+    "will manifold *ban* duplicate questions in 2025?": [
+      "RhDT3FPyn8WMXfJcsITh",
+      "DB7uaVi4HGaM6lx0E5OR"
+    ],
+    "will be the lowest after waiver fee offered by a bitcoin etf in the united states at the end of 2024 be below 0.15%?": [
+      "sQyiHBaq6SzugzVyPskQ",
+      "9msWDGVxIUuBEg63LdPZ"
+    ],
+    "will binance be the largest crypto exchange market at the end of 2026?": [
+      "GTxHJ9m4T9YxL9XINbVX",
+      "VzD6GnWf42N1NCw6al4W"
+    ],
+    "will a smic 5nm chip make it into production in a consumer huawei device in 2024?": [
+      "z0PBFHsP4zqHLSOOPuhb",
+      "EARlz4FFX9OBhc2bkwm8"
+    ],
+    "will any of biden, trump, or @mira be elected president in 2024?": [
+      "C91MgvcVPYBI9UWGFgJC",
+      "P04rgDVZclNkcAdPZYu0"
+    ],
+    "will bitcoin go down to 40k in jan 2024?": [
+      "sDjVsxtEZNQkiippuAym",
+      "xdf2rxxnEiLeJXcyuAWt"
+    ],
+    "will binance be banned in the philippines?": [
+      "r0ShV18jIiqbiJuelqox",
+      "01KNiTzHOb96bfIjQ884"
+    ],
+    "will the cdu in eastern german states try to form a government with the far-right afd after the next election?": [
+      "sgmxe1bMnj9URteHv6VQ",
+      "AvwSUBe6lEZUQnoZU6EQ"
+    ],
+    "next friday 2/2/2024 we flip a coin yes for heads tails for no.": [
+      "DXLWUFES9xJXpmFoQuM9",
+      "2nqITA7UwzX2v9zzfwdi"
+    ],
+    "will elon musk tweet 2 or more times on jan 22, 2024 between 9am to 9pm et": [
+      "uWirAs6XtEutUmO4Tpxz",
+      "UA3Qr0BDm9ATA8SQOZbv"
+    ],
+    "will elon musk tweet 2 or more times on jan 23, 2024 between 9am to 9pm et": [
+      "FYoxJP5IIfHPOAp8rVb5",
+      "C9ceiW7Dr1c20tZuPKMj"
+    ],
+    "will donald trump be alive through the end of 2025?": [
+      "bQotemlYVZjeSHjbhKlj",
+      "Et5Ch8sdIusXcPpACOG5"
+    ],
+    "will donald trump be alive through the end of 2040?": [
+      "AfVSqrYHydkpM1hbHmcs",
+      "ok6k1j09KLiREZ1lleXA"
+    ],
+    "will usa get any medal in gymnastics - women's all-around of 2024 olympics?": [
+      "H0iy4VtPXVrvgwt04LtO",
+      "a432EIjZsV2o5h6btfIB"
+    ],
+    "1": [
+      "lUx8jTfWmq7FMkvXCeSG",
+      "CzvUKgTlOEzXZW0CfWMC"
+    ],
+    "will elon musk make 2 or more tweeter(x) posts on feb 16, 2024 between 9am to 9pm et": [
+      "OYkx1qRfXpAUxG5gv3jr",
+      "fjG2F2aRXHaQN2PnZVnx"
+    ],
+    "will the philadelphia flyers win more games than the pittsburgh penguins in the 2024-2025 nhl season?": [
+      "MlSYwXiF5RslJA6mwk1Z",
+      "mg6X5UHV367XlU0E2hu7"
+    ],
+    "will will smith be alive through the end of 2030?": [
+      "IN04b9sJAWgoqamJoP6a",
+      "1p1QPSO8GmUSnU214goe"
+    ],
+    "will will smith be alive through the end of 2040?": [
+      "76RZygRiKkcEefmDOPge",
+      "StmXcpIkUurjvOh8Srul"
+    ],
+    "will will smith be alive through the end of 2050?": [
+      "imSy6SbcjhAsI15s1Img",
+      "PskXI3EOAeSVoE2qaJsr"
+    ],
+    "will will smith be alive through the end of 2060?": [
+      "DVTULn2IAiyMxFqHI0KO",
+      "QjWgXi5OG8ObyE0SKvr9"
+    ],
+    "will joe biden and donald trump meet in person in year 2025?": [
+      "uy7BhrwHYXGcjVeYL9Mo",
+      "g3ImqlyIdqeWHoawdmKt"
+    ],
+    "will joe biden and vladimir putin meet in person in year 2025?": [
+      "WLA7uQsrwbNzsaMNi3FH",
+      "I6dqyeXUpwQ6Kefk7VVB"
+    ],
+    "will elon musk make 2 or more tweeter(x) posts on feb 22, 2024 between 9am to 9pm et": [
+      "yMBhH8qDOrwKoP9xyBZJ",
+      "7EUEY34nLzLiNmL8bwv7"
+    ],
+    "will elon musk make 2 or more tweeter(x) posts on mar 15, 2024 between 9am to 9pm et": [
+      "BMvPR0dI1QnimWDYDKGr",
+      "YYrTJdzbdPzMwAjn6x6p"
+    ],
+    "will @charlie get to bed by 1:00am at least 4 times this week?": [
+      "Pp72GDxHr3XDPXDklQsz",
+      "gzXgtJV0r9b3gpNLXuwi"
+    ],
+    "will any of the videos uploaded to destiny's youtube channel in jan 2024 surpass 500k views?": [
+      "9JZ18PC0cUdJ6vi6lvpz",
+      "bMIwORjqfSwpPVmdyszU"
+    ],
+    "will i get my apple watch move ring at least 5/7 days on at least 3 weeks this month?": [
+      "RtC1p1qXnv72SWJqHUkV",
+      "jcUaKgRPYGrYuKbjLDEa"
+    ],
+    "set and get my burpee goal at least 3 weeks this month?": [
+      "92HQob5rnrfxm7Tvn3c2",
+      "zuVu2LSJiklM60kVZpIb",
+      "2WS0ObCuRdM41IG8qVSp",
+      "7vtYBYxf7I0E2WnotChZ",
+      "V0jpgzeOTnZsfUEZ9LEO"
+    ],
+    "will the climate heat up more than 3°c before 2050?": [
+      "87DUkrB3r1mvbApcid1k",
+      "yVL3EhhEHUwFVJkFuntd"
+    ],
+    "will jackson holliday be on the baltimore orioles roster on opening day?": [
+      "4PtBBTWQRmh1sYt0756W",
+      "94XeBV8W5wdKKNeMw4s0"
+    ],
+    "will \"deep learning models might be secretly (almos...\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "1FNHgDhstBy0CP3rqVb7",
+      "KH8p0ZNhuXYvN0r9sATN"
+    ],
+    "will \"natural latents: the math\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "0ooW7BW8sLeUwOAQDmjZ",
+      "29h3ahu8yjzpqH7ZLKZn"
+    ],
+    "will i get into sparc 2024?": [
+      "HHlc6nnXmEwmBxm24rPM",
+      "DNSThpKyJpHWavQbBFyZ"
+    ],
+    "does manifold hate or love @america": [
+      "N2A2rn6oVJF0cagOyxdR",
+      "tGmcVcnUv2y7PXoRqFCS"
+    ],
+    "will \"things i learned by spending five thousand ho...\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "yteGu1hvszx0geUJSKqc",
+      "9opfDgwfExte0jsu9X7c"
+    ],
+    "will robinhood ($hood) reach a $20 share price by march 15th?": [
+      "4EEjJSn5lIaLyDRh9phO",
+      "DUs5ege8Ci4znWPly9NG",
+      "QWUaAVNhEemoUem9qGQ4"
+    ],
+    "will \"assume bad faith\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "i3Vytqmc4ZVUpX91VGnD",
+      "xLgsAYCqGfJBmWE1seS9"
+    ],
+    "will mercedes win a race in the 2024 formula 1 season?": [
+      "Q42wX7IDHYO5X0ZUaH3E",
+      "YZnexG9lXzL6GdCRg6pI"
+    ],
+    "will \"book review: how minds change\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "x5pJCE3sE8hXjXBDbuXa",
+      "Behk4GAVTZTT054wAkUo"
+    ],
+    "will a police officer kill some one tommorow?": [
+      "G139gx6KLaOw0uLoNhre",
+      "vUsdXuy1mT8XjZQOGxDT"
+    ],
+    "will \"there should be more ai safety orgs\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "mFFlfZZDhaDW6F3pBNhC",
+      "VIJabzi7JR73jkiovoWK"
+    ],
+    "will \"ai timelines\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "Z7B6sDSPSqHQE75huc4h",
+      "dVeXWP4eoUIUDjO133Q1"
+    ],
+    "will jannik sinner win at least 2 grand slams in 2024?": [
+      "KHxZ0DJFiVmLWqtOoYpP",
+      "1VuTJdqB9XK4OWaNqrv0"
+    ],
+    "will \"the pareto best and the curse of doom\" make the top fifty posts in lesswrong's 2024 annual review?": [
+      "YOO1q24dXqErcEqj5JhJ",
+      "7H3MO1DuADiHwkSDp4mG"
+    ],
+    "will gpt-4's successor be released this week?": [
+      "hNfJId0e1OOtuHzigHy6",
+      "fIMF2qc97iBt7X3OSgHk",
+      "3dG47NjIbfgz7XjkqJiD"
+    ],
+    "will i be accepted as a manifold partner?": [
+      "dyvDGfIxmAbT0RBohd72",
+      "Ob7dKciUMAOsWjwuZ7Ur",
+      "ZqXREo2O5sP0O0FAsdBd"
+    ],
+    "will \"what’s up with llms representing xors of arbi...\" make the top fifty posts in lesswrong's 2024 annual review?": [
+      "j2OKPwdU1ijPIoKx9REW",
+      "LdcGM1sIOmSdbdavxiW3"
+    ],
+    "will bitcoin reach $76543.21 before the end of 2024?": [
+      "i7GoraRmufAGZAlNYAXE",
+      "y5kIMNWG1C7wpWOV8Ubf"
+    ],
+    "will there be a new mvp on manifold in 2024?": [
+      "enOfiQxhFbws8hSB4l8g",
+      "2bQ23jvgMsD8hwM2RpRB"
+    ],
+    "will bitcoin hit $72k in march 2024?": [
+      "GkGVVhKxHk6F8r9bak9Q",
+      "91mUaePn2DjTqqzC8pjo"
+    ],
+    "will the bierpartei (\"beer party\") gain enough votes to enter the austrian national council in the next election?": [
+      "AM0yXFvLnFAfVc6KfTGn",
+      "l4OZ0oxeMr5jDuhVjSgC"
+    ],
+    "will i survive another hour?": [
+      "uUHIqvxlhch5W6EUcnP3",
+      "hOnz00bHXwYwkfhOmoCM"
+    ],
+    "will \"defunding my mistake\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "LIbj0mzWUO8td05gf1ff",
+      "qG2Nzl9VabiVLYitONs8"
+    ],
+    "will scientists successfully revive an extinct species by 2030?": [
+      "bwRzQ7cO40ZsqsXZSx9e",
+      "gUjKP1hoE66ljSmjj7ui"
+    ],
+    "will \"\"carefully bootstrapped alignment\" is organiz...\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "G0AWNvXplxC4CddcRDg7",
+      "db6m62qfoKHFdZEX7zRz"
+    ],
+    "will i survive another minute?": [
+      "ASnbTnwW3Fw1BlrXtpOC",
+      "KCG3WVLQWneIpu0TD4gF",
+      "8jrvbqdbd9tAMDu1Alab"
+    ],
+    "after france, will another country make abortion a constitutional right in 2024?": [
+      "jDWqdfugUNZXcdCYCjfz",
+      "BwJa0bJ6iyQHfKQutlwh"
+    ],
+    "will i start to officially date someone in 2024?": [
+      "AUVbMOVGWN15JirWX5JK",
+      "FLx1hIVAMA8ij0VLXgn5"
+    ],
+    "will a cryptocurrency become a leading currency instead of a government issued currency by 2050?": [
+      "TvwqkEGDrUNS4ioI2qSY",
+      "OIaVvLoNLnMZwK01Xpvq"
+    ],
+    "will bitcoin surpass $111,111 before the end of 2024?": [
+      "GwvPT7SXdQuP3LaYl3ia",
+      "S34AT9UEcamzQZvJI7Mo"
+    ],
+    "will i make mop 2024?": [
+      "KIY7QjmzEtL6GFNJH9RN",
+      "nenRtFQHHxzgUhMPPcpu",
+      "0Zd7QYlrchkHzGo20uij",
+      "PayGv6VvsZvJX6UUEAcr",
+      "t1tgR09XRHynIItqnkfK",
+      "WCUFS23KgN9uOsfa5lRg",
+      "PFxqNmzMt30Xp5RoZT8r",
+      "AZKZDhPFFVMhKflRtg8P"
+    ],
+    "will \"the translucent thoughts hypotheses and their...\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "33iA0YIyN3tWgnMXGMsf",
+      "k1I1DgVxXeWmflBLZCmA"
+    ],
+    "will the 2024 president election have a higher voter turnout than the 2020 election?": [
+      "BoWEgYoW2xYIylm0BcgA",
+      "fFmTjkm8yzgFWXKn2EtH"
+    ],
+    "manifold lottery (20x return)": [
+      "LtG3i9J8LX2kefZi9HAc",
+      "YZbMS2rxlVKAzGA8X7Ch"
+    ],
+    "will \"neural networks generalize because of this on...\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "WxPWnkZtQGFRKNEyQufB",
+      "iSaUCk9kquDDsAyA6h0o"
+    ],
+    "will bitcoin hit $72k in april 2024?": [
+      "bOCEdtN07f80IH8orH4a",
+      "Ot4yMqbBipOzxpsmgKEe"
+    ],
+    "will bitcoin hit $72.5k in april 2024?": [
+      "cA4COHRtcAYJcjHQVGh4",
+      "ZtGjcht7EZ5qt1iY2NU0"
+    ],
+    "will \"picking mentors for research programmes\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "CJHrmWyAlNhzDfXu1GK6",
+      "E0RAEXwQ2lsJjS0mg1LK"
+    ],
+    "will @charlie get to bed by 12:40am at least 4 times this week?": [
+      "Ang4XuC9spPIoN6mRPzF",
+      "AzMDHqNICwawSa8CxsXG"
+    ],
+    "will bitcoin hit $71k in april 2024?": [
+      "Hlh1XeVydaw0pBYvFgvS",
+      "4JZ2CnpTzDKLU2m9lHHy"
+    ],
+    "will gpt5 still be unable to distinguish history from fantasy in romance of three kingdoms": [
+      "GFbnfUkUUGdGIF3zMbuj",
+      "a3zzFzLu9LWfhsyWxZkS"
+    ],
+    "placeholder market": [
+      "FRdKu8ZZ8hOwqM7bEuHD",
+      "IOyE5Ani0pQqAodA9PGp"
+    ],
+    "will i make imo 2025?": [
+      "tfwk5eBX7X6Tx283KuQH",
+      "nqoGauKQ2OiSy8OfbzQT",
+      "cTvctKk4ybOzXrMoOJFZ"
+    ],
+    "will i be in black mop 2024?": [
+      "qabinB1O2Y2WHgC4w9eN",
+      "EQz53T84hiitr88Zvbkb"
+    ],
+    "placeholder market 5": [
+      "LLW0h31ONQkrvaauK4L6",
+      "mCqtOLz0Dx6WeMJRfcls"
+    ],
+    "is \"gpt2-chatbot\" gpt-4's successor?": [
+      "8S60SsSZ6Jn1FCSQ88Ve",
+      "QXTIGBGOFKw9iExIgkLH"
+    ],
+    "market placeholder dont bet yet": [
+      "0kQNaLrRZR06mYKA35tS",
+      "i7QbhQsdyK1QWRzzAcuu",
+      "LOyIrinzoVNqzDtxLLDu",
+      "1ssr3E3zCsK5OH5xG48R",
+      "xUsccp2whDokUB6IiGSq",
+      "bWro1NA5JdxeUSV2cWgW",
+      "LemVw4ZxRav174OAGG8Y"
+    ],
+    "will tsla reach >$ 275 before 8pm est on 8/8?": [
+      "D8eYkDU1QoM7nPtCXbEi",
+      "xv86CDBe0flxF2epvO3f"
+    ],
+    "placeholder - don't bet": [
+      "picDYdb2anem2IlKKpu2",
+      "Z2Uyf1XvNMIiEOoTHOBt",
+      "YyayxXyupSOcALPT4gXJ",
+      "8THcDBP7L0OS3F03IC6P",
+      "rPkgkKVxFI7k2CS7cC21",
+      "yB8YTGG4TzclPq1TyG9A",
+      "O1XFbFWKE6NtswnfXfgu",
+      "y7GfIYlzo8Gl6Cn6QnE1",
+      "SMKQO1lASDISyYTk3W6a",
+      "9RFSZmbaYP8mtSOCCjne",
+      "KFCidlisjXyV2UH0wSu1",
+      "SYq7DytP2g2JZPOVGPS5",
+      "bBLzScw09UzfTc418wvt",
+      "98Jq3YZXRCEgffPyVjiw",
+      "7Cpgudf08a4rYuWNlP1Y",
+      "NJHUOaUCBgrb8kCGG7Vb",
+      "TCRTzodg0N1lF2oZOZzi",
+      "O8eHhHvySAvkuOxVZTTg",
+      "2AkQPS1i5wqlbpfxXQKW",
+      "clNq9dAfP7EufA9bABrk",
+      "Q7YGypAZBMUyCV0NtKLQ",
+      "jDSBuAoRka51XH7S3MbK",
+      "uvBFaiNTFwmlLLrfxygP",
+      "ASJo7P2ghObQjDq7V26c",
+      "RyDgzFKeMJj65MrE6HmT",
+      "8RPknmBG3yxVqqnxQMUF",
+      "jLWlEqrUrGhqMGnbQaMF",
+      "XO0KBphx9DYnhAtoYpI7",
+      "vViXms1ZF75WihO6rIEM",
+      "dKKIS1VOKB2SmiGGWc0M",
+      "fE7ZPF45nkXArT55QX8C",
+      "sTTJmYpZ7g6A6Lj67yQP",
+      "3XceCk3zLEp2c4AtQRpT",
+      "oUO7AouW6KLaNGFaTfxM",
+      "nZ3aJHno3nahwqXSIc31",
+      "yYlqAYdmMbPwhpVw7y5u",
+      "2nf7Sms5MoyXfMa6v9rU",
+      "9vkbB0LAEJWtMhTJIT22",
+      "jtdByN2XBY3lyd6AIK2G",
+      "xm6Cm4aL7B0Q0k5miUOJ",
+      "xLFCG9FBPchJ81gcALG0",
+      "nKdMxsGzoM79bxgZ2KCr",
+      "4AfQISf6T0N5LhBukJvV",
+      "rolMsYV9hdcYPg8PfgxG",
+      "IYx7CJrEh2QoZwPFZH5I",
+      "DXvzCYKD2TWlXHBLYAHv",
+      "0by72TxTZOqhW77lX3k0",
+      "tu1nN8Nj9KjJ6ilVljKs",
+      "vwVgM1pwOlSPMuSFBMQy"
+    ],
+    "will \"how do you feel about lesswrong these days? [...\" make the top fifty posts in lesswrong's 2023 annual review?": [
+      "uegAqZQdZ79DhnTQ0Tfa",
+      "KIwZMfp0fVfJtBQAx6pA"
+    ],
+    "will \"humming is not a free $100 bill\" make the top fifty posts in lesswrong's 2024 annual review?": [
+      "2GpvOSN8xEjpw6EEk3Fa",
+      "Ib7BEmRA79uMYaB7Dtcc"
+    ],
+    "will \"my ai model delta compared to christiano\" make the top fifty posts in lesswrong's 2024 annual review?": [
+      "MjYdLcNhZ3cMS0oyvKlo",
+      "x9EU4b63due3PBH98PqI"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "nfl_readme": {
+    "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/README.md",
+    "status": 200
+  },
+  "schedule_dictionary": {
+    "url": "https://raw.githubusercontent.com/nflverse/nflreadr/main/data-raw/dictionary_schedules.csv",
+    "status": 200
+  }
+}

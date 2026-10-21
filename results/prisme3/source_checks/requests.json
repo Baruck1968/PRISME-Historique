@@ -1,0 +1,22 @@
+{
+  "contract_types": {
+    "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/common/src/contract.ts",
+    "status": 200
+  },
+  "close_market": {
+    "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/backend/api/src/close-market.ts",
+    "status": 200
+  },
+  "contract_history_endpoint": {
+    "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/backend/api/src/get-contract-history.ts",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "api_docs": {
+    "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/docs/docs/api.md",
+    "status": 200
+  },
+  "data_docs": {
+    "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/docs/docs/data.md",
+    "status": 200
+  }
+}

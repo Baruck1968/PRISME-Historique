@@ -1,0 +1,3114 @@
+[
+  {
+    "observation": {
+      "id": "wchlU8VyJLiUwNZ0NIJa",
+      "question": "Will @ampdot and @Tetraspace date for six months?",
+      "t_ms": 1699228800000,
+      "previous_t_ms": 1699142400000,
+      "createdTime": 1698550246370,
+      "snapshot_closeTime": 1701131527046,
+      "snapshot_resolutionTime": 1701131527046,
+      "snapshot_isResolved": true,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will @ampdot and @tetraspace date for six months?"
+    },
+    "snapshot": {
+      "p": 0.138634171913425,
+      "id": "wchlU8VyJLiUwNZ0NIJa",
+      "pool": {
+        "NO": 916.7497462356316,
+        "YES": 3243.2977446676055
+      },
+      "prob": 0.04351363992466343,
+      "slug": "will-ampdot-and-tetraspace-date-for",
+      "volume": 10235,
+      "isRanked": false,
+      "question": "Will @ampdot and @Tetraspace date for six months?",
+      "closeTime": 1701131527046,
+      "creatorId": "tRZZ6ihugZQLXPf6aPRneGpWLmz1",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 0.7820528227128647,
+      "groupLinks": [
+        {
+          "name": "Manifold.love Relationships",
+          "slug": "manifoldlove-relationships",
+          "groupId": "2e9a87df-94e3-458c-bc5f-81e891b13101",
+          "createdTime": 1698550246518
+        }
+      ],
+      "groupSlugs": [
+        "manifoldlove-relationships"
+      ],
+      "isResolved": true,
+      "marketTier": "basic",
+      "resolution": "CANCEL",
+      "visibility": "public",
+      "createdTime": 1698550246370,
+      "creatorName": "Manifold.Love",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Check out the profiles of these two and bet on their long term compatibility!",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "ampdot",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://manifold.love/ampdot",
+                      "class": null,
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Tetra",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://manifold.love/Tetraspace",
+                      "class": null,
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1699534969214,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "loverUserId1": "oEpXdWv0VgO5CIyBLQWaXx0Zsxr2",
+      "loverUserId2": "K0l9JnD5DcPqyfloiKWIHbK8klD3",
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "volume24Hours": 0,
+      "resolutionTime": 1701131527046,
+      "totalLiquidity": 1100,
+      "creatorUsername": "ManifoldLove",
+      "importanceScore": 0.25,
+      "lastUpdatedTime": 1699534969360,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FManifoldLove%2F1mecPqD8Wr.svg?alt=media&token=3a3659e9-f3da-4621-945b-8b01583480e4",
+      "uniqueBettorCount": 7,
+      "creatorCreatedTime": 1697918753506,
+      "initialProbability": 0.15,
+      "uniqueBettorCountDay": 0
+    }
+  },
+  {
+    "observation": {
+      "id": "yVIfymH83W03GgzL7ErJ",
+      "question": "Will \"Disney Stock Rebound\" before 2030?",
+      "t_ms": 1693785600000,
+      "previous_t_ms": 1693699200000,
+      "createdTime": 1693157346537,
+      "snapshot_closeTime": 1893452340000,
+      "snapshot_resolutionTime": null,
+      "snapshot_isResolved": false,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will \"disney stock rebound\" before 2030?"
+    },
+    "snapshot": {
+      "p": 0.619530773485747,
+      "id": "yVIfymH83W03GgzL7ErJ",
+      "pool": {
+        "NO": 156.50022388054788,
+        "YES": 84.94485054651881
+      },
+      "prob": 0.7499999999999998,
+      "slug": "will-disney-stock-rebound-before-20-cf320e329539",
+      "volume": 110.50074969957895,
+      "question": "Will \"Disney Stock Rebound\" before 2030?",
+      "closeTime": 1893452340000,
+      "creatorId": "MV9fTVHetcfp3h6CVYzpypIsbyN2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 10.586609649448985,
+      "groupLinks": [
+        {
+          "name": "Rumble Griftposting",
+          "slug": "rumble-griftposting",
+          "groupId": "3e6bb01b-7406-4844-8dc6-54c2e952f31e",
+          "createdTime": 1693157346728
+        },
+        {
+          "name": "Change My Mind",
+          "slug": "change-my-mind",
+          "groupId": "kzzraVgQ4jzw7XmLUZDv",
+          "createdTime": 1693157346740
+        },
+        {
+          "name": "Conspiracy Theories",
+          "slug": "conspiracy-theories",
+          "groupId": "nA6pS69y2sycuFtfYI7o",
+          "createdTime": 1693157346741
+        }
+      ],
+      "groupSlugs": [
+        "rumble-griftposting",
+        "change-my-mind",
+        "conspiracy-theories"
+      ],
+      "isResolved": false,
+      "marketTier": "play",
+      "visibility": "public",
+      "createdTime": 1693157346537,
+      "creatorName": "CodeandSolder",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "This market is part of a ",
+                "type": "text"
+              },
+              {
+                "text": "series of markets",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://manifold.markets/group/rumble-griftposting",
+                      "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2",
+                      "target": "_self"
+                    }
+                  }
+                ]
+              },
+              {
+                "text": " inspired by a scroll through ",
+                "type": "text"
+              },
+              {
+                "text": "Rumble.com",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "http://Rumble.com",
+                      "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2",
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              },
+              {
+                "text": ". They will be resolved to PROB based on the spirit of the hypothesis (",
+                "type": "text"
+              },
+              {
+                "text": "somewhat vibes-based",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "bold"
+                  }
+                ]
+              },
+              {
+                "text": "), using evidence posted in comments and own research if necessary.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "I will not be trading in those markets.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "If you want to discuss this series of markets in general there is a ",
+                "type": "text"
+              },
+              {
+                "text": "Discord thread",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://discord.com/channels/915138780216823849/1139289884369113218",
+                      "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2",
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              },
+              {
+                "text": ".",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "alt": null,
+              "src": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2FPvQP9vq40h.png?alt=media&token=35f4af22-07af-45ce-b9cc-53476ad1eacc",
+              "title": null
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "PROB based on the proportion of the difference between current value and previous global maximum they regain at the maximum between now and market close.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "see also:",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "contract-mention",
+                "attrs": {
+                  "id": "QbHxS7hlCnXMQqueeOo9",
+                  "label": "/CodeandSolder/will-disney-stock-rebound-before-20"
+                }
+              },
+              {
+                "text": " ",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "contract-mention",
+                "attrs": {
+                  "id": "yVIfymH83W03GgzL7ErJ",
+                  "label": "/CodeandSolder/will-disney-stock-rebound-before-20-cf320e329539"
+                }
+              },
+              {
+                "text": " ",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "contract-mention",
+                "attrs": {
+                  "id": "kWO3PqKzdCxk6XQb6wfn",
+                  "label": "/CodeandSolder/will-disney-stock-rebound-before-20-873a0e5e1828"
+                }
+              },
+              {
+                "text": " ",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "contract-mention",
+                "attrs": {
+                  "id": "MGOFynj67DtzFM956MHs",
+                  "label": "/CodeandSolder/will-disney-stock-rebound-before-20-5534c09192b8"
+                }
+              },
+              {
+                "text": " ",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "contract-mention",
+                "attrs": {
+                  "id": "66s6cl9TacWpHHVXa7qd",
+                  "label": "/CodeandSolder/will-disney-stock-rebound-before-20-5ec5d3f07bf1"
+                }
+              },
+              {
+                "text": " ",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1693180548747,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": -2.220446049250313e-16,
+        "week": -2.220446049250313e-16,
+        "month": -2.220446049250313e-16
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "volume24Hours": 0,
+      "totalLiquidity": 110,
+      "creatorUsername": "CodeandSolder",
+      "importanceScore": 0.25,
+      "lastUpdatedTime": 1693180548871,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FCodeandSolder%2FI6f_4SkWX_.png?alt=media&token=0713659e-84a5-4ac7-9113-e028e43cc678",
+      "uniqueBettorCount": 4,
+      "creatorCreatedTime": 1671480541301,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0
+    }
+  },
+  {
+    "observation": {
+      "id": "pQiIxQtBISvS5y9qrbab",
+      "question": "Will Europe see a rise in terrorist attacks in 2024?",
+      "t_ms": 1707696000000,
+      "previous_t_ms": 1707609600000,
+      "createdTime": 1707190297614,
+      "snapshot_closeTime": 1735718340000,
+      "snapshot_resolutionTime": null,
+      "snapshot_isResolved": false,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will europe see a rise in terrorist attacks in 2024?"
+    },
+    "snapshot": {
+      "p": 0.46059781800342986,
+      "id": "pQiIxQtBISvS5y9qrbab",
+      "pool": {
+        "NO": 73.14451398284392,
+        "YES": 113.00000000000001
+      },
+      "prob": 0.35597274064104134,
+      "slug": "will-europe-see-a-rise-in-terrorist",
+      "volume": 23,
+      "question": "Will Europe see a rise in terrorist attacks in 2024?",
+      "closeTime": 1735718340000,
+      "creatorId": "z3fZAFmV87dVaGwzHtetw44e3Zy1",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 10.586609649448985,
+      "groupLinks": [
+        {
+          "name": "🌍 World",
+          "slug": "world-default",
+          "groupId": "5mzNYaPKc4qXC5J0npKe",
+          "createdTime": 1707190297752
+        },
+        {
+          "name": "Terrorism",
+          "slug": "terrorism",
+          "groupId": "dWSuGqoMKLTROX8ar0Fz",
+          "createdTime": 1707190297753
+        },
+        {
+          "name": "European Union",
+          "slug": "european-union",
+          "groupId": "yDH8ujgF86zAYx8XpCc1",
+          "createdTime": 1707190297762
+        },
+        {
+          "name": "Oh No, Ross and Carrie!",
+          "slug": "oh-no-ross-and-carrie",
+          "groupId": "514c6537-c911-402d-8381-e4dd8eb65816",
+          "createdTime": 1707190297798
+        }
+      ],
+      "groupSlugs": [
+        "world-default",
+        "terrorism",
+        "european-union",
+        "oh-no-ross-and-carrie"
+      ],
+      "isResolved": false,
+      "marketTier": "play",
+      "visibility": "public",
+      "createdTime": 1707190297614,
+      "creatorName": "cibyr",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Tracking predictions from the podcast Oh No, Ross and Carrie! episode 399. Transcript available at ",
+                "type": "text"
+              },
+              {
+                "text": "https://maximumfun.org/transcripts/oh-no-ross-and-carrie/transcript-oh-no-ross-and-carrie-ep-399-ross-carrie-and-psychics-predict-2024-cancer-cures-and-election-edition/",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://maximumfun.org/transcripts/oh-no-ross-and-carrie/transcript-oh-no-ross-and-carrie-ep-399-ross-carrie-and-psychics-predict-2024-cancer-cures-and-election-edition/",
+                      "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "blockquote",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Ross Blocher:",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " I shall! Also, “Europe could see a rise in terrorist attacks.” She mentioned devastating weapons and claims that a, quote, “big country”, unquote, will conduct biological weapons tests or nuke attacks next year.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "I will resolve according to their evaluation in 2025 (\"No\" for a zero on their scale, \"N/A\" for one, and \"Yes\" for two)",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1707220752971,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": -5.551115123125783e-17,
+        "week": -5.551115123125783e-17,
+        "month": -5.551115123125783e-17
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/IanCullinan%2F85a7ffdd38f8.jpg",
+      "volume24Hours": 0,
+      "totalLiquidity": 90,
+      "creatorUsername": "IanCullinan",
+      "importanceScore": 0.25,
+      "lastUpdatedTime": 1707220753141,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FIanCullinan%2FMjDbAfEVio.jpg?alt=media&token=0f09b09b-f9a6-4147-9d7e-44b80522b650",
+      "uniqueBettorCount": 2,
+      "creatorCreatedTime": 1673923368907,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0
+    }
+  },
+  {
+    "observation": {
+      "id": "eYh1KCy8ATsuL9mAaq6q",
+      "question": "Is @goth600 actually hired by Elon Musk?",
+      "t_ms": 1687132800000,
+      "previous_t_ms": 1687046400000,
+      "createdTime": 1686606361881,
+      "snapshot_closeTime": 1689202740000,
+      "snapshot_resolutionTime": 1690824016005,
+      "snapshot_isResolved": true,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "is @goth600 actually hired by elon musk?"
+    },
+    "snapshot": {
+      "p": 0.22105997034330974,
+      "id": "eYh1KCy8ATsuL9mAaq6q",
+      "pool": {
+        "NO": 218.5758699529963,
+        "YES": 627.2016369231933
+      },
+      "prob": 0.0900000000000001,
+      "slug": "is-goth600-actually-hired-by-elon-m",
+      "volume": 761.17157096958,
+      "question": "Is @goth600 actually hired by Elon Musk?",
+      "closeTime": 1689202740000,
+      "creatorId": "rybxBG1YfkbcoDfXsFf2QZop9ws1",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0.3582179265226288,
+      "elasticity": 1.8941060078845866,
+      "groupLinks": [
+        {
+          "name": "Elon musk",
+          "slug": "elon-musk-14d9d9498c7e",
+          "userId": "rybxBG1YfkbcoDfXsFf2QZop9ws1",
+          "groupId": "9OR5MrEu1F01FhmBRcre",
+          "createdTime": 1686606362143
+        }
+      ],
+      "groupSlugs": [
+        "elon-musk-14d9d9498c7e"
+      ],
+      "isResolved": true,
+      "marketTier": "play",
+      "resolution": "CANCEL",
+      "visibility": "public",
+      "createdTime": 1686606361881,
+      "creatorName": "42irrationalist",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Elon Musk has just tweeted \"You are hired\" to ",
+                "type": "text"
+              },
+              {
+                "type": "mention",
+                "attrs": {
+                  "id": "vfkFjvwnG0cuvXlgCzWh0bZcoT63",
+                  "label": "goth600"
+                }
+              },
+              {
+                "text": " on Twitter.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              }
+            ]
+          },
+          {
+            "type": "tiptapTweet",
+            "attrs": {
+              "tweetId": "t1668357420341510147"
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "This market resolves YES if ",
+                "type": "text"
+              },
+              {
+                "type": "mention",
+                "attrs": {
+                  "id": "vfkFjvwnG0cuvXlgCzWh0bZcoT63",
+                  "label": "goth600"
+                }
+              },
+              {
+                "text": " actually has or in 30 days will have an offer from Elon Musk to work in one of his companies. The role does not have to be the VP of W&P, or even a VP role at all. ",
+                "type": "text"
+              },
+              {
+                "type": "mention",
+                "attrs": {
+                  "id": "vfkFjvwnG0cuvXlgCzWh0bZcoT63",
+                  "label": "goth600"
+                }
+              },
+              {
+                "text": " does not have to accept the offer. ",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "Resolves NO if ",
+                "type": "text"
+              },
+              {
+                "type": "mention",
+                "attrs": {
+                  "id": "vfkFjvwnG0cuvXlgCzWh0bZcoT63",
+                  "label": "goth600"
+                }
+              },
+              {
+                "text": " has no such offer.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1689167037623,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/dream%2FUb3xxYszzU.png?alt=media&token=2935058b-c61f-4190-9b02-ffa30c60c361",
+      "volume24Hours": 0,
+      "resolutionTime": 1690824016005,
+      "totalLiquidity": 290,
+      "closeEmailsSent": 4,
+      "creatorUsername": "42irrationalist",
+      "importanceScore": 0.14659651492194192,
+      "lastCommentTime": 1690824009136,
+      "lastUpdatedTime": 1690824012722,
+      "popularityScore": 2.2,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FAlexanderPutilin%2FTt4GFR47qE.jpg?alt=media&token=5e7621c6-8efd-4c66-aefc-d35e6e490ade",
+      "uniqueBettorCount": 15,
+      "creatorCreatedTime": 1670489177092,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0,
+      "resolutionProbability": 0.09
+    }
+  },
+  {
+    "observation": {
+      "id": "4lnvp6bDBXr7LWdqIZTA",
+      "question": "Will someone convince me of ANYTHING that contradicts my (essentially mainstream) knowledge of COVID before 2026? ",
+      "t_ms": 1704672000000,
+      "previous_t_ms": 1704585600000,
+      "createdTime": 1704071586969,
+      "snapshot_closeTime": 1767254340000,
+      "snapshot_resolutionTime": null,
+      "snapshot_isResolved": false,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will someone convince me of anything that contradicts my (essentially mainstream) knowledge of covid before 2026?"
+    },
+    "snapshot": {
+      "p": 0.4718512402427995,
+      "id": "4lnvp6bDBXr7LWdqIZTA",
+      "pool": {
+        "NO": 115.46743343465643,
+        "YES": 103.52896054204558
+      },
+      "prob": 0.49910573194757857,
+      "slug": "will-someone-convince-me-of-anythin-f6897327c845",
+      "volume": 40,
+      "question": "Will someone convince me of ANYTHING that contradicts my (essentially mainstream) knowledge of COVID before 2026? ",
+      "closeTime": 1767254340000,
+      "creatorId": "4juQfJkFnwX9nws3dFOpz4gc1mi2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 10.586609649448985,
+      "isResolved": false,
+      "marketTier": "play",
+      "visibility": "public",
+      "createdTime": 1704071586969,
+      "creatorName": "jackson polack",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "This will be very subjective, but I'll be very generous to anything I find useful / informative and in disagreement with me atm.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Incredibly rough background (i'll elaborate on specific parts if people are interested):",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Covid was very dangerous to old people or people otherwise generally at risk. It was not that dangerous to young people and especially children. It probably wasn't a lab escape, but easily could have been, idk. No strong evidence exists either way. (probs: .60 natural / .40 lab). The vaccine is very valuable to the former groups, and somewhere between 'valuable' and 'doesn't matter' for the latter groups. The vaccine, including myocarditis, is not a meaningful deviation from other vaccines in terms of mild or severe side effects. I'm not sure if the covid vaccine reduces or increases total risk of myocarditis either for the population as a whole or specific at-risk subgroups. Lean towards ",
+                "type": "text"
+              },
+              {
+                "text": "'reduces' ",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.121.056135",
+                      "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              },
+              {
+                "text": "(but convincing me of that will require, like, synthesizing evidence or linking a particularly good review, not linking a few papers). Long COVID techically ",
+                "type": "text"
+              },
+              {
+                "text": "in the sense of a generic post-viral syndrome",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "italic"
+                  }
+                ]
+              },
+              {
+                "text": " exists, but it isn't much worse than the effects of any other virus and is severly overstated on social media.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "addition: covid restrictions were probably too strong in quite a few places. although this doesn't matter that much and was mostly self-imposed at the city / state / individual level. school closures were not necessary. ",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1711327518534,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": -4.440892098500626e-16,
+        "week": -4.440892098500626e-16,
+        "month": -4.440892098500626e-16
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "volume24Hours": 0,
+      "totalLiquidity": 110,
+      "creatorUsername": "jacksonpolack",
+      "importanceScore": 0.25,
+      "lastCommentTime": 1708883679895,
+      "lastUpdatedTime": 1711327522298,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/AEdFTp5rlJX8nmgp_EsouBw_JhV5gKCkwTXaqGTDpv9y=s96-c",
+      "likedByUserCount": 1,
+      "uniqueBettorCount": 3,
+      "creatorCreatedTime": 1670234252125,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0
+    }
+  },
+  {
+    "observation": {
+      "id": "SmwyECDp4j6CO9NE0Klr",
+      "question": "Will I consider myself “doom-pilled” by EOY 2024?",
+      "t_ms": 1705276800000,
+      "previous_t_ms": 1705190400000,
+      "createdTime": 1704534726976,
+      "snapshot_closeTime": 1735657140000,
+      "snapshot_resolutionTime": null,
+      "snapshot_isResolved": false,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will i consider myself “doom-pilled” by eoy 2024?"
+    },
+    "snapshot": {
+      "p": 0.5407788787458372,
+      "id": "SmwyECDp4j6CO9NE0Klr",
+      "pool": {
+        "NO": 133.56458669477547,
+        "YES": 204.712665098258
+      },
+      "prob": 0.43449281879851637,
+      "slug": "will-i-consider-myself-doompilled-b-82f71f95305d",
+      "volume": 90.09565835518201,
+      "question": "Will I consider myself “doom-pilled” by EOY 2024?",
+      "closeTime": 1735657140000,
+      "creatorId": "ZjyCGOOFwnQzbPvO0Jq8CIEz4Zq1",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 10.586609649448985,
+      "groupLinks": [
+        {
+          "name": "Change my view",
+          "slug": "change-my-view",
+          "groupId": "niC676l4ysaa1vWrkn62",
+          "createdTime": 1704534727107
+        }
+      ],
+      "groupSlugs": [
+        "change-my-view"
+      ],
+      "isResolved": false,
+      "marketTier": "play",
+      "visibility": "public",
+      "createdTime": 1704534726976,
+      "creatorName": "Alana",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "https://manifold.markets/Alana/will-i-consider-myself-doompilled-b?r=QWxhbmE",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://manifold.markets/Alana/will-i-consider-myself-doompilled-b?r=QWxhbmE",
+                      "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Last market was pretty good, let’s try again!",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1710569815560,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": -2.7755575615628914e-16,
+        "week": -2.7755575615628914e-16,
+        "month": -2.7755575615628914e-16
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/Alana%2F3097cc192231.jpg",
+      "volume24Hours": 0,
+      "totalLiquidity": 170,
+      "creatorUsername": "Alana",
+      "importanceScore": 0.25,
+      "lastCommentTime": 1704821989530,
+      "lastUpdatedTime": 1710569819042,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FAlana%2FpJFMfqlcY3.jpeg?alt=media&token=3a29dfb2-e86c-442f-82df-78ac5a80a555",
+      "uniqueBettorCount": 8,
+      "creatorCreatedTime": 1668454282738,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0
+    }
+  },
+  {
+    "observation": {
+      "id": "6G7Hcqq3a2XTAv1sTmhI",
+      "question": "NFL Week 4 (Oct 1): Will the Houston Texans beat the Pittsburgh Steelers?",
+      "t_ms": 1694995200000,
+      "previous_t_ms": 1694908800000,
+      "createdTime": 1694413516371,
+      "snapshot_closeTime": 1696190622713,
+      "snapshot_resolutionTime": 1696190622713,
+      "snapshot_isResolved": true,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "nfl week 4 (oct 1): will the houston texans beat the pittsburgh steelers?"
+    },
+    "snapshot": {
+      "p": 0.6361010108632977,
+      "id": "6G7Hcqq3a2XTAv1sTmhI",
+      "pool": {
+        "NO": 14916.556045470725,
+        "YES": 19.996474409656003
+      },
+      "prob": 1,
+      "slug": "nfl-week-4-oct-1-will-the-houston-t",
+      "volume": 18254.338100836627,
+      "question": "NFL Week 4 (Oct 1): Will the Houston Texans beat the Pittsburgh Steelers?",
+      "closeTime": 1696190622713,
+      "creatorId": "7HhTMy4xECaVKvl5MmEAfVUkRCS2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 3.044338947505703,
+      "groupLinks": [
+        {
+          "name": "🏈 NFL",
+          "slug": "nfl",
+          "groupId": "TNQwmbE5p6dnKx2e6Qlp",
+          "createdTime": 1694455407843
+        }
+      ],
+      "groupSlugs": [
+        "nfl"
+      ],
+      "isResolved": true,
+      "marketTier": "play",
+      "resolution": "YES",
+      "visibility": "public",
+      "createdTime": 1694413516371,
+      "creatorName": "Kevin Burke",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "The game will take place at NRG Stadium at 10:00 PDT on October 1, 2023. A game ending in a tie will resolve NO. A game that does not have a winner (e.g. Bills-Bengals last year) will resolve N/A. Any uncontemplated edge cases will resolve using my best judgment based on _the spirit of the question._ Arguments that rely on technicalities like \"the question said 'will they win on October 2' but technically the game ended at 12:01AM October 3\" will not be received well.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1696190614045,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "volume24Hours": 0,
+      "resolutionTime": 1696190622713,
+      "totalLiquidity": 290,
+      "creatorUsername": "KevinBurke",
+      "importanceScore": 0.25,
+      "lastCommentTime": 1696188189326,
+      "lastUpdatedTime": 1696190614183,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FKevinBurke%2FXxsksNH0Uv.jpeg?alt=media&token=e0e8f14c-dbc8-49ca-b943-2649cecf3291",
+      "uniqueBettorCount": 19,
+      "creatorCreatedTime": 1668407142709,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0,
+      "resolutionProbability": 1
+    }
+  },
+  {
+    "observation": {
+      "id": "dKmDXzRBQxEzdWR0yBtA",
+      "question": "Will Donald Trump lose a single state in the 2024 Republican primaries?",
+      "t_ms": 1686528000000,
+      "previous_t_ms": 1686441600000,
+      "createdTime": 1686068996458,
+      "snapshot_closeTime": 1709695461964,
+      "snapshot_resolutionTime": 1709695461964,
+      "snapshot_isResolved": true,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will donald trump lose a single state in the 2024 republican primaries?"
+    },
+    "snapshot": {
+      "p": 0.6191193044728521,
+      "id": "dKmDXzRBQxEzdWR0yBtA",
+      "pool": {
+        "NO": 19251.95684947751,
+        "YES": 168.07254433752223
+      },
+      "prob": 1,
+      "slug": "will-donald-trump-lose-a-single-sta",
+      "volume": 45965.23083233162,
+      "question": "Will Donald Trump lose a single state in the 2024 Republican primaries?",
+      "closeTime": 1709695461964,
+      "creatorId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0.18440169843113086,
+      "elasticity": 1.234111299618239,
+      "groupLinks": [
+        {
+          "name": "US Politics",
+          "slug": "us-politics",
+          "userId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+          "groupId": "AjxQR8JMpNyDqtiqoA96",
+          "createdTime": 1686068996927
+        },
+        {
+          "name": "2024 US Presidential Election",
+          "slug": "2024-us-presidential-election",
+          "userId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+          "groupId": "rr3rBJMwh9PW8hwrgR4J",
+          "createdTime": 1686069006941
+        },
+        {
+          "name": "Donald Trump",
+          "slug": "donald-trump",
+          "groupId": "cEzcLXuitr6o4VPI01Q1",
+          "createdTime": 1691181888905
+        }
+      ],
+      "groupSlugs": [
+        "us-politics",
+        "2024-us-presidential-election",
+        "donald-trump"
+      ],
+      "isResolved": true,
+      "marketTier": "basic",
+      "resolution": "YES",
+      "resolverId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+      "visibility": "public",
+      "createdTime": 1686068996458,
+      "creatorName": "Plasma Ballin'",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Will there be at least one state where Donald Trump ",
+                "type": "text"
+              },
+              {
+                "text": "doesn't",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "italic"
+                  }
+                ]
+              },
+              {
+                "text": " get first place in the Republican presidential primary or caucus in that state?",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Note: Any reason for Trump failing to win the state counts. This would include, for example, Trump dropping out before that state's primary or Trump being excluded from the ballot in that state.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "See also: ",
+                "type": "text"
+              },
+              {
+                "type": "contract-mention",
+                "attrs": {
+                  "id": "YHewVUPBSZxkmFqkunJT",
+                  "label": "/JosephNoonan/will-joe-biden-lose-a-single-state"
+                }
+              },
+              {
+                "text": " ",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Note: Just to clarify, I am judging a win/loss in Nevada based on the Nevada caucus, since that is how delegates actually get awarded. In any case where there is both a primary and a caucus, the winner will be judged based on total delegates obtained from both. In the case of Nevada, zero delegates are gained by the primary, so the winner is determined solely by the caucus.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1709695289630,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/dream%2F_0m7MeAGJn.png?alt=media&token=64efb35d-c383-4da9-89e0-a1af2cdcbb2e",
+      "nonPredictive": false,
+      "volume24Hours": 0,
+      "resolutionTime": 1709695461964,
+      "totalLiquidity": 1280,
+      "creatorUsername": "PlasmaBallin",
+      "importanceScore": 0.12929722002418104,
+      "lastCommentTime": 1709695413890,
+      "lastUpdatedTime": 1709695414599,
+      "popularityScore": 1.1,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FPlasmaBallin%2FYrJAoOelNo.webp?alt=media&token=f4264f7d-f428-4baf-a942-444e233b50a5",
+      "likedByUserCount": 4,
+      "uniqueBettorCount": 113,
+      "creatorCreatedTime": 1668786016313,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0,
+      "resolutionProbability": 0.99
+    }
+  },
+  {
+    "observation": {
+      "id": "dDHfnL7yT18fbFN3CfRm",
+      "question": "Will Hunter Biden be found guilty for any of the 3 charges in the gun case?",
+      "t_ms": 1717977600000,
+      "previous_t_ms": 1717891200000,
+      "createdTime": 1717519583304,
+      "snapshot_closeTime": 1718131860245,
+      "snapshot_resolutionTime": 1718131860245,
+      "snapshot_isResolved": true,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will hunter biden be found guilty for any of the 3 charges in the gun case?"
+    },
+    "snapshot": {
+      "p": 0.4999999999999975,
+      "id": "dDHfnL7yT18fbFN3CfRm",
+      "pool": {
+        "NO": 10202.56231932673,
+        "YES": 98.01459365807523
+      },
+      "prob": 1,
+      "slug": "will-hunter-biden-be-found-guilty-f",
+      "volume": 11703.433245560338,
+      "question": "Will Hunter Biden be found guilty for any of the 3 charges in the gun case?",
+      "closeTime": 1718131860245,
+      "creatorId": "BMPLNYGbHzaFPE34cO6HPRkdesb2",
+      "mechanism": "cpmm-1",
+      "viewCount": 0,
+      "dailyScore": 0,
+      "elasticity": 9.848349435361168,
+      "groupLinks": [
+        {
+          "name": "Hunter Biden",
+          "slug": "hunter-biden",
+          "groupId": "57ba045a-0d33-42ab-b9f6-64011bc2e013",
+          "createdTime": 1717519583488
+        }
+      ],
+      "groupSlugs": [
+        "hunter-biden"
+      ],
+      "isResolved": true,
+      "marketTier": "basic",
+      "resolution": "YES",
+      "resolverId": "BMPLNYGbHzaFPE34cO6HPRkdesb2",
+      "visibility": "public",
+      "createdTime": 1717519583304,
+      "creatorName": "Haws",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "This question resolves YES if he is found guilty for any of the following 3 charges:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "text": "Making false statements X 2",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "text": "Illegal gun possession",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Additional charges found or from other cases will not apply to this question, we are only looking at the 3 charges above. ",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "If he is found guilty for 1 or more charges.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "https://www.bbc.com/news/articles/c4nnr9945vmo",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://www.bbc.com/news/articles/c4nnr9945vmo",
+                      "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1718121611563,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0.20080862889197293
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 77.63446784517043,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/Haws/atgjtam2k3.jpg",
+      "volume24Hours": 0,
+      "freshnessScore": 0,
+      "resolutionTime": 1718131860245,
+      "totalLiquidity": 1000,
+      "conversionScore": 0.13333333333333333,
+      "creatorUsername": "Haws",
+      "importanceScore": 0.25,
+      "lastCommentTime": 1718131851153,
+      "lastUpdatedTime": 1718131860245,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FHaws%2FNjpD29kdA0.png?alt=media&token=d3ef401d-dfab-4976-a977-f36ea9ae4436",
+      "uniqueBettorCount": 26,
+      "creatorCreatedTime": 1677434458766,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0,
+      "resolutionProbability": 0.99
+    }
+  },
+  {
+    "observation": {
+      "id": "g6kJIG3W5tG39P76LiYE",
+      "question": "Will the US attack Iran by Jan 15th 2024?",
+      "t_ms": 1699228800000,
+      "previous_t_ms": 1699142400000,
+      "createdTime": 1698945549434,
+      "snapshot_closeTime": 1705438852017,
+      "snapshot_resolutionTime": 1705438852017,
+      "snapshot_isResolved": true,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will the us attack iran by jan 15th 2024?"
+    },
+    "snapshot": {
+      "p": 0.08653657112383858,
+      "id": "g6kJIG3W5tG39P76LiYE",
+      "pool": {
+        "NO": 179.7739542137133,
+        "YES": 693542.849774603
+      },
+      "prob": 0,
+      "slug": "will-the-us-attack-iran-by-jan-15th",
+      "volume": 697279.673077358,
+      "question": "Will the US attack Iran by Jan 15th 2024?",
+      "closeTime": 1705438852017,
+      "creatorId": "b3WDWY8TdrhQKKNuJkNuvQKwHWE3",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": -0.2103168350764717,
+      "groupLinks": [
+        {
+          "name": "🇮🇱 Israel",
+          "slug": "israel",
+          "groupId": "ECjphikMbmosJsDAAJoU",
+          "createdTime": 1698945549554
+        },
+        {
+          "name": "Iran",
+          "slug": "iran",
+          "groupId": "E1hI0LQPWmoAcpvhcjHa",
+          "createdTime": 1698945549555
+        },
+        {
+          "name": "🇺🇸 US Politics",
+          "slug": "us-politics",
+          "groupId": "AjxQR8JMpNyDqtiqoA96",
+          "createdTime": 1698945549559
+        },
+        {
+          "name": "🐪 Middle East",
+          "slug": "middle-east",
+          "groupId": "xg8wCPeM9JP6gD0igBrA",
+          "createdTime": 1698945549552
+        },
+        {
+          "name": "Arab-Israeli Conflict",
+          "slug": "arabisraeli-conflict",
+          "groupId": "aheUmZtjkKBkeiXwIFhI",
+          "createdTime": 1698945549698
+        }
+      ],
+      "groupSlugs": [
+        "israel",
+        "iran",
+        "us-politics",
+        "middle-east",
+        "arabisraeli-conflict"
+      ],
+      "isResolved": true,
+      "marketTier": "play",
+      "resolution": "NO",
+      "resolverId": "b3WDWY8TdrhQKKNuJkNuvQKwHWE3",
+      "visibility": "public",
+      "createdTime": 1698945549434,
+      "creatorName": "Marcus Abramovitch",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "This market will resolve to \"Yes\" if the United States of America initiates a military attack on Iranian soil, airspace, or maritime territory by January 15, 2024, 11:59 PM ET. Otherwise, this market will resolve to \"No\".",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "For the purposes of this market, a \"military attack\" will be considered to be any use of force executed by the US on Iranian soil, airspace, or maritime territory (e.g. if a weapons depot on Iranian soil is subject to a US missile strike, this market will resolve to \"Yes\") that is officially acknowledged by the U.S. federal government or a consensus of credible reporting. This includes, but is not limited to, airstrikes, naval attacks, or ground invasions. Cyber attacks, sanctions, or diplomatic actions will not count towards the resolution of this market.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "In the case that the \"Yes\" resolution criteria are met prior to this market's resolution date, this market will resolve immediately.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "Several US politicians have called for this including Lindsay Graham and Nikki Haley.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1705438833298,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "volume24Hours": 0,
+      "resolutionTime": 1705438852017,
+      "totalLiquidity": 410,
+      "creatorUsername": "MarcusAbramovitch",
+      "importanceScore": 0.25,
+      "lastCommentTime": 1705410812758,
+      "lastUpdatedTime": 1705438852819,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FMarcusAbramovitch%2F3T0leLyXbo.jpg?alt=media&token=64ec1422-3741-4481-99a5-f31d5ed47031",
+      "uniqueBettorCount": 22,
+      "creatorCreatedTime": 1668183636641,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0,
+      "resolutionProbability": 0
+    }
+  },
+  {
+    "observation": {
+      "id": "6i6Pz8U48Q83WwJOYngP",
+      "question": "Will Justin Sun be in jail, dead, disappeared or on the run by 1st Jan 2030",
+      "t_ms": 1694390400000,
+      "previous_t_ms": 1694304000000,
+      "createdTime": 1693815484395,
+      "snapshot_closeTime": 1893538740000,
+      "snapshot_resolutionTime": null,
+      "snapshot_isResolved": false,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will justin sun be in jail, dead, disappeared or on the run by 1st jan 2030"
+    },
+    "snapshot": {
+      "p": 0.5911686398060249,
+      "id": "6i6Pz8U48Q83WwJOYngP",
+      "pool": {
+        "NO": 114.14688716912734,
+        "YES": 46.554250227189726
+      },
+      "prob": 0.7799999999999999,
+      "slug": "will-justin-sun-be-in-jail-dead-dis",
+      "volume": 72.30425022718981,
+      "question": "Will Justin Sun be in jail, dead, disappeared or on the run by 1st Jan 2030",
+      "closeTime": 1893538740000,
+      "creatorId": "mvUbjKhMCSOnnMcnunYXM2lHcLb2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 10.586609649448985,
+      "isResolved": false,
+      "marketTier": "play",
+      "visibility": "public",
+      "createdTime": 1693815484395,
+      "creatorName": "Robin Bruce",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph"
+          }
+        ]
+      },
+      "lastBetTime": 1701419838650,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": -1.1102230246251565e-16,
+        "week": -1.1102230246251565e-16,
+        "month": -1.1102230246251565e-16
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "volume24Hours": 0,
+      "totalLiquidity": 70,
+      "creatorUsername": "RobinBruce",
+      "importanceScore": 0.25,
+      "lastUpdatedTime": 1701419838650,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/AAcHTtezoheDjXTLM81O4tGUo_MrQuk2sf1bkAsLU3Me1hnIWlI=s96-c",
+      "uniqueBettorCount": 3,
+      "creatorCreatedTime": 1690381039992,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0
+    }
+  },
+  {
+    "observation": {
+      "id": "WZeoQ9pJs8M2CdnNEUPk",
+      "question": "Wird Manifold vor 2025 eine Internationalisierung anstreben?",
+      "t_ms": 1696204800000,
+      "previous_t_ms": 1696118400000,
+      "createdTime": 1695910824024,
+      "snapshot_closeTime": 1735685940000,
+      "snapshot_resolutionTime": null,
+      "snapshot_isResolved": false,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "wird manifold vor 2025 eine internationalisierung anstreben?"
+    },
+    "snapshot": {
+      "p": 0.3639380923950535,
+      "id": "WZeoQ9pJs8M2CdnNEUPk",
+      "pool": {
+        "NO": 932.9213030423753,
+        "YES": 1119.1486737087187
+      },
+      "prob": 0.3229353021209729,
+      "slug": "wird-manifold-vor-2025-eine-interna",
+      "volume": 324.50961471908636,
+      "question": "Wird Manifold vor 2025 eine Internationalisierung anstreben?",
+      "closeTime": 1735685940000,
+      "creatorId": "jG6jdINhZ2O7DmqUddB9cybjdUc2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 9.637162779503498,
+      "groupLinks": [
+        {
+          "name": "💙 Manifold",
+          "slug": "manifold-6748e065087e",
+          "groupId": "hzyCW27Hf9NzuXZRizeZ",
+          "createdTime": 1695910824165
+        },
+        {
+          "name": "Language",
+          "slug": "language",
+          "groupId": "tegXqevnSJSDlHW3Kbel",
+          "createdTime": 1695910824534
+        },
+        {
+          "name": "deutschsprachig",
+          "slug": "deutschsprachig",
+          "groupId": "5bce3a56-74af-4f29-8623-1797fc9d6f08",
+          "createdTime": 1695910923395
+        },
+        {
+          "name": "deutschsprachig",
+          "slug": "deutschsprachig",
+          "groupId": "5bce3a56-74af-4f29-8623-1797fc9d6f08",
+          "createdTime": 1695910923536
+        },
+        {
+          "name": "Deutsch",
+          "slug": "deutsch",
+          "groupId": "9cab3ae5-93f0-441a-9d61-a72649dc3d8b",
+          "createdTime": 1713277626747
+        }
+      ],
+      "groupSlugs": [
+        "manifold-6748e065087e",
+        "language",
+        "deutschsprachig",
+        "deutsch"
+      ],
+      "isResolved": false,
+      "marketTier": "basic",
+      "visibility": "public",
+      "createdTime": 1695910824024,
+      "creatorName": "Ludwig Bald",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Wird aufgelöst als YES, wenn Manifold mindestens eine der folgenden Optionen ausführt:",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "text": "Nicht-englischsprachige Interface-Optionen anbietet",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "text": "explizit nicht-englischsprachige Märkte und Kommentare erlaubt, z.B. in den Community Guidelines",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "text": "Übersetzungsfunktionen für Nutzergenerierte Inhalte einbaut",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Die Frist ist 2024-12-31",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1718271866596,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": -0.015534655621702309
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 2.7988295310766316,
+        "platformFee": 0.48298586883950184,
+        "liquidityFee": 0
+      },
+      "volume24Hours": 0,
+      "totalLiquidity": 1000,
+      "creatorUsername": "LudwigBald",
+      "importanceScore": 0.25,
+      "lastCommentTime": 1695957560855,
+      "lastUpdatedTime": 1718271870214,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://lh3.googleusercontent.com/a-/AFdZucpdAg-oPQf3A6u2xC_7JJtocc_1tFMo_JAoBMaahtM=s96-c",
+      "uniqueBettorCount": 13,
+      "creatorCreatedTime": 1662038987680,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0
+    }
+  },
+  {
+    "observation": {
+      "id": "1IVWrEjK6TNoUO7eIhFj",
+      "question": "Will vegan pizza be commonly available at one of the big four pizza chains in the US by the end of 2024?",
+      "t_ms": 1672617600000,
+      "previous_t_ms": 1672531200000,
+      "createdTime": 1663707186162,
+      "snapshot_closeTime": 1735707540000,
+      "snapshot_resolutionTime": null,
+      "snapshot_isResolved": false,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will vegan pizza be commonly available at one of the big four pizza chains in the us by the end of 2024?"
+    },
+    "snapshot": {
+      "p": 0.712792553760621,
+      "id": "1IVWrEjK6TNoUO7eIhFj",
+      "pool": {
+        "NO": 209.2797383203685,
+        "YES": 4746.362972756774
+      },
+      "prob": 0.09863568304091702,
+      "slug": "will-vegan-pizza-be-commonly-availa",
+      "volume": 69970.42893531526,
+      "question": "Will vegan pizza be commonly available at one of the big four pizza chains in the US by the end of 2024?",
+      "closeTime": 1735707540000,
+      "creatorId": "LJ7CB9fuYzZ5j8HieQxubQhRYYu2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0.021142637158346987,
+      "elasticity": 8.444911961480402,
+      "groupLinks": [
+        {
+          "name": "Vegan",
+          "slug": "vegan",
+          "userId": "LJ7CB9fuYzZ5j8HieQxubQhRYYu2",
+          "groupId": "Xrhp6fk47Bx8oRUyB0vJ",
+          "createdTime": 1663707255351
+        },
+        {
+          "name": "Animal welfare",
+          "slug": "animal-welfare",
+          "userId": "uIA81X2m3aVLEl1DqDBJfR1nJ0n2",
+          "groupId": "WisHKhsr75W2WZjoYMiy",
+          "createdTime": 1679606070206
+        }
+      ],
+      "groupSlugs": [
+        "vegan",
+        "animal-welfare"
+      ],
+      "isResolved": false,
+      "marketTier": "basic",
+      "visibility": "public",
+      "createdTime": 1663707186162,
+      "creatorName": "Duncn",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Will any of the four big chains carry a pizza with vegan crust, sauce, and cheese available in most of their locations by the end of December 2024? ",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "The big four chains are currently Dominoes, Pizza Hut, Little Caesar's, and Papa John's; if a new pizza place knocks one of these out of the top four, the new chain will be eligible to resolve this as YES if it offers an eligible pizza. ",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1719937978630,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": -1.3877787807814457e-17,
+        "week": -0.006056437091439909,
+        "month": 0.010157238845309266
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 19.698473836181833,
+        "platformFee": 8.375026287663653,
+        "liquidityFee": 0
+      },
+      "followerCount": 104,
+      "volume24Hours": 0,
+      "totalLiquidity": 2025,
+      "creatorUsername": "Duncn",
+      "importanceScore": 0.16425367826123835,
+      "lastCommentTime": 1714326196688,
+      "lastUpdatedTime": 1719937981744,
+      "popularityScore": 1.5,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FDuncan%2Fd23fdd0ee35b58832236cbd532da462a.jpg?alt=media&token=248daf59-7b59-4ecf-b4c9-5fe6ff48656d",
+      "likedByUserCount": 12,
+      "uniqueBettorCount": 211,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 1
+    }
+  },
+  {
+    "observation": {
+      "id": "Pxuhz81HZYibTi8XUqz8",
+      "question": "Will USA Have a cyber Attack in June 2024",
+      "t_ms": 1711929600000,
+      "previous_t_ms": 1711843200000,
+      "createdTime": 1711683698219,
+      "snapshot_closeTime": 1719809940000,
+      "snapshot_resolutionTime": null,
+      "snapshot_isResolved": false,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will usa have a cyber attack in june 2024"
+    },
+    "snapshot": {
+      "p": 0.589215969441363,
+      "id": "Pxuhz81HZYibTi8XUqz8",
+      "pool": {
+        "NO": 2251.35400655288,
+        "YES": 564.779302127131
+      },
+      "prob": 0.8511408716781732,
+      "slug": "will-usa-have-a-cyber-attack-in-jun",
+      "volume": 1398.195397014817,
+      "question": "Will USA Have a cyber Attack in June 2024",
+      "closeTime": 1719809940000,
+      "creatorId": "ArkifWXHhRXUMNAXZszPr4VFCOr2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 9.908412712943482,
+      "groupLinks": [
+        {
+          "name": "🤖 AI",
+          "slug": "ai",
+          "groupId": "yEWvvwFFIqzf8JklMewp",
+          "createdTime": 1711683698353
+        },
+        {
+          "name": "🗳️ Politics",
+          "slug": "politics-default",
+          "groupId": "UCnpxVUdLOZYgoMsDlHD",
+          "createdTime": 1711683698359
+        },
+        {
+          "name": "Cybersecurity",
+          "slug": "cybersecurity",
+          "groupId": "ed5f0e20-b973-488a-8604-39d1c0c18c2d",
+          "createdTime": 1711683698348
+        }
+      ],
+      "groupSlugs": [
+        "ai",
+        "politics-default",
+        "cybersecurity"
+      ],
+      "isResolved": false,
+      "marketTier": "basic",
+      "visibility": "public",
+      "createdTime": 1711683698219,
+      "creatorName": "kane bloodworth",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph"
+          }
+        ]
+      },
+      "lastBetTime": 1719808892378,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0.23524165193372026,
+        "month": 0.23524165193372026
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 20.291554603322698,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "coverImageUrl": null,
+      "volume24Hours": 0,
+      "freshnessScore": 0,
+      "totalLiquidity": 1000,
+      "closeEmailsSent": 1,
+      "conversionScore": 0.3333333333333333,
+      "creatorUsername": "kanebloodworth",
+      "importanceScore": 0.25,
+      "lastCommentTime": 1712231214235,
+      "lastUpdatedTime": 1719808895449,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIVER5nigkMsQUiVeGU007MINesg9Ksr1J4qu3oZ-rHtZY=s96-c",
+      "uniqueBettorCount": 17,
+      "creatorCreatedTime": 1711588962122,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 2
+    }
+  },
+  {
+    "observation": {
+      "id": "tsYoempJMzv07MGxOP0D",
+      "question": "Will synths Camp and IOI next year?",
+      "t_ms": 1691366400000,
+      "previous_t_ms": 1691280000000,
+      "createdTime": 1690927452445,
+      "snapshot_closeTime": 1718510340000,
+      "snapshot_resolutionTime": null,
+      "snapshot_isResolved": false,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will synths camp and ioi next year?"
+    },
+    "snapshot": {
+      "p": 0.17326726812395735,
+      "id": "tsYoempJMzv07MGxOP0D",
+      "pool": {
+        "NO": 29.581916611799954,
+        "YES": 613.7802342615043
+      },
+      "prob": 0.010000000000000018,
+      "slug": "will-synths-camp-and-mop-next-year",
+      "volume": 14331.265821693147,
+      "question": "Will synths Camp and IOI next year?",
+      "closeTime": 1718510340000,
+      "creatorId": "Agisl1YNr8Rtk2d9nEWtHst8jDs2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 10.586609649448985,
+      "groupLinks": [
+        {
+          "name": "Science",
+          "slug": "science-default",
+          "groupId": "XMhZ5LbQoLMZiOpQJRnj",
+          "createdTime": 1690927452622
+        },
+        {
+          "name": "Mathematics",
+          "slug": "mathematics",
+          "groupId": "S1tbcVt1t5Bd9O5mVCx1",
+          "createdTime": 1690927452652
+        },
+        {
+          "name": "Music",
+          "slug": "music-f213cbf1eab5",
+          "groupId": "Xuc2UY8gGfjQqFXwxq5d",
+          "createdTime": 1691181090999
+        }
+      ],
+      "groupSlugs": [
+        "science-default",
+        "mathematics",
+        "music-f213cbf1eab5"
+      ],
+      "isResolved": false,
+      "marketTier": "play",
+      "visibility": "public",
+      "createdTime": 1690927452445,
+      "creatorName": "Patrick Deng",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph"
+          }
+        ]
+      },
+      "lastBetTime": 1718470104205,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 1.734723475976807e-18,
+        "week": 1.734723475976807e-18,
+        "month": -0.009572033648036328
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0.3799228646818782,
+        "platformFee": 0.12408091708226078,
+        "liquidityFee": 0
+      },
+      "nonPredictive": false,
+      "volume24Hours": 0,
+      "totalLiquidity": 130,
+      "creatorUsername": "PatrickDeng",
+      "importanceScore": 0.25,
+      "lastCommentTime": 1706482569400,
+      "lastUpdatedTime": 1718470107292,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/AAcHTtdP_MVHgn3vAB6sl12AufsuPGl-55tumPOMbKV3a3xRXi0=s96-c",
+      "uniqueBettorCount": 11,
+      "creatorCreatedTime": 1690927335517,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0
+    }
+  },
+  {
+    "observation": {
+      "id": "jWddYUFI29NpkmtRptZq",
+      "question": "Will white win in Manifold Plays Chess, part 3?",
+      "t_ms": 1678060800000,
+      "previous_t_ms": 1677974400000,
+      "createdTime": 1677868146533,
+      "snapshot_closeTime": 1685660560911,
+      "snapshot_resolutionTime": 1685660560911,
+      "snapshot_isResolved": true,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will white win in manifold plays chess, part 3?"
+    },
+    "snapshot": {
+      "p": 0.6459304554029394,
+      "id": "jWddYUFI29NpkmtRptZq",
+      "pool": {
+        "NO": 16656.12736752994,
+        "YES": 71.54403274968354
+      },
+      "prob": 1,
+      "slug": "will-white-win-in-manifold-plays-ch",
+      "volume": 33638.19715680326,
+      "question": "Will white win in Manifold Plays Chess, part 3?",
+      "closeTime": 1685660560911,
+      "creatorId": "DE1FYFMgweXNSXYflp2pM7vaxRv2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 1.4662419229827055,
+      "groupLinks": [
+        {
+          "name": "Manifold plays chess",
+          "slug": "manifold-plays-chess",
+          "userId": "DE1FYFMgweXNSXYflp2pM7vaxRv2",
+          "groupId": "ZbnbyDVipy8GQ3qOaBLT",
+          "createdTime": 1677868146732
+        },
+        {
+          "name": "Chess",
+          "slug": "chess",
+          "userId": "DE1FYFMgweXNSXYflp2pM7vaxRv2",
+          "groupId": "ED7Cu6lVPshJkZ7FYePW",
+          "createdTime": 1677868188741
+        }
+      ],
+      "groupSlugs": [
+        "manifold-plays-chess",
+        "chess"
+      ],
+      "isResolved": true,
+      "marketTier": "play",
+      "resolution": "YES",
+      "visibility": "public",
+      "createdTime": 1677868146533,
+      "creatorName": "harfe",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Welcome to Manifold plays chess, part 3.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "This time, Manifold will play as white against Stockfish level 3 on lichess. Manifold lost both games so far, see ",
+                "type": "text"
+              },
+              {
+                "text": "https://manifold.markets/market/will-black-win-in-manifold-plays-ch",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://manifold.markets/market/will-black-win-in-manifold-plays-ch",
+                      "class": null,
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              },
+              {
+                "text": " and ",
+                "type": "text"
+              },
+              {
+                "text": "https://manifold.markets/citrinitas/will-white-win-in-alexliesmans-mani",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://manifold.markets/citrinitas/will-white-win-in-alexliesmans-mani",
+                      "class": null,
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              },
+              {
+                "text": " for these games.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "This market resolves YES if white wins.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "This market resolves NO if black wins.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "This market resolves to 50% if there is a draw.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "The game will unfold here: ",
+                "type": "text"
+              },
+              {
+                "text": "https://lichess.org/GF9YULQP",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://lichess.org/GF9YULQP",
+                      "class": null,
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "The game so far: 1. e4 e5 2. Bc4 Nf6 3. Nc3 Nc6 4. Nf3 Nxe4 5. Nxe4 d5 6. Bd3 dxe4 7. Rg1 Bf5 8. Bb5 exf3 9. Bxc6+ bxc6 10. Qxf3 Qd7 11. Qc3 f6 12. g4 Bxg4 13. Rxg4 h5 14. Re4 Qd5 15. Qf3 Rd8 16. d3 a6 17. b3 Qc5 18. Kd1 a5 19. Bb2 g6 20. Qxf6 Kd7 21. Rxe5 Qd6 22. Qxh8 Be7 23. Qg7 Rf8 24. Rxe7+ Qxe7 25. Qxe7+ Kxe7 26. Ba3+ Kf7 27. Bxf8 Kxf8 28. Kd2 Kf7 29. Re1 Kg7 30. Re7+ Kf6 31. Rxc7 h4 32. a4 g5 33. b4 Ke6 34. axb5 Kd6 35.  Rb7 Ke6 36. a6 Kd5 37. h3 Kc5",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "Market for current move: ",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "iframe",
+            "attrs": {
+              "src": "https://manifold.markets/embed/harfe/manifold-plays-chess-3-move-38-what",
+              "frameBorder": 0,
+              "allowFullScreen": true
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "Market structure",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "bold"
+                  }
+                ]
+              },
+              {
+                "text": ":",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Per move, there will be a free response market, followed by conditional markets for 2 or 3 moves. The free response market will resolve to the move that manifold will play. For each response, the average probability in the last four hours before close is measured. With 75% probability, two moves will be randomly drawn, with weight proportional to those market probabilities. With 25% probabilities, three moves will be randomly drawn in the same way. Then for each of the two or three candidate moves, a conditional market is created.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "If there are 3 or less legal moves, no free response market will be created, and we directly move to the conditional markets.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "The markets for the candidate moves are of the form \"What will the score be one move later if we play X?\". We measure the average probability in the last four hours of the market. The move with higher probability wins and gets chosen. The conditional market that does not get chosen gets resolved N/A. The conditional market for the move that gets chosen resolves to the score one move later.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "The score is the average probability in the last four hours of trading in the conditional market for the winning move. If there is no later move, the score for this purpose is 1.0 - #moves x 0.0004 if white win, 0.5 - #moves x 0.0002 if its a draw, or 0.0 if we lose (this is to encourage a shorter game).",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "In the first 6 moves, the moves \"Resign1\", \"Resign2\", \"Resign3\" will be legal moves (and white loses immediately if it plays one of those moves). After that, any resign move will not be legal.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Possible rule changes during the game",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "bold"
+                  }
+                ]
+              },
+              {
+                "text": ":",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "If the probabilities for the conditional moves stagnate, I plan to introduce some kind of leverage, so that predictors can predict in a wider range. An example for what I mean by leverage: if the score stagnates around 0.65, we could map 0.6 to 20%, and 0.7 to 80%, and interpolate for the rest. These changes will be announced at least 2 moves in advance.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Other than that, I reserve the right to change some of the rules during the game, if the game becomes very boring or if I am concerned that funding the remainder of the game will become too expensive. In that case, I do not attempt to change the outcome of the game. For example, if the score is below 0.01 over many moves, I might add a mechanism that allows us to resign.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "I will wait for 1-2 days before starting the game, during which the rules might be changed.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "Edit (2023-03-05): changed description to clarify rules slightly, no changes were made to the rules.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "Edit (2023-03-05): Accidentally deleted the paragraph about Resign moves in the previous edit. Added again.",
+                "type": "text"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "text": "Edit (2023-03-06): Changed \"This market resolves NO if white wins.\" to \"This market resolves NO if black wins.\"",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1685658795344,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/dream%2F5IpMJYjw4e.png?alt=media&token=685e30a4-b605-491b-ad81-35c79d18aa3e",
+      "volume24Hours": 0,
+      "resolutionTime": 1685660560911,
+      "totalLiquidity": 810,
+      "creatorUsername": "harfe",
+      "lastCommentTime": 1685674678410,
+      "lastUpdatedTime": 1685674681141,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fharfe%2F4HG6LB9tvY.png?alt=media&token=54b85255-1ab5-487c-8147-27e3c3a25e7e",
+      "likedByUserCount": 4,
+      "uniqueBettorCount": 41,
+      "creatorCreatedTime": 1668567433512,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0,
+      "resolutionProbability": 1
+    }
+  },
+  {
+    "observation": {
+      "id": "KmEdGIGKGfNtzBKVGrfd",
+      "question": "Will GPT-4 become free on ChatGPT when OpenAI releases GPT-4.5/GPT-5?",
+      "t_ms": 1711324800000,
+      "previous_t_ms": 1711238400000,
+      "createdTime": 1710689501976,
+      "snapshot_closeTime": 1715621193299,
+      "snapshot_resolutionTime": 1715621282914,
+      "snapshot_isResolved": true,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will gpt-4 become free on chatgpt when openai releases gpt-4.5/gpt-5?"
+    },
+    "snapshot": {
+      "p": 0.34206690658458805,
+      "id": "KmEdGIGKGfNtzBKVGrfd",
+      "pool": {
+        "NO": 1497.0300161369441,
+        "YES": 279.31124454669936
+      },
+      "prob": 1,
+      "slug": "will-gpt4-become-free-on-chatgpt-wh",
+      "volume": 2439.712494142957,
+      "question": "Will GPT-4 become free on ChatGPT when OpenAI releases GPT-4.5/GPT-5?",
+      "closeTime": 1715621193299,
+      "creatorId": "LYR0RNU6uJMXbBy1qBeGGmMdwgQ2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 9.736955595019644,
+      "groupLinks": [
+        {
+          "name": "GPT-4 speculation",
+          "slug": "gpt4-speculation",
+          "groupId": "SWiC5KtQnc48oWmaoAZA",
+          "createdTime": 1710689502125
+        },
+        {
+          "name": "ChatGPT",
+          "slug": "chatgpt",
+          "groupId": "lG71NUBORXAsxGmQZo77",
+          "createdTime": 1710689502124
+        },
+        {
+          "name": "🤖 AI",
+          "slug": "ai",
+          "groupId": "yEWvvwFFIqzf8JklMewp",
+          "createdTime": 1710689502133
+        },
+        {
+          "name": "🖥️ Technology",
+          "slug": "technology-default",
+          "groupId": "IlzY3moWwOcpsVZXCVej",
+          "createdTime": 1710689502122
+        },
+        {
+          "name": "GPT-5 Speculation",
+          "slug": "gpt5-speculation",
+          "groupId": "XjoIQCNrsc4HP3H3DdTP",
+          "createdTime": 1710689502142
+        },
+        {
+          "name": "🤖 OpenAI",
+          "slug": "openai",
+          "groupId": "a3ikurqO9fT46Pv9ZGkY",
+          "createdTime": 1710689502129
+        }
+      ],
+      "groupSlugs": [
+        "gpt4-speculation",
+        "chatgpt",
+        "ai",
+        "technology-default",
+        "gpt5-speculation",
+        "openai"
+      ],
+      "isResolved": true,
+      "marketTier": "play",
+      "resolution": "YES",
+      "resolverId": "LYR0RNU6uJMXbBy1qBeGGmMdwgQ2",
+      "visibility": "public",
+      "createdTime": 1710689501976,
+      "creatorName": "Axel Røthing-Cano",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Will you be able to use GPT-4 for free on the official ChatGPT website as an average user when OpenAI releases GPT-4.5 or GPT-5?",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "The change needs to be announced at the event or as a press release within one week from the event where GPT-4.5/5 is released.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Free trials do not count, usage limits do count.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "GPT-4 and GPT-4-Turbo both count, it also counts if they make a downgraded/smaller version of GPT-4 for free use on ChatGPT.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1715620698026,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 15.857493725810981,
+        "platformFee": 15.857493725810981,
+        "liquidityFee": 0
+      },
+      "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2F6Htc9LWUYj.jpg?alt=media&token=2f6847bf-ca61-4a5c-a10c-c8d72ecad507",
+      "volume24Hours": 0,
+      "freshnessScore": 0,
+      "resolutionTime": 1715621282914,
+      "totalLiquidity": 875,
+      "creatorUsername": "AxelRthingCano",
+      "importanceScore": 0.25,
+      "lastUpdatedTime": 1715621193299,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIE6mwkmvbgtS7eiZMufNbLwUDjzzA3Ie-r2-IfHNcp=s96-c",
+      "uniqueBettorCount": 42,
+      "creatorCreatedTime": 1703535400490,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0,
+      "resolutionProbability": 0.74
+    }
+  },
+  {
+    "observation": {
+      "id": "Ikkp0Oj8UVu2oNlyiY91",
+      "question": "What will US federal government spending as a percent of GDP be in 2035?",
+      "t_ms": 1712534400000,
+      "previous_t_ms": 1712448000000,
+      "createdTime": 1712206330257,
+      "snapshot_closeTime": 2096855940000,
+      "snapshot_resolutionTime": null,
+      "snapshot_isResolved": false,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "what will us federal government spending as a percent of gdp be in 2035?"
+    },
+    "snapshot": {
+      "p": 0.47801147227533436,
+      "id": "Ikkp0Oj8UVu2oNlyiY91",
+      "pool": {
+        "NO": 96.92307692307692,
+        "YES": 149.99999999999994
+      },
+      "prob": 0.37174721189591065,
+      "slug": "what-will-us-federal-government-spe-5d02dceb1fce",
+      "volume": 30,
+      "question": "What will US federal government spending as a percent of GDP be in 2035?",
+      "closeTime": 2096855940000,
+      "creatorId": "h8mrjj5GRDb363eGYxhaKR8hzAF2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 10.586609649448985,
+      "groupLinks": [
+        {
+          "name": "🇺🇸 US Politics",
+          "slug": "us-politics",
+          "groupId": "AjxQR8JMpNyDqtiqoA96",
+          "createdTime": 1712206330494
+        },
+        {
+          "name": "Inflation",
+          "slug": "inflation",
+          "groupId": "OiDJ9KX5mar9H1asXCUa",
+          "createdTime": 1712206330497
+        },
+        {
+          "name": "🗳️ Politics",
+          "slug": "politics-default",
+          "groupId": "UCnpxVUdLOZYgoMsDlHD",
+          "createdTime": 1712206330496
+        },
+        {
+          "name": "US Economy",
+          "slug": "us-economy",
+          "groupId": "36d1e8d5-2e36-481d-b3e0-42e53c37ecbb",
+          "createdTime": 1712206330498
+        },
+        {
+          "name": "GDP",
+          "slug": "gdp",
+          "groupId": "iwQCyAKU6dXiXgXR6dw6",
+          "createdTime": 1712206330490
+        }
+      ],
+      "groupSlugs": [
+        "us-politics",
+        "inflation",
+        "politics-default",
+        "us-economy",
+        "gdp"
+      ],
+      "isResolved": false,
+      "marketTier": "play",
+      "visibility": "public",
+      "createdTime": 1712206330257,
+      "creatorName": "Benjamin Ikuta",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "https://fred.stlouisfed.org/series/FYONGDA188S",
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://fred.stlouisfed.org/series/FYONGDA188S",
+                      "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1712206411086,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": -1.6653345369377348e-16,
+        "week": -1.6653345369377348e-16,
+        "month": -1.6653345369377348e-16
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "coverImageUrl": null,
+      "volume24Hours": 0,
+      "freshnessScore": 0,
+      "totalLiquidity": 120,
+      "conversionScore": 0.3333333333333333,
+      "creatorUsername": "benjaminIkuta",
+      "importanceScore": 0.25,
+      "lastUpdatedTime": 1712206415075,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FBenjaminIkuta%2Flove-images%2FsN4Zl-_vbR.jpg?alt=media&token=cdbce9db-206b-405f-942c-4fd343f08410",
+      "uniqueBettorCount": 1,
+      "creatorCreatedTime": 1666832885921,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0
+    }
+  },
+  {
+    "observation": {
+      "id": "0hpal30gU9FmtEHa2Vr8",
+      "question": "Will Alberto Núñez Feijóo resign as PP leader before EOY?",
+      "t_ms": 1690761600000,
+      "previous_t_ms": 1690675200000,
+      "createdTime": 1690302742416,
+      "snapshot_closeTime": 1704271311992,
+      "snapshot_resolutionTime": 1704271311992,
+      "snapshot_isResolved": true,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "will alberto núñez feijóo resign as pp leader before eoy?"
+    },
+    "snapshot": {
+      "p": 0.48207394575919665,
+      "id": "0hpal30gU9FmtEHa2Vr8",
+      "pool": {
+        "NO": 22.178950848198838,
+        "YES": 820.7090307496622
+      },
+      "prob": 0,
+      "slug": "will-alberto-nunez-feijoo-resign-as",
+      "volume": 1350.280596975181,
+      "question": "Will Alberto Núñez Feijóo resign as PP leader before EOY?",
+      "closeTime": 1704271311992,
+      "creatorId": "zssVPLqijpVK2ZUriKKznMW2mhS2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 3.761579852534712,
+      "groupLinks": [
+        {
+          "name": "Politics",
+          "slug": "politics-default",
+          "groupId": "UCnpxVUdLOZYgoMsDlHD",
+          "createdTime": 1690302742626
+        },
+        {
+          "name": "Spain",
+          "slug": "spain",
+          "groupId": "OGSXjmjjySBpjZC2r5QQ",
+          "createdTime": 1690302742632
+        },
+        {
+          "name": "Elections: World",
+          "slug": "elections-world",
+          "groupId": "w5UI0a5OgD7u18Y4gxJs",
+          "createdTime": 1690302742575
+        }
+      ],
+      "groupSlugs": [
+        "politics-default",
+        "spain",
+        "elections-world"
+      ],
+      "isResolved": true,
+      "marketTier": "play",
+      "resolution": "NO",
+      "resolverId": "zssVPLqijpVK2ZUriKKznMW2mhS2",
+      "visibility": "public",
+      "createdTime": 1690302742416,
+      "creatorName": "Punished Ten Shino",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "In the recent Spanish general election the People's Party (PP) won 136 seats in the Congress. This was a big increase, but not enough to form a government. The result was dissapointing for the PP, so the current leader might resign.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1704120004824,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "nonPredictive": false,
+      "volume24Hours": 0,
+      "resolutionTime": 1704271311992,
+      "totalLiquidity": 130,
+      "creatorUsername": "TenShino",
+      "importanceScore": 0.25,
+      "lastCommentTime": 1693135744857,
+      "lastUpdatedTime": 1704271312709,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FTenShino%2FJisHOe4pUV.jpg?alt=media&token=74f0ec08-a635-41ca-bbf5-dc271bcac725",
+      "uniqueBettorCount": 7,
+      "creatorCreatedTime": 1668962116383,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0,
+      "resolutionProbability": 0.02
+    }
+  },
+  {
+    "observation": {
+      "id": "wrMLxLV0yRCRB7fyOaVp",
+      "question": "NFL Week 2 (Sep 17): Will the New England Patriots beat the Miami Dolphins?",
+      "t_ms": 1694995200000,
+      "previous_t_ms": 1694908800000,
+      "createdTime": 1694413469751,
+      "snapshot_closeTime": 1695007442858,
+      "snapshot_resolutionTime": 1695007442858,
+      "snapshot_isResolved": true,
+      "snapshot_mechanism": "cpmm-1",
+      "cfmmConversionTime": null,
+      "state": "open_unresolved_proxy_only",
+      "historical_tradability": "unverified",
+      "outcome_unknown_at_t": "unverified",
+      "historical_prices_certified": false,
+      "event_key_verified": false,
+      "title_candidate_key": "nfl week 2 (sep 17): will the new england patriots beat the miami dolphins?"
+    },
+    "snapshot": {
+      "p": 0.32441994382534084,
+      "id": "wrMLxLV0yRCRB7fyOaVp",
+      "pool": {
+        "NO": 16.082968910048294,
+        "YES": 10869.740874274436
+      },
+      "prob": 0,
+      "slug": "nfl-week-2-sep-17-will-the-new-engl",
+      "volume": 13212.96667691724,
+      "question": "NFL Week 2 (Sep 17): Will the New England Patriots beat the Miami Dolphins?",
+      "closeTime": 1695007442858,
+      "creatorId": "7HhTMy4xECaVKvl5MmEAfVUkRCS2",
+      "mechanism": "cpmm-1",
+      "dailyScore": 0,
+      "elasticity": 4.136343390546223,
+      "groupLinks": [
+        {
+          "name": "🏈 NFL",
+          "slug": "nfl",
+          "groupId": "TNQwmbE5p6dnKx2e6Qlp",
+          "createdTime": 1694455421371
+        }
+      ],
+      "groupSlugs": [
+        "nfl"
+      ],
+      "isResolved": true,
+      "marketTier": "play",
+      "resolution": "NO",
+      "visibility": "public",
+      "createdTime": 1694413469751,
+      "creatorName": "Kevin Burke",
+      "description": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "The game will take place at Gillette Stadium at 17:20 PDT on September 17, 2023. A game ending in a tie will resolve NO. A game that does not have a winner (e.g. Bills-Bengals last year) will resolve N/A. Any uncontemplated edge cases will resolve using my best judgment based on _the spirit of the question._ Arguments that rely on technicalities like \"the question said 'will they win on October 2' but technically the game ended at 12:01AM October 3\" will not be received well.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      "lastBetTime": 1695007437482,
+      "outcomeType": "BINARY",
+      "probChanges": {
+        "day": 0,
+        "week": 0,
+        "month": 0
+      },
+      "subsidyPool": 0,
+      "collectedFees": {
+        "creatorFee": 0,
+        "platformFee": 0,
+        "liquidityFee": 0
+      },
+      "volume24Hours": 0,
+      "resolutionTime": 1695007442858,
+      "totalLiquidity": 150,
+      "creatorUsername": "KevinBurke",
+      "importanceScore": 0.25,
+      "lastUpdatedTime": 1695007437763,
+      "popularityScore": 0,
+      "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FKevinBurke%2FXxsksNH0Uv.jpeg?alt=media&token=e0e8f14c-dbc8-49ca-b943-2649cecf3291",
+      "uniqueBettorCount": 10,
+      "creatorCreatedTime": 1668407142709,
+      "initialProbability": 0.5,
+      "uniqueBettorCountDay": 0,
+      "resolutionProbability": 0
+    }
+  }
+]

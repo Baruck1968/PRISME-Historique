@@ -1,0 +1,33 @@
+{
+  "source_sha256": "9bb6b367298d17a106cc7a12e02b871f3a9f3ef93af5753194c66e546e200f71",
+  "interpretation": "Both scheduled games are later than t. Supporting temporal plausibility only: schedule is a current historical table, not a version published before t; no historical trading or public-information certificate.",
+  "event_mapping_scope": "Two manually identified markets only, not a corpus-wide partition.",
+  "records": [
+    {
+      "market_id": "6G7Hcqq3a2XTAv1sTmhI",
+      "event_key": "nflverse:2023_04_PIT_HOU",
+      "schedule_date": "2023-10-01",
+      "schedule_time_eastern": "13:00",
+      "scheduled_start_utc": "2023-10-01T17:00:00+00:00",
+      "observation_t_ms": 1694995200000,
+      "schedule_start_ms": 1696179600000,
+      "hours_until_scheduled_start": 329.0,
+      "schedule_start_after_t": true,
+      "exchange_open_at_t_verified": false,
+      "public_outcome_unknown_at_t_certified": false
+    },
+    {
+      "market_id": "wrMLxLV0yRCRB7fyOaVp",
+      "event_key": "nflverse:2023_02_MIA_NE",
+      "schedule_date": "2023-09-17",
+      "schedule_time_eastern": "20:20",
+      "scheduled_start_utc": "2023-09-18T00:20:00+00:00",
+      "observation_t_ms": 1694995200000,
+      "schedule_start_ms": 1694996400000,
+      "hours_until_scheduled_start": 0.3333333333333333,
+      "schedule_start_after_t": true,
+      "exchange_open_at_t_verified": false,
+      "public_outcome_unknown_at_t_certified": false
+    }
+  ]
+}
