@@ -1,0 +1,46 @@
+{
+  "linux_at_available": false,
+  "linux_crontab_available": false,
+  "cloud_durable_scheduler_exposed": false,
+  "github_actions_permissions_http_status": 403,
+  "github_actions_secrets_http_status": 403,
+  "timers": [
+    {
+      "timer": "prisme-campaign1-t1.timer",
+      "target": "2026-10-21 23:10:00 UTC",
+      "calendar_validated": true,
+      "enabled": false
+    },
+    {
+      "timer": "prisme-campaign1-t2.timer",
+      "target": "2026-10-22 01:40:00 UTC",
+      "calendar_validated": true,
+      "enabled": false
+    },
+    {
+      "timer": "prisme-campaign1-t3.timer",
+      "target": "2026-10-22 22:10:00 UTC",
+      "calendar_validated": true,
+      "enabled": false
+    },
+    {
+      "timer": "prisme-campaign1-t4.timer",
+      "target": "2026-10-22 23:10:00 UTC",
+      "calendar_validated": true,
+      "enabled": false
+    },
+    {
+      "timer": "prisme-campaign1-t5.timer",
+      "target": "2026-10-23 00:40:00 UTC",
+      "calendar_validated": true,
+      "enabled": false
+    },
+    {
+      "timer": "prisme-campaign1-t6.timer",
+      "target": "2026-10-23 22:10:00 UTC",
+      "calendar_validated": true,
+      "enabled": false
+    }
+  ],
+  "activated": false
+}

@@ -1,0 +1,14 @@
+[Unit]
+Description=PRISME one-shot T5
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=PRISME_USER
+WorkingDirectory=/CHEMIN/PRISME-Historique
+EnvironmentFile=/CHEMIN_PRIVE/campaign1.env
+UMask=0077
+ExecStart=/usr/bin/python3 /CHEMIN/PRISME-Historique/research/observatoire_v1/campaign1/launch.py --private-root /VOLUME_PRIVE/prisme --public-key /CHEMIN/PRISME-public.asc --task T5 --durable-host-confirmed
+Restart=no
+TimeoutStartSec=180

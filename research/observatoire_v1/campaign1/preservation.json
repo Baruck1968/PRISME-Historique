@@ -1,0 +1,14 @@
+{
+  "baseline": "3a8d7259caf419aff997933df9ba307d15dab678",
+  "existing_files_checked": 166,
+  "intentional_test_change": [
+    "tests/test_observatoire_vault.py"
+  ],
+  "all_other_existing_tracked_files_identical": true,
+  "initial_manifest_sha256": "627d076a2a2f161942254d83f83751416e41ed18e54869d621f920838739031d",
+  "new_manifest_hash_verified": true,
+  "new_odds_calls": 1,
+  "campaign_credits_consumed": 1,
+  "activated": false,
+  "user_confirmed_no_durable_host": true
+}

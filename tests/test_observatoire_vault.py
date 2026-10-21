@@ -28,7 +28,7 @@ class VaultTests(unittest.TestCase):
    decrypted=subprocess.check_output(cmd+['--decrypt',str(out)],stderr=subprocess.DEVNULL)
    z=root/'snapshot.zip';z.write_bytes(decrypted);restore=root/'restore';verified=v.restore(z,restore)
    self.assertEqual(verified['manifest_sha256'],v.MANIFEST_HASH)
-   self.assertEqual(verified['verified_captures'],2)
+   self.assertEqual(verified['verified_captures'],len((SOURCE/'journal.jsonl').read_text().splitlines()))
    self.assertEqual((restore/v.MANIFEST).read_bytes(),(SOURCE/v.MANIFEST).read_bytes())
    for f in restore.iterdir():self.assertEqual(f.read_bytes(),(SOURCE/f.name).read_bytes())
    corrupted=bytearray(out.read_bytes());corrupted[len(corrupted)//2]^=1

@@ -1,0 +1,13 @@
+{
+  "endpoint": "https://api.the-odds-api.com/v4/sports/",
+  "method": "GET",
+  "requested_at": "2026-10-21T16:08:58.047000+00:00",
+  "key_present": true,
+  "http_status": 200,
+  "quota": {
+    "x-requests-used": "1",
+    "x-requests-remaining": "499",
+    "x-requests-last": "0"
+  },
+  "received_at": "2026-10-21T16:08:59.206208+00:00"
+}

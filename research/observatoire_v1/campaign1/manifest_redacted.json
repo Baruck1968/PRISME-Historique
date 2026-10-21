@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-10-21T16:11:16.693034+00:00",
+  "initial_manifest_sha256": "627d076a2a2f161942254d83f83751416e41ed18e54869d621f920838739031d",
+  "initial_enrolled_missed_slots": 0,
+  "initial_excluded_expired_slots": 11,
+  "manifest_sha256": "92aa4f3d46bfec27bfc1ece46497cb8c3add29d9f76b91f70b8067df38148d98",
+  "private_state_file": "manifest_20261021T161116695573Z.json",
+  "candidates": [
+    {
+      "alias": "C1",
+      "anchor_type": "scheduled_start_proxy",
+      "commence_time": "2026-10-22T23:10:00Z",
+      "J1": "2026-10-21T23:10:00+00:00",
+      "H1": "2026-10-22T22:10:00+00:00",
+      "operator": "fanduel",
+      "market": "h2h",
+      "outcomes_count": 2
+    },
+    {
+      "alias": "C2",
+      "anchor_type": "scheduled_start_proxy",
+      "commence_time": "2026-10-23T01:40:00Z",
+      "J1": "2026-10-22T01:40:00+00:00",
+      "H1": "2026-10-23T00:40:00+00:00",
+      "operator": "fanduel",
+      "market": "h2h",
+      "outcomes_count": 2
+    },
+    {
+      "alias": "C3",
+      "anchor_type": "scheduled_start_proxy",
+      "commence_time": "2026-10-23T23:10:00Z",
+      "J1": "2026-10-22T23:10:00+00:00",
+      "H1": "2026-10-23T22:10:00+00:00",
+      "operator": "fanduel",
+      "market": "h2h",
+      "outcomes_count": 2
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T1",
+      "target": "2026-10-21T23:10:00+00:00",
+      "members": [
+        {
+          "alias": "C1",
+          "slot": "J1"
+        }
+      ],
+      "scheduled": false
+    },
+    {
+      "id": "T2",
+      "target": "2026-10-22T01:40:00+00:00",
+      "members": [
+        {
+          "alias": "C2",
+          "slot": "J1"
+        }
+      ],
+      "scheduled": false
+    },
+    {
+      "id": "T3",
+      "target": "2026-10-22T22:10:00+00:00",
+      "members": [
+        {
+          "alias": "C1",
+          "slot": "H1"
+        }
+      ],
+      "scheduled": false
+    },
+    {
+      "id": "T4",
+      "target": "2026-10-22T23:10:00+00:00",
+      "members": [
+        {
+          "alias": "C3",
+          "slot": "J1"
+        }
+      ],
+      "scheduled": false
+    },
+    {
+      "id": "T5",
+      "target": "2026-10-23T00:40:00+00:00",
+      "members": [
+        {
+          "alias": "C2",
+          "slot": "H1"
+        }
+      ],
+      "scheduled": false
+    },
+    {
+      "id": "T6",
+      "target": "2026-10-23T22:10:00+00:00",
+      "members": [
+        {
+          "alias": "C3",
+          "slot": "H1"
+        }
+      ],
+      "scheduled": false
+    }
+  ],
+  "cap_credits": 12,
+  "consumed_campaign_credits": 1,
+  "last_quota": {
+    "used": 2,
+    "remaining": 498,
+    "last": 1
+  },
+  "normal_total_credits_including_discovery": 7,
+  "scheduler_active": false,
+  "rules_verified": false,
+  "opening_verified": false
+}

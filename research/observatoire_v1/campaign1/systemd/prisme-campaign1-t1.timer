@@ -1,0 +1,12 @@
+[Unit]
+Description=PRISME campaign1 finite T1
+
+[Timer]
+OnCalendar=2026-10-21 23:10:00 UTC
+AccuracySec=1s
+RandomizedDelaySec=0
+Persistent=false
+Unit=prisme-campaign1-t1.service
+
+[Install]
+WantedBy=timers.target
