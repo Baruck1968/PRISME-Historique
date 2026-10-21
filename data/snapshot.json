@@ -1,0 +1,7 @@
+{
+  "file": "data/manifold-pilot-cache.zip",
+  "sha256": "db56b1471143063507d40532b7a0340e336649b105d2e440bb03e1509b57a91f",
+  "files": 728,
+  "bytes": 917528,
+  "purpose": "Exact public API responses and retrieval metadata used by the pilot. No simulated observations."
+}

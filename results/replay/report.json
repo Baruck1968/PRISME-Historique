@@ -1,0 +1,1759 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-21T12:31:08.773542+00:00",
+  "arguments": {
+    "output": "results/replay",
+    "cache": "data/cache",
+    "offline": true,
+    "limit": 200,
+    "permutations": 10000,
+    "seed": 20261021
+  },
+  "source": "https://api.manifold.markets/v0/",
+  "markets_returned": 200,
+  "unique_markets": 200,
+  "exclusions": {
+    "market_younger_than_48h_at_resolution": 80,
+    "not_unambiguous_binary_resolution": 15,
+    "stale_snapshot": 61,
+    "missing_snapshot": 19
+  },
+  "n_eligible": 25,
+  "directions": {
+    "1": 7,
+    "0": 12,
+    "-1": 6
+  },
+  "analysis": {
+    "status": "no_probability_stratum_with_both_directions",
+    "n_overlap": 0
+  },
+  "responses": {
+    "07bcc43e895c7968ff40086256cbbb0931b483b6c806c35923c771cb4a83a175": {
+      "url": "https://api.manifold.markets/v0/search-markets?contractType=BINARY&filter=resolved&limit=200&sort=newest&term=",
+      "retrieved_utc": "2026-10-21T12:27:47.265483+00:00",
+      "sha256": "ee76434c6b25a6fd2702abdc7d4f43ec5a68eb6a3da9acbdb44ed42bf3350220"
+    },
+    "e2420239dbde6ea445f1d6e84f4253e1ff29ff409f41c3e69ea5ef10a9331db7": {
+      "url": "https://api.manifold.markets/v0/market/Z6tRZ2yusN?",
+      "retrieved_utc": "2026-10-21T12:27:51.665964+00:00",
+      "sha256": "52aa1c838869ebcad79d3263085eb25bc8a7014e9cb5ff293481b76b74b0a2e7"
+    },
+    "b7a293a568dec19d414055f4781080afe76d777a909da4147bcb70b1e6a72dc1": {
+      "url": "https://api.manifold.markets/v0/market/h9nQI6EZQC?",
+      "retrieved_utc": "2026-10-21T12:27:52.579423+00:00",
+      "sha256": "60dadefa36feeac8eb5d26e696396734acead7e78c215ac6ac2f0055c9f5b2c1"
+    },
+    "13ad02c86c399662f7d8abbbc2ed1dab438d86454da938a72f8d3c6d27cb6d59": {
+      "url": "https://api.manifold.markets/v0/market/tZLQAIP60h?",
+      "retrieved_utc": "2026-10-21T12:27:54.637927+00:00",
+      "sha256": "f853da9715e0a230717b8cb9a677aca93ae5fc028f4501aba119108eae9b3876"
+    },
+    "c77e5461715a42bbe238c417c473d015f90b48a01b264a68bc41869df17e2662": {
+      "url": "https://api.manifold.markets/v0/market/pOpqnQZQAl?",
+      "retrieved_utc": "2026-10-21T12:27:58.871774+00:00",
+      "sha256": "82760b92cbc8a949a8cd00070095d4078d0fbfb808f1fbb8779736e7aabbe4e7"
+    },
+    "7a0471ad153c60377aaaf17e1c57457cd2b24d8c71fbe4e81630500b457d7ae0": {
+      "url": "https://api.manifold.markets/v0/market/zL8nUPuCZc?",
+      "retrieved_utc": "2026-10-21T12:27:59.334990+00:00",
+      "sha256": "cff460807983d922dbd0bb0e58fd4e046488a28b6caf55be9bbada566d7d9640"
+    },
+    "e1ea35ae7ffa4a3397ec03bbee416f91d4fef6d23220e677c2ed288574bb57fb": {
+      "url": "https://api.manifold.markets/v0/market/I0RdyZlgl8?",
+      "retrieved_utc": "2026-10-21T12:27:59.660871+00:00",
+      "sha256": "c70d03c2721aad67ab20bd78fc8a2fc62bfba864db464a511fa3a9f983fa0a7a"
+    },
+    "b4457c93e23124f68bef4d11cd7e9be3d8887ce83f5e4204a3428a507ef89d54": {
+      "url": "https://api.manifold.markets/v0/market/0dszNSzyqC?",
+      "retrieved_utc": "2026-10-21T12:27:59.980184+00:00",
+      "sha256": "c5b7ce6386c31bcf373187bdc36756963ffc855ddb01fad8a8b27b4fe425b4a0"
+    },
+    "2cfe9b7bc6dc7dec1d15e860acd96c8fcf7dfecfbd0909b7203581d8269a3a7b": {
+      "url": "https://api.manifold.markets/v0/market/0IhUPNP62R?",
+      "retrieved_utc": "2026-10-21T12:28:03.816571+00:00",
+      "sha256": "aa5041db3562f14cc5c2ae686c68c549e0efb9d378026fd0ba2d2e2decb0ac26"
+    },
+    "71d7ec2548e0097c5f8bc4d9ee3b5523e396d502871e43f9d8c91ccc00392882": {
+      "url": "https://api.manifold.markets/v0/market/6uORQ806ZP?",
+      "retrieved_utc": "2026-10-21T12:28:04.086013+00:00",
+      "sha256": "bc0a63fd47f32ce9dcb3ef6473d50db8a16d3006b08ae656944273ea676b57a9"
+    },
+    "3e41834da4e5590a84105b78e9fe764f1651edb6d73e27e98c505435ca8d443b": {
+      "url": "https://api.manifold.markets/v0/market/gZSE5PSERt?",
+      "retrieved_utc": "2026-10-21T12:28:04.375325+00:00",
+      "sha256": "56a83c46d6378f11de129fdd8635a6b37e3efd1890802564229451f5ad86b31c"
+    },
+    "c3a6fe5db5f4321c71057c81a2ed43b2b689441034b514d2f00d4adc3828df19": {
+      "url": "https://api.manifold.markets/v0/market/IOEZEydlSq?",
+      "retrieved_utc": "2026-10-21T12:28:04.658830+00:00",
+      "sha256": "5c5beee6b40a2ddd629aaa12b6f31a9ca00246e70c123c59785f1977a699da1c"
+    },
+    "ee31646fe547fd3d9b6e9b03ead06e8ec12fd412308ff232225ec39d3000d342": {
+      "url": "https://api.manifold.markets/v0/market/tsO2ZILgOQ?",
+      "retrieved_utc": "2026-10-21T12:28:05.039899+00:00",
+      "sha256": "6521b45631b77cfd459b0472ce89f06f61532b3d7b67d554fec5720534d13c0f"
+    },
+    "53de6b108afdc1ec319b65cf728a6844be40e53fa281fa678add0ee3a7afbe3e": {
+      "url": "https://api.manifold.markets/v0/market/I2zlISU2yz?",
+      "retrieved_utc": "2026-10-21T12:28:05.498171+00:00",
+      "sha256": "342d8d4d41c2475d3f5ff4528a7989b1a7d90a102a38eb29566cca2f06e6c90c"
+    },
+    "51edb59784a7bbd63811fe4117dd446514e92b6ea41d72066a3d5161958bf0e3": {
+      "url": "https://api.manifold.markets/v0/market/QRql8dAAuc?",
+      "retrieved_utc": "2026-10-21T12:28:05.753880+00:00",
+      "sha256": "1729e99365250b0c27b11a714a3088a1596c3aee7f7c02938e52850129a20622"
+    },
+    "93b2ea88f69b0e9ed30fa0f28e77c1381cf81dfdd0f6224ddabc9aacb53052b3": {
+      "url": "https://api.manifold.markets/v0/market/gusA2yLpQL?",
+      "retrieved_utc": "2026-10-21T12:28:06.030334+00:00",
+      "sha256": "258102e567fe048673be68d22ce3ff347bf493bbdc8860d827f120a7b12001c8"
+    },
+    "246475f93921b0ab6e1af97ac93b7b5e246aea1bf4da172be80493459ec036a3": {
+      "url": "https://api.manifold.markets/v0/market/QlpgAupQZ5?",
+      "retrieved_utc": "2026-10-21T12:28:06.339493+00:00",
+      "sha256": "b77859cc2f3e60188c08e9f031aac166bebf98c6d241786b9777c859bc2a988b"
+    },
+    "c2cf15f6adc235c6e9398e57242eefa3a7933c453e630a67d32b80380ce01622": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792429420165&contractId=QlpgAupQZ5&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:06.798781+00:00",
+      "sha256": "96ff181318df072be88da6ebf49e68a5cadb1d697d34ca5e607b31335abfabbd"
+    },
+    "8b0b4b86b2deef001c7958df36321d1b2d04e539f63c58934f51947d924cc5f6": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792343020165&contractId=QlpgAupQZ5&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:07.184330+00:00",
+      "sha256": "5d1abf5e6e4955b19686119bcc96467f05169b44ebab828d015f194a8e0e8683"
+    },
+    "39c55318cffbbbf616feedd31ebb4ca9dccd54690fec3d3d1b94e749ba1293ad": {
+      "url": "https://api.manifold.markets/v0/market/gcNg2zEuI2?",
+      "retrieved_utc": "2026-10-21T12:28:07.484785+00:00",
+      "sha256": "13fdbe973bcffc50b6674ed7c6c717e54e3dbe2bf7a62de9a34afa9c61ed2de2"
+    },
+    "91b84fe9de6184d89415213b641fc0de8baebca4f95106aaba2d8924e3375eab": {
+      "url": "https://api.manifold.markets/v0/market/p5Syql8puO?",
+      "retrieved_utc": "2026-10-21T12:28:07.858873+00:00",
+      "sha256": "71edbc07e883b5b39e065edcde6cb93dcc31ffb46281919d5e8342c67e226494"
+    },
+    "1994466ee1a62b463501431a2babbde79d1be922cc0c0d97c54d0993eb386e96": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792327603073&contractId=p5Syql8puO&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:08.237399+00:00",
+      "sha256": "46861c4c60b6d5aa6cec7cc44f021573f90a4686a56eb698224f630c7153aadf"
+    },
+    "47300a98251ad481713a2a2765f0f9cd195ab7d3462b33acb7eaff48daa52793": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792241203073&contractId=p5Syql8puO&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:08.607049+00:00",
+      "sha256": "04262309c2bd57b325843a99795ce42db3be0b1a61db3a39402535f1217722ba"
+    },
+    "6e8e6265b93dbcfeff290b2ce8e4b750e7a00687a7508a2da8f8cf8e6d6259d2": {
+      "url": "https://api.manifold.markets/v0/market/0zzLN99ONq?",
+      "retrieved_utc": "2026-10-21T12:28:08.893536+00:00",
+      "sha256": "ac4bf3d43e1cf7302f7c93d2d25336e1131a0379e4802d35d96247ec2f9f03b1"
+    },
+    "3e98792765bceb3cb78f1adbf05a7da950c55fac51c8194e7cd9b4913f199e9c": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792354793102&contractId=0zzLN99ONq&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:09.260876+00:00",
+      "sha256": "c3e1f114d6f4987d83c2df4e9f5d934304cd94a8c2562d104889255e177d6be5"
+    },
+    "1d245d5c38bb2e59c5fc852243fe64b590a8afef956bdc4b77d9104a0567ed39": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792268393102&contractId=0zzLN99ONq&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:09.540609+00:00",
+      "sha256": "44679ddcb6135046d4a1c3daea9051bc5566042ef1c15c94793af74957bc3919"
+    },
+    "54b01d0a4c6ad28c4e37337ff5a887cfffc00b3df51a6dd495781989edabedec": {
+      "url": "https://api.manifold.markets/v0/market/ZuuR9OdUIZ?",
+      "retrieved_utc": "2026-10-21T12:28:09.822760+00:00",
+      "sha256": "da3b1c5963d157e214386fc1220f1e32d2185bb464c30e0b5c584e02c70b4fc0"
+    },
+    "f35174773355bd3125909dd71daf99b70075107217a9df1488dc11890740076b": {
+      "url": "https://api.manifold.markets/v0/market/LP5t8LUAzU?",
+      "retrieved_utc": "2026-10-21T12:28:10.259366+00:00",
+      "sha256": "0a466637131c4682bcaa246135da46c6b0cb91cddea0a82bbf198f8bd13e7c17"
+    },
+    "15a8337c8085249b6202526ad8d8e6ceafd9bf9292bdd889193cc65e33ff90aa": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792470521536&contractId=LP5t8LUAzU&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:10.537529+00:00",
+      "sha256": "f454092f328940d791b6541d7721eb92ba13196b2a08b13c57b76f82b9615e08"
+    },
+    "633d852325aea6d5fe4dbc394d395f40055cdb2d55876c701868d75eb2b24e39": {
+      "url": "https://api.manifold.markets/v0/market/tc588CUZS5?",
+      "retrieved_utc": "2026-10-21T12:28:11.274641+00:00",
+      "sha256": "3d7468a2e77921600dfcbb5f4242f20757ee922cd58e931b04af9f2a0417993c"
+    },
+    "2e1c03c07da2f049048db7415683e9506fac278495ab7fc1585663a60dfeaa65": {
+      "url": "https://api.manifold.markets/v0/market/dyqOCEyShP?",
+      "retrieved_utc": "2026-10-21T12:28:11.698671+00:00",
+      "sha256": "314a3baf6a128468fcc17b53a9e7cbb8c63d3bec3e34f901d74281d364e56b23"
+    },
+    "98294e123f9311638f54732938ec0429b1d71b011a6112a2c229cf90db75360f": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792295332902&contractId=dyqOCEyShP&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:11.969378+00:00",
+      "sha256": "b40b58e4126062952b1a94636c700443d95207377d76698b2cb3d8d5a8aa8009"
+    },
+    "efed637c74550fc7f5e18b766461bb481eccbc81671b623a5823a355a64c0223": {
+      "url": "https://api.manifold.markets/v0/market/9Aph2ZOzhL?",
+      "retrieved_utc": "2026-10-21T12:28:12.242663+00:00",
+      "sha256": "ca36534a2c6c3aa777e5a48b4583b3f874c7c6b76841b58c35c1276ece11d8ca"
+    },
+    "f3198cf7f0c77e845ce212ec99b56c2aa2cadeac8bb75542923f84a9ef4cbb38": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792295308836&contractId=9Aph2ZOzhL&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:12.525631+00:00",
+      "sha256": "af26d72909cb3aff104af9357ae9d282130cf462f39b148ce30179cf68cd71f1"
+    },
+    "0b257694566e304cb7348dd08d57f2737a75016c1fbadcd36f3efe69398d9cdd": {
+      "url": "https://api.manifold.markets/v0/market/OI9cAs6tI8?",
+      "retrieved_utc": "2026-10-21T12:28:12.806524+00:00",
+      "sha256": "b29493ea6479cad5bfc102950521b8030c9f1f6c974d158f4e113af90a10c1c6"
+    },
+    "04c1529f254d9cf746c290cdc6a60320d8b000e0e751365b546224c86071afc6": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792279757943&contractId=OI9cAs6tI8&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:13.070361+00:00",
+      "sha256": "f8637a5534b3471cbacd97bfe36b69dd0e9d5d869e02b9d2188049e88f122119"
+    },
+    "ded03a3043c0576d01a13f9a17e50062d7607f26db550957930e6ecfdf229afa": {
+      "url": "https://api.manifold.markets/v0/market/OEO5CQcQcQ?",
+      "retrieved_utc": "2026-10-21T12:28:13.347634+00:00",
+      "sha256": "180c9419eaadc365e16937d60c79773f48764bbc6bdbe7e7a038337f02f2d4f3"
+    },
+    "ea6bcd950adb1277527d4fa1b3329f10fc7fe98fb76e8614ba16453b1c1c58a9": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792192913241&contractId=OEO5CQcQcQ&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:13.911208+00:00",
+      "sha256": "2d7641d92d995207a5917b67c84114af4f4aa0a6bb4826d2ca70f8e1a81971e1"
+    },
+    "b455dff375515971ee26e0eccba11cb4903b470dd19783147e1530131edc6d0a": {
+      "url": "https://api.manifold.markets/v0/market/8nCzt8u2Zc?",
+      "retrieved_utc": "2026-10-21T12:28:14.198821+00:00",
+      "sha256": "3d00961d5f9fea693b726060b2f41e3ee171c34a2f4d2055a78267b948e03ac9"
+    },
+    "a4f00fb2451f07f06a6be08ed36fb2dc1d9d3a19e58a6e9709613f310d857045": {
+      "url": "https://api.manifold.markets/v0/market/EtdhCRzsPC?",
+      "retrieved_utc": "2026-10-21T12:28:14.462067+00:00",
+      "sha256": "dfce1157f1074a4f893292f1f3dfae03c41d69ec14e0e47edf878ea33b6272f6"
+    },
+    "daa7005f4e6e600713db102a94a9781bab6f419fd09b3b8d0d6d37f876524ce0": {
+      "url": "https://api.manifold.markets/v0/market/9lcLQAzcy5?",
+      "retrieved_utc": "2026-10-21T12:28:14.721270+00:00",
+      "sha256": "d94bf3adbe4ed77dd2755bb900915b89a1121ddeb08a0dfb44d14c718d47785e"
+    },
+    "73c1846d25ebb776722ca546db95c011a51b8470ca10cf1a814655888fde15ec": {
+      "url": "https://api.manifold.markets/v0/market/ZspCu2yEPs?",
+      "retrieved_utc": "2026-10-21T12:28:14.993488+00:00",
+      "sha256": "389e1c1326a23e5bc02ebf56b3287201d061116fd9213a9a0656132b477d7802"
+    },
+    "849b31d293cf391a6a747655808058c4b6b19395f6ce69b2afcce04a4b60e68e": {
+      "url": "https://api.manifold.markets/v0/market/yIStAO06CU?",
+      "retrieved_utc": "2026-10-21T12:28:15.265415+00:00",
+      "sha256": "125c26ed4459cca28d5d6feb7b7cc569ee257cf7357309ed5d94aabd335c9e1a"
+    },
+    "7eb5810fc71f04afbc6976bc196c3b4b8e5c417d0c0d3a5cab007972eceac498": {
+      "url": "https://api.manifold.markets/v0/market/glzQcu9Ogq?",
+      "retrieved_utc": "2026-10-21T12:28:15.521443+00:00",
+      "sha256": "67dcd4714d05ad559f663245865251c819e81e9995c0e0046f262af9da2cf013"
+    },
+    "b1ad7cc4fb0be42466702afcb6b69ee1f83554b0a4bb4aba8d70c421802c8d71": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792454508591&contractId=glzQcu9Ogq&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:15.917492+00:00",
+      "sha256": "402342a83c5d449ece38f782fd6058c1a790d42a322b11898e8ee5d4bafd99fe"
+    },
+    "a86f433089413c9a31d797636df0a6177e296e21dfc3bb0425be9cdcb0c9816d": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792368108591&contractId=glzQcu9Ogq&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:16.233914+00:00",
+      "sha256": "dc166c54ea2d1c2dd09d5fc36dcbaf107e58fd318575dafd04e42a73fc7747f9"
+    },
+    "b0ea3e004f4f66874ffb9939d53105739b4f18662667b7a6e1f1617f7ac44e76": {
+      "url": "https://api.manifold.markets/v0/market/PdEUI0PCtQ?",
+      "retrieved_utc": "2026-10-21T12:28:16.504075+00:00",
+      "sha256": "756eeb8452af83c6ae1af88b69e94c47966e3de01fe13b1ad4a5c75037576f0f"
+    },
+    "d59581187f635b6e290772863cbeef646da2478fd5643e49ea61c7bc92482f30": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792322842712&contractId=PdEUI0PCtQ&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:16.784087+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "e4d2d1ce6215fce3689cd2e9502e20966a838ff7ee15602e4f4056c9ef10d0ba": {
+      "url": "https://api.manifold.markets/v0/market/Og5SS5QzEL?",
+      "retrieved_utc": "2026-10-21T12:28:17.058008+00:00",
+      "sha256": "44fa1e69f9f5e7653059c80ae38fb374c4d0f9682f072f643997345fc937d442"
+    },
+    "8a123a8b75e00ba4ba0f9961cbc8ced94e463143730534302ff82a735b47b035": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792138607604&contractId=Og5SS5QzEL&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:17.493643+00:00",
+      "sha256": "c4a3c0d3e7472dfc5c541d37b8dfdd52d0051443764ea1981a17e1162e7ec5b6"
+    },
+    "ebd161c86dda96166dbe474e25856db1d56f4e0fd3e35a99f9b2e62b31d39ada": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792052207604&contractId=Og5SS5QzEL&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:17.826494+00:00",
+      "sha256": "eb1aa2cade7bd68dbd0b00679c4207702a5ec0a5cfd1e085fad5e2c2bef34883"
+    },
+    "83ca989cbdb6e324d5b007b496a33090f032883133b9c8d954134949b5efb8b7": {
+      "url": "https://api.manifold.markets/v0/market/Z8Uzdc8qqC?",
+      "retrieved_utc": "2026-10-21T12:28:18.108634+00:00",
+      "sha256": "ce4532f13139854086d6561f903c2d082b08d065971a7f1924a89adadc869d3c"
+    },
+    "3f76dd6e9fb61a7ba4cf951d84bf6b75b8aec338ac44bcc979fda91a70605c7c": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792110847434&contractId=Z8Uzdc8qqC&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:18.800127+00:00",
+      "sha256": "9f7aa5b8efdd91ab9da6f5c8f68d08f36bb2ce78e945f7542889690134688c18"
+    },
+    "27c9d931fa0e70bef983af973d42dde259be8d22454c827759a2fc37bac9bbf7": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792024447434&contractId=Z8Uzdc8qqC&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:19.092198+00:00",
+      "sha256": "f266b9c8c52db5429f42340b0ee0cd002798e1b8427d8d61757858d3c79b7c7c"
+    },
+    "c95e1a8da48f540e861ebf5dc3c14fa505c9a317acb4f585e65d661f63a34b5b": {
+      "url": "https://api.manifold.markets/v0/market/snyczSN8Qc?",
+      "retrieved_utc": "2026-10-21T12:28:19.392592+00:00",
+      "sha256": "926d3ec814d1e2db154954ccfe9a5ddc92a0e5bc89b3e624c66121ed9a0ee843"
+    },
+    "3018f9d51f1bdd8ce017d7445a51a3a8ed633043a10509958420b03393ccbf9c": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792089099797&contractId=snyczSN8Qc&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:19.957666+00:00",
+      "sha256": "1e95618a1c730610d092f832faa30a578d65d994fa93e058744b0e10f962e478"
+    },
+    "8864f4fd6f634aa72a898374d1a516eac0a04f8e3a88383d15cc8daa0a0cb10b": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792002699797&contractId=snyczSN8Qc&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:20.207923+00:00",
+      "sha256": "2c22b114be505b60166a9a185cbe58001db2b0f47b0a5f6058c99787e4472fc9"
+    },
+    "dc74a019d266e588c7b7d9a6caf95744a4e668e3a0dd1db4a8c18cf61197a951": {
+      "url": "https://api.manifold.markets/v0/market/I2t2QNyPR6?",
+      "retrieved_utc": "2026-10-21T12:28:20.486453+00:00",
+      "sha256": "c273d384841975198752495470777c56a68df71255fc5b4a3e662a570fdc35c2"
+    },
+    "609e12b2e8dbadd6675e3d257d9478c82a07aeec305af5a5a55d313de8706c52": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792174940403&contractId=I2t2QNyPR6&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:20.776871+00:00",
+      "sha256": "0f2ce8b080041d7cc20d4f1a2954749823439c624d3a11b8e88e8423510d25d1"
+    },
+    "3ab924e7b45ad053613f54966fb10840a83d3071cf7ca8f836ca0cc8954f65f3": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792088540403&contractId=I2t2QNyPR6&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:21.291554+00:00",
+      "sha256": "71ac5dc96cfb3c0e3feda20e7c1e89b18156a6cc22a25b318d2df8087b5eeedc"
+    },
+    "7f0c49c4835aa84437c4318f574da5c5abeb26e66ac392b5c3c490a03608ce88": {
+      "url": "https://api.manifold.markets/v0/market/OtppS86NA2?",
+      "retrieved_utc": "2026-10-21T12:28:21.559690+00:00",
+      "sha256": "b37e01b58da71e6b77c16ca53694d901ec0782c4fef8cf159fcbccd3eb0d3ab6"
+    },
+    "d7f3641441008d89a17d255e7dde031a07c00fe703277254c30fa0980e4a4f8e": {
+      "url": "https://api.manifold.markets/v0/market/ph8gg8lAtS?",
+      "retrieved_utc": "2026-10-21T12:28:21.846706+00:00",
+      "sha256": "00883b70114eb977fb7d9df4d29769c2a906f0528a429d1afeb1747f2e5dc371"
+    },
+    "ff923e5263a920b4a6cfc50542814ed4b408f27d7a23b21a7b5079b5c8660ec7": {
+      "url": "https://api.manifold.markets/v0/market/2QtsCQ8OEt?",
+      "retrieved_utc": "2026-10-21T12:28:22.111510+00:00",
+      "sha256": "64c9026e32887e9eba50a9fbec64601b3558c22fe64a9c14d062502b0749f69f"
+    },
+    "7cb5e93141c28a943d272197607bfb0b3ce4ec5b780f47ec55bbcfada6db2db3": {
+      "url": "https://api.manifold.markets/v0/market/NtCuR2dZUu?",
+      "retrieved_utc": "2026-10-21T12:28:22.378416+00:00",
+      "sha256": "039a0ee8ac9ec2c478ac630ed6715c14c71883653fe8e1a5e2bbcb418bdf1ca0"
+    },
+    "269e00a01f8e4e8e1954f1955bd5222a9a9fb3f9a607736f70592e83e2080e19": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792279722990&contractId=NtCuR2dZUu&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:22.752161+00:00",
+      "sha256": "6bd23b62b3c5f784acdbc217d87e1041d0f0ae89c70011d3faf262cb779eec2d"
+    },
+    "bfce61d31c5cb4c6689d642d1c73016c319e084338597c35daeba71be2311031": {
+      "url": "https://api.manifold.markets/v0/market/lUg920uQtO?",
+      "retrieved_utc": "2026-10-21T12:28:23.401186+00:00",
+      "sha256": "2e313b2de125cc267d1ce165b3496501fd7f5aabe86d6b77f164741373f187a9"
+    },
+    "e2df686201e46a0fc8f4de5ae8a7f39358ba7533241b44279ab9fe9740c94d9b": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792278063791&contractId=lUg920uQtO&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:23.688348+00:00",
+      "sha256": "e62099c030c409cef5af16cabf99bb585ce6e8afce888386cb28dc29ccb31ee5"
+    },
+    "1bcad936ac19d7976723f610ee9b640d199b82a039ce4be72773c0f9cf4a5287": {
+      "url": "https://api.manifold.markets/v0/market/9u0yEuzOg8?",
+      "retrieved_utc": "2026-10-21T12:28:24.240885+00:00",
+      "sha256": "6725198757bd99cdefbb201ac6558cce5055d38d3534e210b0f6be801a391f87"
+    },
+    "df5e9a23f1746d6fd87963ce4aa887110fad101468a3ad0a9ffa528c9eceb8c5": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792268085626&contractId=9u0yEuzOg8&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:24.493205+00:00",
+      "sha256": "3015b69deccb8948aa36777d879d613d0e62cf31568324655c4c1f33491a4703"
+    },
+    "04d026e783eb04d9ed76e1b4ca73b7111bf3c9dc357dda6edb25f1158f4d0bf9": {
+      "url": "https://api.manifold.markets/v0/market/ZOzl9zhZlz?",
+      "retrieved_utc": "2026-10-21T12:28:24.762678+00:00",
+      "sha256": "e8930eedce7832af4d6b7ebc27c53d7553f229a2fbfeb44ece7339153e3bf1e3"
+    },
+    "1b67e21bef8f884a11d7450347c40ab67d34b356ee9cf7808c48de51a58fc862": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792269467364&contractId=ZOzl9zhZlz&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:25.104020+00:00",
+      "sha256": "328e5defb5c6d5e889596d375aae23689e9d5cd973621f1fa1a85ad664d482d9"
+    },
+    "38371a0a702e96a18f411376e2e27864f88df9a7dce86e0b319503683fd63f51": {
+      "url": "https://api.manifold.markets/v0/market/pSOngp26Q0?",
+      "retrieved_utc": "2026-10-21T12:28:26.064101+00:00",
+      "sha256": "063515c77eff8b71a1ff32b6d30b466bb26f2390c9d82274a9d82e698cdde745"
+    },
+    "2d7170e329f9fab22b8c6608d8b72f0d91ced84e4e29590873264ab3b665c55d": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792267963557&contractId=pSOngp26Q0&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:26.455832+00:00",
+      "sha256": "939de4890209d44f6c2534bac5b34a4dcd8f2854357623e918f30c3f84526a8d"
+    },
+    "3f700b9803eeae4e3385de58087a49d48d9fa5a026d61e9775318266fd55e813": {
+      "url": "https://api.manifold.markets/v0/market/pZOSz5CLhd?",
+      "retrieved_utc": "2026-10-21T12:28:26.770064+00:00",
+      "sha256": "7cde1c8f8606872d41db9d6d76186fb9d05c98b995831c06b28a6c133833c6dd"
+    },
+    "a3981e6afb7869de67ed4a39a3213397473ef6403986366ccf35e6c860a0436a": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792268029001&contractId=pZOSz5CLhd&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:27.034196+00:00",
+      "sha256": "e22ceb12cf7ef3361b0f8dcb97277cc2c20ca037094cbd12fc86fde7a98c541f"
+    },
+    "980aff4430bd540c4362c0f388ad49f975c323b4aa55661876bc125e892ba584": {
+      "url": "https://api.manifold.markets/v0/market/6N9P2RNIqZ?",
+      "retrieved_utc": "2026-10-21T12:28:27.695779+00:00",
+      "sha256": "51775c310bbe8f45f5d0b7a715439784ffddfc54aa18b9cd33daceddd1491971"
+    },
+    "f8797e0f3847919c45cf6e27bb1199ed07f8073e6baeed911ccc74f4b89d3b53": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792269255358&contractId=6N9P2RNIqZ&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:27.973263+00:00",
+      "sha256": "a06690e788c62153fad8d4ab5ffc0ad07b5dbfbf99a7a0c7fd6dcf47ca1abac9"
+    },
+    "e44cceac73611ae8578630593eb896f14b59480722dc7fd7fa5bb6666b64a15b": {
+      "url": "https://api.manifold.markets/v0/market/ZCnSQhhIhP?",
+      "retrieved_utc": "2026-10-21T12:28:28.239078+00:00",
+      "sha256": "1b7cde4c70195f83faf0c863283363d5305204a3962c1a3b5449dae7bc26f35b"
+    },
+    "f9ade6476a4c16c2c9fa8ef1cfa0e4f9eef1693b9a8fdb010852e184cae2c361": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792269416020&contractId=ZCnSQhhIhP&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:28.517148+00:00",
+      "sha256": "ffe2d5bf8cd4cedaf8af38624a8eaf6b19ccf9395756377b0dba4fd0644c56e0"
+    },
+    "d1eaa7e59f0d56ed2154038cf7bbf443f86d448c4951f1249483e01645b93269": {
+      "url": "https://api.manifold.markets/v0/market/ZhsSCZq8Qu?",
+      "retrieved_utc": "2026-10-21T12:28:29.277705+00:00",
+      "sha256": "3396a0ee4680b6e45933a8911aa5cc6318365c4b088e87f5b22df3389e399363"
+    },
+    "4db214fdfdccc7053136957b1d73e8c863126cd8131794c3983808dd77c6a679": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792268265344&contractId=ZhsSCZq8Qu&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:29.563349+00:00",
+      "sha256": "72f48a2c19968fffab8b605f3df30067e7c66ace2dee9ce70e070c14762649fa"
+    },
+    "ef723470d33c557f79fae23dc88ee5fd98f6c653819cec6ab11e084e1cd2db0b": {
+      "url": "https://api.manifold.markets/v0/market/zANdRNuuPA?",
+      "retrieved_utc": "2026-10-21T12:28:29.829033+00:00",
+      "sha256": "d8d9cee644cbf8fd0fb1f6b070dc9a8db9dbc565326756d9f9f59a3b78c47719"
+    },
+    "833ca9ef8f8eb38d661481bdfa61d27cb169df5cdf4bf9ffa9d59dec33324f42": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792256707248&contractId=zANdRNuuPA&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:30.104751+00:00",
+      "sha256": "827475c6052752ca2db2c300c8588df4c5c6497ef51b2a2340032de424934d59"
+    },
+    "1237ec9549d363cb3311dbe14472bf3441a16b0175e5bba6a5b245e8a1eb3d6c": {
+      "url": "https://api.manifold.markets/v0/market/6gQp20UEAQ?",
+      "retrieved_utc": "2026-10-21T12:28:30.377418+00:00",
+      "sha256": "194706989b5ff5fc0c442da5d4c2cdaa558bbe0cf3662d7d9937c9a79454a299"
+    },
+    "6ad738755687986c3c9808e27e27f97ebbce21c98985fb52e9c5d218270bacd3": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792067273160&contractId=6gQp20UEAQ&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:30.640928+00:00",
+      "sha256": "500ab138e263392760c9f69298c265b54b41632d35abddb386402a446315087d"
+    },
+    "64555995458477f6b9394e75bdd67b65412c12d056e7b5fd7622f575286664c7": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791980873160&contractId=6gQp20UEAQ&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:30.923647+00:00",
+      "sha256": "6cb5046d4138ce696a4c052d822a2d6f1cd94f2ab084d2e079437ca691be9af0"
+    },
+    "05ff75c6ea95f61f47d4c2190b1c936d8be340c8dfa7c71e4b2f5ae882e2f813": {
+      "url": "https://api.manifold.markets/v0/market/yNI8PnEUEg?",
+      "retrieved_utc": "2026-10-21T12:28:31.608384+00:00",
+      "sha256": "6f98bc7398cb996ea470640cead2a6a3a73de9410ef33fa56e0fd581bdef872a"
+    },
+    "999c9c3e4d42198fb9f9b7d52f44fd14970ca2ec3e07e4b7a4b850ce1b4b18c0": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792216705253&contractId=yNI8PnEUEg&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:31.915579+00:00",
+      "sha256": "a33ce74e00c8eabdf7356ff68783ddf4c2374daedf8071c54cdffb5e37bfc36f"
+    },
+    "c54e6a9cfe55020a746291e14623a24cb921cb0c6a0da12a68845f478f38d283": {
+      "url": "https://api.manifold.markets/v0/market/npq080Z8Ql?",
+      "retrieved_utc": "2026-10-21T12:28:32.198744+00:00",
+      "sha256": "de6a51d5ca0344ef4331a2aa46beab6f3efed53423232abd89bf18e01ef163b2"
+    },
+    "1354912a79f9b65c68e52da0241a404a5e00751a68869403b9a4f9436dd8cd5c": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792250748010&contractId=npq080Z8Ql&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:32.452575+00:00",
+      "sha256": "8b9db2b761caf0dc542ad40bfffac7daaa4735fc90db30806a132e1825a02181"
+    },
+    "bb99e38334b1e9c7aca687342e8152a1a827b0e24451941644072312b67ccfbc": {
+      "url": "https://api.manifold.markets/v0/market/NzdPUhSpLu?",
+      "retrieved_utc": "2026-10-21T12:28:32.838544+00:00",
+      "sha256": "17a1430461778989889c6a661681e9531a1540f37ee44e81c6fd155821190369"
+    },
+    "bf686c7c6f44adb8af8838b3ec9cfbb0c3faacfeb07a7f1afef801d037d56065": {
+      "url": "https://api.manifold.markets/v0/market/nnEInyS6lS?",
+      "retrieved_utc": "2026-10-21T12:28:33.090366+00:00",
+      "sha256": "ea6ee265a5351446e482564458c39d5a80c88276ef6ca2c51592757ae5b46743"
+    },
+    "9f4ecfcb0f57a8eba9c9dd7cd8e7c90ce76c6a3cdf71339eb36beeecaf5b0825": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792177276192&contractId=nnEInyS6lS&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:33.407043+00:00",
+      "sha256": "8576444e6e55340becdffe77f86700e5e2df3f544197e0c89c1686f529974324"
+    },
+    "ab44a2ea37f7a1766bb7a16bdd424027c7717a38f8fc050db11c3bb3661b66f7": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792090876192&contractId=nnEInyS6lS&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:33.689873+00:00",
+      "sha256": "982e94b2816cdb4e4cff58c14b2356ed37b1c073dc1d32f3a1a4e9818ffb5bd6"
+    },
+    "6b3aded49adc808253acf930d213cc5e4c9a040e5309a8bafb828bff1f878384": {
+      "url": "https://api.manifold.markets/v0/market/sltO5E5C86?",
+      "retrieved_utc": "2026-10-21T12:28:34.004765+00:00",
+      "sha256": "f13fc1830b2747fd6073dca031c25f4739768cc97d7f4aa49ed0b89595f525ac"
+    },
+    "99f11d202995ff015daca38bbbbc45bea2263e01d3494c15cf95fa36148a4919": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792166906596&contractId=sltO5E5C86&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:34.372733+00:00",
+      "sha256": "1e653b038b1b46fe23e3ccff40b1d1aa7a3018cd2202be189aaa0953b5a1637f"
+    },
+    "9400848f5d1ce6265e4e91021b72201197ed6746baca92ea4d3fec5ea46db689": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792080506596&contractId=sltO5E5C86&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:34.949446+00:00",
+      "sha256": "12614df9fcba921f153d373a5133d0727b9c5dbcc026fead0f0f0f15c729ee7a"
+    },
+    "8068ffc3fc273eb01901ae8e8b4450d9bf86c3282e884525585f57b1f117a98a": {
+      "url": "https://api.manifold.markets/v0/market/A6zhgth9Ep?",
+      "retrieved_utc": "2026-10-21T12:28:35.222771+00:00",
+      "sha256": "e301983352cb0d87ce8b973104dcf2cd5074d07ca93765da60cc23c6e4b5e72c"
+    },
+    "730e3d6fce1101c201ed5236ce787f8a21e057ec9d28967e24f3f963d36709e4": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792095993717&contractId=A6zhgth9Ep&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:35.884375+00:00",
+      "sha256": "687492fe840d80548315c9020a67221b91d4e5c4fbe1e8afc3f924aa8f474420"
+    },
+    "26a260f22ef5cf7896ff4c5dad888225e935a7e1cb8fbe671fc0a94ec1e55148": {
+      "url": "https://api.manifold.markets/v0/market/8PIs2CP22z?",
+      "retrieved_utc": "2026-10-21T12:28:36.148076+00:00",
+      "sha256": "792e2ee5e0edc3a0ef98c90c618fd1727d2eaf6c656ba83a2fd6d8b5914a82b8"
+    },
+    "9448ec3050d149fd93253f1e9d5d1f04dca18caf0c911b86c306bc2d35b26ccf": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792158717909&contractId=8PIs2CP22z&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:36.524862+00:00",
+      "sha256": "e3845a334e29f37e2e9baf3f17ff0b311a64f0dd61960a5a0f8bdc1dfbcfc79c"
+    },
+    "1b452e7794719b7e8c94ef2e5c9097c195047ee1566df5001f7c42681cf2ef93": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792072317909&contractId=8PIs2CP22z&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:36.818077+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "f929a83d50bfd3fa38787250b9670b574f2efdedf1b40e70cdad36137fb6f61d": {
+      "url": "https://api.manifold.markets/v0/market/IAc2UhSgI2?",
+      "retrieved_utc": "2026-10-21T12:28:37.092623+00:00",
+      "sha256": "7470acbcda06068978f31410ed839f41668a067f09a51892487d843c1402442f"
+    },
+    "605870c2ee8b4d6d3fa0e60a52dc71d897a9afb5d6791274526e457907fd7c6d": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792328440712&contractId=IAc2UhSgI2&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:37.374286+00:00",
+      "sha256": "e46a15de7e68c47c07d2348000cf25f982b5eb36a265d9d65da127a7440a0bc6"
+    },
+    "6f701fa9b2792d79e7e97a384f63974a6f6dde3c3463adcecd19e50ccf415d70": {
+      "url": "https://api.manifold.markets/v0/market/UPdq9ppdtp?",
+      "retrieved_utc": "2026-10-21T12:28:37.678636+00:00",
+      "sha256": "5012053a4164bc000826a99b9371410135469b9b86d08a5014df9846608b108f"
+    },
+    "ccb6234210cad78e3a6ff01d7cc684bed34012b703462e460b3abd8fccf85cb9": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792187696745&contractId=UPdq9ppdtp&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:38.001395+00:00",
+      "sha256": "25071b592144923b10af858b6bf356754f6b78427aed5d9752c59226317f2548"
+    },
+    "60785c2456e1acb97f44a52ca577da08cfb0d20c53a970fd75029dbd1df3b5fc": {
+      "url": "https://api.manifold.markets/v0/market/C228LSs95E?",
+      "retrieved_utc": "2026-10-21T12:28:38.559478+00:00",
+      "sha256": "8bab65db39ce72c37e62aacb36e2515713c01358c62754ef59c5fc234584f9f5"
+    },
+    "476909529e628f541fd55ce8ecd72232db5a8b6203e3541c063a00e7fd4f51f3": {
+      "url": "https://api.manifold.markets/v0/market/sEdQ9z5ScE?",
+      "retrieved_utc": "2026-10-21T12:28:38.902709+00:00",
+      "sha256": "022a3a02b579daca61fee06a5f08248c3bf79cdd1e05b2ced943b842b1c5f4f1"
+    },
+    "712f83f5f3acf6c1901cd265391bcc5d43721c2769838bebaa810222706f7342": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792341798504&contractId=sEdQ9z5ScE&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:39.221068+00:00",
+      "sha256": "62e6b851087191b8b4eb273087f91e5eae4725c4659f08d08078933ad0eaf346"
+    },
+    "530dcc2ec1e15aff93a7bfb5e6d65838b88fdc9700db7e7655996a44a59a4cff": {
+      "url": "https://api.manifold.markets/v0/market/LgdNlR2qNP?",
+      "retrieved_utc": "2026-10-21T12:28:39.554190+00:00",
+      "sha256": "3808e0f32175f10384db7059591d5ed695c0b7c74e118231974dae0ee680ff43"
+    },
+    "660baa54d8229c8ec36c84632edbf6ef2e76416ef893171b059af9c3b0118613": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792380726839&contractId=LgdNlR2qNP&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:39.943167+00:00",
+      "sha256": "e8c437b9cf70e3d49ec47d94dfb77959d69176677daf9512795e693d5ec1f9db"
+    },
+    "c1d22279624066c90a74a390aa055b9aa4a5a0b8c76613753909064ebc463d75": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792294326839&contractId=LgdNlR2qNP&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:40.243427+00:00",
+      "sha256": "8de30b3d07657a619aa748fb731c5e0c72a2c2936fd42606fbed6975573c252b"
+    },
+    "fa5b4256b01c1890fa47cce94ee955cab6fce06a061ab47f5e8ade19dabc56af": {
+      "url": "https://api.manifold.markets/v0/market/zQyuhyZnRl?",
+      "retrieved_utc": "2026-10-21T12:28:40.516008+00:00",
+      "sha256": "906b28c855e310d0138688e70e5f62ee358cca0cb1771eb6699faa42045ced38"
+    },
+    "08d3010508354ad4d1b3eb38ab91c4bf780d2c6a594f68346cb3bcd8ec2b641e": {
+      "url": "https://api.manifold.markets/v0/market/tOg96y8LPE?",
+      "retrieved_utc": "2026-10-21T12:28:40.920779+00:00",
+      "sha256": "b841cc906c593b9e4fb1a2b8db366ae1695f15f4dbb6312b9650550cc1c33821"
+    },
+    "2c0479c8e1c1f8031dcfbebc873c523d223122a9fe0f748599da9f6753e67ed6": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792305774710&contractId=tOg96y8LPE&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:41.197136+00:00",
+      "sha256": "75950f4011df831829b0024707d3d0ac3eb08ad219fba92c05c17655dd1e6aef"
+    },
+    "0eaebc3a392206091f3da48884314f73fc93d8456a96805905bc6dced83cd773": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792219374710&contractId=tOg96y8LPE&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:41.493892+00:00",
+      "sha256": "0b26723a6687ac7f89b2f3e07246e2ec578354e975d8cde9d70ed59b66525ba3"
+    },
+    "b0f0934116f85f282983c62d4038b07cd6a6ad8bac8fb7fd8be65bd94d1ae2ba": {
+      "url": "https://api.manifold.markets/v0/market/RUghztLh6Z?",
+      "retrieved_utc": "2026-10-21T12:28:41.782960+00:00",
+      "sha256": "cc73bc07525d409cc72da90f3cf79a7ed1ecd4896e9bcb656cc00526d28e7cd7"
+    },
+    "a30cf09442f532ad619dffea86b0c3e3dbbaa8dc62518a9e634fdad91671e7b4": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792305761460&contractId=RUghztLh6Z&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:42.065158+00:00",
+      "sha256": "0f6b489b00a435e08e85957552705ebb41ae809057d3e63d9ef22c10c9641d3e"
+    },
+    "2f2dd1205d01465a25a6d00401e3b79ae9cb4e04474216f197be7fd0e169df75": {
+      "url": "https://api.manifold.markets/v0/market/US8Sus5RyQ?",
+      "retrieved_utc": "2026-10-21T12:28:42.329792+00:00",
+      "sha256": "af8b029f9cc289e80c70440c05470992ddbe1be14935898cb1e76fa99126a223"
+    },
+    "dc7efb5f40d8da8526919030f20bfd837e08d6a1acc78f2d20574c6f8eee4921": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791957267309&contractId=US8Sus5RyQ&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:42.638208+00:00",
+      "sha256": "cc89575c06cf16e8dcb4b0872da6eb5f5e2733f1aef9787dfaa25ccc74a21c61"
+    },
+    "637aa64ba4cbfd287c30bd3b056d505308829b27d437061f21329d5f695f4a29": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791870867309&contractId=US8Sus5RyQ&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:42.915607+00:00",
+      "sha256": "5651aa157e3ae9895ad76c1c06b9fbfcfa90eddae64579d9b68f2a3c895117a7"
+    },
+    "88c9e521cbbe9eaa0a0e102b7b2536eb3189f5aac999c40536b886e76162c093": {
+      "url": "https://api.manifold.markets/v0/market/5nI6g5USCL?",
+      "retrieved_utc": "2026-10-21T12:28:43.187540+00:00",
+      "sha256": "11605d0a43fe2d5b19b29cd3c85a8f186574e6db8a68910da41e25f4f7fe9b51"
+    },
+    "831c07995a292fb3fa83f116680b412add0b097e99178955f33cd4d3ccdd4d74": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791957294171&contractId=5nI6g5USCL&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:43.457610+00:00",
+      "sha256": "b224a16f27a0615967d476f440f8c48b13081a77bc833add8c2f02ae66e338bf"
+    },
+    "01390d95b931d137c6ea42c09685dcbb8f45fc77195ec25f70b8b6b49ee6feef": {
+      "url": "https://api.manifold.markets/v0/market/U6QPnSntZz?",
+      "retrieved_utc": "2026-10-21T12:28:43.729551+00:00",
+      "sha256": "8c4afa30a15ef0a9eae97a91c4aa07007dfb10c6fa7b6a7685ddab0261a16599"
+    },
+    "48b349618d3c18d95ed64ad4c9a6270ff38fdf935331908b8b77e48bee764216": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792305751245&contractId=U6QPnSntZz&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:44.022573+00:00",
+      "sha256": "9ac882503feb59c50ed98d9e637e74e47b390981259e9abbd8e74e40519040f9"
+    },
+    "e4da7dd2c5000b34f698cb7c9d92b422efd0aefaa6bc1a17495a6425c0792c30": {
+      "url": "https://api.manifold.markets/v0/market/tZ2st2SRqz?",
+      "retrieved_utc": "2026-10-21T12:28:44.345110+00:00",
+      "sha256": "1c09d54c906f2b89b03c86e2f687847020a997c9e93535a219fa86bedf23fbd0"
+    },
+    "97b6765bda4bf9b9f89bb1f30f33c1af0ca7acc4254c1c046fc5115f822f54b1": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791957309188&contractId=tZ2st2SRqz&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:44.613426+00:00",
+      "sha256": "c19b3bde073e9682fd2d1c69eb125a0db0c995008634835e396e022546ed83b1"
+    },
+    "8d77976a9d923a1244dc3e520792d703761383845f20cf10550c0caeb0a326bc": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791870909188&contractId=tZ2st2SRqz&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:44.880130+00:00",
+      "sha256": "a57f9710bb2c44ea8e412d5f2a8a854e13e2fe44a03f9b82fec58149f3fcd73e"
+    },
+    "605bb4833e07fbe28024920db1c2c3d73bc8c38375dd63fc6ec91d5201d3c705": {
+      "url": "https://api.manifold.markets/v0/market/nUyQ9syu6s?",
+      "retrieved_utc": "2026-10-21T12:28:45.147482+00:00",
+      "sha256": "07115c1e5173bee5e31914332aeef198bbfc454463d17fbdfbeb3dfd2fb04898"
+    },
+    "7faae5bc6e5212f737f279ab848992c310a3e8139a49d3c2c6aab37ef97ed2e5": {
+      "url": "https://api.manifold.markets/v0/market/z5qlUyUPzL?",
+      "retrieved_utc": "2026-10-21T12:28:45.500206+00:00",
+      "sha256": "28e8cdb0f9682093a44846b10c361644080e5477da9ae771646efe07670f1d8e"
+    },
+    "35b17832cb3441a4ced1e3b044c494c45edd8958d3b495bdd90666efdeb3dbfb": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792180153936&contractId=z5qlUyUPzL&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:45.787566+00:00",
+      "sha256": "32cb5a6b4bed06b2587596ae8b6e12912dc5d7768ace4b4fba95c00d3aa3f6d5"
+    },
+    "c3312259bbf7067f49379dcd9f8f0f934d362c609fc7a53afc1ec8a20b6b1e85": {
+      "url": "https://api.manifold.markets/v0/market/IZ0lntUhls?",
+      "retrieved_utc": "2026-10-21T12:28:46.159585+00:00",
+      "sha256": "658e7a2eab46955b3882598227cf6649342fd9c87132087dde9e02bbd82864af"
+    },
+    "b8bc7eefe251ccda6b0bfca349f720461fa0e59e707293a1371fc65880a911c6": {
+      "url": "https://api.manifold.markets/v0/market/nPZnhzsN5Z?",
+      "retrieved_utc": "2026-10-21T12:28:46.421090+00:00",
+      "sha256": "f18ce5496ba5706ed0ee886147e022b9ee63f0343d029fc9bc798f6e35b7aa06"
+    },
+    "5395b4fdb31b67a84494b72593caa72a346c37bef18ee2c3f88619d9c24c46d5": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792213842669&contractId=nPZnhzsN5Z&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:46.696794+00:00",
+      "sha256": "66726a34a18db9d3519f5f508661aafa16c9cc7df0eb3c4dd04f1b3295cf17c3"
+    },
+    "a2d86aefecc288225f0645f5a6502307807892b7d2b67dcc0353a2052b0f5df9": {
+      "url": "https://api.manifold.markets/v0/market/gpgqE0An9n?",
+      "retrieved_utc": "2026-10-21T12:28:47.312613+00:00",
+      "sha256": "1e579da7a1d93f87db56f61e3cca94d144f3631ae155416576dfdd756e254c1d"
+    },
+    "97cf887784670902dfe007651952a751721752a353254b40bb8719fd0167f49e": {
+      "url": "https://api.manifold.markets/v0/market/968uRzhPtR?",
+      "retrieved_utc": "2026-10-21T12:28:47.613398+00:00",
+      "sha256": "158fa44961f421e5c02976de101da717d9a6488ddd9fcb405cdca87a2dc91677"
+    },
+    "db40673c21dfff011d880be2878a72df9f7427d7b4c8e2922a0eabbdd37069a2": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791993551414&contractId=968uRzhPtR&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:48.028383+00:00",
+      "sha256": "7b43da9237622b4b6fc6aa1f436286272e2a5820690117b0c15f976dc5ca3b1c"
+    },
+    "8abec59d6af69668f9b454a90cb02623392dd90e223a4f34038621dbd5d84186": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791907151414&contractId=968uRzhPtR&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:48.540064+00:00",
+      "sha256": "5b937d39dbd241997d56b66af5c8524749ae8dd0b79a295f15f9383756fec01a"
+    },
+    "6065c3f66b8b2c7c40951f7f4f0a861029bcc348da0adb9da00518a043ba44f1": {
+      "url": "https://api.manifold.markets/v0/market/nRyElIlEEA?",
+      "retrieved_utc": "2026-10-21T12:28:48.816188+00:00",
+      "sha256": "fe5143d5de1af3d536276ead805d7e5e6860cab1a1f34b8c8c1798ec11326286"
+    },
+    "9ea2f26dd3971b4fa6c80afee319b7e4af0e14fe25b1d0add1d278725f8436e5": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791839702756&contractId=nRyElIlEEA&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:49.146842+00:00",
+      "sha256": "682b6827e1d63bb5deffce15e5dd6bbda90a7a17a74b97c4e1368cc20b2ecb7f"
+    },
+    "e10916053729057ede2c236527278af19092b97d3cfd736d43ca92557fee4bf6": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791753302756&contractId=nRyElIlEEA&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:49.421444+00:00",
+      "sha256": "82891b86c95eeeba038aebab4db25ac4bd393c69cb7b3dc38ef7461ae7d149a2"
+    },
+    "7aef5b5a4065aeb70999dcdf7a2a62f4e43e899d219082e81c05d3a64d69e4bd": {
+      "url": "https://api.manifold.markets/v0/market/69qIS50O9Z?",
+      "retrieved_utc": "2026-10-21T12:28:49.705103+00:00",
+      "sha256": "c0fba155683784949c850228e14195aca80b357375e9a8a7ba1249b6b906d1a6"
+    },
+    "0d7d9703162c9ad2e26e71d871093e4d260a2d3295895f8649daba7ce95ef407": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792193389891&contractId=69qIS50O9Z&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:50.078884+00:00",
+      "sha256": "ca574aae7dd79d3f89d0ec337488835417e609c879e00b5b459ce0582c0691bd"
+    },
+    "4dccfcea8f2ee7de77d2188d2164944df2720fee9397a2822312aa6eebecead5": {
+      "url": "https://api.manifold.markets/v0/market/Othp8gA9Pp?",
+      "retrieved_utc": "2026-10-21T12:28:50.360132+00:00",
+      "sha256": "c6cd2c11624509eb9232a2e6e8328307ae9a0cf81256b986d5492894781f1719"
+    },
+    "41dfb60a573b31083e192e7576766c74bf4afc847a046071c2a3bf49cfbdf9ed": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792179143025&contractId=Othp8gA9Pp&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:50.662190+00:00",
+      "sha256": "37419565eb9d82794c036e83544400cc42ff38870ea22dc6e1fecec63b6c2ebc"
+    },
+    "ddb9b58d32afe2a4800e12ac91b8512510c6b9dd3418c9032eb9c96eb9271079": {
+      "url": "https://api.manifold.markets/v0/market/sQENtQII9d?",
+      "retrieved_utc": "2026-10-21T12:28:51.244859+00:00",
+      "sha256": "9de930505aa3b1ea63027fbdeacdb528b77259b3d2fbf47f60974981f90fa1d6"
+    },
+    "606b21784e4d72da8df8fb111334ed8afabe8cf01c8cf7fb2421c5e5887efec9": {
+      "url": "https://api.manifold.markets/v0/market/Ngcg9ARZ9q?",
+      "retrieved_utc": "2026-10-21T12:28:51.507522+00:00",
+      "sha256": "e63bc39d79f0e75daac75f5f80b36191181439cf875fc7228ad15ce694953864"
+    },
+    "9b99efde171416d16b8f88a666431fb067c0ba2c3e9aea88c12821ad768bb5a1": {
+      "url": "https://api.manifold.markets/v0/market/OZUU6pQh9A?",
+      "retrieved_utc": "2026-10-21T12:28:51.789905+00:00",
+      "sha256": "b81bca4b7b20b131ea4b79cd3321345e17de51ad8b8fe78cbd1163741855c798"
+    },
+    "4c565993b921ca680d30ec33f58925460051e231165bf1b2cc46c97f20d84938": {
+      "url": "https://api.manifold.markets/v0/market/uLcEEE2dUl?",
+      "retrieved_utc": "2026-10-21T12:28:52.339910+00:00",
+      "sha256": "d1dd9401087a81a6445e271bd77903b84cca9a4a9853b49238483a676fd69eb8"
+    },
+    "f71070277edc3b0fbf203b03e2cb0c985f83ec1b52e407bca0e2fc86ab889b9f": {
+      "url": "https://api.manifold.markets/v0/market/QhcUuQzQNP?",
+      "retrieved_utc": "2026-10-21T12:28:52.611498+00:00",
+      "sha256": "c920333bbd2feb53261ea0c94529a9440ead394ede70f6e34b39463fa98f9b7f"
+    },
+    "60317d28c3808316ae826aa209f651df1afb6423848a71e157bc02ddc918dc3b": {
+      "url": "https://api.manifold.markets/v0/market/zg9C9ydqPh?",
+      "retrieved_utc": "2026-10-21T12:28:52.882327+00:00",
+      "sha256": "4fccae901f57396744c856bd70a083e7497fb5a9baff87198321bbcae143603b"
+    },
+    "47a4df12ad95f669016abf99214ad47fb96c1d05eb1a73edfe4ce66b4b766da7": {
+      "url": "https://api.manifold.markets/v0/market/Eq9EIdypS6?",
+      "retrieved_utc": "2026-10-21T12:28:53.320968+00:00",
+      "sha256": "27f64c0cdce5f03fed9deaf5e50670bb620753e2731278a7e36ba25d97009d3b"
+    },
+    "32b656eed1c2804d3e9b55ce4cde7934a3539c38e97c5ce5410b20d05527d5be": {
+      "url": "https://api.manifold.markets/v0/market/ZhIylltQUI?",
+      "retrieved_utc": "2026-10-21T12:28:53.585633+00:00",
+      "sha256": "a955b9b0c386ba7b011cbf8aa75dea69a202a8fa0986bb9e4ff8884e6b4b535d"
+    },
+    "202f1fecb061adb23ba82922c4273b353a575a67942f5e78fa4bc1d260647f40": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792047928488&contractId=ZhIylltQUI&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:53.886317+00:00",
+      "sha256": "0eaf7b5d5dabd9ffeaafd7097ab95f1afd5220cf61528814d4cbc0184c75db70"
+    },
+    "e1b8845ecce03fcd3809277376470d8d6da7cc040f3606401c653d6b038a0851": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791961528488&contractId=ZhIylltQUI&limit=1000",
+      "retrieved_utc": "2026-10-21T12:28:54.265175+00:00",
+      "sha256": "045999ec627237070efacc46ac819a8e8f87add5c8a46140d00b8b37afb2c89c"
+    },
+    "a26decf8c5f627c74b543ef88b79c9e7ec5588cbc1a04ed7008388d81c248c40": {
+      "url": "https://api.manifold.markets/v0/market/L28AhlznPp?",
+      "retrieved_utc": "2026-10-21T12:28:54.534246+00:00",
+      "sha256": "05345ab5f2123b49cd044fb9306359bbd56e2ee84018819497f44ba28f391f13"
+    },
+    "0cc156e59e9fee333d676d01ee0f38aaa7891a5eeced2a67eded53d2bf70d6a7": {
+      "url": "https://api.manifold.markets/v0/market/u8290n6NO9?",
+      "retrieved_utc": "2026-10-21T12:28:54.806229+00:00",
+      "sha256": "6ae4bd2158bf6d0d8c369ab8a8529e295a8881f6d560d9062db69660aef1495b"
+    },
+    "d101dd205def959ee5509841a9506a2a7ac2c88d4f5d72faac52f3c4923f811e": {
+      "url": "https://api.manifold.markets/v0/market/6uggPyAAIQ?",
+      "retrieved_utc": "2026-10-21T12:28:55.222876+00:00",
+      "sha256": "dd209aa5ceddb33cd5502ebd560d27803731b4294f8bebcf5600278cec8e1bfd"
+    },
+    "d9936a4582da32b7b0d974a7d1a94284ad9a68236e61d73737e08d1e8ebea558": {
+      "url": "https://api.manifold.markets/v0/market/ZCpyASqEh0?",
+      "retrieved_utc": "2026-10-21T12:28:55.511434+00:00",
+      "sha256": "81ac636bc0202bfd47902079497fc03f72f7b83ae65be39d3033a27f0606704f"
+    },
+    "18f414d09aace4dc6540ac42bf8f62521676e23174282aef83b18a31672a1446": {
+      "url": "https://api.manifold.markets/v0/market/28QChOhq9C?",
+      "retrieved_utc": "2026-10-21T12:28:55.775367+00:00",
+      "sha256": "217850c2bc2bf8c0f779db4eaacd4d362f48c9da5e1e52ffaf4cb3102c775a34"
+    },
+    "b62bcf7eb397903cd1081104df5971e8a53b7a5f98e006401fef9b2a9eb823a5": {
+      "url": "https://api.manifold.markets/v0/market/8qg59ppI6S?",
+      "retrieved_utc": "2026-10-21T12:28:56.043255+00:00",
+      "sha256": "2bcbc3d15b3e3c844af2442c81c17786f156d8b2b7547d9f5c0da00e4c1635f8"
+    },
+    "0acac488ec8ad7dc3abdf6784ba9dfc8993032d753e7a5bfd324ed433c46ec2f": {
+      "url": "https://api.manifold.markets/v0/market/zQzsRLRdPQ?",
+      "retrieved_utc": "2026-10-21T12:28:56.312087+00:00",
+      "sha256": "366fd084813f1ac154a8437925567684972255150e5157bd0cc4d6d05e041e1e"
+    },
+    "84ac6e2815782f28ec09d556a6a74f7063af53c7bb8f711cc95ab8227551b4a5": {
+      "url": "https://api.manifold.markets/v0/market/OIPNPPs9EE?",
+      "retrieved_utc": "2026-10-21T12:28:56.595500+00:00",
+      "sha256": "14da562ed5f88610254be0d41438d9900ea98c1c89b2cb61aad192d092b5b5b8"
+    },
+    "c190107f729b3d03f44d5e92afd4a9c8cbe3577c2876bb448a9ce432ffe4c999": {
+      "url": "https://api.manifold.markets/v0/market/c9N68qh29S?",
+      "retrieved_utc": "2026-10-21T12:28:56.866695+00:00",
+      "sha256": "8f947116da178d9a31140cc76cff0da4dc592a7b08f4fbff37f19e5452b762dc"
+    },
+    "ccf547cc4685f17a4d1ece1d63ae51327aa8cfb54539129942266b2ed329f137": {
+      "url": "https://api.manifold.markets/v0/market/ydPcpzdQlQ?",
+      "retrieved_utc": "2026-10-21T12:28:57.142599+00:00",
+      "sha256": "4a91679e0af4c78cc53878f0015d5b1af9d1d7af5d7be1633c9ef75d49f27b23"
+    },
+    "e09e8ac578809918c82d1cfcfe68925c6ce3804b569007c3d0bf4add2775db43": {
+      "url": "https://api.manifold.markets/v0/market/S05CyZyRQt?",
+      "retrieved_utc": "2026-10-21T12:28:57.393575+00:00",
+      "sha256": "e9fdace24ac74eae6ea5cb0517e5cd81c5a4a958af4e8dfe78fb61894f838255"
+    },
+    "caeeb318a36adf8ac0b0b90d2ba3f279c7d448a985ce4bfb9ff0f1bb5c99047e": {
+      "url": "https://api.manifold.markets/v0/market/E0S8nsOyuL?",
+      "retrieved_utc": "2026-10-21T12:28:57.685925+00:00",
+      "sha256": "c28d55aebda4a8407254c8dfb2e665a0d2090303f24b19db24d004f7b59f675a"
+    },
+    "e2b57e48284d7fee7c6f40c1e98cdeeeb38a0ba5e6552cce2976fc9f85feefca": {
+      "url": "https://api.manifold.markets/v0/market/LPCq6I0All?",
+      "retrieved_utc": "2026-10-21T12:28:57.964534+00:00",
+      "sha256": "3c29d4bd2bc45f2b7c6db4e5e170360268c4ca885d46c73587c3bb05bdae957d"
+    },
+    "7560d74d45a0eafa49c21c94231e154de7fc451faa7ce18da2ecdd976742c314": {
+      "url": "https://api.manifold.markets/v0/market/2NI8APSEgS?",
+      "retrieved_utc": "2026-10-21T12:28:58.249034+00:00",
+      "sha256": "fa5967661967b9ea56429a83a914027ab7f42436015325eceab3bf8175b85a1a"
+    },
+    "a60dd1b75e86bab611e242cb6083b98fdad4e442a8fa210f6ef72c66fb6fb66a": {
+      "url": "https://api.manifold.markets/v0/market/0Q2dIQ0CPn?",
+      "retrieved_utc": "2026-10-21T12:28:58.503802+00:00",
+      "sha256": "caeaba11a80c501e57b08e4d60ec917fc1428ce1bade8f22e90c5287242334ad"
+    },
+    "95b29e633159f31eb9dbff363c722deb6a745d68e75159204250aa4214663e40": {
+      "url": "https://api.manifold.markets/v0/market/5LCUZSyRy5?",
+      "retrieved_utc": "2026-10-21T12:28:58.867809+00:00",
+      "sha256": "27b6dc79077b6997339970cdbd3d5d8645a6c94ef2dbea27185b6c94a5f13d34"
+    },
+    "1376563cd8e476eca2c7503d28e66e3a975fc200c76d2443695c3e0bfd07d4c2": {
+      "url": "https://api.manifold.markets/v0/market/nlntnNsPyl?",
+      "retrieved_utc": "2026-10-21T12:28:59.134265+00:00",
+      "sha256": "f45f258423c7f3cac94ec53257b683f50bc4a1ffb7e0c74d6ca98d83424108eb"
+    },
+    "e0213c5c38c0f8fc4d85686978e4a147a030d06253d14d05a1579a4985f426bc": {
+      "url": "https://api.manifold.markets/v0/market/hN8dy2hhzn?",
+      "retrieved_utc": "2026-10-21T12:28:59.419312+00:00",
+      "sha256": "a6fa32236efd3360c5a73a0944b1899f5993bf6be77d20f1706c63222b80386f"
+    },
+    "29053655df9ab0d2fb2cfa1a0872a6d39b909a4e3797653506440ef92568cd77": {
+      "url": "https://api.manifold.markets/v0/market/dcnUS0c28P?",
+      "retrieved_utc": "2026-10-21T12:28:59.694116+00:00",
+      "sha256": "bd8667074fceb26e1be9137da12ec52e3ab974cb065a4a7c01380de74ddc4607"
+    },
+    "cb2020bf97983f4c50bf130879c6059aaff3f61917ed2b1a64aaf03558f6f6df": {
+      "url": "https://api.manifold.markets/v0/market/ht9ygI80gy?",
+      "retrieved_utc": "2026-10-21T12:29:00.112248+00:00",
+      "sha256": "0cab38c5e71a5a7962388edfc5c6d3daeecdc0a4df8c88506b287b0c9269dd6b"
+    },
+    "6cef56c7bda268da5c1d423863633c5bdf856502c5e06027aeb605631ac77368": {
+      "url": "https://api.manifold.markets/v0/market/095EUOsPyt?",
+      "retrieved_utc": "2026-10-21T12:29:00.449133+00:00",
+      "sha256": "fa6eab3f69f13d4b609cd73b4042adf9859f75be847bb8bc04101df74a2cb0bf"
+    },
+    "af7c011ef05bfc131a9367495eb6ee77d8bc9bd0b98ec1efe5e12d30ffb00979": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792250700039&contractId=095EUOsPyt&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:00.732181+00:00",
+      "sha256": "cc45bf95090a6ed1c7c64e65bc13a69dcb6c1c20093047ab3985b09dce9880a8"
+    },
+    "de8d37b54164eaf4c4b6ba134a6d6bf8455506d7cdcadd635c5cbc0fbf516ef2": {
+      "url": "https://api.manifold.markets/v0/market/Nd9RRRNEln?",
+      "retrieved_utc": "2026-10-21T12:29:01.031618+00:00",
+      "sha256": "b5f4eaa7745a64623aa7124a2d9696afcd2050c008233f77c39b4e0efab0a8fa"
+    },
+    "401e0ceb2e2250d55a6e3270ca2c315f2129e0911b3e24bf3a05e09ac5de1478": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792363810211&contractId=Nd9RRRNEln&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:01.315537+00:00",
+      "sha256": "bae992970e8bfde98c4e48f9883e1c8310f3a303ad7a7565ebf339909236777a"
+    },
+    "d36b7539eca4eac5f75412a86246be040068cf7c6d637756f2c473c19be4fc28": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792277410211&contractId=Nd9RRRNEln&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:01.582685+00:00",
+      "sha256": "736a400b36d39b387d40c6a5bfca5a6620e4371d47742842c3bdca6509d145bd"
+    },
+    "170a9cc4db50e38350e654f5d7854459b878a814b033876c7d72928d2b2f8eeb": {
+      "url": "https://api.manifold.markets/v0/market/tctZ65ySER?",
+      "retrieved_utc": "2026-10-21T12:29:01.935414+00:00",
+      "sha256": "a73754733f60d144f90593c9fb2138db5c5d3e58b63f081dc251713aa5cfd6a3"
+    },
+    "6230a0c00654fddf176367698e1eabbea9a7cfd49880fbfe1aea8b1ddccea766": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792273945900&contractId=tctZ65ySER&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:02.266626+00:00",
+      "sha256": "d2673b1e769f89f330b18126c507193cd2d015e1c87c37cbdbabc74e66d0d9c5"
+    },
+    "51eab18e348a7fa9628cbd9d962946028cf42188c5e3082a1a4bf2dfe5a597b0": {
+      "url": "https://api.manifold.markets/v0/market/N9Pc6pqg8p?",
+      "retrieved_utc": "2026-10-21T12:29:02.532028+00:00",
+      "sha256": "a93ab47d181c1c2d18c2f2d48e01f9052d60241a40a70cfd151f9909302c53e1"
+    },
+    "f2f0d6fd16d3739d4fe452b9c9314bf54886bc4a3c2039680fe3092f22340d90": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792250724794&contractId=N9Pc6pqg8p&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:02.803070+00:00",
+      "sha256": "e99bfa0e5665f2946fe871182166cbeaeccd44e8fb10700287b12b6c26f65a59"
+    },
+    "7e9bae6ebee51c70f23bfb161756a0c3904077812a0d2b3a7516ce29a041597b": {
+      "url": "https://api.manifold.markets/v0/market/qcqtE6uNgN?",
+      "retrieved_utc": "2026-10-21T12:29:04.070080+00:00",
+      "sha256": "a2c619b6d1b153b32b7b0240773103ddc9abfddd45074fa09661fa74b73c23d2"
+    },
+    "1dd8c83fc55dd8dadf31a4f98c25a996794c0d71305a0997c5d5e64549008e9e": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792166752300&contractId=qcqtE6uNgN&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:04.443210+00:00",
+      "sha256": "a976118fd01762415cb96d0095183a65262d8067e31ac0d89910ae67cf2b010f"
+    },
+    "8528daf66d7203cfcac7e6badd47d09e81ba6ef775d80609d030cfc889e83589": {
+      "url": "https://api.manifold.markets/v0/market/N0IyySpqlR?",
+      "retrieved_utc": "2026-10-21T12:29:04.970637+00:00",
+      "sha256": "ec06f0fbbda3807521acff06c5b2ee646358a8a1b4ee47f7a270d59e7227605c"
+    },
+    "1dfe0e38bff9f2a4efe9f19fb003524d3783fdf2acf3e53fa3bd114f5ad74c08": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792166147657&contractId=N0IyySpqlR&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:05.246884+00:00",
+      "sha256": "344bbe70e3c7ee3974d7d3406f48823c14221d21d3a52ec62ed6872425d5d5c0"
+    },
+    "c75ef9ff8688296137be988199cbf3f371bd7212d39f3fa3f3caf71e2d257938": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792079747657&contractId=N0IyySpqlR&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:05.530799+00:00",
+      "sha256": "5cd4db08549c6215ab148cb47ebeccc2d6a8149a144f4bfa47058b6b80b373fc"
+    },
+    "36cbe6a5d0fcf0f5a1fc954a6d25e60eafd2f7ed76d14b52535158127859b6ff": {
+      "url": "https://api.manifold.markets/v0/market/qu2zCdCUNn?",
+      "retrieved_utc": "2026-10-21T12:29:05.829275+00:00",
+      "sha256": "9b0c5d7a7d07ae569de83eb4e32e8c87923e3499bc3596d94320fe64f0ed7550"
+    },
+    "c9c565b87dac93c2bdbd5806f3a5b5b6f772fee9ce5ceccc9df3411ec8c6b5a6": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791620937243&contractId=qu2zCdCUNn&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:06.121639+00:00",
+      "sha256": "38faabf23e95010873a6f896d6412ac7460d7186a430bf8bd4c694f9d31c2c08"
+    },
+    "6af85d2de2817f2904983ec5b5da265422d2206c25d067cc0f28cc5915ea2217": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791534537243&contractId=qu2zCdCUNn&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:06.380890+00:00",
+      "sha256": "0e72cfa41f218863e272905a6243b0c0f26d530b43adfeb400762b25f86d5a78"
+    },
+    "76338e7708beccd3386788ba160cdc67e9941cfbce3fbe3dcba3b06371885884": {
+      "url": "https://api.manifold.markets/v0/market/Eq9Q0IIOIP?",
+      "retrieved_utc": "2026-10-21T12:29:06.636453+00:00",
+      "sha256": "35ed7f1207122c2cdcb4661b9baedff96a7690945a772c09596717e1c01c6c72"
+    },
+    "8b947d1673cf62d00e781c7b512e21307a9a05a464ff4933d09ff07bfcffd4f2": {
+      "url": "https://api.manifold.markets/v0/market/N2sOquENnI?",
+      "retrieved_utc": "2026-10-21T12:29:06.932930+00:00",
+      "sha256": "0d6444248b8cae2ac376c7c81dbf161e4824f33f7b76f93b42a9364d89bdb3a9"
+    },
+    "529d549f3d6212d2e654df22c6a2e6b6d98b7f5d6754ccc8784a95e1ec07551a": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792017094984&contractId=N2sOquENnI&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:07.266407+00:00",
+      "sha256": "f9742450f93795a4b729373a07594015b73763824c149cb532b0298524237efc"
+    },
+    "829cc0bbd78694061592f7a8f810a630602296129474825c102562e9f924f471": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791930694984&contractId=N2sOquENnI&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:07.555026+00:00",
+      "sha256": "46799c7abd689ff8297f4bb2588cd221c128e87f27ec2050ab5d71f0c5ae844f"
+    },
+    "5dd9dd4d6c3f8e5bf891a3c72b1ccd0a5915a0aec494d832675be3585bae7f07": {
+      "url": "https://api.manifold.markets/v0/market/A2Zt8EZpAS?",
+      "retrieved_utc": "2026-10-21T12:29:07.823307+00:00",
+      "sha256": "735c6cbd2f040730e21fef1a4e686887cce2d1fd17f3af64d5dd0661278ef25c"
+    },
+    "fbdb5d69982460edd4ebecba62e3312d609afd3674f06f6ff0a4472eaa65911b": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791709019155&contractId=A2Zt8EZpAS&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:08.211334+00:00",
+      "sha256": "338413cabafa241c6650857316e90ecd56be787877bc41c40179d829b6ed182c"
+    },
+    "d2436370ec5a2e51a4ba3641fc04e77224e305da625766f603be14a98dd66a9e": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791622619155&contractId=A2Zt8EZpAS&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:08.502902+00:00",
+      "sha256": "ad42e1aa1654359de3b9c37f4a8024ed9a746a99802d73bc8682f8d022d91270"
+    },
+    "206d3230c4b2b80690c5b02ec91ad47c6f595964214d2ceca94ef8f10b6009b4": {
+      "url": "https://api.manifold.markets/v0/market/Ps692Q22pL?",
+      "retrieved_utc": "2026-10-21T12:29:08.761253+00:00",
+      "sha256": "14e9eb6d6f408da31d98b7cbd5e895de3c4e97dbbe872421d7184f9226919197"
+    },
+    "28047954ed17a2397e83b5ef2462f1bd2fa7ef90e819297487ce66946a39a7ad": {
+      "url": "https://api.manifold.markets/v0/market/sO0sUUZhld?",
+      "retrieved_utc": "2026-10-21T12:29:09.027063+00:00",
+      "sha256": "886102581f54c7d819339a67155e3c1afff30766ed24eeb43edfe0c600eccf71"
+    },
+    "3c63c6e57906bf20562582469efb1f16d44e81b73af2bf17013128355cd6234c": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791708981558&contractId=sO0sUUZhld&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:09.299059+00:00",
+      "sha256": "9ddff689fd4bf8a0d8dee8a0667e64691ee9f773f7874470a3436492445bb3a6"
+    },
+    "c313a4a35893d2bad7ead79eafce53eca580e0d12909407684befcb0baa4cf1e": {
+      "url": "https://api.manifold.markets/v0/market/CQ6y6CUZSg?",
+      "retrieved_utc": "2026-10-21T12:29:09.841254+00:00",
+      "sha256": "a2f18be560800fe72fa5b9ace7c4de0e06cae5dc9ce02c277b7cc8476f3e1a65"
+    },
+    "5cdb4cc97a792064ad46cb8983aa7e1703962460f7355ead0f7c72219cc56fda": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791795696784&contractId=CQ6y6CUZSg&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:10.110121+00:00",
+      "sha256": "b8bf246e3cc58dc19eaccaf00bcabc584fe67be900580562275ff2447fccafd4"
+    },
+    "87679c7be136319b24e4ae6781c1081eb86b56f35ad7c2af47e2c9a549ba3f3e": {
+      "url": "https://api.manifold.markets/v0/market/nszyP2lNIh?",
+      "retrieved_utc": "2026-10-21T12:29:10.378441+00:00",
+      "sha256": "93aa2548b72a171d573ef88d8cf302d91e9a3beaeb7a2c30b86ca37ae293a70a"
+    },
+    "af20d24b5545763599cf3372871942dd190286a774128c759ad5c3b0d2b05945": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791708969830&contractId=nszyP2lNIh&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:10.655100+00:00",
+      "sha256": "0dbd888649ca8812dc854e9e0238c621ccc7c6682c4a1802942129c97284ce5e"
+    },
+    "3505cf2b5a7a3b1be29b764bf89dbcff677850c79c71afc59a8d8b36ea75bbcf": {
+      "url": "https://api.manifold.markets/v0/market/E8EUud6O8U?",
+      "retrieved_utc": "2026-10-21T12:29:10.930362+00:00",
+      "sha256": "4ce38fd30e91d02c227070b67c8cd9dffcb6ec667224b3c70a4db9b17e32659d"
+    },
+    "b914b467cf62f28103f8219885f47c982526c17566eebb7de80627656effff31": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791708959027&contractId=E8EUud6O8U&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:11.180705+00:00",
+      "sha256": "7a152ad6fb4fb755d140c26a4e353d7f536a2d7953a89fb0fe09cf715c1b4d1b"
+    },
+    "7e7844bb79766210534e276e38764523a5aee6fdd4edc480d9317f92c44071b1": {
+      "url": "https://api.manifold.markets/v0/market/5U8I26zO22?",
+      "retrieved_utc": "2026-10-21T12:29:11.761622+00:00",
+      "sha256": "a85be607cd23c7d68a0750206f42b97371075ead30bfab74345668e452a83fa6"
+    },
+    "08458e1c00498c1e572d3c4f2c2d3a5af770a9a3de867739eed6961f16777c07": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791708976208&contractId=5U8I26zO22&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:12.148406+00:00",
+      "sha256": "f93d0f15402e511c7f886582601755194cdab5ff8b0fcb15be2fcf2f2a4d55ae"
+    },
+    "b7456d8ef1b2497b1addd58ccfbe06d936ead8c8a1cbb27ee4c1de2663de5daa": {
+      "url": "https://api.manifold.markets/v0/market/ZnhEQEtUPn?",
+      "retrieved_utc": "2026-10-21T12:29:12.419154+00:00",
+      "sha256": "e229b53b7dd482cb3bcded975f04353c6dfb32db2ddd3e22fcc9b48a24fdeb37"
+    },
+    "4c5a6eb4f5cd958b25754f88084d05e7a480958e4a716aede73a6f7107f843e8": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792348514784&contractId=ZnhEQEtUPn&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:12.714281+00:00",
+      "sha256": "f6b911c1cbd62b96c0a4c29e6253d4abe700510aa954627b360bbd5b067789df"
+    },
+    "57f3798cea7c5dc86697a3a3355f87b5c26eb86968354e43742a67b377ebe966": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792262114784&contractId=ZnhEQEtUPn&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:12.997743+00:00",
+      "sha256": "1f9488efdaf1a4fb934d00446568bc5a3721027008f5ebcc025cc5c7f3129db8"
+    },
+    "bbf8a46b0d1d759fc5ed652fdfd338b9bbd11289176b96c7432e121dd5667939": {
+      "url": "https://api.manifold.markets/v0/market/0AEtUzISEO?",
+      "retrieved_utc": "2026-10-21T12:29:13.267997+00:00",
+      "sha256": "64ab66580d70a551efbec3365aa3d5a7a00f81a4963c00d35d4cb5adebd2f5b8"
+    },
+    "543710deaae603ca30a46cc58bfac665510fc6172dad719f9ff1ad696c802b69": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791940079976&contractId=0AEtUzISEO&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:13.548654+00:00",
+      "sha256": "6291c4edb5007540cf4783cc4e33913ac3c300976239c7e16ddc982bceb8c4fc"
+    },
+    "361e1b8fa7d7199109f460567afb643b542dc4b02382c9514f116e798f47cc09": {
+      "url": "https://api.manifold.markets/v0/market/yl599zLuSl?",
+      "retrieved_utc": "2026-10-21T12:29:13.804574+00:00",
+      "sha256": "2ab0a49aeb97716d6042372a1b44d24af9b716e5f3eb2ae5c7a362c2c378dd46"
+    },
+    "b10206168fdc41b71096368d80905644261ae2820341aac39ad46c02e8aa1b3a": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791600248379&contractId=yl599zLuSl&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:14.076086+00:00",
+      "sha256": "8f913a722d1b3ab9bd3c69c089bfd72018b5311a7fff3b58044564b1360e0f61"
+    },
+    "c436127dfa4dc9f6bfbed4734723dee3fcfc4d710b193011553475f5f8e3564c": {
+      "url": "https://api.manifold.markets/v0/market/R9s08y9P0R?",
+      "retrieved_utc": "2026-10-21T12:29:14.339576+00:00",
+      "sha256": "096190da22b0033457fcda6c0d028df66cc91d14b8b030480f8c0b4c01dbb0ee"
+    },
+    "6852b344f3b0f7715f69e11a8758ad5ef213f10407a4c513c417cd9def59e5ac": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791600253670&contractId=R9s08y9P0R&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:14.603488+00:00",
+      "sha256": "a7ef30ae1405fe0e5c3e4080fdcf535db8cd9feea6c59e7024cc01b2e95c77e8"
+    },
+    "686012a8df4e650046851d0ebbb368ce07bdd0c20fa1998e2bf96c7d8caaef1b": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791513853670&contractId=R9s08y9P0R&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:14.882378+00:00",
+      "sha256": "5051100a136d08e49d2874a3096af4e7ef94ae557b93fb345137b0660d9a1ba3"
+    },
+    "c7f7532fbce3fe9dce46174f02baee1668be4a63c01c0aa72d7fe3c2e335c5d3": {
+      "url": "https://api.manifold.markets/v0/market/6A5P6cC6Ud?",
+      "retrieved_utc": "2026-10-21T12:29:15.146883+00:00",
+      "sha256": "3957340691d171e24deee98a7ec8fdec9da63817734c1c2a651c7f4b091c4440"
+    },
+    "e245c0459cdb91bb794caec8f921ea31645e6706f857e54dcd7e265ac655b90b": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791617964677&contractId=6A5P6cC6Ud&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:15.435564+00:00",
+      "sha256": "53302ec5b70d54a93e536add80657eea6b84344a948d4b5b00e3c5bd03a99a7d"
+    },
+    "ece909017a299bd72c41721722e0047b5c7d2cd21bf3b7177707e32b46dc438d": {
+      "url": "https://api.manifold.markets/v0/market/h20Nd9O6pU?",
+      "retrieved_utc": "2026-10-21T12:29:15.704542+00:00",
+      "sha256": "fd812f221eb9044693367989ab2889caab2ea5e366f80f893ea2177f97cc1809"
+    },
+    "4f37c95041dca5f589b71a7d34d45b79134f90e8422439d9be41669be0079418": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791445473089&contractId=h20Nd9O6pU&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:16.155623+00:00",
+      "sha256": "a00bf5ec4321b5c6b51c416435cec1ca61352b3c98edab56cdb9b7a5f288c067"
+    },
+    "ca6c956ad7791b19f36a804dafed4c8f081513bc71f96671ef7e153b2ced7074": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791359073089&contractId=h20Nd9O6pU&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:16.450386+00:00",
+      "sha256": "a36c05021c0d82eaa709ed53756a1ac7c39e1abd4be1c913403edbaf40d7fe94"
+    },
+    "6da3f6c0b43c1f3c2ad732edc35009b6829bc30fe0710968b74ecf5de395c371": {
+      "url": "https://api.manifold.markets/v0/market/2tNdccd929?",
+      "retrieved_utc": "2026-10-21T12:29:16.713850+00:00",
+      "sha256": "8b4b1bc24a20dbe7b5677ca56335f2855ec8162b0b190c1a7228add2a61a6b8b"
+    },
+    "a3232e7e80fa4ec1312ec365f83b7082e4a913a828bbeace945035ade2e488fa": {
+      "url": "https://api.manifold.markets/v0/market/9dOUIEptE8?",
+      "retrieved_utc": "2026-10-21T12:29:17.026111+00:00",
+      "sha256": "0fd5d922c0c73f71e114e076d4abcf4715e929577857a219ede11e1770ebe411"
+    },
+    "6f3949c6b1800395a33fadfa34dea8968b6c894135cc9f70b49bc39d1f042892": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791494886209&contractId=9dOUIEptE8&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:17.310216+00:00",
+      "sha256": "5f99ca946c782a493b766b1752731f1130be61b204cb49538b9bbb17f1dbd403"
+    },
+    "288c2366afdce3dcc4c170aaac248ca99d124facd5b0e20ac4ab533cd3f2d1c4": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791408486209&contractId=9dOUIEptE8&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:17.589101+00:00",
+      "sha256": "01ff08fc1d20c5a72cd514747920ccd8d73c089ecac4dc4fc53cb4172a14e0a3"
+    },
+    "dc177c6aead95eb818a43193d626b91839748bfcbc0be11c8064c6814bae87d5": {
+      "url": "https://api.manifold.markets/v0/market/22AnpLRysl?",
+      "retrieved_utc": "2026-10-21T12:29:17.850617+00:00",
+      "sha256": "ea3bbf45eacb3e532d118dfcff8d83a92a55f05b5172c65403de482d63c0b0a4"
+    },
+    "17af13b600886598280e20de23e92ede86ae18602944208118e2fcca1224d89c": {
+      "url": "https://api.manifold.markets/v0/market/hg5QIn0SuR?",
+      "retrieved_utc": "2026-10-21T12:29:18.111579+00:00",
+      "sha256": "5d2bcafa4f930c692bee435bdc82117ea117e21d95c0bf1be16b3a5955a0cd3e"
+    },
+    "cf31fae07f6c7d949d396194bec1b472418b6be6745c773fecb69b9cbe4ca341": {
+      "url": "https://api.manifold.markets/v0/market/cn2Z5CpQd0?",
+      "retrieved_utc": "2026-10-21T12:29:18.376529+00:00",
+      "sha256": "e60519b509eab2a28137904f7ba40a46e83fb81d50a8aa74d586856060c53178"
+    },
+    "4a3c0d5ba650313ff14b37c1b0d4a77119a04ad88ceab26966508802525bab55": {
+      "url": "https://api.manifold.markets/v0/market/lt9Ld0N0St?",
+      "retrieved_utc": "2026-10-21T12:29:18.910977+00:00",
+      "sha256": "53af80fee421f2ea5f78de1df8e811020118215bc08f6f3203bc43fb9fdf63dd"
+    },
+    "8a405071a5aa692d1ad78f597018eab49be3e51070d2a59c8fa99b2dd40b3112": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791992416749&contractId=lt9Ld0N0St&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:19.222798+00:00",
+      "sha256": "23eb68ce497b39e3e4a4dce8c3042dcc0d763f3c7292189bf37679e1405cfcdd"
+    },
+    "29127d08d741f47e8162d3556698fc871f2ac3bf0d95c86b4927a01222140c21": {
+      "url": "https://api.manifold.markets/v0/market/QRl0shIy9d?",
+      "retrieved_utc": "2026-10-21T12:29:19.551763+00:00",
+      "sha256": "beb9add2db346fdf7af82eb55f8e8cb0e4f02b5e90b25af2a855553ea034592c"
+    },
+    "e946abb2b818380c83910112280519fb744557f5e894764adadce052800947a4": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791774908536&contractId=QRl0shIy9d&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:19.815188+00:00",
+      "sha256": "797b88d0cdcc7642f1d2d7219bd731ce0cbbee5e41668951c62ececb8d9a6708"
+    },
+    "f09150678664ad6d30b105b9f67a101ea33c14e90ee645759198a22daec9f14b": {
+      "url": "https://api.manifold.markets/v0/market/PdChg58gZ5?",
+      "retrieved_utc": "2026-10-21T12:29:20.109506+00:00",
+      "sha256": "0ab0e0a99b725a7bb47e69636c33ee85fc35503e0ad616a95abd47113d634d1c"
+    },
+    "9972d26e3fe3d548eb940cd2fe7d65985599b98fbb9e6848b5a1c3403a37fbe0": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791690233171&contractId=PdChg58gZ5&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:20.400233+00:00",
+      "sha256": "0c67258e18a63e5268f7fdc3b4d1a1fe258527fed9b03327fd4efc49faefa5f2"
+    },
+    "cc01a91711775a6932a745d9bfe11916a8c2ccf253597dc9c1f2f2081ca8e4b8": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791603833171&contractId=PdChg58gZ5&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:20.756129+00:00",
+      "sha256": "efacfa58c8614b9e4151520ad77e1923701926a72e6d7dcaee27a60768e37982"
+    },
+    "0357640a9d3d0e2a6fdf6255fde928a237bd2f0dbfed9494827892abdf6aceba": {
+      "url": "https://api.manifold.markets/v0/market/dzSh8tpS8L?",
+      "retrieved_utc": "2026-10-21T12:29:21.274386+00:00",
+      "sha256": "9c441db26c17688a243395313db52e3e9ff7665208c183b036ded969f3b5a8e8"
+    },
+    "95ef8a67f08cb2b441e85e8be2b7d6fa490495eb352c3d2a50e8d2bfa2f3d4fc": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791674168552&contractId=dzSh8tpS8L&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:21.550059+00:00",
+      "sha256": "ba0facfef382d03354ca03d3ab35c0c85b78a4b64607eb7ff7d4858b28830464"
+    },
+    "a7013a27f4ff0c8ea56a967b792ad58f68f21814c817f8db7e78e53b520b786d": {
+      "url": "https://api.manifold.markets/v0/market/59nCdNcU9P?",
+      "retrieved_utc": "2026-10-21T12:29:21.822538+00:00",
+      "sha256": "767df00690aa8b2782e8674c79630de1bb6638f86ba8e9f6e790b74fb120a010"
+    },
+    "e4cb008b74673a5162ac51ff9958eae6f4ae4d580ab632ae53081776887826c1": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791674135843&contractId=59nCdNcU9P&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:22.089587+00:00",
+      "sha256": "14c53d648cee4dca8182f5f1717cb4fee134798f1ca01ba89828e197b37e184a"
+    },
+    "b45bf610c06b46d77aeeb4c2f2d3014c3c2bd64e0e7881197e6bff2d3b8c216a": {
+      "url": "https://api.manifold.markets/v0/market/l6EC509OLp?",
+      "retrieved_utc": "2026-10-21T12:29:22.371705+00:00",
+      "sha256": "c639e81782fece0c172e1c229ba336462755a6d2a70fb859ee48cb6a8c342486"
+    },
+    "4ff0356226ee2814574ad8bd96e9505805aab521b63fee7eb31ae1b2615996e1": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791674401288&contractId=l6EC509OLp&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:22.643812+00:00",
+      "sha256": "ffc2aace5091f303a4066e2eeeb5bd6f6b2e8e1ad2e4c068de2026699359561e"
+    },
+    "171611f18f2bcf4535bdd371e3d525ceaa83b09310ea4f10145d9812a5ac4817": {
+      "url": "https://api.manifold.markets/v0/market/6pgNuAdsnq?",
+      "retrieved_utc": "2026-10-21T12:29:22.925649+00:00",
+      "sha256": "27448f891beababac86630272586708d6c00584dee72005de8f729918ee64608"
+    },
+    "57e8f160d09897954eee467ca3554224849fd1ffd98eed9d45c204abc92fffe8": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791662901090&contractId=6pgNuAdsnq&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:23.194786+00:00",
+      "sha256": "6dd1b283147bee5b8c3df430a324d0b0c1f86861c7426de4c22ff41419ad6bfe"
+    },
+    "7fb9c328d871860269f2177c7aa5d073cac0b682f5aee60d5be8fd6f1040598a": {
+      "url": "https://api.manifold.markets/v0/market/p6EAtgE2EZ?",
+      "retrieved_utc": "2026-10-21T12:29:23.978879+00:00",
+      "sha256": "d077c2086fd11642c517228df90a2d9eb463332b2ef9ccc22274e393b2992813"
+    },
+    "5a9572059044b22f4855e4eb94cc38cbd0025e410909a880b79ede176afab4e4": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791664986318&contractId=p6EAtgE2EZ&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:24.263610+00:00",
+      "sha256": "d4a528bdc6d404284940339b8a0af51130c4e0311e0c93a01c6cd8485d329d34"
+    },
+    "8811f3af0af2af65ba138915d57d1993a93e4379779e0e42cdda871c4e9c1e48": {
+      "url": "https://api.manifold.markets/v0/market/Lgg99d8ph0?",
+      "retrieved_utc": "2026-10-21T12:29:24.810159+00:00",
+      "sha256": "3f47e86b80475015b5c4ac742931d58ef27f26bd33645d5d1d8bdfbfb491c441"
+    },
+    "e74b54ff4096351515550efab7c2b6cc8e0075b3291c58da74a652df5daf71c4": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791664720018&contractId=Lgg99d8ph0&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:25.079362+00:00",
+      "sha256": "18fe470bb54ebf26b75177a12c6991de4bb0928f3c5aeb28586c7e960980ede5"
+    },
+    "57aa4dd1d6bb77a04e348cfa4ef6d33586cecea2d408a59ea28f7c5014319e30": {
+      "url": "https://api.manifold.markets/v0/market/Cggy66ROsy?",
+      "retrieved_utc": "2026-10-21T12:29:25.362192+00:00",
+      "sha256": "388b41424996d5da756536d9a820777ea2d402423e610d861dbe93f0662c88a0"
+    },
+    "94b6cb2a9d0bb2b21d5a249a24bf3971c848c84bba2eb745b70a3605483842bb": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791664690941&contractId=Cggy66ROsy&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:25.652169+00:00",
+      "sha256": "41c8e1e1965d1a458f87be29c47a55ea3d9b259a60075c451096a62ddd941207"
+    },
+    "d728e4016440be2ca753a77c008247c72f6bba7c716b4d926509e31677025f10": {
+      "url": "https://api.manifold.markets/v0/market/S5QCNOO55d?",
+      "retrieved_utc": "2026-10-21T12:29:25.961729+00:00",
+      "sha256": "9bfa74847ceb2ee0dce85ddbc6285dae7bdb26a1bd042d9a199e79eaa547a511"
+    },
+    "202e010bb97c3ecaa4b4ab86115166caa760ce58383c10786ef30c756ca880af": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791664653352&contractId=S5QCNOO55d&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:26.254149+00:00",
+      "sha256": "8a60a7a658164a56a0ff9c5cb7c51098659c6b13fd1adaf2784d6c75ca6bbabd"
+    },
+    "508242ebd63f2a73c8adbd8e939d0cc36015b36d7200d214313c8cff18037680": {
+      "url": "https://api.manifold.markets/v0/market/zSchQpqLyI?",
+      "retrieved_utc": "2026-10-21T12:29:26.511674+00:00",
+      "sha256": "78265453b9e4562389ab2a4c1994e6f25d1cc858829f5eb4e50329776d0f856b"
+    },
+    "24bf8d9013f8387d244d0b318a779b00d01205d680368fb9a1d09f9716a4efe0": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791672390067&contractId=zSchQpqLyI&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:26.905749+00:00",
+      "sha256": "5be99e2541f56663b2273bad5369cfda09c557eacf5b1b61158a9370875c7be4"
+    },
+    "bcac86efd5862e055abf5c68e5aec5886e474daf534ca00b8b8a3d49355ac705": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791585990067&contractId=zSchQpqLyI&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:27.203842+00:00",
+      "sha256": "fc42e0996671ab18010241eb17b2514416617b98e335b87267fe831834df3576"
+    },
+    "c5f984f1b4e99e01d678eab78c7fa2253bebab6e698e11e5b029dfc2c74235af": {
+      "url": "https://api.manifold.markets/v0/market/PgcycuR0hg?",
+      "retrieved_utc": "2026-10-21T12:29:27.459897+00:00",
+      "sha256": "bd53224843cf5c7cc83650965134f15c24a4304d6569fb556026031d33ae6748"
+    },
+    "49c84ae8ae6052d4b7d4ea83d9ef0f2d73a65437763b602d29820a266213909b": {
+      "url": "https://api.manifold.markets/v0/market/uPP5ytSyLN?",
+      "retrieved_utc": "2026-10-21T12:29:27.717865+00:00",
+      "sha256": "76cad60917f9fe4a24cb67d9469a97a9a47ac47eb76216e560d8a29549eff204"
+    },
+    "86dec15342a2428a34aa94acbdafd549c225e094331694ce9cb73f5a691d2341": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791779248851&contractId=uPP5ytSyLN&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:28.009977+00:00",
+      "sha256": "7b59d8c1c5302b32f142455791f0da22ad152646df08db68564197f2e8e72c11"
+    },
+    "d69909cea050dbf65eef459d3b17906439582d8dc89c156928b0ccaaff5289d3": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791692848851&contractId=uPP5ytSyLN&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:28.306374+00:00",
+      "sha256": "cf4deca981225146bf0ca2cd16089f8b0b83d0fc746ba65916dcf6cde66b3683"
+    },
+    "d74e2bad49f23883eb38b370246cef6c152a462772d9f201ebbdac6f0e340be8": {
+      "url": "https://api.manifold.markets/v0/market/AN0h8ZPn8U?",
+      "retrieved_utc": "2026-10-21T12:29:28.575182+00:00",
+      "sha256": "4581fe5f2c4486a698fbf5477f6f0a01b0a84a377d6ff47dfd5a907f392f4488"
+    },
+    "6bd7d61a3ffdcdacc04a916c1a9a4e33676f61015643c421a87ca78f095fc69a": {
+      "url": "https://api.manifold.markets/v0/market/pPEzPE20gL?",
+      "retrieved_utc": "2026-10-21T12:29:28.901722+00:00",
+      "sha256": "8ceac3e11d4d042edaf95f2dc711fd7d2b7c983a39ebea2e4c72719d6f934a89"
+    },
+    "f63805d4ae1be5cec2c98dbbf8efb6c4733cb11aef4cc20c1dcc07539dbb5726": {
+      "url": "https://api.manifold.markets/v0/market/yhttllUOdg?",
+      "retrieved_utc": "2026-10-21T12:29:29.258304+00:00",
+      "sha256": "2b5db4ee4d4a98145cabd1154f93fa107fed57eb902a86dae6f068c58968981e"
+    },
+    "fe36f940b12b0a269049ab8b08a0460bedbc1737d138d3f0cad034dd6653f4ad": {
+      "url": "https://api.manifold.markets/v0/market/8OEZ5LsZus?",
+      "retrieved_utc": "2026-10-21T12:29:29.537646+00:00",
+      "sha256": "08d7d363ad88f0d42fd06ab68541bf394e97f95b01cb2d53468a1ac91a54bf07"
+    },
+    "57f5eba1d7e707eae9e6994f1be164a953c2140dac6048129a83ff81c296a852": {
+      "url": "https://api.manifold.markets/v0/market/IduhZsPuc2?",
+      "retrieved_utc": "2026-10-21T12:29:29.797516+00:00",
+      "sha256": "793acb17577bb00fbaaf3edfb06f0eb78aa3c2ca805dc73d2a8759231b614399"
+    },
+    "1fdc37a0d2ccb6461ba9f5379d973e74f716b2c05e50c25caa528ad67db2e330": {
+      "url": "https://api.manifold.markets/v0/market/RnEsdPN0Rh?",
+      "retrieved_utc": "2026-10-21T12:29:30.134837+00:00",
+      "sha256": "ccdc7f778e34bd3ecfc77c5de4dbc99bbb525c8e9c4406af3a56096d7eac8c65"
+    },
+    "7b370a5dd63ebe39e6a668d673db20ac5def592396e303a8464c2822c871c673": {
+      "url": "https://api.manifold.markets/v0/market/9ENQlycs5l?",
+      "retrieved_utc": "2026-10-21T12:29:30.446543+00:00",
+      "sha256": "3886f049ce50bb96a7211ee4e304662ccb6aa4a2a4344d2c8a85e7cb6c472f65"
+    },
+    "e998d709524b2830bc8ec578daa539517f4fe00c975e8194d3e4244fb16c7c7f": {
+      "url": "https://api.manifold.markets/v0/market/RZUcNE8qSN?",
+      "retrieved_utc": "2026-10-21T12:29:30.710912+00:00",
+      "sha256": "dd25973a53ca331ce57321d68656be0c743037627c756f50cdd6e0ef65e74c2d"
+    },
+    "c1efa8ee8c2039ecf331d5dbb7abe2315816e467dee80320cef30e78869ef2cb": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791664621098&contractId=RZUcNE8qSN&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:30.984799+00:00",
+      "sha256": "fd0230edf5b3a5570d335fca129ad634ae9e38f5a368a74bd796011988a36305"
+    },
+    "42bb3a5c2233c341af2d7096f0e55926f4d793974c46504da136a459cde7df7b": {
+      "url": "https://api.manifold.markets/v0/market/C2cZsPREqS?",
+      "retrieved_utc": "2026-10-21T12:29:31.578216+00:00",
+      "sha256": "02d7d60e7de0250f40d544b6a8601e1cfc4786106a14331c9178ef349a3e615f"
+    },
+    "5eac238d1f6298a3f66d3f7c9eea923c1bf1fe3113e15562bdfcd46a00e6d37e": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791722270761&contractId=C2cZsPREqS&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:31.949228+00:00",
+      "sha256": "b814ee4145553f1740b23284bdede5198836947209fdf083f9f500a57fc6a381"
+    },
+    "aa357abb887784ea5d0c9095fe1856b754de014e74a51af04c2dbe95f4f1032f": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791635870761&contractId=C2cZsPREqS&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:32.249349+00:00",
+      "sha256": "8febbe0c6a08f0026da3485635cb7b79c0a8cdab30956b86caf2203a3ec8ae54"
+    },
+    "9397397d337daa947abe06837895541475f88322403ad299e0ab1bcd91239d95": {
+      "url": "https://api.manifold.markets/v0/market/UZClUEnUIn?",
+      "retrieved_utc": "2026-10-21T12:29:32.510220+00:00",
+      "sha256": "e3cb5b3f2913bca5f8b7866c144a52e929adc7d21b0b6a47c25da11f7b7c29a3"
+    },
+    "b4f08c4aeecb5ca4cad468be044ad9f2a785f51413e76d8a9111d9ff0e2e0b1b": {
+      "url": "https://api.manifold.markets/v0/market/2RUN0Rnpth?",
+      "retrieved_utc": "2026-10-21T12:29:32.773150+00:00",
+      "sha256": "43daaa50eb93c607d872a060df87b37515862fa800922269f81f00fdcdd62dea"
+    },
+    "ce8334d9d75d9ad8886829f78e0c720acb5a7c335a7adde326d1a21c5be2dd2b": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791495016667&contractId=2RUN0Rnpth&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:33.207040+00:00",
+      "sha256": "1fb6784080a674bc718b320bfc64b378a64bedc72747ab03f100998c5b1ffbd9"
+    },
+    "cef68b595baea79e612c1b84b608c35fa8df3e0e0a80548a399250d9dce88228": {
+      "url": "https://api.manifold.markets/v0/market/90Ouzt0CEC?",
+      "retrieved_utc": "2026-10-21T12:29:33.484040+00:00",
+      "sha256": "693440e66d85e0291f83e8b24fc221b0d55949eca246593d73abf546a5bc0074"
+    },
+    "dc7186c92fb34e93d7cdc68c18ecf912005189a7fe8a719a952bcb030169e24e": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791748236465&contractId=90Ouzt0CEC&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:33.822996+00:00",
+      "sha256": "78f6b9a923a0d14b0fc880769ee523d3fb11d632bf3203653641fa0922143d15"
+    },
+    "808e7b1c10caa407c5d211bbd1a6445e04a6330ba47441836c2d55896810d3ce": {
+      "url": "https://api.manifold.markets/v0/market/NsQOZn6N6R?",
+      "retrieved_utc": "2026-10-21T12:29:34.098056+00:00",
+      "sha256": "fd63cfbfca2c109a511dd78beeb225d65193e0dbc9dfec8555fb3d37e7a913a4"
+    },
+    "9454d8ef435436e162a6e36a9f424daf097728dbe5bb3bb1865c0007f1c40787": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791396632162&contractId=NsQOZn6N6R&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:34.349895+00:00",
+      "sha256": "c2ea4de8cd9ec0d008d645fdef37553ba7810fc9037686258d6bad113eb45057"
+    },
+    "4f62ac95aabb73ea57139965851a50bfdea77a79712479965f58bf485855619b": {
+      "url": "https://api.manifold.markets/v0/market/dyS6nSI98g?",
+      "retrieved_utc": "2026-10-21T12:29:35.104849+00:00",
+      "sha256": "80d2a47f344b914b9cc95921bee243df6a382509fa9d6ce1a506c1ed921429ae"
+    },
+    "42960ebc06ec342a147391a534009f7fdcdd4b24a49656e0bcaf081ebbce5c6f": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791513255176&contractId=dyS6nSI98g&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:35.407831+00:00",
+      "sha256": "7f4d94cc59594fd2118207a82bd26ac8e504f35a1e70fd18cc384527fc4a5961"
+    },
+    "2841e3f0c51f3cc766770657a83de3634a58241229b23086a0b5db06330c262b": {
+      "url": "https://api.manifold.markets/v0/market/StpSqRE006?",
+      "retrieved_utc": "2026-10-21T12:29:35.672795+00:00",
+      "sha256": "d3de957f463ba9101abcc53183ef00075b20fc2446a45420b0b9ae02f8dbd1cc"
+    },
+    "5df63d094551b8d79a5974534d409dc79a5178fc57817287cb368665bf98c733": {
+      "url": "https://api.manifold.markets/v0/market/O2Ccs8Ez6q?",
+      "retrieved_utc": "2026-10-21T12:29:35.947112+00:00",
+      "sha256": "cafe70ecd39739a2c01e003b1acbccb7c3eb00f96c7f3d369b7419b90a11a46d"
+    },
+    "4ae8dc3f161fedf666e1c9e70bedb76a3e1f0ba21e9d3de71d3e0f4465648646": {
+      "url": "https://api.manifold.markets/v0/market/gA02PZhQCq?",
+      "retrieved_utc": "2026-10-21T12:29:36.225676+00:00",
+      "sha256": "f7ea85b70c3ab92c7dd88945ff8787a0e4c3d25d3cafbe99f88b7211d0831a0a"
+    },
+    "a8c25cf775138465da9cff4bfaa6845c8ec4eb2b0cdd9a908d5b53f1a82011fe": {
+      "url": "https://api.manifold.markets/v0/market/hcP6tO6APL?",
+      "retrieved_utc": "2026-10-21T12:29:36.517703+00:00",
+      "sha256": "cd5023bea2b7ecb527aa1151d5f1fa61d5ef793831dd3de7fb71a343fb8f7f95"
+    },
+    "5bcb96dcd36297283d52948749b73e3e22d89c4cf16e05df988692efe4f1311e": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791664591724&contractId=hcP6tO6APL&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:36.785512+00:00",
+      "sha256": "f7cda71bd35a6bf3719a70fb30e182f16306fe6704f6fb247d6241244a73ec08"
+    },
+    "f3b25623c41fc844a35fd56f8c101a40324ce1da4d6b8b0a68a1ce356f17a19b": {
+      "url": "https://api.manifold.markets/v0/market/lpd0ty252s?",
+      "retrieved_utc": "2026-10-21T12:29:37.049623+00:00",
+      "sha256": "4e7f5292af550edd31d110854460580711fc00cfebe294ce61d0f6746f9f42c6"
+    },
+    "52560eb7590be61b7ff1f90ca05f8ca86ca60b1fc19a0483e22b3a55556e5dc0": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791664552842&contractId=lpd0ty252s&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:37.384724+00:00",
+      "sha256": "250d17f051d1319d1165af4579a4740c99658b41f0ca71e49c40792a4474ee56"
+    },
+    "871923110ce969317713d42c36723bfba539a2428c5cfdb405b68988ef35a77e": {
+      "url": "https://api.manifold.markets/v0/market/sZd0lzlqQ9?",
+      "retrieved_utc": "2026-10-21T12:29:37.920627+00:00",
+      "sha256": "648cc340992640f5169160dfcd45c51d73b68cf3aa4e91516374bd6ed327ce9b"
+    },
+    "d37988de6ec168787f14e93583e8a88915a36ccdc4be7e207106c85d4306f185": {
+      "url": "https://api.manifold.markets/v0/market/ZzQchZcRCz?",
+      "retrieved_utc": "2026-10-21T12:29:38.173623+00:00",
+      "sha256": "603a6fc28a2a579160db0fb92e254bc6e2340defa789195526f044d0fb50e33d"
+    },
+    "e5d74a28a27dfdd157861eaaa8c2fc3320033074394c2a98749f01e1de50a397": {
+      "url": "https://api.manifold.markets/v0/market/hnp9EP0Sln?",
+      "retrieved_utc": "2026-10-21T12:29:38.644514+00:00",
+      "sha256": "d0aaae93d475ae3f91cb6112d2211a8b8561db9983c51ff0dc274964caf2ee0f"
+    },
+    "ddca154880ade48c0175e6b00c320aadde7d74a96968a52ec9f3a1a970814ed1": {
+      "url": "https://api.manifold.markets/v0/market/PtshlOuPU8?",
+      "retrieved_utc": "2026-10-21T12:29:39.007694+00:00",
+      "sha256": "2367a79c8f3d28e2c371a7877062e2640a00754cd063484378ebeb7c930ac420"
+    },
+    "4a0a56db3ac1832c32f12976fdfe248061710f52126aa57f68a8e67ee297f586": {
+      "url": "https://api.manifold.markets/v0/market/dZROLpZCRO?",
+      "retrieved_utc": "2026-10-21T12:29:39.286395+00:00",
+      "sha256": "ee0261614950dc3c3374b7a411d5a858733dece95919ecdfc21d08cdd3a1deb1"
+    },
+    "1bc4e869b0b1b3bb6863741db7b4fde3861567c7f5a460f12d37262829d27694": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791467415611&contractId=dZROLpZCRO&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:39.613961+00:00",
+      "sha256": "2bdcf73f01222ace12bdf445d50070758bec30be7424080e928a9772f60026b0"
+    },
+    "960f54c3075e6fed58247d4f6384cee924c26c1afacf69c6e50e9147108dc652": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791381015611&contractId=dZROLpZCRO&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:39.991922+00:00",
+      "sha256": "7c9471c540f44347972f3479c7f06a2d4d68e5b571907a435f440056d1b5d7a6"
+    },
+    "38d646b55300ea33b20404c1ab19c171a9dbb83478685047712da13ba4cfa433": {
+      "url": "https://api.manifold.markets/v0/market/L2OQpZlCgQ?",
+      "retrieved_utc": "2026-10-21T12:29:40.377148+00:00",
+      "sha256": "7f415a63696bfa892c9a90c9b81858c75a0835d8294d7fd4fc52587e865767ff"
+    },
+    "dc02826c309a5fe388e346b0bc1b7578476860cb75504c83282caf91d6817660": {
+      "url": "https://api.manifold.markets/v0/market/RP29UdllLL?",
+      "retrieved_utc": "2026-10-21T12:29:40.642733+00:00",
+      "sha256": "1d4f89b19a415ae4782ce3bb9b68420aaa59761c15bd77dd2e4c30c825ba4822"
+    },
+    "dc265dbbaa744f7f0b8683d821c6dff831729a836288d10f8c7e833874638ea2": {
+      "url": "https://api.manifold.markets/v0/market/05Pgnp9l9z?",
+      "retrieved_utc": "2026-10-21T12:29:41.179244+00:00",
+      "sha256": "48c8da5d1904841ba62fd4a14ef0914a43f6bc46f3b25eaa63b93770535d1a34"
+    },
+    "f1d5da6351b585d7af801a4184d0e595bb8036f42a423a7a154b3ea9d047c17c": {
+      "url": "https://api.manifold.markets/v0/market/LugLltyshU?",
+      "retrieved_utc": "2026-10-21T12:29:41.429001+00:00",
+      "sha256": "57c0108930ae3bd26135ce4bc8c71695744ce00828c9c80c47abde196a7872cb"
+    },
+    "9dc1fda1f653118d9d99ea8c69934baaf97962879d3c73f2d204cd3ebc658f16": {
+      "url": "https://api.manifold.markets/v0/market/5C05tyIylU?",
+      "retrieved_utc": "2026-10-21T12:29:42.050411+00:00",
+      "sha256": "5a65bebfcc1b0cec137c377b8693117cb4af42caeb5294f1872b05d675464087"
+    },
+    "67a1c2c8dcf6f1ce5faa6d193b387bd4bf1195bc6befa92531bb49f4a35563fc": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791652298542&contractId=5C05tyIylU&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:42.325022+00:00",
+      "sha256": "7500102b3b0b36682d93a1a156ec69fa8b7a56811eec4acfc2d74defca4f80af"
+    },
+    "95cc7091f8ea3285c6ca0f5fe72b63d612993af4d5363438ee976108340e207f": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791565898542&contractId=5C05tyIylU&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:42.743112+00:00",
+      "sha256": "a3cb0f18e1ad515fe9f17e68a014102d42d3826f4e48e484fd65274752908712"
+    },
+    "6605f2802c64ca89f0c458ff842e3c9b56ae08d52973280f979f8b2f9ccfcddf": {
+      "url": "https://api.manifold.markets/v0/market/p25OAdqUZp?",
+      "retrieved_utc": "2026-10-21T12:29:43.116490+00:00",
+      "sha256": "ac905fbcc66f8e3c668c343a56e5ceefba6180442f6fb091d3cfaa69d3896b75"
+    },
+    "33bba46fae81b5ed086101fdc4b5c4f5d5eadcd648cbe0c38b33edf6cc06d252": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791718826250&contractId=p25OAdqUZp&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:43.376661+00:00",
+      "sha256": "321673341ae9df271cf115f6b65a109b7fe46b76e032ee2d15456c18ddc3d041"
+    },
+    "56c11a6b22c2b4109b8234d6f305eaeeeb671cfcd498d302ae007d9f650652ad": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791632426250&contractId=p25OAdqUZp&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:43.656896+00:00",
+      "sha256": "996236c3c17573be684f7bc0a1df0f4442263df139574c7f75eecc3e23e0b0ed"
+    },
+    "c782cfef95fdc3d85a1e6a917ec8b24cecd1ba8d64fee0066064995501c3999b": {
+      "url": "https://api.manifold.markets/v0/market/hALggu2nA0?",
+      "retrieved_utc": "2026-10-21T12:29:43.924016+00:00",
+      "sha256": "53e09ddee7de182cd13f1f5ce45f3e129fc78f4d4e41d60b588de0f1ba6f1244"
+    },
+    "c2c352dc7da2e600fc5da2879d260a3ad9dd0878ba33403080818313e8ac27d5": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791650195562&contractId=hALggu2nA0&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:44.187028+00:00",
+      "sha256": "b79c50338bc77125aee7a95184190e5460a6b78c2c27a5d1b01aa6e74c995f06"
+    },
+    "3709ac8146f631630a60f04ac8f8793fb545ef63de00253e3debcf9a1c85c074": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791563795562&contractId=hALggu2nA0&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:44.673894+00:00",
+      "sha256": "3c323be4fb1c31ebb0181089d6dd7ec736964cf2b3385bcd86098361587605a2"
+    },
+    "358135b42f0be92b054ee1d3aa2ccefb77cfa46601fd31e83d77af7608017b3e": {
+      "url": "https://api.manifold.markets/v0/market/LnzuEN658l?",
+      "retrieved_utc": "2026-10-21T12:29:44.944499+00:00",
+      "sha256": "5aaad31a8def26ecf7d1b394f8d81954780388088fc129d3780242e95cc404ff"
+    },
+    "c43612c0ed4bce7fc3083dae9cbbe628e366396bbb57b74b05c64b78358fe4fa": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791718887609&contractId=LnzuEN658l&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:45.219620+00:00",
+      "sha256": "6d10d61bc3fa73e63cc641eb85462cc9f5a2718d4c0681f968db52ff61d59fc6"
+    },
+    "bea33deeea27b1687edf37c97be99d98ffa8d69bb63d2255f42fff973110ad9a": {
+      "url": "https://api.manifold.markets/v0/market/CPIzIAptIs?",
+      "retrieved_utc": "2026-10-21T12:29:45.495386+00:00",
+      "sha256": "ae4473bf393440943fe77a9df7ca12f8c9a809f558520c7b25cdff59be68b208"
+    },
+    "570162029b8ae370a51802b11da36b736c258eccd07376e826241cadfb6dba02": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791652557364&contractId=CPIzIAptIs&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:45.777745+00:00",
+      "sha256": "77b256659ac68e7c712dc71e6fb04e483d3223bf831d4c757d22b4b03db73f2d"
+    },
+    "6dde37e8cdd05b54a7bc92ed2c340b81f5744af3cde219c92a498b6bc5247759": {
+      "url": "https://api.manifold.markets/v0/market/zyzs6yhEnh?",
+      "retrieved_utc": "2026-10-21T12:29:46.075712+00:00",
+      "sha256": "78b6861b693cdf1887695a863d74915776ca4ec17ec126ff170a3dabffe6225c"
+    },
+    "3ccf94ebb96a76d29b8ed0c66011491df0b1ab55d6138606298bd215868cf95c": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791650210789&contractId=zyzs6yhEnh&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:46.332815+00:00",
+      "sha256": "aefe140e64e0cc821d96b1bda8f80f3a10e7faf53409916b7ddec0e1d038d810"
+    },
+    "fa039f4c96623179be28afac3c845d68ac86c887db318d8d2ac1139aad94c69f": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791563810789&contractId=zyzs6yhEnh&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:46.597588+00:00",
+      "sha256": "4eb0ea658eee31d0816971572eb9f019f2aaa615406b81f9329f9e7ab9fd281e"
+    },
+    "0ab227a8e2d3131b9cd90ba85a39e255785fcfeda169865fa1e3b9a4e8e5666a": {
+      "url": "https://api.manifold.markets/v0/market/SSZ8pyd96Z?",
+      "retrieved_utc": "2026-10-21T12:29:46.862284+00:00",
+      "sha256": "222043afb1bcd3ef1ab3a21dd61eb619f7996c089deb192562a9bc5b33fe511a"
+    },
+    "c03a25ada34faee8ca73a8d8e7fd0d2fd53dea684e2003e0756b49bbaa41b5be": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791366813364&contractId=SSZ8pyd96Z&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:47.139027+00:00",
+      "sha256": "5b002dcbccf473cefa3c94886f21b79127a1e01bde6332291ab99a571d4fd9fb"
+    },
+    "5eea33371af8fefd3d7cad60f7904be24c81cf7ddf857fe7f88d19e3245d2d62": {
+      "url": "https://api.manifold.markets/v0/market/CPglq856R5?",
+      "retrieved_utc": "2026-10-21T12:29:47.417046+00:00",
+      "sha256": "175c2169de096c342dc779c9c6397ee178155c7f2e784bbe7121e5d8967b0d21"
+    },
+    "e5dd62202e9af99127fa53ecef8a2b371cb1ec9cefba689a81c35961d5758590": {
+      "url": "https://api.manifold.markets/v0/market/IQUO05ULtA?",
+      "retrieved_utc": "2026-10-21T12:29:47.687665+00:00",
+      "sha256": "063a82f773584c276c8842e81f66f3381bfdf56a687305131ff4319dee3b0129"
+    },
+    "7f97599f5d8e4abd893133d33fd0037fccfbd1be50af4daa75cf1929f9d3bcac": {
+      "url": "https://api.manifold.markets/v0/market/p60dUnQ2ER?",
+      "retrieved_utc": "2026-10-21T12:29:47.961307+00:00",
+      "sha256": "fe75f46c70cb198ff640bc379e26fa3eaf3a5729ece0041ab82d9e9de71e7ae8"
+    },
+    "2ccdca2aae5bee4a0492046fcc4e801bf0dfd2e9feb1a51e1c9aea9a26e5b313": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791652906336&contractId=p60dUnQ2ER&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:48.237734+00:00",
+      "sha256": "fe53ef0cc4c10e3daccc61f262cabc04564545b6686e2f432e97d9242b9c9ddf"
+    },
+    "5e64ce0f427c37c3db8c6224ae437f40fd6e1b5fe0d90cee10b611edcb5bddae": {
+      "url": "https://api.manifold.markets/v0/market/LsNAC292Cg?",
+      "retrieved_utc": "2026-10-21T12:29:48.513198+00:00",
+      "sha256": "6a16dd9617dc68d3b15ffe98c20aa261159ce235b6d9679e163ae51acd20cb6b"
+    },
+    "c899acebed0c07b3aa238d381c6504ad9aceb6f0537e79c29b42a25949cbbeec": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791463355661&contractId=LsNAC292Cg&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:49.956526+00:00",
+      "sha256": "29a8366ae270f4e7331e3ece09945588558afbdaa5ba6898997886e10f2e2a89"
+    },
+    "6062f6bd9d6cb9169ee9cc7861a1b301914a4f27699ef0ead8d69309d713cd96": {
+      "url": "https://api.manifold.markets/v0/market/Iqh8NCQ2dC?",
+      "retrieved_utc": "2026-10-21T12:29:50.473087+00:00",
+      "sha256": "05d07b462900979eebe6017aca6bc04c0c0768b4758a12dd2085dd6c992cf4ed"
+    },
+    "77989ce78202d99b68a956775472a53508298993d5671aeedf9795fbd640c05c": {
+      "url": "https://api.manifold.markets/v0/market/PLlpOgh8zl?",
+      "retrieved_utc": "2026-10-21T12:29:50.879702+00:00",
+      "sha256": "a79d1392b9ba97d17774df902f2d060d9051b36dfabb63ef65b9012bcf9c2e38"
+    },
+    "5fa75468eb4e0bfe4601b5f0b7337157349523529b2ef8d5069ba8e26b130e6c": {
+      "url": "https://api.manifold.markets/v0/market/8NqElER9Zs?",
+      "retrieved_utc": "2026-10-21T12:29:51.197077+00:00",
+      "sha256": "1b08beb839fce25fee745950b5e3e7663cd9f982dfdca7759922c2ff65f15519"
+    },
+    "920ef56bfffd2da58bc32acf4caf072f8989fd7f6abf77ac734a3a29fe7cd141": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791571563598&contractId=8NqElER9Zs&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:51.469407+00:00",
+      "sha256": "b70d6fef173e16b967a3ad007e28525b9b710597e2c0472fecf76317c0232266"
+    },
+    "6d5a09de05a7135cbdf52e69778256e692f9a0765109a6bdc731399cd61eb83d": {
+      "url": "https://api.manifold.markets/v0/market/0tzluAR9dl?",
+      "retrieved_utc": "2026-10-21T12:29:51.749606+00:00",
+      "sha256": "4a71360639f7152cee3622f039458c989bca1efb4bd1058f4e37af4b85c873b6"
+    },
+    "1d1718f7c8db8185a2cec8d0528374c46ccccb4c9cd2c909d4a361e51d4c9ed0": {
+      "url": "https://api.manifold.markets/v0/market/50plz0Iscc?",
+      "retrieved_utc": "2026-10-21T12:29:52.043903+00:00",
+      "sha256": "10b926083b400dcb7447d298dd6f81aa5a867300579a4dc74b541bb602e40034"
+    },
+    "0f100bb140335bff1d4cab3b4b608f495b3126d947b7770082b153fc5eb7aded": {
+      "url": "https://api.manifold.markets/v0/market/A969n9RPEp?",
+      "retrieved_utc": "2026-10-21T12:29:52.356046+00:00",
+      "sha256": "2d16ba9e6dde346856a7a994744154514a969939a13a0b797971410f6beb7458"
+    },
+    "d02149082f4be82d3af95778a918a8b1066c113355a23d947f8da49812d1283d": {
+      "url": "https://api.manifold.markets/v0/market/OhQhq52PZU?",
+      "retrieved_utc": "2026-10-21T12:29:52.797962+00:00",
+      "sha256": "1d1eafb483bf8dc08657c97f54f31e38b8c25611744dc45479830af026ef2929"
+    },
+    "07b0fb5ddfdd0cb7bd9f99113421ecff071408cb7c8c418199567b32aaa48444": {
+      "url": "https://api.manifold.markets/v0/market/S9pOS02ZRQ?",
+      "retrieved_utc": "2026-10-21T12:29:53.087568+00:00",
+      "sha256": "14b02482219038911ef908f52867fe59ffab133345816354e7eafd24ecbf01bf"
+    },
+    "2d143b7527a1ab9d9d68dd57dadfe63bd1e0f737356b70c97ad69d7e19fc71ed": {
+      "url": "https://api.manifold.markets/v0/market/ItCERuUZNn?",
+      "retrieved_utc": "2026-10-21T12:29:53.413437+00:00",
+      "sha256": "a25099d21b0698005130012ece919882d0d62f1153f19de07ecd5b9fb2cca781"
+    },
+    "7df63b4aceba362ce943e1cb8331294544bd2be659f864baccfa8a1464e98914": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792461748072&contractId=ItCERuUZNn&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:53.700916+00:00",
+      "sha256": "694ac30a9a3b53b5a97bee82cf67b61acfe754cef34b1804635deef5c2a049ed"
+    },
+    "9ad60e9ab9ac45fdc0ccee2641de0e2172f6c72e92eb264e26d5639331dcb73d": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792375348072&contractId=ItCERuUZNn&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:53.956534+00:00",
+      "sha256": "4259576bc37c005e16559d392d219bc176d708abc4b68bc27ff740863f31acd7"
+    },
+    "caf190f8643140688f0ff7abca7d0894706f2ef5f37d49f4a05afeb4659e377e": {
+      "url": "https://api.manifold.markets/v0/market/ySRtqNzRQ8?",
+      "retrieved_utc": "2026-10-21T12:29:54.269766+00:00",
+      "sha256": "83228d45c228148fdcc40393a73c7eecc0f54c5ac23a8f03f6058e732e1d3d0a"
+    },
+    "4cf94623ba77c51033b5e87f6a2ef3b842be1ae0c8a7fcabee4838d88b1eaea5": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1792446138916&contractId=ySRtqNzRQ8&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:54.583046+00:00",
+      "sha256": "739e3dbec372db1fe10239d605341653c10b960bbfc531e74fc3d81c5e767c98"
+    },
+    "ef53c10d74998d19748459e7ed89b9db75f232224c2639d5ee6d1231eb79f178": {
+      "url": "https://api.manifold.markets/v0/market/2uR5Lzltpn?",
+      "retrieved_utc": "2026-10-21T12:29:54.952102+00:00",
+      "sha256": "646ea810633cfbfaec71f70627a3ada291d9836df5405a691abce90e74de99b3"
+    },
+    "26aaaced9662cbdd9abca42ccb50d6a5b23f775eab182fd1c5633b39c71cb410": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791142365414&contractId=2uR5Lzltpn&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:55.209235+00:00",
+      "sha256": "d36a025d87e25867b15f50f820bd2fcd180f711f4f1b028404904513c28c3363"
+    },
+    "b8f48b0a8221b91cd7e1ee6c59c3b4900eb58511f08210b6d9980e5aa1e4b989": {
+      "url": "https://api.manifold.markets/v0/market/g6692I5z62?",
+      "retrieved_utc": "2026-10-21T12:29:56.517785+00:00",
+      "sha256": "b72edb8180d3f374e25a400484b199cef9364d2f9a16257acb7b2c8386c21843"
+    },
+    "136328345d781ba2350aed100a819a0c8a4e3c8110c79ee1079d9f3a3c6c7c7f": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791316411758&contractId=g6692I5z62&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:56.783393+00:00",
+      "sha256": "cc78e5e6aafdbf0b81fd8f0cb663ddc863232554eefbc64d92858b200ccbf443"
+    },
+    "7afd6514b31e9a979aa465f6e6dca9929ada5ebf36a54ec20c0b8824a732007b": {
+      "url": "https://api.manifold.markets/v0/bets?beforeTime=1791230011758&contractId=g6692I5z62&limit=1000",
+      "retrieved_utc": "2026-10-21T12:29:57.055195+00:00",
+      "sha256": "b55304ca25acdec65b3f4daaaee3e1260366124845d90e27bb5d8cfbb6eeb40c"
+    },
+    "5e255c8e40583e06bbcbbfc744abb91d9afb2a5d18297325f19f6ab914fbc940": {
+      "url": "https://api.manifold.markets/v0/market/qZCccC0h5R?",
+      "retrieved_utc": "2026-10-21T12:29:57.354275+00:00",
+      "sha256": "b126e9255e4271fec1bd8d8a68ed098477634dfc22c60ae7bf4a70e7b8267e8e"
+    }
+  },
+  "script_sha256": "41d0a559a2816021b666e63abb740c2e85a8066c5673d8cd991e8efc488d3fcb"
+}

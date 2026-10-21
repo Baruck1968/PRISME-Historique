@@ -1,0 +1,52 @@
+{
+  "checked_utc": "2026-10-21T12:28:19.550246+00:00",
+  "checks": [
+    {
+      "label": "official_archive_documentation",
+      "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/docs/docs/data.md",
+      "method": "GET",
+      "status": 200,
+      "bytes": 2209,
+      "sha256": "c7d589175b0f31980eda66aa608d0c17b769797f3c84e2c6bacbad12386f4248"
+    },
+    {
+      "label": "official_api_documentation",
+      "url": "https://raw.githubusercontent.com/manifoldmarkets/manifold/main/docs/docs/api.md",
+      "method": "GET",
+      "status": 200,
+      "bytes": 70219,
+      "sha256": "368d642e108daf35b4248ad7806ae1ef1f84fc151ce0bc075a868e600e74bf44"
+    },
+    {
+      "label": "Bets data 2024-07-04",
+      "url": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/trade-dumps%2Fmanifold-dump-bets-04072024.json.zip?alt=media&token=5ff8fd10-8079-4570-9728-7d0be1d4a463",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 0
+    },
+    {
+      "label": "Markets data 2024-07-06",
+      "url": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/trade-dumps%2Fmanifold-contracts-20240706.json.zip?alt=media&token=ca3ef6b6-fe61-41b4-a789-dcc2d4ea4421",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 0
+    },
+    {
+      "label": "resolved_binary_markets",
+      "url": "https://api.manifold.markets/v0/search-markets?filter=resolved&contractType=BINARY&sort=newest&limit=10",
+      "method": "GET",
+      "status": 200,
+      "bytes": 9641,
+      "sha256": "6f601179d899675e9f7daf76328bd3837a5dd799a0fd45e17a06f0b065759f2f"
+    },
+    {
+      "label": "timestamped_history",
+      "url": "https://api.manifold.markets/v0/bets?contractId=Z6tRZ2yusN&limit=10",
+      "method": "GET",
+      "status": 200,
+      "bytes": 3226,
+      "sha256": "5e2cec40709daa3db0ee7cdaa37b901b0cdad345ae3fc549ba9f053dcd3ef306"
+    }
+  ],
+  "history_records_with_time_and_probability": 5
+}
