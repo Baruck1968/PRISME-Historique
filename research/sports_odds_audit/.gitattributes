@@ -1,0 +1,2 @@
+# Keep the upstream CRLF bytes so the published SHA-256 remains reproducible.
+evidence/**/openfootball_france_2023_24.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

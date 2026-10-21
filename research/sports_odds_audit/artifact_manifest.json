@@ -1,0 +1,18 @@
+{
+  ".gitignore": "046032151fe6113c18a8d7d9971c557e81129ca1ba244e5263d54b7e0e6f9643",
+  "audit_sources.py": "5bc8ef7b65a7e15882d8931e160efaa58c77c7a695ad2e3bb209ee19ef11f76e",
+  "check_public_sample.py": "cd772952c434ebcbd65764d37db87a81bbbefe81e93c1766713b87cfacad9a0a",
+  "diagnosis_initial_terms_url.json": "802a2efe2864738ba89f386f2aede12b40aa58ab5f9927c0e607348571d78862",
+  "evidence/2026-10-21/access_report.json": "9a8a99752ecbe297f6d726285cf7a267fab85343221ecf071bf50a13c202fd63",
+  "evidence/2026-10-21/openfootball_france_2023_24.json": "fa328cecf4c12232ac77a5d477059eebe16b68b3712ec87800b89efda8ddfb70",
+  "evidence/2026-10-21-verified/access_report.json": "1332ac8fb7a98385655c1da7b0f60b85444519a260835121022603ea74c54715",
+  "evidence/2026-10-21-verified/openfootball_france_2023_24.json": "fa328cecf4c12232ac77a5d477059eebe16b68b3712ec87800b89efda8ddfb70",
+  "evidence/2026-10-21-verified/supplementary_sources.json": "ccc89de3a95c3264acdde1d0fc2a773efa4b86316cd256a5a8593d82d6af4711",
+  "evidence/public_sample_check.json": "970108b5b504b6314f22d3a2199a45f5d4d126e0740821656cc3318554b22c99",
+  "findings.json": "5ffce7dd00cafb69d276fda179f8c62c2f4421d8b26a3636bcc6bff2bf03f465",
+  "preservation_check.json": "7e16771d249c2a6b01fd22e530c00d1d2fafb45238dd9d05abe690d082b8fe50",
+  "validation.json": "f738058fa0158f1b4e744ca79c946098493818899487bfbdf8e883920ea1e0e7",
+  "validation.log": "13c0f58534cc1e8444ecf68663b0adc1146092bba1199e4b2dc1978e960362ba",
+  "../SPORTS_ODDS_SOURCE_FEASIBILITY_REPORT.md": "fbd667464fcff24b34ae012c4914e6b68a04e75894a373adf1ec84bf8d59d6b6",
+  ".gitattributes": "52be26dad8dd6860a8e7ec9a3dfedfedfcbb14be9066ae460a31bf85d4a9622f"
+}

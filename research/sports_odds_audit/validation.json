@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-21T14:12:54.112055+00:00",
+  "command": "python -m unittest discover -s tests -p test_sports_odds_sources.py -v",
+  "exit_code": 0,
+  "tests_run": 4,
+  "no_market_simulation": true
+}

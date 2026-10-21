@@ -1,0 +1,31 @@
+{
+  "url": "https://public-odds-api-sample-data.s3.amazonaws.com/historical-bundesliga.json",
+  "checked_utc": "2026-10-21T14:06:10.987853+00:00",
+  "provenance": "Public sample linked from official historical-odds documentation; not a newly purchased API response",
+  "raw_publication": false,
+  "statistical_test_performed": false,
+  "http_status": 200,
+  "status": "inspected_provider_sample",
+  "sha256": "e02b2f9b2f3ce643de7e03a8ee8c1e458553ddebfb40a8d681cad936c2c74c04",
+  "bytes": 50994,
+  "snapshot_timestamp": "2022-10-18T01:55:39Z",
+  "events": 18,
+  "bookmaker_keys": [
+    "betclic",
+    "betfair",
+    "betsson",
+    "intertops",
+    "marathonbet",
+    "matchbook",
+    "mybookieag",
+    "onexbet",
+    "pinnacle",
+    "sport888",
+    "unibet_eu",
+    "williamhill"
+  ],
+  "exact_current_fr_keys_present": [],
+  "first_commence_time": "2022-10-21T18:30:00Z",
+  "last_commence_time": "2022-10-30T18:30:00Z",
+  "limitation": "One static snapshot, not a 3-snapshot pre-event trajectory or proof of France historical continuity. Old keys are not mapped to France without evidence."
+}

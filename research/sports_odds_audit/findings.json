@@ -1,0 +1,116 @@
+{
+  "checked_utc": "2026-10-21T14:10:47.310981+00:00",
+  "decision": "candidate_the_odds_api_conditional_no_historical_france_trajectory_validated",
+  "current_france_documentary_matches": [
+    {
+      "bookmaker_key": "betclic_fr",
+      "anj_site": "betclic.fr",
+      "anj_entity": "Betclic Enterprises Limited",
+      "current_documentary_match": true,
+      "historical_start_per_bookmaker": null,
+      "three_pre_event_snapshots_tested": false
+    },
+    {
+      "bookmaker_key": "netbet_fr",
+      "anj_site": "netbet.fr / netbetsport.fr",
+      "anj_entity": "Netbet FR SAS",
+      "current_documentary_match": true,
+      "historical_start_per_bookmaker": null,
+      "three_pre_event_snapshots_tested": false
+    },
+    {
+      "bookmaker_key": "pmu_fr",
+      "anj_site": "pmu.fr",
+      "anj_entity": "Pari Mutuel Urbain",
+      "current_documentary_match": true,
+      "historical_start_per_bookmaker": null,
+      "three_pre_event_snapshots_tested": false
+    },
+    {
+      "bookmaker_key": "unibet_fr",
+      "anj_site": "unibet.fr",
+      "anj_entity": "Fdj Online Betting and Gaming France",
+      "current_documentary_match": true,
+      "historical_start_per_bookmaker": null,
+      "three_pre_event_snapshots_tested": false
+    },
+    {
+      "bookmaker_key": "winamax_fr",
+      "anj_site": "winamax.fr",
+      "anj_entity": "Winamax",
+      "current_documentary_match": true,
+      "historical_start_per_bookmaker": null,
+      "three_pre_event_snapshots_tested": false
+    }
+  ],
+  "terms": {
+    "date_on_page": "2026-08-31",
+    "research_and_machine_learning_explicitly_permitted": true,
+    "raw_standalone_redistribution_prohibited": true
+  },
+  "monthly_plans_usd": [
+    {
+      "credits": 500,
+      "usd": 0,
+      "historical": false
+    },
+    {
+      "credits": 20000,
+      "usd": 30,
+      "historical": true
+    },
+    {
+      "credits": 100000,
+      "usd": 59,
+      "historical": true
+    },
+    {
+      "credits": 5000000,
+      "usd": 119,
+      "historical": true
+    },
+    {
+      "credits": 15000000,
+      "usd": 249,
+      "historical": true
+    }
+  ],
+  "budget_scenarios_assumptions": {
+    "snapshots_per_event": 3,
+    "markets": 1,
+    "region_equivalents": 1,
+    "credits_per_historical_call": 10,
+    "no_batching": true,
+    "extra_calls_not_included": true
+  },
+  "budget_scenarios": [
+    {
+      "events": 306,
+      "odds_calls": 918,
+      "odds_credits": 9180,
+      "budget_only_not_a_data_sample": true
+    },
+    {
+      "events": 1000,
+      "odds_calls": 3000,
+      "odds_credits": 30000,
+      "budget_only_not_a_data_sample": true
+    }
+  ],
+  "football_data": {
+    "automated_requests": 0,
+    "current_terms_independently_verified": false,
+    "reported_restriction_source": "research/SPORTS_ODDS_SOURCE_FEASIBILITY.md"
+  },
+  "historical_samples": {
+    "public_static_provider_sample_downloaded": 1,
+    "authenticated_paid_api_responses": 0,
+    "national_fr_historical_coverage_validated": false
+  },
+  "predictive_results": null,
+  "economic_results": null,
+  "purchases": 0,
+  "subscriptions": 0,
+  "bets": 0,
+  "financial_transactions": 0
+}

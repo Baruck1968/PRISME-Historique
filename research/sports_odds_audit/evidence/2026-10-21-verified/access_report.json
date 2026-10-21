@@ -1,0 +1,157 @@
+{
+  "checked_utc": "2026-10-21T13:59:02.887208+00:00",
+  "script_sha256": "5bc8ef7b65a7e15882d8931e160efaa58c77c7a695ad2e3bb209ee19ef11f76e",
+  "status": "documentation_retrieved_data_coverage_still_unverified",
+  "checks": [
+    {
+      "id": "historical_documentation",
+      "url": "https://the-odds-api.com/historical-odds-data/",
+      "checked_utc": "2026-10-21T13:58:59.697701+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://the-odds-api.com/historical-odds-data/",
+      "status": "retrieved",
+      "bytes": 90332,
+      "sha256": "28e921db6f1875e9609937032a599f9c137621d85d086fa415c6baf9476210e8"
+    },
+    {
+      "id": "v4_documentation",
+      "url": "https://the-odds-api.com/liveapi/guides/v4/",
+      "checked_utc": "2026-10-21T13:58:59.932273+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://the-odds-api.com/liveapi/guides/v4/",
+      "status": "retrieved",
+      "bytes": 329914,
+      "sha256": "e658062a0c0d3194a6247734be800807ab59d3d2c2e1e60df90db45002bcd02f"
+    },
+    {
+      "id": "bookmaker_directory",
+      "url": "https://the-odds-api.com/sports-odds-data/bookmaker-apis.html",
+      "checked_utc": "2026-10-21T13:59:00.142146+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://the-odds-api.com/sports-odds-data/bookmaker-apis.html",
+      "status": "retrieved",
+      "bytes": 134953,
+      "sha256": "09514bcf9f0f7ea8c468800b001f715506135a041cb9e390ac0d5a9f5d28ad1b"
+    },
+    {
+      "id": "pricing",
+      "url": "https://the-odds-api.com/#pricing",
+      "checked_utc": "2026-10-21T13:59:00.315701+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://the-odds-api.com/#pricing",
+      "status": "retrieved",
+      "bytes": 38932,
+      "sha256": "c9f21314796ddf18f949b02d2367c5ca9ebb76ec26c094bd2648a7648a5f0db5"
+    },
+    {
+      "id": "terms",
+      "url": "https://the-odds-api.com/terms-and-conditions.html",
+      "checked_utc": "2026-10-21T13:59:00.438282+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://the-odds-api.com/terms-and-conditions.html",
+      "status": "retrieved",
+      "bytes": 23832,
+      "sha256": "74bcde10e140efcb08ead532660f6f7372082dec9cb9d0ee0e10f8d8c8fe55d0"
+    },
+    {
+      "id": "anj_operators",
+      "url": "https://www.anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "checked_utc": "2026-10-21T13:59:00.600600+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://www.anj.fr/offre-de-jeu-et-marche/operateurs-agrees",
+      "status": "retrieved",
+      "bytes": 97346,
+      "sha256": "ef7f4436f629541771d21e04c266b2c96aa1e4470a9b9711958f99c8e6ab8396"
+    },
+    {
+      "id": "official_historical_sample",
+      "url": "https://raw.githubusercontent.com/the-odds-api/samples-python/dc344b7e93b70003d0fef35584c8edd78a4c40fb/historical_odds.py",
+      "checked_utc": "2026-10-21T13:59:02.270640+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/the-odds-api/samples-python/dc344b7e93b70003d0fef35584c8edd78a4c40fb/historical_odds.py",
+      "status": "retrieved",
+      "bytes": 2843,
+      "sha256": "3eb0cb73964a8ba3d13b20a620584df1144544087aaa3969d601170d86cd95d1"
+    },
+    {
+      "id": "official_event_sample",
+      "url": "https://raw.githubusercontent.com/the-odds-api/samples-python/dc344b7e93b70003d0fef35584c8edd78a4c40fb/historical_event_odds.py",
+      "checked_utc": "2026-10-21T13:59:02.403940+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/the-odds-api/samples-python/dc344b7e93b70003d0fef35584c8edd78a4c40fb/historical_event_odds.py",
+      "status": "retrieved",
+      "bytes": 2997,
+      "sha256": "bcda296794298541de0eaca92656095957278086ae20655a7cf5edf2d544a92c"
+    },
+    {
+      "id": "official_live_sample",
+      "url": "https://raw.githubusercontent.com/the-odds-api/samples-python/dc344b7e93b70003d0fef35584c8edd78a4c40fb/odds.py",
+      "checked_utc": "2026-10-21T13:59:02.552861+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/the-odds-api/samples-python/dc344b7e93b70003d0fef35584c8edd78a4c40fb/odds.py",
+      "status": "retrieved",
+      "bytes": 2955,
+      "sha256": "b134e97ee935c2820b26c0e23c55dbc4b64960c3b128e443ca7ea2b5e6a0c2d8"
+    },
+    {
+      "id": "results_license",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/e6744429ee395bc86f247348c6184bb08d4eb361/README.md",
+      "checked_utc": "2026-10-21T13:59:02.677290+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/openfootball/football.json/e6744429ee395bc86f247348c6184bb08d4eb361/README.md",
+      "status": "retrieved",
+      "bytes": 6330,
+      "sha256": "aadc464ae476ba4d5467785f6f2be435d1a583f589f4b2b0617fdf86fc18e29c"
+    },
+    {
+      "id": "results_france_2023_24",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/e6744429ee395bc86f247348c6184bb08d4eb361/2023-24/fr.1.json",
+      "checked_utc": "2026-10-21T13:59:02.786787+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/openfootball/football.json/e6744429ee395bc86f247348c6184bb08d4eb361/2023-24/fr.1.json",
+      "status": "retrieved",
+      "bytes": 92104,
+      "sha256": "fa328cecf4c12232ac77a5d477059eebe16b68b3712ec87800b89efda8ddfb70"
+    },
+    {
+      "id": "football_data",
+      "url": "https://www.football-data.co.uk/downloadm.php",
+      "status": "not_requested_due_to_reported_automation_AI_restriction",
+      "basis": "research/SPORTS_ODDS_SOURCE_FEASIBILITY.md; current terms require human/legal verification or explicit provider authorization"
+    }
+  ],
+  "required_documentary_sources_unavailable": [],
+  "official_sample_findings": {
+    "historical_paid_plan_statement_found": true,
+    "historical_quota_formula_found": true,
+    "snapshot_timestamp_and_neighbors_fields_found": true,
+    "warning": "Code sample, not a purchased historical response or validated France coverage. No request example was executed."
+  },
+  "real_results_check": {
+    "competition": "French Ligue 1 2023/24",
+    "matches": 306,
+    "with_ft_scores": 306,
+    "with_time_field": 306,
+    "with_explicit_timezone_field": 0,
+    "interpretation": "Real community full-time results only, not odds, verified UTC kickoff or bookmaker settlements"
+  },
+  "historical_odds_responses_obtained": 0,
+  "france_licensed_bookmakers_verified": null,
+  "current_subscription_prices_verified": null,
+  "statistical_results": null,
+  "purchases": 0,
+  "subscriptions": 0,
+  "bets": 0,
+  "financial_transactions": 0
+}

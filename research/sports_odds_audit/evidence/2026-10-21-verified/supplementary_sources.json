@@ -1,0 +1,16 @@
+[
+  {
+    "id": "anj_legal_sites",
+    "url": "https://anj.fr/offre-de-jeu-et-marche/categories-de-jeux-et-canaux-de-distribution",
+    "final_url": "https://anj.fr/offre-de-jeu-et-marche/categories-de-jeux-et-canaux-de-distribution",
+    "status": 200,
+    "sha256": "c6d9f743f09c014b3aacd6ce0f48a9ff9de6573d153317cc581f831545887751"
+  },
+  {
+    "id": "anj_sports_authorization",
+    "url": "https://anj.fr/les-paris-sportifs#listesport",
+    "final_url": "https://anj.fr/les-paris-sportifs#listesport",
+    "status": 200,
+    "sha256": "f857b1995bd24c04c8ce684a6ff26a83b41ed7dc6461e33ee02614b038ead6cc"
+  }
+]

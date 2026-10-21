@@ -1,0 +1,7 @@
+{
+  "superseded_access_log": "evidence/2026-10-21/access_report.json",
+  "issue": "terms-of-service.html returned a branded 404 body under HTTP 200. Initial transport-only status is not evidence of terms verification.",
+  "correct_url": "https://the-odds-api.com/terms-and-conditions.html",
+  "valid_log": "evidence/2026-10-21-verified/access_report.json",
+  "guard_added": "Classify Four-Oh-Four body as soft_404, never as retrieved legal terms."
+}
