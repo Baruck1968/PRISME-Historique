@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "status": "pending_external_and_manual_audit",
+  "selection": "First 10 frozen cohort IDs by SHA256(id), without outcome selection",
+  "records": [
+    {
+      "market_id": "6ZLAcAE0Nz",
+      "question": "NFL: Will Chicago beat New England by 3 or more points?",
+      "capture_received_utc": "2026-10-21T13:39:04.658655+00:00",
+      "objective_rules_verified": false,
+      "outcome_unknown_verified": false,
+      "event_key": null,
+      "predictive_eligible": false
+    },
+    {
+      "market_id": "pIcdZNQt2u",
+      "question": "Will Paul Hollywood do 3 more series of Bake Off?",
+      "capture_received_utc": "2026-10-21T13:38:57.490898+00:00",
+      "objective_rules_verified": false,
+      "outcome_unknown_verified": false,
+      "event_key": null,
+      "predictive_eligible": false
+    },
+    {
+      "market_id": "El5hNANCcE",
+      "question": "Will NASA perform the 'Big Bang' power fix on Voyager 1 in 2026?",
+      "capture_received_utc": "2026-10-21T13:39:02.331831+00:00",
+      "objective_rules_verified": false,
+      "outcome_unknown_verified": false,
+      "event_key": null,
+      "predictive_eligible": false
+    },
+    {
+      "market_id": "yzAERRREyz",
+      "question": "Daily Coinflip",
+      "capture_received_utc": "2026-10-21T13:38:35.743048+00:00",
+      "objective_rules_verified": false,
+      "outcome_unknown_verified": false,
+      "event_key": null,
+      "predictive_eligible": false
+    },
+    {
+      "market_id": "QO0Ih5c05Q",
+      "question": "will 20 people i've met (or will meet) trade on this market?",
+      "capture_received_utc": "2026-10-21T13:38:55.376564+00:00",
+      "objective_rules_verified": false,
+      "outcome_unknown_verified": false,
+      "event_key": null,
+      "predictive_eligible": false
+    },
+    {
+      "market_id": "z206np6LCy",
+      "question": "Will Amy Acton outperform Sherrod Brown in 2026?",
+      "capture_received_utc": "2026-10-21T13:38:45.266891+00:00",
+      "objective_rules_verified": false,
+      "outcome_unknown_verified": false,
+      "event_key": null,
+      "predictive_eligible": false
+    },
+    {
+      "market_id": "s9ZQROyAcg",
+      "question": "Will a US House seat flip from Republican to Democrat in a 2027 special election?",
+      "capture_received_utc": "2026-10-21T13:38:46.579500+00:00",
+      "objective_rules_verified": false,
+      "outcome_unknown_verified": false,
+      "event_key": null,
+      "predictive_eligible": false
+    },
+    {
+      "market_id": "EPPNNOz0C8",
+      "question": "NBA: Will Milwaukee Beat Chicago by 3 or More Points?",
+      "capture_received_utc": "2026-10-21T13:39:06.951150+00:00",
+      "objective_rules_verified": false,
+      "outcome_unknown_verified": false,
+      "event_key": null,
+      "predictive_eligible": false
+    },
+    {
+      "market_id": "CcR2lq9pAd",
+      "question": "malfoid tv show announced by EOY?",
+      "capture_received_utc": "2026-10-21T13:38:58.424759+00:00",
+      "objective_rules_verified": false,
+      "outcome_unknown_verified": false,
+      "event_key": null,
+      "predictive_eligible": false
+    },
+    {
+      "market_id": "pugSZSzO8L",
+      "question": "NFL: Will New York Beat Miami by 5 or More Points?",
+      "capture_received_utc": "2026-10-21T13:39:03.897899+00:00",
+      "objective_rules_verified": false,
+      "outcome_unknown_verified": false,
+      "event_key": null,
+      "predictive_eligible": false
+    }
+  ]
+}

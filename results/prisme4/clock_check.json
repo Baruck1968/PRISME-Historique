@@ -1,0 +1,8 @@
+{
+  "capture_run": "runs/20261021T133834861359Z_a5d11448",
+  "receipts_utc": true,
+  "http_date_headers_checked": 61,
+  "receipt_minus_http_date_seconds_min": 0.029323,
+  "receipt_minus_http_date_seconds_max": 1.011608,
+  "interpretation": "Cross-check of local UTC against HTTP Date at receipt; not independent trusted timestamping."
+}

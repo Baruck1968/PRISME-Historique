@@ -1,0 +1,43 @@
+{
+  "actual_receipts_not_scheduled_instant": true,
+  "cohort_ids": [],
+  "collector_sha256": "3190370152f29cb94158e60c2dff0d2b347d39a94effbc89b26d98a7516d8b42",
+  "error": {
+    "message": "No admissible public open BINARY candidates found",
+    "type": "RuntimeError"
+  },
+  "files_sha256": {
+    "errors.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "observations.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "raw.zip": "abc99ad29d40cd58f69311da736cb3fd3a0011de98ae5f08dcbb77f561bf272a"
+  },
+  "observations": 0,
+  "plan_sha256": "1a2c6b9604f2de72c14ad2db592051e40d80a93e430ce91a0f8baa84fd4a8bf2",
+  "predictive_eligible": 0,
+  "previous_manifest_sha256": null,
+  "purpose": "feasibility",
+  "request_window_finished_utc": "2026-10-21T13:35:57.746999+00:00",
+  "request_window_started_utc": "2026-10-21T13:35:57.095250+00:00",
+  "requests": [
+    {
+      "attempt": 1,
+      "bytes": 26670,
+      "headers": {
+        "cache-control": "private, no-store",
+        "date": "Wed, 21 Oct 2026 13:35:57 GMT",
+        "etag": "W/\"682e-UxGh1OkcSxv1DOk8HIdGRxIUKhs\""
+      },
+      "label": "discovery",
+      "method": "GET",
+      "raw_member": "discovery.json",
+      "received_utc": "2026-10-21T13:35:57.743422+00:00",
+      "request_started_utc": "2026-10-21T13:35:57.095305+00:00",
+      "sha256": "4b61a4b9e942fefc893c231b6c898f93cd174a23272abad927c8cc56ab6856f5",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/search-markets?contractType=BINARY&filter=open&limit=30&sort=newest&term="
+    }
+  ],
+  "rule_version": "PRISME4-collection-v1",
+  "schema_version": 1,
+  "status": "failed"
+}

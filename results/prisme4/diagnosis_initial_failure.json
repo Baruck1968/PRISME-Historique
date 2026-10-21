@@ -1,0 +1,10 @@
+{
+  "failed_run": "store/runs/20261021T133557082805Z_d99082fa",
+  "cause": "Discovery and market detail API omit visibility. Initial guard incorrectly required an explicit visibility=public field and rejected every candidate.",
+  "correction": "Rule v1.1: frozen membership from anonymous search uses public visibility filter verified in upstream SQL; later visibility emission is not assumed. Details remain candidate-only and all predictive eligibility flags false.",
+  "evidence": [
+    "source_checks/search_query.ts",
+    "source_checks/privacy_filter.ts"
+  ],
+  "no_data_deleted": true
+}

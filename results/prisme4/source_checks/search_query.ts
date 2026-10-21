@@ -1,0 +1,937 @@
+import { Contract, isMultiCpmm, isSportsContract } from 'common/contract'
+import { DiscoveryExperimentVariant } from 'common/discovery-experiment'
+import { PROD_MANIFOLD_LOVE_GROUP_SLUG } from 'common/envs/constants'
+import { GROUP_SCORE_PRIOR, nicheBlendTopicScoreSql } from 'common/feed'
+import { getPerpBackingPool } from 'common/perps/amm'
+import { isPerpTickerSearchTerm } from 'common/perps/ticker'
+import { tsToMillis } from 'common/supabase/utils'
+import { answerCostTiers, getTierIndexFromLiquidity } from 'common/tier'
+import { PrivateUser } from 'common/user'
+import { buildArray, filterDefined } from 'common/util/array'
+import { MINUTE_MS } from 'common/util/time'
+import { constructPrefixTsQuery } from 'shared/helpers/search'
+import {
+  SearchSort,
+  SearchSortDirection,
+  SearchSortValue,
+} from 'shared/helpers/search-pagination'
+import { getContractPrivacyWhereSQLFilter } from 'shared/supabase/contracts'
+import { createSupabaseDirectClient } from 'shared/supabase/init'
+import {
+  from,
+  groupBy,
+  join,
+  leftJoin,
+  limit as lim,
+  orderBy,
+  renderSql,
+  select,
+  limit as sqlLimit,
+  where,
+  withClause,
+} from 'shared/supabase/sql-builder'
+import {
+  buildUserInterestsCache,
+  userIdsToAverageTopicConversionScores,
+} from 'shared/topic-interests'
+import { contractColumnsToSelectWithPrefix, log } from 'shared/utils'
+import { MULTI_CPMM_MECHANISMS_SQL } from 'common/contract'
+
+const DEFAULT_THRESHOLD = 1000
+const GROUP_SCORE_POWER = 4
+type TokenInputType = 'CASH' | 'MANA' | 'ALL' | 'CASH_AND_MANA'
+let importanceScoreThreshold: number | undefined = undefined
+let freshnessScoreThreshold: number | undefined = undefined
+
+// --- Stale-seen suppression (For You only) ------------------------------
+// Nothing is hidden for longer than this. Past it a market is fair game
+// again even if it has been completely quiet, so the shelf can never
+// permanently empty out.
+const SEEN_MEMORY_WINDOW = '7 days'
+// Views younger than this don't count yet. This is what makes going back
+// safe: scroll browse, open the 4th market, hit back — every card you
+// scrolled past is still inside the grace period, so the page you return
+// to looks like the page you left. The web client anchors this cutoff when a
+// fresh query starts and reuses it so load-more offsets see one stable set.
+const SEEN_GRACE_PERIOD = '1 hour'
+// Matches PROB_CHANGE_THRESHOLD in feed-market-movement-display.ts: the same
+// binary move that earns a card its movement badge also earns it another look.
+const SEEN_PROB_MOVE_THRESHOLD = 0.05
+// How far ahead of server time a client anchor may sit before it is refused.
+// Wide enough for request latency and an unsynced clock, narrow enough that
+// the grace period it eats into stays almost whole.
+const SEEN_CUTOFF_MAX_CLOCK_AHEAD_MS = 5 * MINUTE_MS
+
+/**
+ * Drops markets the user has already looked at and that are currently quiet
+ * from For You results. Suppression requires a session anchor: applying it to
+ * only the first page shifts the raw offsets on later pages and duplicates a
+ * row, while applying an unanchored moving boundary can skip rows.
+ *
+ * Browse ranks on score alone, so the same top markets greet you every visit.
+ * But "seen" is a weak signal and over-trusting it is worse than repetition,
+ * so this only fires in the narrow band where repetition is plausibly stale:
+ * seen, long enough ago to be a separate visit, recently enough to remember,
+ * no comment/resolution/new answer after the view, and no significant current
+ * daily movement.
+ *
+ * A view here means the card was ≥90% in the viewport (useIsVisible in
+ * feed-contract-card.tsx) or the market page was opened — not merely that the
+ * card was somewhere on a page that loaded. Promoted impressions are excluded
+ * deliberately: an ad scrolling past is not the user choosing to look at
+ * something.
+ *
+ * Resurfacing is driven by resolution, comments or answers after the view and
+ * by significant recent price movement. The stored movement metric is a
+ * rolling daily value, not a probability snapshot at view time, so do not
+ * describe it as movement since the view. We deliberately avoid last_bet_time:
+ * continuously traded markets would otherwise make this filter a no-op.
+ *
+ * The client-supplied anchor exists only to keep the seen set identical
+ * across the pages of one session; it is not trusted as a clock. Both bounds
+ * of the window hang off it, so a client clock running ahead would push the
+ * upper bound past the grace period and hide markets viewed minutes ago —
+ * the exact case the grace period protects. Clamping it to now() would not
+ * help: the clamp resolves to a fresh now() on every page until server time
+ * catches up, which is the moving boundary described above. Instead
+ * shouldSuppressStaleSeenMarkets identifies an anchor too far ahead of server
+ * time. The API rejects that first request so the web client can retry without
+ * an anchor and keep suppression off for the whole result set; silently
+ * returning an unfiltered page would let the decision flip during pagination
+ * as server time catches up. A clock running behind only ages the window,
+ * which at worst means nothing is suppressed.
+ */
+export const staleSeenMarketsSql = (
+  userId: string,
+  seenMarketCutoffTime?: number
+) => {
+  const anchor =
+    seenMarketCutoffTime === undefined ? 'now()' : 'millis_to_ts($2)'
+  return where(
+    `not exists (
+      select 1 from user_contract_views ucv
+      where ucv.user_id = $1
+        and ucv.contract_id = contracts.id
+        and greatest(ucv.last_card_view_ts, ucv.last_page_view_ts)
+            between ${anchor} - interval '${SEEN_MEMORY_WINDOW}'
+                and ${anchor} - interval '${SEEN_GRACE_PERIOD}'
+        and coalesce(contracts.last_comment_time, contracts.created_time)
+            <= greatest(ucv.last_card_view_ts, ucv.last_page_view_ts)
+        and coalesce(contracts.resolution_time, contracts.created_time)
+            <= greatest(ucv.last_card_view_ts, ucv.last_page_view_ts)
+        -- Only CPMM markets have a normalized daily probability-change
+        -- metric. Perps, polls, and bounties can be active while probChanges
+        -- is absent, so never classify them as quiet from missing data.
+        and contracts.mechanism in ('cpmm-1', 'cpmm-multi-1', 'cpmm-multi-2')
+        and abs(coalesce((contracts.data->'probChanges'->>'day')::numeric, 0))
+            <= ${SEEN_PROB_MOVE_THRESHOLD}
+        -- Multi-answer markets store movement on answers, not contracts. A
+        -- new or moving answer should resurface the market.
+        and not exists (
+          select 1 from answers a
+          where a.contract_id = contracts.id
+            and (
+              a.created_time > greatest(
+                ucv.last_card_view_ts,
+                ucv.last_page_view_ts
+              )
+              or a.resolution_time > greatest(
+                ucv.last_card_view_ts,
+                ucv.last_page_view_ts
+              )
+              or abs(coalesce(a.prob_change_day, 0))
+                  > ${SEEN_PROB_MOVE_THRESHOLD}
+            )
+        )
+    )`,
+    seenMarketCutoffTime === undefined
+      ? [userId]
+      : [userId, seenMarketCutoffTime]
+  )
+}
+
+export const shouldSuppressStaleSeenMarkets = (
+  seenMarketCutoffTime?: number,
+  now = Date.now()
+) =>
+  seenMarketCutoffTime !== undefined &&
+  seenMarketCutoffTime <= now + SEEN_CUTOFF_MAX_CLOCK_AHEAD_MS
+
+type SharedSearchArgs = {
+  filter: string
+  contractType: string
+  limit: number
+  offset: number
+  sort: string
+  token: TokenInputType
+  creatorId?: string
+  uid?: string
+  hasBets?: string
+  liquidity?: number
+  isPrizeMarket?: boolean
+  beforeTime?: number
+  seenMarketCutoffTime?: number
+  discoveryVariant?: DiscoveryExperimentVariant
+}
+
+export const getForYouTopicRankSql = (
+  sortByScore: string,
+  discoveryVariant: DiscoveryExperimentVariant | undefined
+) =>
+  discoveryVariant === 'treatment'
+    ? `power(${nicheBlendTopicScoreSql(
+        `coalesce(uti.avg_conversion_score, ${GROUP_SCORE_PRIOR})`
+      )}, ${GROUP_SCORE_POWER}) * avg(contracts.${sortByScore})`
+    : `avg(power(coalesce(uti.avg_conversion_score, ${GROUP_SCORE_PRIOR}), ${GROUP_SCORE_POWER}) * contracts.${sortByScore})`
+
+export async function getForYouSQL(
+  args: SharedSearchArgs & {
+    uid: string
+    privateUser?: PrivateUser
+    threshold?: number
+  }
+) {
+  const {
+    limit,
+    offset,
+    sort,
+    privateUser,
+    threshold = DEFAULT_THRESHOLD,
+    hasBets,
+    seenMarketCutoffTime,
+    discoveryVariant,
+  } = args
+
+  const userId = args.uid
+  // const userId = 'hqdXgp0jK2YMMhPs067eFK4afEH3' // Eliza
+  // if (process.platform === 'darwin') {
+  //   userId = await loadRandomUser()
+  //   log('Searching for random user id:', userId)
+  // }
+
+  const sortByScore = sort === 'score' ? 'importance_score' : 'freshness_score'
+  if (
+    importanceScoreThreshold === undefined ||
+    freshnessScoreThreshold === undefined
+  ) {
+    await loadScoreThresholds(threshold)
+  }
+
+  if (
+    !Object.keys(userIdsToAverageTopicConversionScores[userId] ?? {}).length
+  ) {
+    await buildUserInterestsCache([userId])
+  }
+  // Still no topic interests, return default search
+  if (
+    !Object.keys(userIdsToAverageTopicConversionScores[userId] ?? {}).length
+  ) {
+    return basicSearchSQL({
+      ...args,
+      uid: userId,
+      privateUser,
+      // Keep the same diversity behavior when a new/low-activity user has no
+      // topic scores yet. Ordinary basic browse does not opt into this.
+      suppressStaleSeen: discoveryVariant === 'treatment' && hasBets !== '1',
+    })
+  }
+  const userBetsJoin = hasBets === '1' && userId && userBetsJoinSql
+  const forYou = renderSql(
+    buildArray(
+      select(
+        'contracts.*, coalesce(avg(uti.avg_conversion_score),1) as avg_topic_conversion_score'
+      ),
+      from('contracts'),
+      join(`group_contracts on contracts.id = group_contracts.contract_id`),
+      leftJoin(
+        `(select
+          unnest(array[$1]) as group_id,
+          unnest(array[$2]) as avg_conversion_score)
+          as uti on uti.group_id = group_contracts.group_id`,
+        [
+          Object.keys(userIdsToAverageTopicConversionScores[userId]),
+          Object.values(userIdsToAverageTopicConversionScores[userId]),
+        ]
+      ),
+      where(
+        `contracts.id not in (select contract_id from user_disinterests where user_id = $1 and contract_id = contracts.id)`,
+        [userId]
+      ),
+      // A client-provided session anchor keeps the seen set stable across
+      // every offset page. Unanchored callers retain the old unsuppressed
+      // behavior so page-one filtering cannot shift their later offsets.
+      discoveryVariant === 'treatment' &&
+        hasBets !== '1' &&
+        shouldSuppressStaleSeenMarkets(seenMarketCutoffTime) &&
+        staleSeenMarketsSql(userId, seenMarketCutoffTime),
+      privateUserBlocksSql(privateUser),
+      withClause(
+        `user_follows as (select follow_id from user_follows where user_id = $1)`,
+        [userId]
+      ),
+      userBetsJoin,
+      getSearchContractWhereSQL({
+        ...args,
+        hideStonks: true,
+      }),
+      offset <= threshold / 2 &&
+        sort === 'score' &&
+        importanceScoreThreshold &&
+        where(`contracts.importance_score > $1`, [importanceScoreThreshold]),
+      offset <= threshold / 2 &&
+        sort === 'freshness-score' &&
+        freshnessScoreThreshold &&
+        where(`contracts.freshness_score > $1`, [freshnessScoreThreshold]),
+      lim(limit, offset),
+      groupBy('contracts.id'),
+      // If user has contract-topic scores, use ONLY the defined topic scores when ranking
+      // If the user has no contract-matching topic score, use only the contract's importance score
+      orderBy(`case
+      when bool_or(contracts.boosted) then avg(contracts.${sortByScore})
+      when bool_or(uti.avg_conversion_score is not null)
+      then ${getForYouTopicRankSql(sortByScore, discoveryVariant)}
+      else avg(contracts.${sortByScore}*${GROUP_SCORE_PRIOR})
+      end * (1 + case
+      when bool_or(contracts.creator_id = any(select follow_id from user_follows)) then 0.2
+      else 0.0
+      end)
+      desc`)
+    )
+  )
+  return forYou
+}
+
+export const basicSearchSQL = (
+  args: SharedSearchArgs & {
+    privateUser?: PrivateUser
+    suppressStaleSeen?: boolean
+  }
+) => {
+  const { sort, privateUser, beforeTime, suppressStaleSeen, ...rest } = args
+  const sortByScore = sort === 'score' ? 'importance_score' : 'freshness_score'
+  const userBetsJoin = args.hasBets === '1' && args.uid && userBetsJoinSql
+  const sql = renderSql(
+    select(contractColumnsToSelectWithPrefix('contracts')),
+    from('contracts'),
+    userBetsJoin,
+    orderBy(`${sortByScore} desc`),
+    getSearchContractWhereSQL({
+      ...rest,
+      hideStonks: true,
+    }),
+    suppressStaleSeen &&
+      args.hasBets !== '1' &&
+      args.uid &&
+      shouldSuppressStaleSeenMarkets(args.seenMarketCutoffTime) &&
+      staleSeenMarketsSql(args.uid, args.seenMarketCutoffTime),
+    privateUserBlocksSql(privateUser),
+    beforeTime && where(`created_time < millis_to_ts($1)`, [beforeTime]),
+    lim(args.limit, beforeTime ? 0 : args.offset)
+  )
+  return sql
+}
+
+export type SearchTypes =
+  | 'without-stopwords'
+  | 'with-stopwords'
+  | 'description'
+  | 'prefix'
+  | 'answer'
+  // Perp tickers, matched on data->>'ticker' (no tsvector covers them).
+  | 'ticker'
+
+// Full-text search finds nothing unless the user guesses a word that is
+// literally in the question, so a near miss lands on "only nothingness"
+// while a well-matched market sits one synonym away. Every open market
+// already has an embedding (contract_embeddings, kept current on create and
+// used by the related-markets rail), so the miss can be answered instead of
+// rendered as a dead end.
+//
+// Deliberately lower than TOPIC_SIMILARITY_THRESHOLD (0.5), which compares
+// two full questions. A search term is much shorter than the questions it is
+// being compared against, which drags cosine similarity down for matches that
+// are perfectly good.
+//
+// Calibrated 2026-08-14 against real query embeddings on dev (13 short
+// user-style queries vs stored question embeddings, same-model pairs):
+// ordinary good matches score 0.42-0.65, deep synonym matches with zero
+// keyword overlap ("riemann hypothesis" -> the zeta-zeros question) ~0.30,
+// junk-query noise floor 0.31-0.42. There is no clean separating value;
+// 0.35 leans toward recall, which is the right bias for a tail that only
+// appears on otherwise-dead pages. Raising it above ~0.4 silently kills the
+// synonym cases this feature exists for.
+//
+// Caveat: similarity is only meaningful between same-model embeddings. The
+// embedding model changed 2024-06-27 (0329b37ae, ada-002 -> 3-small, same
+// 1536 dims); contracts whose stored embedding predates a re-embed are pure
+// noise against query vectors and can never surface here.
+export const SEMANTIC_SEARCH_SIMILARITY_THRESHOLD = 0.35
+// Over-fetch from the index, then let the normal filters cut it down, the
+// same way close_contract_embeddings does with match_count + 500.
+const SEMANTIC_SEARCH_OVERFETCH = 200
+
+// Shared by the lexical and semantic paths so a topic-scoped search can't
+// come back with out-of-topic results from one of them.
+const groupsFilterSql = (args: {
+  groupId?: string
+  groupIds?: string[]
+  token: TokenInputType
+}) => {
+  const { groupId, groupIds, token } = args
+  return (
+    (groupIds?.length || groupId) &&
+    where(
+      `
+    exists (
+      select 1 from group_contracts gc
+      where ${
+        token === 'CASH'
+          ? "gc.contract_id = contracts.data->>'siblingContractId'"
+          : 'gc.contract_id = contracts.id'
+      }
+      and gc.group_id = any($1)
+    )`,
+      [filterDefined([groupId, ...(groupIds ?? [])])]
+    )
+  )
+}
+
+// News surfaces only markets that moved recently. Shared for the same reason
+// as groupsFilterSql: both search paths must apply it, or the semantic tail
+// would pad the movers page with dormant markets.
+const newsMovementFilterSql = () => [
+  withClause(
+    `recent_movements as (
+        select distinct contract_id
+        from contract_movement_notifications
+        where created_time > now() - interval '72 hours'
+      )`
+  ),
+  join(`recent_movements rm on rm.contract_id = contracts.id`),
+]
+
+/**
+ * Nearest markets to an already-computed query embedding, run through the
+ * same filters as a normal search so status/type/token/blocks still hold.
+ */
+export function getSemanticSearchContractSQL(
+  args: SharedSearchArgs & {
+    embedding: number[]
+    groupId?: string
+    groupIds?: string[]
+    privateUser?: PrivateUser
+    excludeContractIds?: string[]
+  }
+) {
+  const {
+    embedding,
+    limit,
+    filter,
+    uid,
+    hasBets,
+    privateUser,
+    excludeContractIds,
+  } = args
+  return renderSql(
+    select(contractColumnsToSelectWithPrefix('contracts')),
+    from(`search_contract_embeddings($1::vector, $2, $3) as se`, [
+      // pgvector parses its literal from a JSON-shaped array string.
+      JSON.stringify(embedding),
+      SEMANTIC_SEARCH_SIMILARITY_THRESHOLD,
+      SEMANTIC_SEARCH_OVERFETCH,
+    ]),
+    join('contracts on contracts.id = se.contract_id'),
+    groupsFilterSql(args),
+    filter === 'news' && newsMovementFilterSql(),
+    hasBets === '1' && uid && userBetsJoinSql,
+    // Both hide* flags mirror what the lexical path computes when a term is
+    // present (always the case here): an explicit search never hides stonks
+    // or resolved sports markets, and the two halves of one response must
+    // obey the same visibility rules.
+    getSearchContractWhereSQL({ ...args, hideStonks: false, hideLove: false }),
+    privateUserBlocksSql(privateUser),
+    // Already-returned lexical hits, so the tail can't repeat the head.
+    (excludeContractIds?.length ?? 0) > 0 &&
+      where(`contracts.id <> all($1)`, [excludeContractIds]),
+    orderBy('se.similarity desc'),
+    // sql-builder silently drops a limit of 0 (rendering NO limit clause), so
+    // clamp: callers must never pass 0, but if one does, 1 row beats 200.
+    lim(Math.max(limit, 1))
+  )
+}
+
+export function getSearchContractSQL(
+  args: SharedSearchArgs & {
+    term: string
+    groupId?: string
+    isForYou?: boolean
+    searchType: SearchTypes
+    groupIds?: string[]
+  }
+) {
+  const {
+    term,
+    sort,
+    offset,
+    limit,
+    groupId,
+    creatorId,
+    searchType,
+    token,
+    groupIds,
+    filter,
+    uid,
+    hasBets,
+    beforeTime,
+  } = args
+  const hideStonks = sort === 'score' && !term.length && !groupId
+  const hideLove = sort === 'newest' && !term.length && !groupId && !creatorId
+
+  const whereSql = getSearchContractWhereSQL({ ...args, hideStonks, hideLove })
+  const isUrl = term.startsWith('https://manifold.markets/')
+  if (isUrl) {
+    const slug = term.split('/').pop()
+    return renderSql(
+      select(contractColumnsToSelectWithPrefix('contracts')),
+      from('contracts'),
+      whereSql,
+      where('slug = $1', [slug])
+    )
+  }
+
+  const answersSubQuery = renderSql(
+    select('distinct a.contract_id'),
+    from('answers a'),
+    where(`a.text_fts @@ websearch_to_tsquery('english_extended', $1)`, [term])
+  )
+
+  const groupsFilter = groupsFilterSql({ groupId, groupIds, token })
+
+  // Recent movements filter
+  const newsMovement = filter === 'news' && newsMovementFilterSql()
+
+  const newsWhere =
+    filter === 'news' &&
+    term === '' &&
+    where(`coalesce(contracts.data->>'isRanked', 'true')::boolean = true`)
+
+  const userBetsJoin = hasBets === '1' && uid && userBetsJoinSql
+  // Normal full text search
+  const sql = renderSql(
+    select(contractColumnsToSelectWithPrefix('contracts')),
+    from('contracts'),
+    groupsFilter,
+    newsMovement,
+    newsWhere,
+    userBetsJoin,
+    searchType === 'answer' &&
+      join(
+        `(${answersSubQuery}) as matched_answers on matched_answers.contract_id = contracts.id`
+      ),
+
+    whereSql,
+    term.length && [
+      // A perp's ticker ("BTC", "SPYx") is stored in data->>'ticker', which
+      // no tsvector column sees, so it gets its own lookup: perps are a
+      // handful of rows behind the non-binary outcome_type index, and a
+      // prefix match on that set is what makes "BT" find BTC as you type.
+      // The API asks for this type only when the term could be a ticker;
+      // the guard here keeps the shared builder from ever interpolating a
+      // wildcard from a term it did not vet.
+      searchType === 'ticker' &&
+        (isPerpTickerSearchTerm(term)
+          ? where(
+              `outcome_type = 'PERP' and contracts.data->>'ticker' ilike $1`,
+              [`${term.trim()}%`]
+            )
+          : where('false')),
+      searchType === 'prefix' &&
+        where(
+          `question_fts @@ to_tsquery('english_extended', $1)`,
+          constructPrefixTsQuery(term)
+        ),
+      searchType === 'without-stopwords' &&
+        where(
+          `question_fts @@ websearch_to_tsquery('english_extended', $1)`,
+          term
+        ),
+      searchType === 'with-stopwords' &&
+        where(
+          `question_nostop_fts @@ websearch_to_tsquery('english_nostop_with_prefix', $1)`,
+          term
+        ),
+      searchType === 'description' &&
+        where(
+          `description_fts @@ websearch_to_tsquery('english_extended', $1)`,
+          term
+        ),
+    ],
+
+    orderBy(getSearchContractSortSQL(sort)),
+    beforeTime && where(`created_time < millis_to_ts($1)`, [beforeTime]),
+    sqlLimit(limit, beforeTime ? 0 : offset)
+  )
+  // log('Search SQL:', sql)
+  return sql
+}
+
+function getSearchContractWhereSQL(args: {
+  filter: string
+  sort?: string
+  contractType: string
+  creatorId?: string
+  uid?: string
+  hideStonks?: boolean
+  hideLove?: boolean
+  isPrizeMarket?: boolean
+  token: TokenInputType
+  liquidity?: number
+  hasBets?: string
+}) {
+  const {
+    filter,
+    sort,
+    contractType,
+    creatorId,
+    uid,
+    hideStonks,
+    hideLove,
+    isPrizeMarket,
+    token,
+    liquidity,
+    hasBets,
+  } = args
+  type FilterSQL = Record<string, string>
+  const filterSQL: FilterSQL = {
+    open: 'resolution_time IS NULL AND (close_time > NOW() or close_time is null)',
+    closed: 'close_time < NOW() AND resolution_time IS NULL',
+    'closing-day': `close_time > now() AND close_time < (now() + interval '1 day' + interval '7 hours') AND resolution_time IS NULL`,
+    'closing-week': `close_time > now() AND close_time < (now() + interval '7 days' + interval '7 hours') AND resolution_time IS NULL`,
+    'closing-month': `close_time > now() AND close_time < (now() + interval '30 days' + interval '7 hours') AND resolution_time IS NULL`,
+    'closing-90-days': `close_time > now() AND close_time < (now() + interval '90 days' + interval '7 hours') AND resolution_time IS NULL`,
+    resolved: 'resolution_time IS NOT NULL',
+    news: '', // News filter uses a different approach with a join
+    uncertain: `outcome_type = 'BINARY' AND resolution_time IS NULL AND (close_time > NOW() or close_time is null) AND (contracts.data->>'prob')::numeric BETWEEN 0.3 AND 0.7`,
+    all: '',
+  }
+  const contractTypeFilter =
+    contractType === 'ALL'
+      ? ''
+      : contractType === 'MULTIPLE_CHOICE'
+      ? `outcome_type = 'FREE_RESPONSE' OR outcome_type = 'MULTIPLE_CHOICE'`
+      : contractType === 'DEPENDENT_MULTIPLE_CHOICE'
+      ? `outcome_type = 'MULTIPLE_CHOICE' AND coalesce((contracts.data->>'shouldAnswersSumToOne')::boolean, true) = true`
+      : contractType === 'INDEPENDENT_MULTIPLE_CHOICE'
+      ? `outcome_type = 'MULTIPLE_CHOICE' AND coalesce((contracts.data->>'shouldAnswersSumToOne')::boolean, true) = false`
+      : contractType === 'PSEUDO_NUMERIC'
+      ? `outcome_type = 'PSEUDO_NUMERIC' OR outcome_type = 'NUMBER' OR outcome_type = 'MULTI_NUMERIC'`
+      : `outcome_type = '${contractType}'`
+
+  const stonkFilter =
+    hideStonks && contractType !== 'STONK' ? `outcome_type != 'STONK'` : ''
+  const loveFilter = hideLove
+    ? `group_slugs is null or not group_slugs && $1`
+    : ''
+  // Drop Manifold Sports markets (identified by sportsEventId) from the default
+  // browse/home feed once they've been resolved for more than 15 minutes — they
+  // otherwise linger in the feed long after the match is decided. Gated on
+  // hideStonks, which marks the default feed (score sort, no search term, no
+  // topic), so explicit searches and the sports dashboard still surface them.
+  const resolvedSportsFilter = hideStonks
+    ? `contracts.data->>'sportsEventId' is null or resolution_time is null or resolution_time > now() - interval '15 minutes'`
+    : ''
+  const sortFilter =
+    sort === 'close-date'
+      ? 'close_time > NOW()'
+      : sort === '24-hour-vol'
+      ? "(contracts.data->>'volume24Hours')::numeric > 0"
+      : sort === 'prob-50'
+      ? "outcome_type = 'BINARY' AND (contracts.data->>'prob') is not null"
+      : ''
+  const creatorFilter = creatorId ? `creator_id = '${creatorId}'` : ''
+  const visibilitySQL = getContractPrivacyWhereSQLFilter(
+    uid,
+    'contracts.id',
+    creatorId
+  )
+  const answerLiquidity =
+    answerCostTiers[getTierIndexFromLiquidity(liquidity ?? 0)]
+  const liquidityFilter = liquidity
+    ? `(
+    CASE
+        WHEN mechanism in ${MULTI_CPMM_MECHANISMS_SQL} AND jsonb_typeof(contracts.data->'answers') = 'array' AND jsonb_array_length(contracts.data->'answers') > 0
+        THEN (coalesce((contracts.data->>'totalLiquidity')::numeric, 0) / jsonb_array_length(contracts.data->'answers'))
+        WHEN mechanism = 'perp'
+        THEN (coalesce((contracts.data->>'poolLong')::numeric, 0) + coalesce((contracts.data->>'poolShort')::numeric, 0))
+        ELSE coalesce((contracts.data->>'totalLiquidity')::numeric, 0)
+    END
+  ) >= case when mechanism in ${MULTI_CPMM_MECHANISMS_SQL} then ${answerLiquidity} else ${liquidity} end`
+    : ''
+  const deletedFilter = `deleted = false`
+
+  const isPrizeMarketFilter = isPrizeMarket ? 'is_spice_payout = true' : ''
+  // User bets filter
+  const userBetsWhere =
+    hasBets === '1' && uid && where('cm.user_id = $1', [uid])
+  const tokenFilter =
+    token === 'CASH'
+      ? `token = 'CASH'`
+      : token === 'MANA'
+      ? `token = 'MANA'`
+      : token === 'CASH_AND_MANA'
+      ? `contracts.data->>'siblingContractId' is not null`
+      : ''
+
+  return [
+    where(filterSQL[filter]),
+    where(stonkFilter),
+    where(resolvedSportsFilter),
+    where(loveFilter, [[PROD_MANIFOLD_LOVE_GROUP_SLUG]]),
+    where(sortFilter),
+    where(contractTypeFilter),
+    where(liquidityFilter),
+    where(visibilitySQL),
+    where(creatorFilter),
+    where(deletedFilter),
+    where(isPrizeMarketFilter),
+    where(tokenFilter),
+    userBetsWhere,
+  ]
+}
+
+type SortOrder = 'ASC' | 'ASC NULLS LAST' | 'DESC' | 'DESC NULLS LAST'
+type SortFields = Record<
+  string,
+  {
+    sql: string
+    // `order` applies to the LAST expression of `sql`, as in the clause.
+    order: SortOrder
+    // The JS evaluation of `sql`, which the search API uses to merge the
+    // fetched match tiers and cut a page (see sortLikeSql in
+    // shared/helpers/search-pagination). It must rank rows exactly as the
+    // database does: a single-expression sort gives `sortCallback`; a sort
+    // whose `sql` has several expressions gives one key per expression in
+    // `sortKeys`, with each expression's direction in `keyDirections`.
+    sortCallback?: (c: Contract) => number
+    sortKeys?: (c: Contract) => SearchSortValue[]
+    keyDirections?: SearchSortDirection[]
+  }
+>
+export const sortFields: SortFields = {
+  score: {
+    sql: `importance_score::numeric desc, unique_bettor_count`,
+    // Term for term what `sql` says. A single callback that fell back to the
+    // bettor count when importance was zero ranked popular zero-importance
+    // markets above scored ones — an order the database never produces, and
+    // one that made pages repeat and skip markets once the tiers were
+    // over-fetched (see sortLikeSql).
+    sortKeys: (c: Contract) => [c.importanceScore, c.uniqueBettorCount],
+    keyDirections: [
+      { order: 'desc', nullsFirst: true },
+      { order: 'desc', nullsFirst: true },
+    ],
+    order: 'DESC',
+  },
+  'daily-score': {
+    sql: 'daily_score',
+    sortCallback: (c: Contract) => c.dailyScore,
+    order: 'DESC',
+  },
+  'freshness-score': {
+    sql: 'freshness_score',
+    sortCallback: (c: Contract) => c.freshnessScore,
+    order: 'DESC',
+  },
+  '24-hour-vol': {
+    sql: "(contracts.data->>'volume24Hours')::numeric",
+    sortCallback: (c: Contract) => c.volume24Hours,
+    order: 'DESC',
+  },
+  liquidity: {
+    sql: `case
+      when contracts.mechanism = 'perp' then null
+      else (contracts.data->>'elasticity')::numeric
+    end`,
+    sortCallback: (c: Contract) =>
+      c.mechanism === 'perp' ? Number.POSITIVE_INFINITY : c.elasticity,
+    order: 'ASC NULLS LAST',
+  },
+  subsidy: {
+    sql: `case
+      when contracts.mechanism = 'perp'
+      then coalesce((contracts.data->>'poolLong')::numeric, 0)
+        + coalesce((contracts.data->>'poolShort')::numeric, 0)
+      else coalesce((contracts.data->>'totalLiquidity')::numeric, 0)
+    end`,
+    sortCallback: (c: Contract) =>
+      c.mechanism === 'perp'
+        ? getPerpBackingPool(c.poolLong, c.poolShort)
+        : c.mechanism === 'cpmm-1' || isMultiCpmm(c)
+        ? c.totalLiquidity
+        : 0,
+    order: 'DESC',
+  },
+
+  'last-updated': {
+    sql: 'last_updated_time',
+    sortCallback: (c: Contract) => c.lastUpdatedTime,
+    order: 'DESC',
+  },
+  'most-popular': {
+    sql: 'unique_bettor_count',
+    sortCallback: (c: Contract) => c.uniqueBettorCount,
+    order: 'DESC',
+  },
+  newest: {
+    sql: 'created_time',
+    sortCallback: (c: Contract) => c.createdTime,
+    order: 'DESC',
+  },
+  'resolve-date': {
+    sql: 'resolution_time',
+    sortCallback: (c: Contract) => c.resolutionTime ?? 0,
+    order: 'DESC NULLS LAST',
+  },
+  'close-date': {
+    sql: 'close_time',
+    sortCallback: (c: Contract) => c.closeTime ?? Infinity,
+    order: 'ASC',
+  },
+  'start-time': {
+    // sql: `close_time`,
+    sql: `coalesce((contracts.data->>'sportsStartTimestamp')::timestamp with time zone, close_time)`,
+    sortCallback: (c: Contract) =>
+      isSportsContract(c)
+        ? tsToMillis(c.sportsStartTimestamp)
+        : c.closeTime ?? Infinity,
+    order: 'ASC',
+  },
+  random: {
+    sql: 'random()',
+    sortCallback: () => Math.random(),
+    order: 'DESC',
+  },
+  'bounty-amount': {
+    sql: "COALESCE((contracts.data->>'bountyLeft')::numeric, -1)",
+    sortCallback: (c: Contract) =>
+      ('bountyLeft' in c ? c.bountyLeft : -1) ?? -1,
+    order: 'DESC',
+  },
+  'prob-descending': {
+    sql: "resolution DESC, (contracts.data->>'prob')::numeric",
+    sortKeys: (c: Contract) => [c.resolution, 'prob' in c ? c.prob : null],
+    keyDirections: [
+      { order: 'desc', nullsFirst: true },
+      { order: 'desc', nullsFirst: false },
+    ],
+    order: 'DESC NULLS LAST',
+  },
+  'prob-ascending': {
+    sql: "resolution DESC, (contracts.data->>'prob')::numeric",
+    sortKeys: (c: Contract) => [c.resolution, 'prob' in c ? c.prob : null],
+    keyDirections: [
+      { order: 'desc', nullsFirst: true },
+      { order: 'asc', nullsFirst: false },
+    ],
+    order: 'ASC',
+  },
+  'prob-50': {
+    sql: "abs((contracts.data->>'prob')::numeric - 0.5)",
+    sortCallback: (c: Contract) =>
+      Math.abs(((('prob' in c && c.prob) || 0) as number) - 0.5),
+    order: 'ASC',
+  },
+}
+function getSearchContractSortSQL(sort: string) {
+  // The id tiebreak makes the sort a total order, so `limit n` and
+  // `limit 2n` return consistent prefixes and the JS side (sortLikeSql) can
+  // reproduce the order exactly — pagination across the merged match tiers
+  // depends on both.
+  return `${sortFields[sort].sql} ${sortFields[sort].order}, contracts.id`
+}
+
+// Postgres puts nulls first for DESC and last for ASC unless told otherwise.
+const parseSortOrder = (order: SortOrder): SearchSortDirection => ({
+  order: order.startsWith('DESC') ? 'desc' : 'asc',
+  nullsFirst: order === 'DESC',
+})
+
+/** The JS twin of getSearchContractSortSQL(sort). */
+export const getSearchSort = (sort: string): SearchSort => {
+  const { sortCallback, sortKeys, keyDirections, order } = sortFields[sort]
+  if (sortKeys) return { keys: sortKeys, directions: keyDirections ?? [] }
+  if (!sortCallback) throw new Error(`Search sort ${sort} has no JS ordering`)
+  return { keys: (c) => [sortCallback(c)], directions: [parseSortOrder(order)] }
+}
+
+const loadScoreThresholds = async (threshold: number) => {
+  const pg = createSupabaseDirectClient()
+  importanceScoreThreshold = await pg.one(
+    `
+        with ranked_contracts as (select importance_score,
+                                         row_number() over (order by importance_score desc) as rn
+                                  from contracts)
+        select importance_score
+        from ranked_contracts
+        where rn = $1;`,
+    [threshold],
+    (r) => r.importance_score as number
+  )
+  freshnessScoreThreshold = await pg.one(
+    `
+        with ranked_contracts as (select freshness_score,
+                                         row_number() over (order by freshness_score desc) as rn
+                                  from contracts)
+        select freshness_score
+        from ranked_contracts
+        where rn = $1;`,
+    [threshold],
+    (r) => r.freshness_score as number
+  )
+  log('Loaded importance score threshold:', importanceScoreThreshold)
+  log('Loaded freshness score threshold:', freshnessScoreThreshold)
+}
+
+const _loadRandomUser = async () => {
+  const pg = createSupabaseDirectClient()
+  return await pg.one(
+    `SELECT user_id AS id FROM user_contract_interactions
+    WHERE created_time > now() - interval '1 week' and created_time < now() - interval '5 days'
+    ORDER BY random() LIMIT 1`,
+    [],
+    (r) => r.id as string
+  )
+}
+
+export const privateUserBlocksSql = (privateUser?: PrivateUser) => {
+  const {
+    blockedByUserIds,
+    blockedContractIds,
+    blockedUserIds,
+    blockedGroupSlugs,
+  } = privateUser ?? {
+    blockedByUserIds: [] as string[],
+    blockedContractIds: [] as string[],
+    blockedUserIds: [] as string[],
+    blockedGroupSlugs: [] as string[],
+  }
+  const blockedIds = blockedUserIds.concat(blockedByUserIds)
+  const blockedGroupsQuery = renderSql(
+    select('1'),
+    from(`group_contracts gc`),
+    join(`groups g on gc.group_id = g.id`),
+    where(`gc.contract_id = contracts.id`),
+    where(`g.slug = any(array[$1])`, [blockedGroupSlugs])
+  )
+  return buildArray(
+    blockedIds.length > 0 &&
+      where(`contracts.creator_id <> all(array[$1])`, [blockedIds]),
+    blockedContractIds.length > 0 &&
+      where(`contracts.id <> all(array[$1])`, [blockedContractIds]),
+    blockedGroupSlugs.length > 0 && where(`not exists (${blockedGroupsQuery})`)
+  )
+}
+
+const userBetsJoinSql = join(
+  `user_contract_metrics cm on cm.contract_id = contracts.id and cm.answer_id is null and cm.has_shares`
+)

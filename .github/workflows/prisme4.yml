@@ -1,0 +1,77 @@
+name: PRISME 4 daily read-only capture
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/prisme4.yml'
+      - 'experiments/prisme4/**'
+      - 'tests/test_prisme4.py'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: prisme4-capture
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test collector with recorded real captures
+        run: python -m unittest discover -s tests -p test_prisme4.py -v
+      - name: Check bounded pilot window without network
+        id: window
+        shell: bash
+        run: |
+          state=$(python experiments/prisme4/collector.py window)
+          echo "state=$state" >> "$GITHUB_OUTPUT"
+      - name: Capture real public data, read only
+        if: steps.window.outputs.state == 'active'
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        shell: bash
+        run: |
+          purpose=validation
+          if [ "$EVENT_NAME" = schedule ]; then purpose=daily; fi
+          python experiments/prisme4/collector.py capture --purpose "$purpose"
+          python experiments/prisme4/collector.py verify
+      - name: Disable this workflow when the eight-week window expires
+        if: steps.window.outputs.state == 'expired'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: gh workflow disable prisme4.yml
+      - name: Preserve new captures and error logs in the repository
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add results/prisme4/store
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record PRISME 4 read-only capture'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Keep a recovery artifact even if capture or publication fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: prisme4-capture-${{ github.run_id }}-${{ github.run_attempt }}
+          path: results/prisme4/store
+          retention-days: 60
+          if-no-files-found: error
