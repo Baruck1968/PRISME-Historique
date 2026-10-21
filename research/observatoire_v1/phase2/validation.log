@@ -1,0 +1,21 @@
+test_archive_copy_permissions_and_tamper (test_observatoire_phase2.Phase2Tests.test_archive_copy_permissions_and_tamper) ... ok
+test_enrollment_before_J1_only (test_observatoire_phase2.Phase2Tests.test_enrollment_before_J1_only) ... ok
+test_integrity_and_no_time_travel (test_observatoire_phase2.Phase2Tests.test_integrity_and_no_time_travel) ... ok
+test_missing_and_indicative (test_observatoire_phase2.Phase2Tests.test_missing_and_indicative) ... ok
+test_pair_requires_both_slots_and_remains_indicative (test_observatoire_phase2.Phase2Tests.test_pair_requires_both_slots_and_remains_indicative) ... ok
+test_public_destination_rejected (test_observatoire_phase2.Phase2Tests.test_public_destination_rejected) ... ok
+test_reschedule_and_staleness_excluded (test_observatoire_phase2.Phase2Tests.test_reschedule_and_staleness_excluded) ... ok
+test_chain_tamper_and_duplicates_preserved (test_observatoire_v1.ObservatoireTests.test_chain_tamper_and_duplicates_preserved) ... ok
+test_duplicate_and_unknown_rules (test_observatoire_v1.ObservatoireTests.test_duplicate_and_unknown_rules) ... ok
+test_exact_twenty_both_directions (test_observatoire_v1.ObservatoireTests.test_exact_twenty_both_directions) ... ok
+test_extract_no_open_inference_and_no_bookmaker_timestamp_fallback (test_observatoire_v1.ObservatoireTests.test_extract_no_open_inference_and_no_bookmaker_timestamp_fallback) ... ok
+test_keep_nonalerts (test_observatoire_v1.ObservatoireTests.test_keep_nonalerts) ... ok
+test_missing_key_no_network_no_storage (test_observatoire_v1.ObservatoireTests.test_missing_key_no_network_no_storage) ... ok
+test_nan_and_nonodds (test_observatoire_v1.ObservatoireTests.test_nan_and_nonodds) ... ok
+test_reject_cross_book_rules_market_outcome_reschedule (test_observatoire_v1.ObservatoireTests.test_reject_cross_book_rules_market_outcome_reschedule) ... ok
+test_unknown_suspended_stale_missing_future_and_delay (test_observatoire_v1.ObservatoireTests.test_unknown_suspended_stale_missing_future_and_delay) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.004s
+
+OK

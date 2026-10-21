@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-21T15:17:28.264762+00:00",
+  "source_body_sha256": "934013a0ab589ddf8d3df7d1e29944f5422f61fe93c91539ba79f8543684e95e",
+  "events_examined": 43,
+  "prospective_candidates": 3,
+  "priced_binary_markets": 14,
+  "J1_already_passed": 11,
+  "missing_or_nonbinary": 29,
+  "target_slots_utc": [
+    "2026-10-21T23:10:00+00:00",
+    "2026-10-22T01:40:00+00:00",
+    "2026-10-22T22:10:00+00:00",
+    "2026-10-22T23:10:00+00:00",
+    "2026-10-23T00:40:00+00:00",
+    "2026-10-23T22:10:00+00:00"
+  ],
+  "maximum_planned_odds_calls": 6,
+  "validated_markets": 0,
+  "scheduled": false,
+  "manifest_sha256": "627d076a2a2f161942254d83f83751416e41ed18e54869d621f920838739031d",
+  "private_manifest_filename": "manifest_20261021T151728267195Z.json"
+}
