@@ -1,0 +1,14 @@
+[
+  {
+    "source": "the-odds-api.com",
+    "sport": "basketball_nba",
+    "bookmaker": "fanduel",
+    "market": "h2h",
+    "requested_at": "2026-10-21T15:04:17.593528+00:00",
+    "received_at": "2026-10-21T15:04:18.001695+00:00",
+    "status": "failed",
+    "error_type": "HTTPError",
+    "capture_sha256": "2e055988fde2d161e624dfdc170b1a0c77a1bdceb138f926cc3818b91cab4865",
+    "journal_entry_sha256": "d14b5e46578f4b0fa7f45116a26054a74eacfb28d97242b6d2e835aa6ecdfa2e"
+  }
+]
