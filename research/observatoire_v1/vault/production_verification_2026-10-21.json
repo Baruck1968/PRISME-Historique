@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-21T15:56:52.232882+00:00",
+  "repository": "Baruck1968/PRISME-Archives",
+  "private_before": true,
+  "private_after": true,
+  "push_permission_confirmed": true,
+  "remote_path": "prisme-20261021-initial.gpg",
+  "archive_commit": "de09b355711a9a7e8d7547f5b54a2220db52a2ea",
+  "uploaded_files": [
+    "prisme-20261021-initial.gpg"
+  ],
+  "bytes": 35317,
+  "sha256": "033c900f87f524bfe63421ef5d687f935f781ffa8cb33ce8c548cdd13e91011e",
+  "downloaded_identical": true,
+  "main_fingerprint": "5A14F786E05DFC58C886F0A8D8CAB0E82DA81776",
+  "encryption_subkey_fingerprint": "558B3344B7FD5DCDDF70E7C30596A55A79FBA862",
+  "manifest_sha256": "627d076a2a2f161942254d83f83751416e41ed18e54869d621f920838739031d",
+  "windows_decryption_tested": false,
+  "new_odds_calls": 0,
+  "scheduled": false
+}
