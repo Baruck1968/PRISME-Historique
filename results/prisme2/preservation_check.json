@@ -1,0 +1,23 @@
+{
+  "baseline_commit": "a1eafd1ae9afaca7061cfde95053c1e7e815b075",
+  "all_existing_tracked_files_unchanged": true,
+  "sha256": {
+    ".gitignore": "ae6c7fa718b3f8d6de85eecafe4d279da1d5d859f0c73a3225b41fd9c9adb6f2",
+    "README.md": "b9fbe48d306c68da056788a3d329a076a972c6554cad52cc71aa60f06ad17fe8",
+    "data/manifold-pilot-cache.zip": "db56b1471143063507d40532b7a0340e336649b105d2e440bb03e1509b57a91f",
+    "data/snapshot.json": "5955224413998a0ec0d1e166a7a8c559ea9b23cc12519d907a59a30b29e65274",
+    "experiments/PRISME2_PROTOCOL.md": "a355faacb1c2b519b35275626f23bd12bfe40cbf7b2ec6c79e98460b8e5dc956",
+    "experiments/check_sources.py": "94b8fed0e4efb147ae558ee0a7310d1e2bbee8d96ab5a26117aa67cb874d78f9",
+    "experiments/momentum.py": "41d0a559a2816021b666e63abb740c2e85a8066c5673d8cd991e8efc488d3fcb",
+    "results/pilot/observations.json": "e2f555cdab06aea03857e29a76d27b39e0ce40d7d434f6fd7fcf29d3186321c1",
+    "results/pilot/report.json": "117e00e35feb4ddcc825c246e7cfc94b570ba208b2431e83516724a80f291d0b",
+    "results/replay/observations.json": "e2f555cdab06aea03857e29a76d27b39e0ce40d7d434f6fd7fcf29d3186321c1",
+    "results/replay/report.json": "4cdcab143beae40d8a629194863f3a0728fd37baa05341ce0c37a58562f6c709",
+    "results/source-check/api.md": "368d642e108daf35b4248ad7806ae1ef1f84fc151ce0bc075a868e600e74bf44",
+    "results/source-check/bets.json": "5e2cec40709daa3db0ee7cdaa37b901b0cdad345ae3fc549ba9f053dcd3ef306",
+    "results/source-check/data.md": "c7d589175b0f31980eda66aa608d0c17b769797f3c84e2c6bacbad12386f4248",
+    "results/source-check/markets.json": "6f601179d899675e9f7daf76328bd3837a5dd799a0fd45e17a06f0b065759f2f",
+    "results/source-check/report.json": "cd519e9ae6d5f1ed43766d8871f01861f42829ff961ef3dd86370f020a294925",
+    "tests/test_pilot.py": "c4511618c8d537e8a59b3a24b399da39f54b730416dfa8083eb7a09d795edcc7"
+  }
+}

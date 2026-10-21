@@ -1,0 +1,2528 @@
+[
+  {
+    "p": 0.6949111866635763,
+    "id": "zSXh6p9BiqXazUgpjEho",
+    "pool": {
+      "NO": 1004.6751300034903,
+      "YES": 421.7359457533097
+    },
+    "prob": 1,
+    "slug": "will-the-sp-500-close-higher-on-nov-94b3108c7cd2",
+    "volume": 7257.598769508274,
+    "question": "Will the S&P 500 close higher on November 15 than it closed on November 14?",
+    "closeTime": 1700074800000,
+    "creatorId": "BMPLNYGbHzaFPE34cO6HPRkdesb2",
+    "mechanism": "cpmm-1",
+    "dailyScore": 0,
+    "elasticity": 0.8339890934927028,
+    "groupLinks": [
+      {
+        "name": "S&P Forecasting November",
+        "slug": "sp-forecasting-november",
+        "groupId": "abac0a2a-086b-4bb8-b183-602cf66f2ae1",
+        "createdTime": 1699999512019
+      },
+      {
+        "name": "📈 Stocks",
+        "slug": "stocks",
+        "groupId": "QDQfgsFiQrNNlZhsRGf5",
+        "createdTime": 1699999512026
+      },
+      {
+        "name": "Haws' Questions",
+        "slug": "hawsbollah",
+        "groupId": "a59a15eb-7184-4fa0-a9a3-9c7a048ee0f5",
+        "createdTime": 1699999512160
+      },
+      {
+        "name": "▲SC-CS-Q4-23▲",
+        "slug": "sccsq4",
+        "groupId": "bacb900a-0324-4b57-9ff0-1767ed9be5e5",
+        "createdTime": 1699999512151
+      }
+    ],
+    "groupSlugs": [
+      "sp-forecasting-november",
+      "stocks",
+      "hawsbollah",
+      "sccsq4"
+    ],
+    "isResolved": true,
+    "marketTier": "play",
+    "resolution": "YES",
+    "visibility": "public",
+    "createdTime": 1699999511893,
+    "creatorName": "Haws",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Closes 2pm EST.  NYSE closes 4pm EST.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "S&P Forecasting Dashboard",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/dashboard/sp-forecasting",
+                    "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                    "target": "_self"
+                  }
+                },
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Resolves based on: ",
+              "type": "text"
+            },
+            {
+              "text": "https://www.google.com/finance/quote/.INX:INDEXSP",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://www.google.com/finance/quote/.INX:INDEXSP",
+                    "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Trading this question counts towards the ",
+              "type": "text"
+            },
+            {
+              "text": "S&P Forecasting Tournament",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "text": " for the month of November (inspired by Alex B. Goode). At the end of the month ",
+              "type": "text"
+            },
+            {
+              "text": "top traders",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/leaderboards?topic=sp-forecasting-november",
+                    "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                    "target": "_self"
+                  }
+                },
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "text": " are eligible for a prize.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "codeBlock",
+          "attrs": {
+            "language": null
+          },
+          "content": [
+            {
+              "text": "Rank---Award\n1      2500\n2      1500\n3      1000",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Good luck forecasting!",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "We have had an influx of traders so I wanted to give a few options for the December leagues (S&P and BTC).",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Please vote: ",
+              "type": "text"
+            },
+            {
+              "text": "https://strawpoll.com/GJn47VEQbyz",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://strawpoll.com/GJn47VEQbyz",
+                    "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                    "target": "_blank"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "horizontalRule"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Trading in this market counts towards the @SirCryptomind Q4 Mana Leaderboard.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "DASHBOARD ",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/dashboard/sccsq423",
+                    "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                    "target": "_self"
+                  }
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "italic"
+                }
+              ]
+            },
+            {
+              "text": "(General Info, Top 10 Prize Info, Bonus Mana Rewards Info, etc.)",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "italic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "SIMILAR MARKETS",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/browse?topic=sccsq4&t=",
+                    "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                    "target": "_self"
+                  }
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "italic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "LEADERBOARD STATS",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/leaderboards?topic=sccsq4",
+                    "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                    "target": "_self"
+                  }
+                },
+                {
+                  "type": "bold"
+                },
+                {
+                  "type": "italic"
+                }
+              ]
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            }
+          ]
+        }
+      ]
+    },
+    "lastBetTime": 1700074585018,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 0,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "volume24Hours": 0,
+    "resolutionTime": 1700092049074,
+    "totalLiquidity": 570,
+    "closeEmailsSent": 1,
+    "creatorUsername": "Haws",
+    "importanceScore": 0.25,
+    "lastCommentTime": 1700144171697,
+    "lastUpdatedTime": 1700144173448,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FHaws%2FNjpD29kdA0.png?alt=media&token=d3ef401d-dfab-4976-a977-f36ea9ae4436",
+    "uniqueBettorCount": 31,
+    "creatorCreatedTime": 1677434458766,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 0.84
+  },
+  {
+    "p": 0.6361010108632977,
+    "id": "6G7Hcqq3a2XTAv1sTmhI",
+    "pool": {
+      "NO": 14916.556045470725,
+      "YES": 19.996474409656003
+    },
+    "prob": 1,
+    "slug": "nfl-week-4-oct-1-will-the-houston-t",
+    "volume": 18254.338100836627,
+    "question": "NFL Week 4 (Oct 1): Will the Houston Texans beat the Pittsburgh Steelers?",
+    "closeTime": 1696190622713,
+    "creatorId": "7HhTMy4xECaVKvl5MmEAfVUkRCS2",
+    "mechanism": "cpmm-1",
+    "dailyScore": 0,
+    "elasticity": 3.044338947505703,
+    "groupLinks": [
+      {
+        "name": "🏈 NFL",
+        "slug": "nfl",
+        "groupId": "TNQwmbE5p6dnKx2e6Qlp",
+        "createdTime": 1694455407843
+      }
+    ],
+    "groupSlugs": [
+      "nfl"
+    ],
+    "isResolved": true,
+    "marketTier": "play",
+    "resolution": "YES",
+    "visibility": "public",
+    "createdTime": 1694413516371,
+    "creatorName": "Kevin Burke",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "The game will take place at NRG Stadium at 10:00 PDT on October 1, 2023. A game ending in a tie will resolve NO. A game that does not have a winner (e.g. Bills-Bengals last year) will resolve N/A. Any uncontemplated edge cases will resolve using my best judgment based on _the spirit of the question._ Arguments that rely on technicalities like \"the question said 'will they win on October 2' but technically the game ended at 12:01AM October 3\" will not be received well.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "lastBetTime": 1696190614045,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 0,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "volume24Hours": 0,
+    "resolutionTime": 1696190622713,
+    "totalLiquidity": 290,
+    "creatorUsername": "KevinBurke",
+    "importanceScore": 0.25,
+    "lastCommentTime": 1696188189326,
+    "lastUpdatedTime": 1696190614183,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FKevinBurke%2FXxsksNH0Uv.jpeg?alt=media&token=e0e8f14c-dbc8-49ca-b943-2649cecf3291",
+    "uniqueBettorCount": 19,
+    "creatorCreatedTime": 1668407142709,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 1
+  },
+  {
+    "p": 0.5,
+    "id": "ZK2HVDgCoFeVCmYxgd5s",
+    "pool": {
+      "NO": 50,
+      "YES": 50
+    },
+    "prob": 1,
+    "slug": "daily-market",
+    "volume": 0,
+    "question": "Daily market",
+    "closeTime": 1651247680006,
+    "creatorId": "Y8xXwCCYe3cBCW5XeU8MxykuPAY2",
+    "mechanism": "cpmm-1",
+    "dailyScore": 0,
+    "elasticity": 4.3944491546724365,
+    "isResolved": true,
+    "marketTier": "play",
+    "resolution": "YES",
+    "visibility": "public",
+    "createdTime": 1651247668968,
+    "creatorName": "Jenny",
+    "description": "",
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 0,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "volume24Hours": 0,
+    "resolutionTime": 1651247680006,
+    "totalLiquidity": 50,
+    "creatorUsername": "Jenny",
+    "lastUpdatedTime": 1651247668968,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FJenny%2Flove-images%2FyYxFwtOBjr.jpg?alt=media&token=16473d3a-0b90-42b3-9dc6-e1d7e0e02ed0",
+    "uniqueBettorCount": 0,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 0.5
+  },
+  {
+    "p": 0.6191193044728521,
+    "id": "dKmDXzRBQxEzdWR0yBtA",
+    "pool": {
+      "NO": 19251.95684947751,
+      "YES": 168.07254433752223
+    },
+    "prob": 1,
+    "slug": "will-donald-trump-lose-a-single-sta",
+    "volume": 45965.23083233162,
+    "question": "Will Donald Trump lose a single state in the 2024 Republican primaries?",
+    "closeTime": 1709695461964,
+    "creatorId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+    "mechanism": "cpmm-1",
+    "dailyScore": 0.18440169843113086,
+    "elasticity": 1.234111299618239,
+    "groupLinks": [
+      {
+        "name": "US Politics",
+        "slug": "us-politics",
+        "userId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+        "groupId": "AjxQR8JMpNyDqtiqoA96",
+        "createdTime": 1686068996927
+      },
+      {
+        "name": "2024 US Presidential Election",
+        "slug": "2024-us-presidential-election",
+        "userId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+        "groupId": "rr3rBJMwh9PW8hwrgR4J",
+        "createdTime": 1686069006941
+      },
+      {
+        "name": "Donald Trump",
+        "slug": "donald-trump",
+        "groupId": "cEzcLXuitr6o4VPI01Q1",
+        "createdTime": 1691181888905
+      }
+    ],
+    "groupSlugs": [
+      "us-politics",
+      "2024-us-presidential-election",
+      "donald-trump"
+    ],
+    "isResolved": true,
+    "marketTier": "basic",
+    "resolution": "YES",
+    "resolverId": "eSqS9cD5mzYcP2o7FrST8aC5IWn2",
+    "visibility": "public",
+    "createdTime": 1686068996458,
+    "creatorName": "Plasma Ballin'",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Will there be at least one state where Donald Trump ",
+              "type": "text"
+            },
+            {
+              "text": "doesn't",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "italic"
+                }
+              ]
+            },
+            {
+              "text": " get first place in the Republican presidential primary or caucus in that state?",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Note: Any reason for Trump failing to win the state counts. This would include, for example, Trump dropping out before that state's primary or Trump being excluded from the ballot in that state.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "See also: ",
+              "type": "text"
+            },
+            {
+              "type": "contract-mention",
+              "attrs": {
+                "id": "YHewVUPBSZxkmFqkunJT",
+                "label": "/JosephNoonan/will-joe-biden-lose-a-single-state"
+              }
+            },
+            {
+              "text": " ",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Note: Just to clarify, I am judging a win/loss in Nevada based on the Nevada caucus, since that is how delegates actually get awarded. In any case where there is both a primary and a caucus, the winner will be judged based on total delegates obtained from both. In the case of Nevada, zero delegates are gained by the primary, so the winner is determined solely by the caucus.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "lastBetTime": 1709695289630,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 0,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/dream%2F_0m7MeAGJn.png?alt=media&token=64efb35d-c383-4da9-89e0-a1af2cdcbb2e",
+    "nonPredictive": false,
+    "volume24Hours": 0,
+    "resolutionTime": 1709695461964,
+    "totalLiquidity": 1280,
+    "creatorUsername": "PlasmaBallin",
+    "importanceScore": 0.12929722002418104,
+    "lastCommentTime": 1709695413890,
+    "lastUpdatedTime": 1709695414599,
+    "popularityScore": 1.1,
+    "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FPlasmaBallin%2FYrJAoOelNo.webp?alt=media&token=f4264f7d-f428-4baf-a942-444e233b50a5",
+    "likedByUserCount": 4,
+    "uniqueBettorCount": 113,
+    "creatorCreatedTime": 1668786016313,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 0.99
+  },
+  {
+    "p": 0.4999999999999975,
+    "id": "dDHfnL7yT18fbFN3CfRm",
+    "pool": {
+      "NO": 10202.56231932673,
+      "YES": 98.01459365807523
+    },
+    "prob": 1,
+    "slug": "will-hunter-biden-be-found-guilty-f",
+    "volume": 11703.433245560338,
+    "question": "Will Hunter Biden be found guilty for any of the 3 charges in the gun case?",
+    "closeTime": 1718131860245,
+    "creatorId": "BMPLNYGbHzaFPE34cO6HPRkdesb2",
+    "mechanism": "cpmm-1",
+    "viewCount": 0,
+    "dailyScore": 0,
+    "elasticity": 9.848349435361168,
+    "groupLinks": [
+      {
+        "name": "Hunter Biden",
+        "slug": "hunter-biden",
+        "groupId": "57ba045a-0d33-42ab-b9f6-64011bc2e013",
+        "createdTime": 1717519583488
+      }
+    ],
+    "groupSlugs": [
+      "hunter-biden"
+    ],
+    "isResolved": true,
+    "marketTier": "basic",
+    "resolution": "YES",
+    "resolverId": "BMPLNYGbHzaFPE34cO6HPRkdesb2",
+    "visibility": "public",
+    "createdTime": 1717519583304,
+    "creatorName": "Haws",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "This question resolves YES if he is found guilty for any of the following 3 charges:",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Making false statements X 2",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Illegal gun possession",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Additional charges found or from other cases will not apply to this question, we are only looking at the 3 charges above. ",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "If he is found guilty for 1 or more charges.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "https://www.bbc.com/news/articles/c4nnr9945vmo",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://www.bbc.com/news/articles/c4nnr9945vmo",
+                    "class": "break-anywhere hover:underline hover:decoration-primary-400 hover:decoration-2 active:underline active:decoration-primary-400",
+                    "target": "_blank"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "lastBetTime": 1718121611563,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0.20080862889197293
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 77.63446784517043,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/Haws/atgjtam2k3.jpg",
+    "volume24Hours": 0,
+    "freshnessScore": 0,
+    "resolutionTime": 1718131860245,
+    "totalLiquidity": 1000,
+    "conversionScore": 0.13333333333333333,
+    "creatorUsername": "Haws",
+    "importanceScore": 0.25,
+    "lastCommentTime": 1718131851153,
+    "lastUpdatedTime": 1718131860245,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FHaws%2FNjpD29kdA0.png?alt=media&token=d3ef401d-dfab-4976-a977-f36ea9ae4436",
+    "uniqueBettorCount": 26,
+    "creatorCreatedTime": 1677434458766,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 0.99
+  },
+  {
+    "p": 0.5000000000000003,
+    "id": "mmlwkjr7wn",
+    "pool": {
+      "NO": 10.050378152592089,
+      "YES": 994.9874371066176
+    },
+    "prob": 0,
+    "slug": "will-trump-announce-his-vp-pick-on-bg02zd1588",
+    "volume": 1885.40191673753,
+    "question": "Will Trump announce his VP pick on Thursday or Friday this week, if not during the debate?",
+    "closeTime": 1719854012897,
+    "creatorId": "NlGi8mChdPQLAdaq8tkBhsMKfs72",
+    "mechanism": "cpmm-1",
+    "viewCount": 0,
+    "dailyScore": 0,
+    "elasticity": 10.586609649448985,
+    "isResolved": true,
+    "marketTier": "play",
+    "resolution": "NO",
+    "resolverId": "NlGi8mChdPQLAdaq8tkBhsMKfs72",
+    "visibility": "public",
+    "createdTime": 1719331168115,
+    "creatorName": "Stephen S Power",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "The reason he would is obvious. ",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Bids close Wednesday to prevent sniping. I'll resolve after midnight PDT, so Saturday morning for most of us. ",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "lastBetTime": 1719847450472,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": -0.03542068394892684,
+      "month": -0.5
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 16.611872335939708,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/StephenSPower/bu5rz21g5o.jpg",
+    "volume24Hours": 0,
+    "freshnessScore": 0,
+    "resolutionTime": 1719854012897,
+    "totalLiquidity": 100,
+    "conversionScore": 0.13333333333333333,
+    "creatorUsername": "StephenSPower",
+    "importanceScore": 0.25,
+    "lastCommentTime": 1719849961539,
+    "lastUpdatedTime": 1719854012897,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocJJakJRZZPV9UKwEj40oeDYqeV9_xpZkUTwTi2oosBE=s96-c",
+    "uniqueBettorCount": 17,
+    "creatorCreatedTime": 1696858950851,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 4,
+    "resolutionProbability": 0.01
+  },
+  {
+    "p": 0.5850076711177389,
+    "id": "Ml6PgdPJxthf8zvYjgHG",
+    "pool": {
+      "NO": 149.8404587567593,
+      "YES": 86.27604638968467
+    },
+    "prob": 0,
+    "slug": "antiaddiction-challenge-will-i-spen-d25198405587",
+    "volume": 204.20272764692928,
+    "question": "[Anti-Addiction challenge] Will I spend less than 1.25 hours on Manifold on 7/9?",
+    "closeTime": 1688962429581,
+    "creatorId": "p3ADzwIUS3fk0ka80XYEE3OM3S32",
+    "mechanism": "cpmm-1",
+    "dailyScore": 0,
+    "elasticity": 2.728601942244263,
+    "groupLinks": [
+      {
+        "name": "PC's Anti-Addiction Challenge",
+        "slug": "pcs-antiaddiction-challenge",
+        "groupId": "9bef82cf-bfc0-42ca-b8db-e1e2340c22a2",
+        "createdTime": 1688793459638
+      },
+      {
+        "name": "Personal Goals",
+        "slug": "personal-goals",
+        "groupId": "izQp87CKagOVJp9Olm1p",
+        "createdTime": 1688793473416
+      }
+    ],
+    "groupSlugs": [
+      "pcs-antiaddiction-challenge",
+      "personal-goals"
+    ],
+    "isResolved": true,
+    "marketTier": "play",
+    "resolution": "NO",
+    "visibility": "public",
+    "createdTime": 1688793459490,
+    "creatorName": "PC",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Resolve the number of hours in this ",
+              "type": "text"
+            },
+            {
+              "text": "spreadsheet",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://docs.google.com/spreadsheets/d/1R-Sc1hvDwBMMVA8YHH98wCwMCF3ew0wYY5QioNI4KQo/edit#gid=0",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                },
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "text": ". Note that my day ends at 12am EST.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "--",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Manifold can be fun, but also addictive.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "I joined Manifold in April. In April and May, I spent about 1.2 hours / day on Manifold. For June, I wanted to promote to Masters, which felt like an impossible challenge. I spent close to an average of 3 hours / day. It took a lot of energy, and distracted me from other projects. ",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "For this month, my goal is to:",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Reduce my average time below 1.5 hours / day",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "While not being demoted from ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "Masters",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://manifold.markets/leagues",
+                            "class": null,
+                            "target": "_blank"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "I will use this ",
+              "type": "text"
+            },
+            {
+              "text": "spreadsheet",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://docs.google.com/spreadsheets/d/1R-Sc1hvDwBMMVA8YHH98wCwMCF3ew0wYY5QioNI4KQo/edit#gid=0",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "text": " to track my usage daily. I will use rescuetime for computer usage and Apple's Screen Time for mobile usage. So this includes:",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Time spent on the ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "manifold.markets",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "http://manifold.markets",
+                            "class": null,
+                            "target": "_blank"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": " and on the manifold app",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Includes time trading, making markets, etc",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Includes all ALT trading",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "This doesn't include",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Time researching, strategizing, thinking about Manifold",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Time on discord / talking with people about Manifold",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "I will have daily markets \"Will I spend X time on Manifold on Y\". You can estimate my usage through my activity on my page ",
+              "type": "text"
+            },
+            {
+              "text": "here",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/PC",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "text": ". ",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "I will only bet towards my goals, and may take final liquidity. I will also give prizes for those who have the highest profits in this ",
+              "type": "text"
+            },
+            {
+              "text": "leaderboard",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/group/pcs-antiaddiction-challenge",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "text": ".",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "start": 1
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "1st place - M500",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "2nd place - M250",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "3rd place - M100",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "4th place - M50",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        }
+      ]
+    },
+    "lastBetTime": 1688962006070,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 0,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "nonPredictive": false,
+    "volume24Hours": 0,
+    "resolutionTime": 1688962429581,
+    "totalLiquidity": 110,
+    "creatorUsername": "PC",
+    "importanceScore": 0.25,
+    "lastCommentTime": 1688962535147,
+    "lastUpdatedTime": 1688962537322,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FPC%2FYCkfuz1Bxk.jpg?alt=media&token=e04bca46-ddf3-4829-995f-8bc656d60173",
+    "uniqueBettorCount": 7,
+    "creatorCreatedTime": 1679615972546,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 0.71
+  },
+  {
+    "p": 0.08653657112383858,
+    "id": "g6kJIG3W5tG39P76LiYE",
+    "pool": {
+      "NO": 179.7739542137133,
+      "YES": 693542.849774603
+    },
+    "prob": 0,
+    "slug": "will-the-us-attack-iran-by-jan-15th",
+    "volume": 697279.673077358,
+    "question": "Will the US attack Iran by Jan 15th 2024?",
+    "closeTime": 1705438852017,
+    "creatorId": "b3WDWY8TdrhQKKNuJkNuvQKwHWE3",
+    "mechanism": "cpmm-1",
+    "dailyScore": 0,
+    "elasticity": -0.2103168350764717,
+    "groupLinks": [
+      {
+        "name": "🇮🇱 Israel",
+        "slug": "israel",
+        "groupId": "ECjphikMbmosJsDAAJoU",
+        "createdTime": 1698945549554
+      },
+      {
+        "name": "Iran",
+        "slug": "iran",
+        "groupId": "E1hI0LQPWmoAcpvhcjHa",
+        "createdTime": 1698945549555
+      },
+      {
+        "name": "🇺🇸 US Politics",
+        "slug": "us-politics",
+        "groupId": "AjxQR8JMpNyDqtiqoA96",
+        "createdTime": 1698945549559
+      },
+      {
+        "name": "🐪 Middle East",
+        "slug": "middle-east",
+        "groupId": "xg8wCPeM9JP6gD0igBrA",
+        "createdTime": 1698945549552
+      },
+      {
+        "name": "Arab-Israeli Conflict",
+        "slug": "arabisraeli-conflict",
+        "groupId": "aheUmZtjkKBkeiXwIFhI",
+        "createdTime": 1698945549698
+      }
+    ],
+    "groupSlugs": [
+      "israel",
+      "iran",
+      "us-politics",
+      "middle-east",
+      "arabisraeli-conflict"
+    ],
+    "isResolved": true,
+    "marketTier": "play",
+    "resolution": "NO",
+    "resolverId": "b3WDWY8TdrhQKKNuJkNuvQKwHWE3",
+    "visibility": "public",
+    "createdTime": 1698945549434,
+    "creatorName": "Marcus Abramovitch",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "This market will resolve to \"Yes\" if the United States of America initiates a military attack on Iranian soil, airspace, or maritime territory by January 15, 2024, 11:59 PM ET. Otherwise, this market will resolve to \"No\".",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "For the purposes of this market, a \"military attack\" will be considered to be any use of force executed by the US on Iranian soil, airspace, or maritime territory (e.g. if a weapons depot on Iranian soil is subject to a US missile strike, this market will resolve to \"Yes\") that is officially acknowledged by the U.S. federal government or a consensus of credible reporting. This includes, but is not limited to, airstrikes, naval attacks, or ground invasions. Cyber attacks, sanctions, or diplomatic actions will not count towards the resolution of this market.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "In the case that the \"Yes\" resolution criteria are met prior to this market's resolution date, this market will resolve immediately.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Several US politicians have called for this including Lindsay Graham and Nikki Haley.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "lastBetTime": 1705438833298,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 0,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "volume24Hours": 0,
+    "resolutionTime": 1705438852017,
+    "totalLiquidity": 410,
+    "creatorUsername": "MarcusAbramovitch",
+    "importanceScore": 0.25,
+    "lastCommentTime": 1705410812758,
+    "lastUpdatedTime": 1705438852819,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FMarcusAbramovitch%2F3T0leLyXbo.jpg?alt=media&token=64ec1422-3741-4481-99a5-f31d5ed47031",
+    "uniqueBettorCount": 22,
+    "creatorCreatedTime": 1668183636641,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 0
+  },
+  {
+    "p": 0.3912858340804819,
+    "id": "dH2sqxYVzNjgqKtBsD1a",
+    "pool": {
+      "NO": 98.6123935779161,
+      "YES": 389.87640277194424
+    },
+    "prob": 0,
+    "slug": "ibond-rate-for-nov-2022-issued-bond-a525ddd22f23",
+    "volume": 334.0004812523638,
+    "question": "I-Bond Rate for Nov 2022 Issued Bonds >8%",
+    "closeTime": 1667326912194,
+    "creatorId": "mm51vs8YybSfAASD3is71K52wr53",
+    "mechanism": "cpmm-1",
+    "dailyScore": 0,
+    "elasticity": 2.164469084764134,
+    "groupLinks": [
+      {
+        "name": "Finance",
+        "slug": "finance",
+        "userId": "mm51vs8YybSfAASD3is71K52wr53",
+        "groupId": "CgB83AAMkkOHSrTnzani",
+        "createdTime": 1665619727651
+      }
+    ],
+    "groupSlugs": [
+      "finance"
+    ],
+    "isResolved": true,
+    "marketTier": "play",
+    "resolution": "NO",
+    "visibility": "public",
+    "createdTime": 1665619727275,
+    "creatorName": "David Wang",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "This series of markets resolves to YES if the I-Bond rate for Nov 2022 issued I-Bonds is greater than the percentage in the title",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "lastBetTime": 1667287631179,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 0,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "followerCount": 4,
+    "volume24Hours": 0,
+    "resolutionTime": 1667326912194,
+    "totalLiquidity": 180,
+    "creatorUsername": "DavidWangb4fb",
+    "lastUpdatedTime": 1667287631285,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://lh3.googleusercontent.com/a-/AFdZucqbS5rhDE2DFX-54Q0PDieyoMpT2EiuPAEyynn5=s96-c",
+    "uniqueBettorCount": 4,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 0.13984916613987006
+  },
+  {
+    "p": 0.1056005880043751,
+    "id": "cDdHJ0NUKvLEhWsmt3Ex",
+    "pool": {
+      "NO": 121.29103844019387,
+      "YES": 222.28040643272442
+    },
+    "prob": 0,
+    "slug": "will-flight-af-1281-from-london-to-50337f85ced6",
+    "volume": 124,
+    "question": "Will flight AF 1281 from London to Paris departing on 2024-02-11 arrive with 30+ minutes delay (YES)",
+    "closeTime": 1707665700000,
+    "creatorId": "YPTRUO3XusOdpXsUGQXhtJpXZcF2",
+    "mechanism": "cpmm-1",
+    "dailyScore": 0,
+    "elasticity": 6.109305532711093,
+    "groupLinks": [
+      {
+        "name": "Flight Delays",
+        "slug": "flight-delays",
+        "groupId": "c83fbfca-1db0-47fb-b6b4-ef11baa4e86b",
+        "createdTime": 1707429196924
+      }
+    ],
+    "groupSlugs": [
+      "flight-delays"
+    ],
+    "isResolved": true,
+    "marketTier": "play",
+    "resolution": "NO",
+    "resolverId": "YPTRUO3XusOdpXsUGQXhtJpXZcF2",
+    "visibility": "public",
+    "createdTime": 1707429196591,
+    "creatorName": "Camille",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "YES on arrival delay of flight Air France AF 1281 from London (LHR) to Paris (CDG), NO if on time.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "      ",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Market close time: 2024-02-11 15:35 (UTC)",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Scheduled departure: 2024-02-11 - 17:35 (UTC)",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "      09:35 (Los Angeles)",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "      12:35 (New York)",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "      18:35 (Paris)",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Scheduled duration: 01:20",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "      ",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Fine print:",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Resolution according to ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "FlightStats",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://www.flightstats.com/v2/flight-tracker/AF/1281?year=2024&month=02&date=11",
+                            "class": null,
+                            "target": "_blank"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Delay means total arrival delay, once all data has come in, based on the \"Flight Gate Times\" labelled \"Actual\" ",
+                      "type": "text"
+                    },
+                    {
+                      "text": "(see details here)",
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "href": "https://manifold.markets/CamillePerrin/will-flight-af-333-from-boston-to-p-7b85e504031f#mFtgYl9Q4l4NucT4QTHD",
+                            "class": null,
+                            "target": "_blank"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Closes 2 hours before departure",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "Delay of 31 or more minutes, cancellation and diversion resolves YES. On-time or delay less or equal to 30 min resolves NO.",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "text": "If FlightStats records status unknown, might resolve N/A if other proof of resolution has not been posted in the comments",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "      ",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Useful links:",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Leaderboard",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/leaderboards?topic=flight-delays",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "text": " | ",
+              "type": "text"
+            },
+            {
+              "text": "FlightStats",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://www.flightstats.com/v2/flight-tracker/AF/1281?year=2024&month=02&date=11",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "text": " | ",
+              "type": "text"
+            },
+            {
+              "text": "FlightRadar24",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://www.flightradar24.com/data/flights/af1281",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "horizontalRule"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "BETA:",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "text": " Coming soon-ish: managram market request, more airlines.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Want to see more of those?",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "text": " Go to the ",
+              "type": "text"
+            },
+            {
+              "text": "Flight Delays topic",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/browse?topic=flight-delays",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "text": ", click ",
+              "type": "text"
+            },
+            {
+              "text": "Follow",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "italic"
+                }
+              ]
+            },
+            {
+              "text": " (Top right)",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Don't want to see those?",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "text": " Go to the ",
+              "type": "text"
+            },
+            {
+              "text": "Flight Delays topic",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/browse?topic=flight-delays",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "text": ", click the three-dots menu (Top right), then ",
+              "type": "text"
+            },
+            {
+              "text": "Block Topic",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "italic"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "lastBetTime": 1707665532576,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 0,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "coverImageUrl": "https://storage.googleapis.com/mantic-markets.appspot.com/contract-images/CamillePerrin%2F1a97e7b7bede.jpg",
+    "volume24Hours": 0,
+    "resolutionTime": 1707687486632,
+    "totalLiquidity": 130,
+    "closeEmailsSent": 1,
+    "creatorUsername": "CamillePerrin",
+    "importanceScore": 0.25,
+    "lastUpdatedTime": 1707687486873,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2FCamillePerrin%2F5Ob9FmOl3S.JPG?alt=media&token=c66a0cba-8165-4fd1-a045-f79b7b7e79d5",
+    "uniqueBettorCount": 5,
+    "creatorCreatedTime": 1690366088081,
+    "initialProbability": 0.13559322033898305,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 0.08
+  },
+  {
+    "p": 0.6459304554029394,
+    "id": "jWddYUFI29NpkmtRptZq",
+    "pool": {
+      "NO": 16656.12736752994,
+      "YES": 71.54403274968354
+    },
+    "prob": 1,
+    "slug": "will-white-win-in-manifold-plays-ch",
+    "volume": 33638.19715680326,
+    "question": "Will white win in Manifold Plays Chess, part 3?",
+    "closeTime": 1685660560911,
+    "creatorId": "DE1FYFMgweXNSXYflp2pM7vaxRv2",
+    "mechanism": "cpmm-1",
+    "dailyScore": 0,
+    "elasticity": 1.4662419229827055,
+    "groupLinks": [
+      {
+        "name": "Manifold plays chess",
+        "slug": "manifold-plays-chess",
+        "userId": "DE1FYFMgweXNSXYflp2pM7vaxRv2",
+        "groupId": "ZbnbyDVipy8GQ3qOaBLT",
+        "createdTime": 1677868146732
+      },
+      {
+        "name": "Chess",
+        "slug": "chess",
+        "userId": "DE1FYFMgweXNSXYflp2pM7vaxRv2",
+        "groupId": "ED7Cu6lVPshJkZ7FYePW",
+        "createdTime": 1677868188741
+      }
+    ],
+    "groupSlugs": [
+      "manifold-plays-chess",
+      "chess"
+    ],
+    "isResolved": true,
+    "marketTier": "play",
+    "resolution": "YES",
+    "visibility": "public",
+    "createdTime": 1677868146533,
+    "creatorName": "harfe",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Welcome to Manifold plays chess, part 3.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "This time, Manifold will play as white against Stockfish level 3 on lichess. Manifold lost both games so far, see ",
+              "type": "text"
+            },
+            {
+              "text": "https://manifold.markets/market/will-black-win-in-manifold-plays-ch",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/market/will-black-win-in-manifold-plays-ch",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "text": " and ",
+              "type": "text"
+            },
+            {
+              "text": "https://manifold.markets/citrinitas/will-white-win-in-alexliesmans-mani",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://manifold.markets/citrinitas/will-white-win-in-alexliesmans-mani",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "text": " for these games.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "This market resolves YES if white wins.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "This market resolves NO if black wins.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "This market resolves to 50% if there is a draw.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "The game will unfold here: ",
+              "type": "text"
+            },
+            {
+              "text": "https://lichess.org/GF9YULQP",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://lichess.org/GF9YULQP",
+                    "class": null,
+                    "target": "_blank"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "The game so far: 1. e4 e5 2. Bc4 Nf6 3. Nc3 Nc6 4. Nf3 Nxe4 5. Nxe4 d5 6. Bd3 dxe4 7. Rg1 Bf5 8. Bb5 exf3 9. Bxc6+ bxc6 10. Qxf3 Qd7 11. Qc3 f6 12. g4 Bxg4 13. Rxg4 h5 14. Re4 Qd5 15. Qf3 Rd8 16. d3 a6 17. b3 Qc5 18. Kd1 a5 19. Bb2 g6 20. Qxf6 Kd7 21. Rxe5 Qd6 22. Qxh8 Be7 23. Qg7 Rf8 24. Rxe7+ Qxe7 25. Qxe7+ Kxe7 26. Ba3+ Kf7 27. Bxf8 Kxf8 28. Kd2 Kf7 29. Re1 Kg7 30. Re7+ Kf6 31. Rxc7 h4 32. a4 g5 33. b4 Ke6 34. axb5 Kd6 35.  Rb7 Ke6 36. a6 Kd5 37. h3 Kc5",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Market for current move: ",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "iframe",
+          "attrs": {
+            "src": "https://manifold.markets/embed/harfe/manifold-plays-chess-3-move-38-what",
+            "frameBorder": 0,
+            "allowFullScreen": true
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Market structure",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "text": ":",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Per move, there will be a free response market, followed by conditional markets for 2 or 3 moves. The free response market will resolve to the move that manifold will play. For each response, the average probability in the last four hours before close is measured. With 75% probability, two moves will be randomly drawn, with weight proportional to those market probabilities. With 25% probabilities, three moves will be randomly drawn in the same way. Then for each of the two or three candidate moves, a conditional market is created.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "If there are 3 or less legal moves, no free response market will be created, and we directly move to the conditional markets.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "The markets for the candidate moves are of the form \"What will the score be one move later if we play X?\". We measure the average probability in the last four hours of the market. The move with higher probability wins and gets chosen. The conditional market that does not get chosen gets resolved N/A. The conditional market for the move that gets chosen resolves to the score one move later.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "The score is the average probability in the last four hours of trading in the conditional market for the winning move. If there is no later move, the score for this purpose is 1.0 - #moves x 0.0004 if white win, 0.5 - #moves x 0.0002 if its a draw, or 0.0 if we lose (this is to encourage a shorter game).",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "In the first 6 moves, the moves \"Resign1\", \"Resign2\", \"Resign3\" will be legal moves (and white loses immediately if it plays one of those moves). After that, any resign move will not be legal.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Possible rule changes during the game",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "text": ":",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "If the probabilities for the conditional moves stagnate, I plan to introduce some kind of leverage, so that predictors can predict in a wider range. An example for what I mean by leverage: if the score stagnates around 0.65, we could map 0.6 to 20%, and 0.7 to 80%, and interpolate for the rest. These changes will be announced at least 2 moves in advance.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Other than that, I reserve the right to change some of the rules during the game, if the game becomes very boring or if I am concerned that funding the remainder of the game will become too expensive. In that case, I do not attempt to change the outcome of the game. For example, if the score is below 0.01 over many moves, I might add a mechanism that allows us to resign.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "I will wait for 1-2 days before starting the game, during which the rules might be changed.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Edit (2023-03-05): changed description to clarify rules slightly, no changes were made to the rules.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Edit (2023-03-05): Accidentally deleted the paragraph about Resign moves in the previous edit. Added again.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "Edit (2023-03-06): Changed \"This market resolves NO if white wins.\" to \"This market resolves NO if black wins.\"",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "lastBetTime": 1685658795344,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 0,
+      "platformFee": 0,
+      "liquidityFee": 0
+    },
+    "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/dream%2F5IpMJYjw4e.png?alt=media&token=685e30a4-b605-491b-ad81-35c79d18aa3e",
+    "volume24Hours": 0,
+    "resolutionTime": 1685660560911,
+    "totalLiquidity": 810,
+    "creatorUsername": "harfe",
+    "lastCommentTime": 1685674678410,
+    "lastUpdatedTime": 1685674681141,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fharfe%2F4HG6LB9tvY.png?alt=media&token=54b85255-1ab5-487c-8147-27e3c3a25e7e",
+    "likedByUserCount": 4,
+    "uniqueBettorCount": 41,
+    "creatorCreatedTime": 1668567433512,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 1
+  },
+  {
+    "p": 0.34206690658458805,
+    "id": "KmEdGIGKGfNtzBKVGrfd",
+    "pool": {
+      "NO": 1497.0300161369441,
+      "YES": 279.31124454669936
+    },
+    "prob": 1,
+    "slug": "will-gpt4-become-free-on-chatgpt-wh",
+    "volume": 2439.712494142957,
+    "question": "Will GPT-4 become free on ChatGPT when OpenAI releases GPT-4.5/GPT-5?",
+    "closeTime": 1715621193299,
+    "creatorId": "LYR0RNU6uJMXbBy1qBeGGmMdwgQ2",
+    "mechanism": "cpmm-1",
+    "dailyScore": 0,
+    "elasticity": 9.736955595019644,
+    "groupLinks": [
+      {
+        "name": "GPT-4 speculation",
+        "slug": "gpt4-speculation",
+        "groupId": "SWiC5KtQnc48oWmaoAZA",
+        "createdTime": 1710689502125
+      },
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt",
+        "groupId": "lG71NUBORXAsxGmQZo77",
+        "createdTime": 1710689502124
+      },
+      {
+        "name": "🤖 AI",
+        "slug": "ai",
+        "groupId": "yEWvvwFFIqzf8JklMewp",
+        "createdTime": 1710689502133
+      },
+      {
+        "name": "🖥️ Technology",
+        "slug": "technology-default",
+        "groupId": "IlzY3moWwOcpsVZXCVej",
+        "createdTime": 1710689502122
+      },
+      {
+        "name": "GPT-5 Speculation",
+        "slug": "gpt5-speculation",
+        "groupId": "XjoIQCNrsc4HP3H3DdTP",
+        "createdTime": 1710689502142
+      },
+      {
+        "name": "🤖 OpenAI",
+        "slug": "openai",
+        "groupId": "a3ikurqO9fT46Pv9ZGkY",
+        "createdTime": 1710689502129
+      }
+    ],
+    "groupSlugs": [
+      "gpt4-speculation",
+      "chatgpt",
+      "ai",
+      "technology-default",
+      "gpt5-speculation",
+      "openai"
+    ],
+    "isResolved": true,
+    "marketTier": "play",
+    "resolution": "YES",
+    "resolverId": "LYR0RNU6uJMXbBy1qBeGGmMdwgQ2",
+    "visibility": "public",
+    "createdTime": 1710689501976,
+    "creatorName": "Axel Røthing-Cano",
+    "description": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Will you be able to use GPT-4 for free on the official ChatGPT website as an average user when OpenAI releases GPT-4.5 or GPT-5?",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "The change needs to be announced at the event or as a press release within one week from the event where GPT-4.5/5 is released.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Free trials do not count, usage limits do count.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "GPT-4 and GPT-4-Turbo both count, it also counts if they make a downgraded/smaller version of GPT-4 for free use on ChatGPT.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "lastBetTime": 1715620698026,
+    "outcomeType": "BINARY",
+    "probChanges": {
+      "day": 0,
+      "week": 0,
+      "month": 0
+    },
+    "subsidyPool": 0,
+    "collectedFees": {
+      "creatorFee": 15.857493725810981,
+      "platformFee": 15.857493725810981,
+      "liquidityFee": 0
+    },
+    "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/user-images%2Fdefault%2F6Htc9LWUYj.jpg?alt=media&token=2f6847bf-ca61-4a5c-a10c-c8d72ecad507",
+    "volume24Hours": 0,
+    "freshnessScore": 0,
+    "resolutionTime": 1715621282914,
+    "totalLiquidity": 875,
+    "creatorUsername": "AxelRthingCano",
+    "importanceScore": 0.25,
+    "lastUpdatedTime": 1715621193299,
+    "popularityScore": 0,
+    "creatorAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIE6mwkmvbgtS7eiZMufNbLwUDjzzA3Ie-r2-IfHNcp=s96-c",
+    "uniqueBettorCount": 42,
+    "creatorCreatedTime": 1703535400490,
+    "initialProbability": 0.5,
+    "uniqueBettorCountDay": 0,
+    "resolutionProbability": 0.74
+  }
+]

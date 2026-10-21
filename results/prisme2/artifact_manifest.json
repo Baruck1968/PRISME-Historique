@@ -1,0 +1,14 @@
+{
+  "candidate_deadline_audit.zip": "e4a80aa42ed112fcc1ec98750b2d604bd20a407636bc014d0754158218cbc466",
+  "feasibility.json": "025d0dc0ed2a5799d74783632141e91105577399e6d924cbd40cda620fc4c2c3",
+  "manual_audit_markets.json": "0c349e6ad2f24dcb9cfc33b46fd3b2d946f89b7c77c0d737fb199722b56816a2",
+  "manual_review.json": "2c5bce91a81e8c4f3ba76657aeb209b372ededd454e98f081c29c78e1bf155c2",
+  "source_metadata.json": "b746d385151fdb4f081dce236515cb4e185f7bc3b9ba5dcc09372cc3a74e7f0a",
+  "trade_archive_prefix.bin": "cbb53fe52006e27c094feda2a5ead289b833bced54f83c88d81a6d9e48f1f7d8",
+  "trade_archive_sample.json": "b7bf60deb50e84d46786eb03bd30b6e053ea6b1c806750f302d3ebf495b489d2",
+  "trade_probe.json": "48a6c5b8344530ccb0d7b66e401c5b1193ae3cde95d563a57d00dd6cb5daca75",
+  "README.md": "241d69e70c761c25abbe608e817c0eac1ef957b0c0a5bc1d6ce254d9f4584dbb",
+  "validation.txt": "e5789cde459a12ac83658b88ef15f1a466d98ce4cb126720a09369c20398f334",
+  "preservation_check.json": "1bbbe8ba4e317e3110def1df266835daab601279fee8d3ca319292703711b9aa",
+  "unrun_analyses.json": "5fdcd5693024e74344b53b8e3ee3c6180ca187504d2b7e2bd59ace2af8dabf21"
+}

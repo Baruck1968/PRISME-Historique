@@ -1,0 +1,9 @@
+test_actual_sample_parser_and_truncation_rejection (test_prisme2.ArchiveAudit.test_actual_sample_parser_and_truncation_rejection) ... ok
+test_all_candidates_fail_closed_and_sample_is_prefixed (test_prisme2.ArchiveAudit.test_all_candidates_fail_closed_and_sample_is_prefixed) ... ok
+test_real_corpus_accounting_and_no_predictive_claim (test_prisme2.ArchiveAudit.test_real_corpus_accounting_and_no_predictive_claim) ... ok
+test_trade_prefix_integrity_and_real_timestamps (test_prisme2.ArchiveAudit.test_trade_prefix_integrity_and_real_timestamps) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.624s
+
+OK

@@ -1,0 +1,101 @@
+{
+  "method": "Manual inspection of the 12 frozen SHA256-ranked archive records; no external historical schedule verification. Not a proof that no usable market exists.",
+  "records": [
+    {
+      "id": "zSXh6p9BiqXazUgpjEho",
+      "question": "Will the S&P 500 close higher on November 15 than it closed on November 14?",
+      "review_note": "S&P : date et horaires dans le texte courant, sans version prouvée antérieure à t ; marché créé moins de 24 h avant sa clôture.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "6G7Hcqq3a2XTAv1sTmhI",
+      "question": "NFL Week 4 (Oct 1): Will the Houston Texans beat the Pittsburgh Steelers?",
+      "review_note": "NFL : horaire de match dans le texte courant ; closeTime égale résolution, pas de provenance de l’échéance initiale.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "ZK2HVDgCoFeVCmYxgd5s",
+      "question": "Daily market",
+      "review_note": "Daily market : description vide, durée de quelques secondes ; pas de fenêtre de 48 h.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "dKmDXzRBQxEzdWR0yBtA",
+      "question": "Will Donald Trump lose a single state in the 2024 Republican primaries?",
+      "review_note": "Primaires : critère susceptible d’être rempli avant la fin des primaires ; clarification textuelle non versionnée.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "dDHfnL7yT18fbFN3CfRm",
+      "question": "Will Hunter Biden be found guilty for any of the 3 charges in the gun case?",
+      "review_note": "Hunter Biden : échéance dépendante du verdict, pas de date ex ante attestée dans ce snapshot.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "mmlwkjr7wn",
+      "question": "Will Trump announce his VP pick on Thursday or Friday this week, if not during the debate?",
+      "review_note": "VP Trump : jours relatifs dans le titre et la description ; provenance et modifications non attestées.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "Ml6PgdPJxthf8zvYjgHG",
+      "question": "[Anti-Addiction challenge] Will I spend less than 1.25 hours on Manifold on 7/9?",
+      "review_note": "Usage personnel : critère journalier et source personnelle ; pas de version horodatée antérieure à t.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "g6kJIG3W5tG39P76LiYE",
+      "question": "Will the US attack Iran by Jan 15th 2024?",
+      "review_note": "Iran : échéance textuelle précise mais résolution immédiate si événement anticipé ; texte non versionné.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "dH2sqxYVzNjgqKtBsD1a",
+      "question": "I-Bond Rate for Nov 2022 Issued Bonds >8%",
+      "review_note": "I-Bond : série de seuils sur un même taux, dépendance entre marchés ; date de publication externe à vérifier.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "cDdHJ0NUKvLEhWsmt3Ex",
+      "question": "Will flight AF 1281 from London to Paris departing on 2024-02-11 arrive with 30+ minutes delay (YES)",
+      "review_note": "Vol AF1281 : candidat prometteur avec horaire détaillé, mais horaire archivé non prouvé publié avant t.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "jWddYUFI29NpkmtRptZq",
+      "question": "Will white win in Manifold Plays Chess, part 3?",
+      "review_note": "Échecs : description enrichie des coups joués ; état final du texte impropre à une reconstitution ex ante.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    },
+    {
+      "id": "KmEdGIGKGfNtzBKVGrfd",
+      "question": "Will GPT-4 become free on ChatGPT when OpenAI releases GPT-4.5/GPT-5?",
+      "review_note": "GPT-4 : fenêtre définie relativement à une annonce ; pas d’échéance ex ante horodatée vérifiée.",
+      "deadline_provenance_verified": false,
+      "public_outcome_unknown_at_t": "not_established",
+      "external_event_schedule_checked": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "population": "All archived BINARY markets with unambiguous YES/NO resolution by 2024-07-04T00:00:00Z; no selection by momentum or performance",
+  "archive_market_label": "Markets data 2024-07-06",
+  "archive_bet_label": "Bets data 2024-07-04",
+  "coverage_end_exclusive_utc": "2024-07-04T00:00:00Z",
+  "deadline_requirement": "A creation-time announced deadline with immutable timestamped provenance, and change history sufficient to rule out hindsight",
+  "t_rule": "verified ex-ante deadline minus 24h; previous snapshot another 24h earlier",
+  "freshness_max_hours": 24,
+  "momentum_threshold": 0.02,
+  "probability_bin_width": 0.05,
+  "manual_audit_rule": "First 12 binary YES/NO markets by SHA256(id) within the archival time population; inspect deadline fields and their provenance before any predictive fit",
+  "stop_rule": "If the public snapshot cannot verify an ex-ante deadline, do not substitute resolutionTime or snapshot closeTime. Report non-conclusive feasibility, no model, no p value.",
+  "event_requirement": "Audited common-event key; no event shared between train and test",
+  "models": "Only if timing and event gates pass: train-only flexible calibration baseline vs same covariates plus delta; chronological held-out evaluation with event-cluster uncertainty",
+  "no_financial_actions": true
+}

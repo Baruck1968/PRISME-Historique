@@ -1,0 +1,24 @@
+{
+  "markets": {
+    "url": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/trade-dumps%2Fmanifold-contracts-20240706.json.zip?alt=media&token=ca3ef6b6-fe61-41b4-a789-dcc2d4ea4421",
+    "status": 200,
+    "headers": {
+      "last-modified": "Sat, 06 Jul 2024 07:51:56 GMT",
+      "etag": "\"3a2f404292f49165e07744ea28a0a260\"",
+      "x-goog-generation": "1720252316181150",
+      "x-goog-hash": "md5=Oi9AQpL0kWXgd0TqKKCiYA==",
+      "content-length": "91427545"
+    }
+  },
+  "bets": {
+    "url": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/trade-dumps%2Fmanifold-dump-bets-04072024.json.zip?alt=media&token=5ff8fd10-8079-4570-9728-7d0be1d4a463",
+    "status": 200,
+    "headers": {
+      "last-modified": "Thu, 04 Jul 2024 23:25:28 GMT",
+      "etag": "\"1664e5af6afa74cbd6689448c26ee630\"",
+      "x-goog-generation": "1720135528537511",
+      "x-goog-hash": "md5=FmTlr2r6dMvWaJRIwm7mMA==",
+      "content-length": "1014074842"
+    }
+  }
+}

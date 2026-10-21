@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-10-21T12:50:47.418484+00:00",
+  "url": "https://firebasestorage.googleapis.com/v0/b/mantic-markets.appspot.com/o/trade-dumps%2Fmanifold-dump-bets-04072024.json.zip?alt=media&token=5ff8fd10-8079-4570-9728-7d0be1d4a463",
+  "headers": {
+    "etag": "\"1664e5af6afa74cbd6689448c26ee630\"",
+    "x-goog-generation": "1720135528537511",
+    "content-range": "bytes 0-65535/1014074842"
+  },
+  "zip_member": "bets.json",
+  "range_bytes": 65536,
+  "range_sha256": "cbb53fe52006e27c094feda2a5ead289b833bced54f83c88d81a6d9e48f1f7d8",
+  "records_examined": 10,
+  "fields": [
+    "amount",
+    "contractId",
+    "createdTime",
+    "dpmShares",
+    "dpmWeight",
+    "id",
+    "isSold",
+    "loanAmount",
+    "outcome",
+    "probAfter",
+    "probAverage",
+    "probBefore",
+    "shares",
+    "userId"
+  ],
+  "with_createdTime": 10,
+  "with_probAfter": 10,
+  "complete_zip_checksum_verified": false,
+  "limitations": "Prefix probe only; no full archive CRC/MD5, temporal coverage or representativeness claim. No statistical use."
+}
