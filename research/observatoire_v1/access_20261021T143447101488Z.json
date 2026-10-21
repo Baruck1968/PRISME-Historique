@@ -1,0 +1,82 @@
+[
+  {
+    "name": "hyphen_docs",
+    "url": "https://the-odds-api.com/liveapi/guides/v4/",
+    "attempted_at": "2026-10-21T14:34:47.101700+00:00",
+    "status": 200,
+    "final_url": "https://the-odds-api.com/liveapi/guides/v4/",
+    "bytes": 329914,
+    "sha256": "e658062a0c0d3194a6247734be800807ab59d3d2c2e1e60df90db45002bcd02f",
+    "soft_404": false
+  },
+  {
+    "name": "hyphen_prices",
+    "url": "https://the-odds-api.com/#pricing",
+    "attempted_at": "2026-10-21T14:34:47.288317+00:00",
+    "status": 200,
+    "final_url": "https://the-odds-api.com/#pricing",
+    "bytes": 38932,
+    "sha256": "c9f21314796ddf18f949b02d2367c5ca9ebb76ec26c094bd2648a7648a5f0db5",
+    "soft_404": false
+  },
+  {
+    "name": "hyphen_terms",
+    "url": "https://the-odds-api.com/terms-and-conditions.html",
+    "attempted_at": "2026-10-21T14:34:47.414756+00:00",
+    "status": 200,
+    "final_url": "https://the-odds-api.com/terms-and-conditions.html",
+    "bytes": 23832,
+    "sha256": "74bcde10e140efcb08ead532660f6f7372082dec9cb9d0ee0e10f8d8c8fe55d0",
+    "soft_404": false
+  },
+  {
+    "name": "hyphen_markets",
+    "url": "https://the-odds-api.com/sports-odds-data/betting-markets.html",
+    "attempted_at": "2026-10-21T14:34:47.520771+00:00",
+    "status": 200,
+    "final_url": "https://the-odds-api.com/sports-odds-data/betting-markets.html",
+    "bytes": 74956,
+    "sha256": "e3d70a675f857eff2081240d1186b3fa2b92271199b8132757a3c35348bb1581",
+    "soft_404": false
+  },
+  {
+    "name": "hyphen_intervals",
+    "url": "https://the-odds-api.com/sports-odds-data/update-intervals.html",
+    "attempted_at": "2026-10-21T14:34:47.665232+00:00",
+    "status": 200,
+    "final_url": "https://the-odds-api.com/sports-odds-data/update-intervals.html",
+    "bytes": 19264,
+    "sha256": "381b879cda74a4d24413a2381e063494da5de5a584293f9fba3cc2868618ac22",
+    "soft_404": false
+  },
+  {
+    "name": "hyphen_history",
+    "url": "https://the-odds-api.com/historical-odds-data/",
+    "attempted_at": "2026-10-21T14:34:47.861327+00:00",
+    "status": 200,
+    "final_url": "https://the-odds-api.com/historical-odds-data/",
+    "bytes": 90332,
+    "sha256": "28e921db6f1875e9609937032a599f9c137621d85d086fa415c6baf9476210e8",
+    "soft_404": false
+  },
+  {
+    "name": "distinct_docs",
+    "url": "https://theoddsapi.com/docs/",
+    "attempted_at": "2026-10-21T14:34:47.962098+00:00",
+    "status": 200,
+    "final_url": "https://theoddsapi.com/docs/",
+    "bytes": 90815,
+    "sha256": "684753d5de8c2d8756ce432cd9efe42ab7b2080980711c25f1ef98f416a26a6c",
+    "soft_404": false
+  },
+  {
+    "name": "distinct_prices",
+    "url": "https://theoddsapi.com/pricing",
+    "attempted_at": "2026-10-21T14:34:48.331897+00:00",
+    "status": 200,
+    "final_url": "https://theoddsapi.com/pricing",
+    "bytes": 15093,
+    "sha256": "be73ae919f33af2aaf6808c1579204a6c5395a571f0b6ffae04986c9dcbfd954",
+    "soft_404": false
+  }
+]
