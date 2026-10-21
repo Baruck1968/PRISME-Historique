@@ -1,0 +1,41 @@
+{
+  "asof": "2026-10-21T16:25:33.293631+00:00",
+  "platform": "posix",
+  "journal_entries": 3,
+  "initial_manifest_sha256": "627d076a2a2f161942254d83f83751416e41ed18e54869d621f920838739031d",
+  "campaign_state_sha256": "92aa4f3d46bfec27bfc1ece46497cb8c3add29d9f76b91f70b8067df38148d98",
+  "tasks": [
+    {
+      "id": "T1",
+      "target_utc": "2026-10-21T23:10:00+00:00",
+      "status": "pending"
+    },
+    {
+      "id": "T2",
+      "target_utc": "2026-10-22T01:40:00+00:00",
+      "status": "pending"
+    },
+    {
+      "id": "T3",
+      "target_utc": "2026-10-22T22:10:00+00:00",
+      "status": "pending"
+    },
+    {
+      "id": "T4",
+      "target_utc": "2026-10-22T23:10:00+00:00",
+      "status": "pending"
+    },
+    {
+      "id": "T5",
+      "target_utc": "2026-10-23T00:40:00+00:00",
+      "status": "pending"
+    },
+    {
+      "id": "T6",
+      "target_utc": "2026-10-23T22:10:00+00:00",
+      "status": "pending"
+    }
+  ],
+  "network_used": false,
+  "scheduler_enabled": false
+}

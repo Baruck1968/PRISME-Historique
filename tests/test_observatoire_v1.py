@@ -3,12 +3,14 @@ import copy
 import importlib.util
 import json
 import os
+import sys
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
 
 MODULE = Path(__file__).resolve().parents[1] / 'research/observatoire_v1/pilot.py'
+sys.path.insert(0, str(MODULE.parent))
 spec = importlib.util.spec_from_file_location('observatoire', MODULE)
 p = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(p)

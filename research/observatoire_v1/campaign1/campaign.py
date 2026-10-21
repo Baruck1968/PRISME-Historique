@@ -1,6 +1,6 @@
 """Bounded campaign preparation and manual one-shot runner; no daemon/scheduler.
 
-Requires a durable Linux host sharing the private state directory across runs.
+Requires a durable Linux or Windows host sharing private state across runs.
 """
 import argparse
 from datetime import datetime,timezone,timedelta
@@ -49,6 +49,9 @@ def check_key(path):
     timestamp=datetime.now(timezone.utc).timestamp()
     if len([r for r in rows if r['kind']=='pub'])!=1 or rows[0].get('fp')!=FP:
         raise ValueError('Wrong public primary key')
+    primary=rows[0]
+    if primary['valid'] in ('r','e','d') or int(primary['created'])>timestamp or (primary['expires'] and timestamp>=int(primary['expires'])):
+        raise ValueError('Primary key not current')
     if not any(r.get('fp')==SUB and r['kind']=='sub' and 'e' in r['caps'] and r['valid'] not in ('r','e','d') and int(r['created'])<=timestamp and (not r['expires'] or timestamp<int(r['expires'])) for r in rows):
         raise ValueError('No current expected encryption subkey')
 
@@ -61,7 +64,7 @@ def persist(root,state):
 
 def backup(root,key):
     check_key(key);meta=private_repo()
-    folder=Path('/workspace/prisme-encrypted-staging') if Path('/workspace').exists() else root.parent/'encrypted-staging'
+    folder=(root.parent/'encrypted-staging') if os.name=='nt' else (Path('/workspace/prisme-encrypted-staging') if Path('/workspace').exists() else root.parent/'encrypted-staging')
     folder.mkdir(mode=0o700,exist_ok=True)
     filename='campaign1_'+datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')+'_'+uuid.uuid4().hex[:8]+'.gpg'
     encrypted=folder/filename

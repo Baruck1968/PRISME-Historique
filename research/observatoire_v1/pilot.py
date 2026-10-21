@@ -3,10 +3,9 @@
 No scheduler or alerts. Raw odds and journal must remain private. See README.
 """
 import argparse
-from contextlib import contextmanager
 from datetime import datetime, timezone, timedelta
 from decimal import Decimal
-import fcntl
+from file_lock import locked
 import hashlib
 import json
 import os
@@ -40,13 +39,6 @@ def variation(first, second):
 class NoRedirect(HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
         raise ValueError('Redirect refused')
-
-@contextmanager
-def locked(root):
-    root.mkdir(parents=True, exist_ok=True)
-    with (root / '.lock').open('a') as stream:
-        fcntl.flock(stream, fcntl.LOCK_EX)
-        yield
 
 def verify(root):
     previous = None

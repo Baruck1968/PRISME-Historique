@@ -1,0 +1,9 @@
+{
+  "RepoRoot": "C:\\Users\\VotreCompte\\Sources\\PRISME-Historique",
+  "PrivateRoot": "C:\\Users\\VotreCompte\\AppData\\Local\\PRISME\\private",
+  "PublicKey": "C:\\Users\\VotreCompte\\AppData\\Local\\PRISME\\PRISME-public.asc",
+  "PythonExe": "C:\\Users\\VotreCompte\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "GpgExe": "C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe",
+  "GhExe": "C:\\Program Files\\GitHub CLI\\gh.exe",
+  "ApiKeyFile": "C:\\Users\\VotreCompte\\AppData\\Local\\PRISME\\odds-api.dpapi.xml"
+}

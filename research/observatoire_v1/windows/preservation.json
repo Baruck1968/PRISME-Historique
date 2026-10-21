@@ -1,0 +1,18 @@
+{
+  "baseline": "84d137e52c0f6984208341eafb4354aa61682109",
+  "existing_files_checked": 190,
+  "intentional_technical_changes": [
+    "research/observatoire_v1/campaign1/campaign.py",
+    "research/observatoire_v1/pilot.py",
+    "tests/test_observatoire_v1.py"
+  ],
+  "all_other_tracked_files_identical": true,
+  "initial_manifest_unchanged": true,
+  "campaign_manifest_unchanged": true,
+  "odds_api_calls": 0,
+  "new_events": 0,
+  "tasks_registered": 0,
+  "tasks_enabled": 0,
+  "windows_native_tests_executed": false,
+  "offline_tests_passed": 41
+}
