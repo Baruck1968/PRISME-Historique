@@ -1,0 +1,90 @@
+[
+  {
+    "name": "github_private",
+    "url": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans",
+    "attempted_at": "2026-10-21T15:23:50.328967+00:00",
+    "status": 200,
+    "final_url": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans",
+    "sha256": "1afb072c84d8f297e58764231afa6237a3487948844d3842c9bac9751cd59022",
+    "bytes": 221355
+  },
+  {
+    "name": "github_backup",
+    "url": "https://docs.github.com/en/repositories/archiving-a-github-repository/backing-up-a-repository",
+    "attempted_at": "2026-10-21T15:23:50.329519+00:00",
+    "status": 200,
+    "final_url": "https://docs.github.com/en/repositories/archiving-a-github-repository/backing-up-a-repository",
+    "sha256": "b469f923cc4b921cf8700d79706b2b97db1938d4061529d93998fc06f1eb2523",
+    "bytes": 193003
+  },
+  {
+    "name": "github_files",
+    "url": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+    "attempted_at": "2026-10-21T15:23:50.329952+00:00",
+    "status": 200,
+    "final_url": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+    "sha256": "4732329ff87bd6822ca7a63fb3e80ed6a15fd92203d0f42e21c4aff4ac930b6f",
+    "bytes": 212817
+  },
+  {
+    "name": "github_artifacts",
+    "url": "https://docs.github.com/en/actions/administering-github-actions/usage-limits-and-billing",
+    "attempted_at": "2026-10-21T15:23:50.330281+00:00",
+    "error_type": "HTTPError",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "google_quota",
+    "url": "https://support.google.com/drive/answer/6374270?hl=en",
+    "attempted_at": "2026-10-21T15:23:50.330617+00:00",
+    "status": 200,
+    "final_url": "https://support.google.com/drive/answer/6374270?hl=en",
+    "sha256": "4f8c6b4e2310ba5c2352c1abb8a8947677747bb4ea5064f3cd02c3afe20325c1",
+    "bytes": 1633503
+  },
+  {
+    "name": "google_inactive",
+    "url": "https://support.google.com/accounts/answer/12418290?hl=en",
+    "attempted_at": "2026-10-21T15:23:50.992709+00:00",
+    "status": 200,
+    "final_url": "https://support.google.com/accounts/answer/12418290?hl=en",
+    "sha256": "9d8b82f7585fc3a82fb4cfa9b946616438465502df0f8c94e00b179905da7a1d",
+    "bytes": 1617932
+  },
+  {
+    "name": "google_versions",
+    "url": "https://support.google.com/drive/answer/2409045?hl=en",
+    "attempted_at": "2026-10-21T15:23:51.514308+00:00",
+    "status": 200,
+    "final_url": "https://support.google.com/drive/answer/2409045?hl=en",
+    "sha256": "eef87d4a5c6f20528022c397c14ffddda0f3835737ecc076791f50aecb140746",
+    "bytes": 1626916
+  },
+  {
+    "name": "google_trash",
+    "url": "https://support.google.com/drive/answer/2375102?hl=en",
+    "attempted_at": "2026-10-21T15:23:51.616584+00:00",
+    "status": 200,
+    "final_url": "https://support.google.com/drive/answer/2375102?hl=en",
+    "sha256": "d20fc3bad8637ef2097406b4fd762b02740dfe7c730f6a57ff2409c4bf8959e9",
+    "bytes": 1618856
+  },
+  {
+    "name": "rclone_drive",
+    "url": "https://rclone.org/drive/",
+    "attempted_at": "2026-10-21T15:23:51.990512+00:00",
+    "status": 200,
+    "final_url": "https://rclone.org/drive/",
+    "sha256": "a71334396acec9b9a5dddb8ce588b321afe399222466db11d2cf48f89a25e484",
+    "bytes": 136156
+  },
+  {
+    "name": "rclone_crypt",
+    "url": "https://rclone.org/crypt/",
+    "attempted_at": "2026-10-21T15:23:53.797532+00:00",
+    "status": 200,
+    "final_url": "https://rclone.org/crypt/",
+    "sha256": "b5cd2a11cfaf341877edf3e6f6de19c6f80d6d827aecb17c6b5af8f3a1442fc0",
+    "bytes": 74913
+  }
+]

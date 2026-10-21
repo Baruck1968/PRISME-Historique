@@ -1,0 +1,72 @@
+[
+  {
+    "name": "github_private",
+    "url": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans",
+    "attempted_at": "2026-10-21T15:23:18.678611+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "github_backup",
+    "url": "https://docs.github.com/en/repositories/archiving-a-github-repository/backing-up-a-repository",
+    "attempted_at": "2026-10-21T15:23:18.679077+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "github_files",
+    "url": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+    "attempted_at": "2026-10-21T15:23:18.679483+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "github_artifacts",
+    "url": "https://docs.github.com/en/actions/administering-github-actions/usage-limits-and-billing",
+    "attempted_at": "2026-10-21T15:23:18.679750+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "google_quota",
+    "url": "https://support.google.com/drive/answer/6374270?hl=en",
+    "attempted_at": "2026-10-21T15:23:18.680083+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "google_inactive",
+    "url": "https://support.google.com/accounts/answer/12418290?hl=en",
+    "attempted_at": "2026-10-21T15:23:18.706837+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "google_versions",
+    "url": "https://support.google.com/drive/answer/2409045?hl=en",
+    "attempted_at": "2026-10-21T15:23:18.708652+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "google_trash",
+    "url": "https://support.google.com/drive/answer/2375102?hl=en",
+    "attempted_at": "2026-10-21T15:23:18.711076+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "rclone_drive",
+    "url": "https://rclone.org/drive/",
+    "attempted_at": "2026-10-21T15:23:18.712731+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "rclone_crypt",
+    "url": "https://rclone.org/crypt/",
+    "attempted_at": "2026-10-21T15:23:18.714950+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

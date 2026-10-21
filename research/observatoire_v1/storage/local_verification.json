@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-21T15:23:45.200898+00:00",
+  "manifest_sha256": "627d076a2a2f161942254d83f83751416e41ed18e54869d621f920838739031d",
+  "manifest_unchanged": true,
+  "manifest_bytes": 18736,
+  "private_files_bytes": 33939,
+  "journal_entries_verified": 2,
+  "snapshot_files_verified": 4,
+  "local_restore_verified": true,
+  "independent_medium": false,
+  "between_session_restore_tested": false,
+  "durability_guaranteed": false,
+  "cloud_capabilities": [],
+  "storage_identity_configured": false,
+  "workspace_filesystem": "overlay",
+  "new_odds_calls": 0,
+  "scheduled": false
+}
