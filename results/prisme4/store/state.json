@@ -35,9 +35,10 @@
   "expires_utc": "2026-12-16T13:39:07.364176+00:00",
   "first_successful_capture_utc": "2026-10-21T13:39:07.364176+00:00",
   "plan_sha256": "f42bd74da8155a863821f5879db68150b198e25e47d43a633c6772d4d44e537b",
-  "previous_manifest_sha256": "b3c8281edc223ac994534c635326045c8b12e59bc252113021adbc44c0b129c3",
+  "previous_manifest_sha256": "1586b8a477fc1b00166b93ea1681cd3acfb0deb5dbeca905de1ad7f1d1f36eab",
   "runs": [
-    "runs/20261021T133834861359Z_a5d11448"
+    "runs/20261021T133834861359Z_a5d11448",
+    "runs/20261021T134431702106Z_1d9b4799"
   ],
   "schema_version": 1
 }
