@@ -1,0 +1,9 @@
+test_no_path_traversal_or_overwrite (test_observatoire_vault.VaultTests.test_no_path_traversal_or_overwrite) ... ok
+test_pinned_manifest_and_capture_integrity (test_observatoire_vault.VaultTests.test_pinned_manifest_and_capture_integrity) ... ok
+test_real_offline_encrypt_decrypt_restore (test_observatoire_vault.VaultTests.test_real_offline_encrypt_decrypt_restore) ... ok
+test_unexpected_secret_filename_rejected (test_observatoire_vault.VaultTests.test_unexpected_secret_filename_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.180s
+
+OK

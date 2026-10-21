@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-21T15:36:03.125366+00:00",
+  "baseline": "0bf2f991fb0c75b239237d89890140d0551fd21b",
+  "existing_files_unchanged": 157,
+  "manifest_sha256": "627d076a2a2f161942254d83f83751416e41ed18e54869d621f920838739031d",
+  "authenticated_github_login": "Baruck1968",
+  "repository_creation_http_status": 403,
+  "repository_creation_error": "Resource not accessible by integration",
+  "repository_lookup_http_status": 404,
+  "repository_private_confirmed": false,
+  "production_archive_uploaded": false,
+  "user_public_key_available": false,
+  "local_real_data_crypto_roundtrip_passed": true,
+  "test_key_only": true,
+  "windows_restore_executed": false,
+  "tests_passed": 20,
+  "new_odds_calls": 0,
+  "scheduled": false
+}
