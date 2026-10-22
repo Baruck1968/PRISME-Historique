@@ -31,14 +31,17 @@
     "OugEz9gc5c",
     "EPPNNOz0C8"
   ],
-  "completed_daily_slots": [],
+  "completed_daily_slots": [
+    "2026-10-22"
+  ],
   "expires_utc": "2026-12-16T13:39:07.364176+00:00",
   "first_successful_capture_utc": "2026-10-21T13:39:07.364176+00:00",
   "plan_sha256": "f42bd74da8155a863821f5879db68150b198e25e47d43a633c6772d4d44e537b",
-  "previous_manifest_sha256": "1586b8a477fc1b00166b93ea1681cd3acfb0deb5dbeca905de1ad7f1d1f36eab",
+  "previous_manifest_sha256": "06ea43ce38e2d1c31f494b94de1d6a4d3ccfaed021f7dfdd789f84f6486f5455",
   "runs": [
     "runs/20261021T133834861359Z_a5d11448",
-    "runs/20261021T134431702106Z_1d9b4799"
+    "runs/20261021T134431702106Z_1d9b4799",
+    "runs/20261022T063143011193Z_206ea827"
   ],
   "schema_version": 1
 }
