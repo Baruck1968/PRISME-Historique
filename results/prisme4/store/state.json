@@ -32,16 +32,18 @@
     "EPPNNOz0C8"
   ],
   "completed_daily_slots": [
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-23"
   ],
   "expires_utc": "2026-12-16T13:39:07.364176+00:00",
   "first_successful_capture_utc": "2026-10-21T13:39:07.364176+00:00",
   "plan_sha256": "f42bd74da8155a863821f5879db68150b198e25e47d43a633c6772d4d44e537b",
-  "previous_manifest_sha256": "06ea43ce38e2d1c31f494b94de1d6a4d3ccfaed021f7dfdd789f84f6486f5455",
+  "previous_manifest_sha256": "148c9e5077714b308c67d6232557ca756c1b487b4b3d24b760e7bd95cd0026d1",
   "runs": [
     "runs/20261021T133834861359Z_a5d11448",
     "runs/20261021T134431702106Z_1d9b4799",
-    "runs/20261022T063143011193Z_206ea827"
+    "runs/20261022T063143011193Z_206ea827",
+    "runs/20261023T063033311665Z_6a154a48"
   ],
   "schema_version": 1
 }
