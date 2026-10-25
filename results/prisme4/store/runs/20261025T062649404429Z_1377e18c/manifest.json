@@ -1,0 +1,1083 @@
+{
+  "actual_receipts_not_scheduled_instant": true,
+  "cohort_ids": [
+    "yzAERRREyz",
+    "cLqpZAdIsl",
+    "zOZ5PPt08L",
+    "gzU0thApPR",
+    "suO9qPNqNC",
+    "0SPLN5y8h2",
+    "z206np6LCy",
+    "s9ZQROyAcg",
+    "NCAZzQ9Cnu",
+    "ng0d0ShghR",
+    "t0pS8OZNyp",
+    "gOOuqU8SZg",
+    "2CNZOSu6EZ",
+    "8z5l5dqnUE",
+    "CEygPS8Lu9",
+    "tIhgQn5Lz9",
+    "6U5SgnzySl",
+    "QO0Ih5c05Q",
+    "L55hLCLl8A",
+    "pIcdZNQt2u",
+    "CcR2lq9pAd",
+    "ZSnSgRsuqC",
+    "hZ2dEERt5S",
+    "CPUqPcgS68",
+    "El5hNANCcE",
+    "8p0CPyUclS",
+    "pugSZSzO8L",
+    "6ZLAcAE0Nz",
+    "OugEz9gc5c",
+    "EPPNNOz0C8"
+  ],
+  "collector_sha256": "4e74433fcbb7d5cf7f2a7829b0b2d4793e3b012c747f37a9b176804f145941f1",
+  "error": null,
+  "execution_environment": {
+    "github_actions": true,
+    "github_run_attempt": "1",
+    "github_run_id": "40169101891",
+    "github_sha": "e02d2649f4be987d2cd4a1faf610016c85f8c78f"
+  },
+  "files_sha256": {
+    "collection_plan.json": "f42bd74da8155a863821f5879db68150b198e25e47d43a633c6772d4d44e537b",
+    "collector_source.py": "4e74433fcbb7d5cf7f2a7829b0b2d4793e3b012c747f37a9b176804f145941f1",
+    "deployment.json": "c3509580fdb482a684a67197bf76e40320f9fdef508bc5ab20ed441851e677c1",
+    "errors.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "observations.json": "9a09e3515c2669958c3590fa6c4f71801efd573e605637264bfa0d84be155802",
+    "raw.zip": "6d8408b3f1d70d4f0b136c6d21b2f157a1587042f33017660e16508dc983ee5a"
+  },
+  "observations": 30,
+  "plan_sha256": "f42bd74da8155a863821f5879db68150b198e25e47d43a633c6772d4d44e537b",
+  "predictive_eligible": 0,
+  "previous_manifest_sha256": "980c9686a85db3a7b977e9934f6fc809875041a9142a078e347493c2ccc43916",
+  "purpose": "daily",
+  "request_window_finished_utc": "2026-10-25T06:27:02.494230+00:00",
+  "request_window_started_utc": "2026-10-25T06:26:49.404925+00:00",
+  "requests": [
+    {
+      "attempt": 1,
+      "bytes": 6108,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:49 GMT",
+        "etag": "W/\"17dc-0uZUDNkSUjF3ybP/dbh4YjV8uQs\""
+      },
+      "label": "market_yzAERRREyz",
+      "method": "GET",
+      "raw_member": "market_yzAERRREyz.json",
+      "received_utc": "2026-10-25T06:26:49.980138+00:00",
+      "request_started_utc": "2026-10-25T06:26:49.404947+00:00",
+      "sha256": "c9d0047df900b8ed8f5a53faeeb158ba0750240b320649e6ffc65eabb9ba3e2f",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/yzAERRREyz"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6534,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:50 GMT",
+        "etag": "W/\"1986-kM7PEJMWVlOQ6DxHuHM0zH38sQk\""
+      },
+      "label": "bets_yzAERRREyz",
+      "method": "GET",
+      "raw_member": "bets_yzAERRREyz.json",
+      "received_utc": "2026-10-25T06:26:50.159311+00:00",
+      "request_started_utc": "2026-10-25T06:26:49.980886+00:00",
+      "sha256": "d847c66f88e5b052d9f7b0b120f4745522ebda49dcaf25109bc530272e30b0d0",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=yzAERRREyz&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 2515,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:50 GMT",
+        "etag": "W/\"9d3-I9VyDL8VcQkDJTOnIoM2TwToWb0\""
+      },
+      "label": "market_cLqpZAdIsl",
+      "method": "GET",
+      "raw_member": "market_cLqpZAdIsl.json",
+      "received_utc": "2026-10-25T06:26:50.340728+00:00",
+      "request_started_utc": "2026-10-25T06:26:50.160324+00:00",
+      "sha256": "41affff3768658de0b8ac95293cbfe9650a2f02055ca8c42b9d76124598a3751",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/cLqpZAdIsl"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6771,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:50 GMT",
+        "etag": "W/\"1a73-9lf1PbERsayQ7QaccDnXJd0YE2Y\""
+      },
+      "label": "bets_cLqpZAdIsl",
+      "method": "GET",
+      "raw_member": "bets_cLqpZAdIsl.json",
+      "received_utc": "2026-10-25T06:26:50.545738+00:00",
+      "request_started_utc": "2026-10-25T06:26:50.341859+00:00",
+      "sha256": "b3bf0922a6a7b2816d6efad74401b8278555047ee91d6f0e3a108972473bf96b",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=cLqpZAdIsl&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 4860,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:50 GMT",
+        "etag": "W/\"12fc-PBPNkkoqoVTBUgANazjflSz8U9M\""
+      },
+      "label": "market_zOZ5PPt08L",
+      "method": "GET",
+      "raw_member": "market_zOZ5PPt08L.json",
+      "received_utc": "2026-10-25T06:26:50.743061+00:00",
+      "request_started_utc": "2026-10-25T06:26:50.547197+00:00",
+      "sha256": "f67eb0e31efbc05f36b767a75e3397f73f7373c3b9fa9d96516b17d223c482f2",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/zOZ5PPt08L"
+    },
+    {
+      "attempt": 1,
+      "bytes": 3995,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:50 GMT",
+        "etag": "W/\"f9b-K0Yl70f8dkAjCULh1WBXXccEus0\""
+      },
+      "label": "bets_zOZ5PPt08L",
+      "method": "GET",
+      "raw_member": "bets_zOZ5PPt08L.json",
+      "received_utc": "2026-10-25T06:26:50.942455+00:00",
+      "request_started_utc": "2026-10-25T06:26:50.744919+00:00",
+      "sha256": "b743b816d610bf183fa8c762a685756f58c82809892e10ea441f53c7a21af1c5",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=zOZ5PPt08L&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1386,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:51 GMT",
+        "etag": "W/\"56a-JTwGZhD9+JerBc2+t0G4L7diGKg\""
+      },
+      "label": "market_gzU0thApPR",
+      "method": "GET",
+      "raw_member": "market_gzU0thApPR.json",
+      "received_utc": "2026-10-25T06:26:51.145345+00:00",
+      "request_started_utc": "2026-10-25T06:26:50.944303+00:00",
+      "sha256": "69e70a2b1316465e470d2dd779dd11a82d8288bac97d7bed30b4b830a08b5ab2",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/gzU0thApPR"
+    },
+    {
+      "attempt": 1,
+      "bytes": 7576,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:51 GMT",
+        "etag": "W/\"1d98-eNq6VRnWLHETg53R1n60fOjFeCA\""
+      },
+      "label": "bets_gzU0thApPR",
+      "method": "GET",
+      "raw_member": "bets_gzU0thApPR.json",
+      "received_utc": "2026-10-25T06:26:51.330198+00:00",
+      "request_started_utc": "2026-10-25T06:26:51.147106+00:00",
+      "sha256": "a7d79635f3052b22faf76aeb879aec2b35bc359dd2acd77a6d6050a396066332",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=gzU0thApPR&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 7638,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:51 GMT",
+        "etag": "W/\"1dd6-MWfNWIaXGm+fdT0ZHiUFu2ICq4c\""
+      },
+      "label": "market_suO9qPNqNC",
+      "method": "GET",
+      "raw_member": "market_suO9qPNqNC.json",
+      "received_utc": "2026-10-25T06:26:51.516966+00:00",
+      "request_started_utc": "2026-10-25T06:26:51.332319+00:00",
+      "sha256": "d4aaae9471e9fd8119416df4e3fc3e749b93fa138d9f52e564c1ec88514209d9",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/suO9qPNqNC"
+    },
+    {
+      "attempt": 1,
+      "bytes": 2002,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:51 GMT",
+        "etag": "W/\"7d2-WnHVobxHhIOdqh5yKqbQOrE2ThU\""
+      },
+      "label": "bets_suO9qPNqNC",
+      "method": "GET",
+      "raw_member": "bets_suO9qPNqNC.json",
+      "received_utc": "2026-10-25T06:26:51.702381+00:00",
+      "request_started_utc": "2026-10-25T06:26:51.519213+00:00",
+      "sha256": "f05c7c7d14761f707b308c6559a2ef0755f1579ee2c7373e4a21a3cb495fecaf",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=suO9qPNqNC&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 5368,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:51 GMT",
+        "etag": "W/\"14f8-bGSuOjN27Alm+MYhIAW19TkQMCw\""
+      },
+      "label": "market_0SPLN5y8h2",
+      "method": "GET",
+      "raw_member": "market_0SPLN5y8h2.json",
+      "received_utc": "2026-10-25T06:26:51.891599+00:00",
+      "request_started_utc": "2026-10-25T06:26:51.704762+00:00",
+      "sha256": "1b721892fbe4f1cdb9faa36d081764d44c2a15085e33baf9dc89cb3b3a78dcfc",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/0SPLN5y8h2"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6012,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:52 GMT",
+        "etag": "W/\"177c-IOaA5eQKPDdZz91Z7TPxM9igoW0\""
+      },
+      "label": "bets_0SPLN5y8h2",
+      "method": "GET",
+      "raw_member": "bets_0SPLN5y8h2.json",
+      "received_utc": "2026-10-25T06:26:52.076460+00:00",
+      "request_started_utc": "2026-10-25T06:26:51.894160+00:00",
+      "sha256": "8868f6162b3a94c70ce903e2b825c81c210119f1a13dd052bee041def34a9859",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=0SPLN5y8h2&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 2625,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:52 GMT",
+        "etag": "W/\"a41-E96c+o5e6xEI+QU058cAAOTVx5U\""
+      },
+      "label": "market_z206np6LCy",
+      "method": "GET",
+      "raw_member": "market_z206np6LCy.json",
+      "received_utc": "2026-10-25T06:26:52.259932+00:00",
+      "request_started_utc": "2026-10-25T06:26:52.079174+00:00",
+      "sha256": "590920544cfc7495771a0d85c43d1708ba1a6c6838d9c8497401a5cbe38cf603",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/z206np6LCy"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6751,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:52 GMT",
+        "etag": "W/\"1a5f-mn1L+9+nFPYNh9R9gl3NYXLwGk4\""
+      },
+      "label": "bets_z206np6LCy",
+      "method": "GET",
+      "raw_member": "bets_z206np6LCy.json",
+      "received_utc": "2026-10-25T06:26:52.454053+00:00",
+      "request_started_utc": "2026-10-25T06:26:52.262700+00:00",
+      "sha256": "cc4be530028d1f364e3e69dfe69472695a40491b942e74a05205e452560dcd84",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=z206np6LCy&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 8357,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:52 GMT",
+        "etag": "W/\"20a5-0PxqVyzxjO9OMwMFS3o9LZkPWbw\""
+      },
+      "label": "market_s9ZQROyAcg",
+      "method": "GET",
+      "raw_member": "market_s9ZQROyAcg.json",
+      "received_utc": "2026-10-25T06:26:52.647894+00:00",
+      "request_started_utc": "2026-10-25T06:26:52.457063+00:00",
+      "sha256": "cdc86e77609cc09bb6dcbaa71392091131f5a0d5813ffa5b631bc6c579687ca6",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/s9ZQROyAcg"
+    },
+    {
+      "attempt": 1,
+      "bytes": 625,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:52 GMT",
+        "etag": "W/\"271-yuShRnUjVbHGaJp6i4/oPb0P+Ug\""
+      },
+      "label": "bets_s9ZQROyAcg",
+      "method": "GET",
+      "raw_member": "bets_s9ZQROyAcg.json",
+      "received_utc": "2026-10-25T06:26:52.832584+00:00",
+      "request_started_utc": "2026-10-25T06:26:52.651117+00:00",
+      "sha256": "1e099ca6a24017abe23e4229f7b4dff5814cca586239050a54812086fe42361c",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=s9ZQROyAcg&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 8346,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:53 GMT",
+        "etag": "W/\"209a-aQL0oNizkD9lYtvaJvz021tGKXo\""
+      },
+      "label": "market_NCAZzQ9Cnu",
+      "method": "GET",
+      "raw_member": "market_NCAZzQ9Cnu.json",
+      "received_utc": "2026-10-25T06:26:53.020676+00:00",
+      "request_started_utc": "2026-10-25T06:26:52.835842+00:00",
+      "sha256": "5340b1b5b0e81165be8b9b1febc95a1ca846c75b0cb28a2392cf7e2a2800ab3c",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/NCAZzQ9Cnu"
+    },
+    {
+      "attempt": 1,
+      "bytes": 627,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:53 GMT",
+        "etag": "W/\"273-Nx8Y1z4kUS5ZmbGnMbOyKrU8vi8\""
+      },
+      "label": "bets_NCAZzQ9Cnu",
+      "method": "GET",
+      "raw_member": "bets_NCAZzQ9Cnu.json",
+      "received_utc": "2026-10-25T06:26:53.222310+00:00",
+      "request_started_utc": "2026-10-25T06:26:53.024166+00:00",
+      "sha256": "57444fdf2879e74de23440ff607af60e3b41f245fb8c2a88101e9470992d4c9b",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=NCAZzQ9Cnu&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 9025,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:53 GMT",
+        "etag": "W/\"2341-LyHPCrNW5H2jDtqvpYSUcO5Au1k\""
+      },
+      "label": "market_ng0d0ShghR",
+      "method": "GET",
+      "raw_member": "market_ng0d0ShghR.json",
+      "received_utc": "2026-10-25T06:26:53.709922+00:00",
+      "request_started_utc": "2026-10-25T06:26:53.227048+00:00",
+      "sha256": "42d3b3061a297f693bd9554d4c000cb9375a823928f115c3f9bacdbe6df85751",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/ng0d0ShghR"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6187,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:54 GMT",
+        "etag": "W/\"182b-Oa7O8EYaCMR/zsNa1S8VDO9mPaM\""
+      },
+      "label": "bets_ng0d0ShghR",
+      "method": "GET",
+      "raw_member": "bets_ng0d0ShghR.json",
+      "received_utc": "2026-10-25T06:26:54.169780+00:00",
+      "request_started_utc": "2026-10-25T06:26:53.985362+00:00",
+      "sha256": "1acbd0c5842e7870acbad0723100b10a9ce307da7bc7312558088b13b1b8bc09",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=ng0d0ShghR&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 7306,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:54 GMT",
+        "etag": "W/\"1c8a-z+9DDEHR9UWcuER6bkzO4WeySUI\""
+      },
+      "label": "market_t0pS8OZNyp",
+      "method": "GET",
+      "raw_member": "market_t0pS8OZNyp.json",
+      "received_utc": "2026-10-25T06:26:54.533178+00:00",
+      "request_started_utc": "2026-10-25T06:26:54.333163+00:00",
+      "sha256": "90febecadb917606c93c733eb1f7e8253eccd3cc011f92f173ab6fa8e611a1bf",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/t0pS8OZNyp"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6647,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:54 GMT",
+        "etag": "W/\"19f7-X75nQScfrapoaSGaY8hxJ5kiwQo\""
+      },
+      "label": "bets_t0pS8OZNyp",
+      "method": "GET",
+      "raw_member": "bets_t0pS8OZNyp.json",
+      "received_utc": "2026-10-25T06:26:54.776041+00:00",
+      "request_started_utc": "2026-10-25T06:26:54.592644+00:00",
+      "sha256": "fda759ce25bcca4a31e9acdc6ab3e4c99bb7ff3a2be2f67d637fa64852830c34",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=t0pS8OZNyp&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 5574,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:54 GMT",
+        "etag": "W/\"15c6-EGfFn0jTQblBvyAJ9dDvaf16Wi4\""
+      },
+      "label": "market_gOOuqU8SZg",
+      "method": "GET",
+      "raw_member": "market_gOOuqU8SZg.json",
+      "received_utc": "2026-10-25T06:26:54.961395+00:00",
+      "request_started_utc": "2026-10-25T06:26:54.780502+00:00",
+      "sha256": "473cfca2e5de393db7b0542a7fc0efb7f02bcbcc14a15e273d92f2a80d05e4de",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/gOOuqU8SZg"
+    },
+    {
+      "attempt": 1,
+      "bytes": 3169,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:55 GMT",
+        "etag": "W/\"c61-1Q15yNdAR/DU1Sv0t7hVvO0hfJY\""
+      },
+      "label": "bets_gOOuqU8SZg",
+      "method": "GET",
+      "raw_member": "bets_gOOuqU8SZg.json",
+      "received_utc": "2026-10-25T06:26:55.166324+00:00",
+      "request_started_utc": "2026-10-25T06:26:54.966106+00:00",
+      "sha256": "65b9ef49372e17a72d83e62ec3f8e7ff93da3f302ac67932dde9594e175d2886",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=gOOuqU8SZg&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1211,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:55 GMT",
+        "etag": "W/\"4bb-esV1lpzWyiGWtwLWA+kLdtZFdtA\""
+      },
+      "label": "market_2CNZOSu6EZ",
+      "method": "GET",
+      "raw_member": "market_2CNZOSu6EZ.json",
+      "received_utc": "2026-10-25T06:26:55.352199+00:00",
+      "request_started_utc": "2026-10-25T06:26:55.171146+00:00",
+      "sha256": "8b6ff601bcca1c871ab536c9ae973ee3e961db79598d76a5e8e087c9e39887b1",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/2CNZOSu6EZ"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6330,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:55 GMT",
+        "etag": "W/\"18ba-QHMmdd7nSt5ccKuARj/ta6WdAWM\""
+      },
+      "label": "bets_2CNZOSu6EZ",
+      "method": "GET",
+      "raw_member": "bets_2CNZOSu6EZ.json",
+      "received_utc": "2026-10-25T06:26:55.540289+00:00",
+      "request_started_utc": "2026-10-25T06:26:55.357117+00:00",
+      "sha256": "700b49601ab6781729b7cefc9947e54e1869c5ebf1ad148c365495471c52f05b",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=2CNZOSu6EZ&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1041,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:55 GMT",
+        "etag": "W/\"411-4L4RXgf6V7eNhAMaEoBN11OT25s\""
+      },
+      "label": "market_8z5l5dqnUE",
+      "method": "GET",
+      "raw_member": "market_8z5l5dqnUE.json",
+      "received_utc": "2026-10-25T06:26:55.775115+00:00",
+      "request_started_utc": "2026-10-25T06:26:55.545254+00:00",
+      "sha256": "ff92901f3de6c9934a70269d3aaed968d8722451abd6504ea8669860ba851805",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/8z5l5dqnUE"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1321,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:55 GMT",
+        "etag": "W/\"529-arz2/8+DCivNzxADGHVGqbSNjW0\""
+      },
+      "label": "bets_8z5l5dqnUE",
+      "method": "GET",
+      "raw_member": "bets_8z5l5dqnUE.json",
+      "received_utc": "2026-10-25T06:26:55.962771+00:00",
+      "request_started_utc": "2026-10-25T06:26:55.780124+00:00",
+      "sha256": "b6857b8140a152e58d4110ea9b6414ccde4f9788ec1886838d0a819ad7f8df77",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=8z5l5dqnUE&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1392,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:56 GMT",
+        "etag": "W/\"570-JBAob2Rk6iP0GbnN0Pio4nCb68M\""
+      },
+      "label": "market_CEygPS8Lu9",
+      "method": "GET",
+      "raw_member": "market_CEygPS8Lu9.json",
+      "received_utc": "2026-10-25T06:26:56.161806+00:00",
+      "request_started_utc": "2026-10-25T06:26:55.968032+00:00",
+      "sha256": "1c5092c02355f141827a23e9de6d66a3f01dfb6d73c657caa4509b08adfc40ba",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/CEygPS8Lu9"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6402,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:56 GMT",
+        "etag": "W/\"1902-ypI+/OnDFhwqoAuxpRKhVJEAEUw\""
+      },
+      "label": "bets_CEygPS8Lu9",
+      "method": "GET",
+      "raw_member": "bets_CEygPS8Lu9.json",
+      "received_utc": "2026-10-25T06:26:56.346007+00:00",
+      "request_started_utc": "2026-10-25T06:26:56.167059+00:00",
+      "sha256": "729b83ed73f6976c3876a779011044c1019b46577a182926d3be176f59cf823b",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=CEygPS8Lu9&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 2664,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:56 GMT",
+        "etag": "W/\"a68-3qKluvre6b8RfkN3XQspAHV4Uyc\""
+      },
+      "label": "market_tIhgQn5Lz9",
+      "method": "GET",
+      "raw_member": "market_tIhgQn5Lz9.json",
+      "received_utc": "2026-10-25T06:26:56.528737+00:00",
+      "request_started_utc": "2026-10-25T06:26:56.351524+00:00",
+      "sha256": "a05ec35aa68a9406213fccde84d991b153fb8595e8e1e7d32c377ac80f707feb",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/tIhgQn5Lz9"
+    },
+    {
+      "attempt": 1,
+      "bytes": 4654,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:56 GMT",
+        "etag": "W/\"122e-GGegtjF8HKLW/sBvcuscdJobeWo\""
+      },
+      "label": "bets_tIhgQn5Lz9",
+      "method": "GET",
+      "raw_member": "bets_tIhgQn5Lz9.json",
+      "received_utc": "2026-10-25T06:26:56.721826+00:00",
+      "request_started_utc": "2026-10-25T06:26:56.534249+00:00",
+      "sha256": "45520dd2b3a1e34e0ef9ebaf295eaef3115c74a30d93c4d1e05e52e71343fff3",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=tIhgQn5Lz9&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 2300,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:56 GMT",
+        "etag": "W/\"8fc-ypEMHaON6Hzphu1DclEhBg3WU5o\""
+      },
+      "label": "market_6U5SgnzySl",
+      "method": "GET",
+      "raw_member": "market_6U5SgnzySl.json",
+      "received_utc": "2026-10-25T06:26:56.909466+00:00",
+      "request_started_utc": "2026-10-25T06:26:56.727662+00:00",
+      "sha256": "7a1c1667f14ebf40eb72716914d8e4280e38079e78b797093fdd1f4851fd6938",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/6U5SgnzySl"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6203,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:57 GMT",
+        "etag": "W/\"183b-ekTSGbJBQu2KdGG9l004HDFPu9k\""
+      },
+      "label": "bets_6U5SgnzySl",
+      "method": "GET",
+      "raw_member": "bets_6U5SgnzySl.json",
+      "received_utc": "2026-10-25T06:26:57.095439+00:00",
+      "request_started_utc": "2026-10-25T06:26:56.915452+00:00",
+      "sha256": "501ef8ff117bf5035f2143b472190f191159ae4df1f65490f3724e9c3a1985b1",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=6U5SgnzySl&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 2562,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:57 GMT",
+        "etag": "W/\"a02-VN8NtV0XKS/ur9FA9zCpfYbKOJM\""
+      },
+      "label": "market_QO0Ih5c05Q",
+      "method": "GET",
+      "raw_member": "market_QO0Ih5c05Q.json",
+      "received_utc": "2026-10-25T06:26:57.281500+00:00",
+      "request_started_utc": "2026-10-25T06:26:57.101591+00:00",
+      "sha256": "6f6682aef073eb6acbf6723f83b3565b571abf6a5e2e82bddba03a9ee270794a",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/QO0Ih5c05Q"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1896,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:57 GMT",
+        "etag": "W/\"768-8Cf4Zdz2C+5hPG9SiN2iBmY6DO0\""
+      },
+      "label": "bets_QO0Ih5c05Q",
+      "method": "GET",
+      "raw_member": "bets_QO0Ih5c05Q.json",
+      "received_utc": "2026-10-25T06:26:57.500039+00:00",
+      "request_started_utc": "2026-10-25T06:26:57.288239+00:00",
+      "sha256": "f6552c33c29e8a5c48daf85bbcb50139b630b100f8866b0d20e074553abfedae",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=QO0Ih5c05Q&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1842,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:57 GMT",
+        "etag": "W/\"732-6+fQxOJChdeGtT5wOQmYQECI2Nw\""
+      },
+      "label": "market_L55hLCLl8A",
+      "method": "GET",
+      "raw_member": "market_L55hLCLl8A.json",
+      "received_utc": "2026-10-25T06:26:57.729294+00:00",
+      "request_started_utc": "2026-10-25T06:26:57.506909+00:00",
+      "sha256": "840d7b32981ef6c9c84c8b2cb822a2ba208ba369f55ed853c06eda2366ea2cc0",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/L55hLCLl8A"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1365,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:57 GMT",
+        "etag": "W/\"555-wNWPiqX1ZK8lfZ3h9KiZuJk39+o\""
+      },
+      "label": "bets_L55hLCLl8A",
+      "method": "GET",
+      "raw_member": "bets_L55hLCLl8A.json",
+      "received_utc": "2026-10-25T06:26:57.916339+00:00",
+      "request_started_utc": "2026-10-25T06:26:57.736234+00:00",
+      "sha256": "330d070a3a30eb0f7cef38ab1e5de547f8099439440e1375e487e35d7047b58d",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=L55hLCLl8A&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 2089,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:58 GMT",
+        "etag": "W/\"829-BNctA/u4Lftzty6jFGglO/JKe8w\""
+      },
+      "label": "market_pIcdZNQt2u",
+      "method": "GET",
+      "raw_member": "market_pIcdZNQt2u.json",
+      "received_utc": "2026-10-25T06:26:58.119401+00:00",
+      "request_started_utc": "2026-10-25T06:26:57.923322+00:00",
+      "sha256": "ce2b0abe4dd1b0823a5cb6ad9404f84621e28a220b6e66a2d4d41aeb7908a7da",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/pIcdZNQt2u"
+    },
+    {
+      "attempt": 1,
+      "bytes": 2003,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:58 GMT",
+        "etag": "W/\"7d3-sdfOEkFsyXWNZVnpH0XkUgfr6Nw\""
+      },
+      "label": "bets_pIcdZNQt2u",
+      "method": "GET",
+      "raw_member": "bets_pIcdZNQt2u.json",
+      "received_utc": "2026-10-25T06:26:58.432154+00:00",
+      "request_started_utc": "2026-10-25T06:26:58.126650+00:00",
+      "sha256": "9d8e3a513dcb4a1bbcf80deb4c246e6777f9bbf4bc4b6ade689f987cda8b0724",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=pIcdZNQt2u&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 2435,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:58 GMT",
+        "etag": "W/\"983-tcVMXseZ47s0qvrv6UM4ViD0uy8\""
+      },
+      "label": "market_CcR2lq9pAd",
+      "method": "GET",
+      "raw_member": "market_CcR2lq9pAd.json",
+      "received_utc": "2026-10-25T06:26:58.620919+00:00",
+      "request_started_utc": "2026-10-25T06:26:58.439219+00:00",
+      "sha256": "0ab809dce60e6cb219a43947c69da25c1515840df9bc20e6ff249b07d1861849",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/CcR2lq9pAd"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6647,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:58 GMT",
+        "etag": "W/\"19f7-ssllV6dQLuv9dYP74bUR8T0PIw4\""
+      },
+      "label": "bets_CcR2lq9pAd",
+      "method": "GET",
+      "raw_member": "bets_CcR2lq9pAd.json",
+      "received_utc": "2026-10-25T06:26:58.817778+00:00",
+      "request_started_utc": "2026-10-25T06:26:58.627880+00:00",
+      "sha256": "fb4aac002f08b04886fcb9a1316108e822efbb91ba590b6dc49b0b4ae1bfaffe",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=CcR2lq9pAd&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 3080,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:59 GMT",
+        "etag": "W/\"c08-HiH5K3qO2ALqZ/RS6nylI9bHfP4\""
+      },
+      "label": "market_ZSnSgRsuqC",
+      "method": "GET",
+      "raw_member": "market_ZSnSgRsuqC.json",
+      "received_utc": "2026-10-25T06:26:59.004597+00:00",
+      "request_started_utc": "2026-10-25T06:26:58.824877+00:00",
+      "sha256": "82a10eca053c87192f3c2a0a0e1baab69f065376f66e0d4441b32b450b01d7c8",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/ZSnSgRsuqC"
+    },
+    {
+      "attempt": 1,
+      "bytes": 7106,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:59 GMT",
+        "etag": "W/\"1bc2-QV8ajqv97EGrhZ56PVIgWS3VsoI\""
+      },
+      "label": "bets_ZSnSgRsuqC",
+      "method": "GET",
+      "raw_member": "bets_ZSnSgRsuqC.json",
+      "received_utc": "2026-10-25T06:26:59.195527+00:00",
+      "request_started_utc": "2026-10-25T06:26:59.012220+00:00",
+      "sha256": "261c3d10e0e3bf4a94990683a3f739521527bcf30a70ca0bcac55b060d461f0c",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=ZSnSgRsuqC&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 10209,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:59 GMT",
+        "etag": "W/\"27e1-fQccAVID05Ovq5SEMJ7XnRHnuZk\""
+      },
+      "label": "market_hZ2dEERt5S",
+      "method": "GET",
+      "raw_member": "market_hZ2dEERt5S.json",
+      "received_utc": "2026-10-25T06:26:59.384847+00:00",
+      "request_started_utc": "2026-10-25T06:26:59.203256+00:00",
+      "sha256": "7dc1be5a9d2cc2897a00cfb487c0a302813cc7650209363e840738000486d3ba",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/hZ2dEERt5S"
+    },
+    {
+      "attempt": 1,
+      "bytes": 2583,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:59 GMT",
+        "etag": "W/\"a17-mV4shn+/DzbbWSD+DcaCMMn2PY8\""
+      },
+      "label": "bets_hZ2dEERt5S",
+      "method": "GET",
+      "raw_member": "bets_hZ2dEERt5S.json",
+      "received_utc": "2026-10-25T06:26:59.619911+00:00",
+      "request_started_utc": "2026-10-25T06:26:59.393146+00:00",
+      "sha256": "0e6cd97d2de51f554e5873e4205e86d03171dc0ecba8d6a0424400e0d560489c",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=hZ2dEERt5S&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 7526,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:26:59 GMT",
+        "etag": "W/\"1d66-6foJ/bUYPyghGv3Pf0tqriPJfq4\""
+      },
+      "label": "market_CPUqPcgS68",
+      "method": "GET",
+      "raw_member": "market_CPUqPcgS68.json",
+      "received_utc": "2026-10-25T06:26:59.814491+00:00",
+      "request_started_utc": "2026-10-25T06:26:59.627962+00:00",
+      "sha256": "cb370a48130a56b573131b319181edabe60e2c18b0e87a33980def7c6cad9d6a",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/CPUqPcgS68"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6140,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:00 GMT",
+        "etag": "W/\"17fc-fRNazDuM4XlIWiT9zCNfJMRbg4I\""
+      },
+      "label": "bets_CPUqPcgS68",
+      "method": "GET",
+      "raw_member": "bets_CPUqPcgS68.json",
+      "received_utc": "2026-10-25T06:27:00.011168+00:00",
+      "request_started_utc": "2026-10-25T06:26:59.822763+00:00",
+      "sha256": "8414bc98d5c7bf4596086493bb411a53bc5ab9f143ffb1642296266501382d82",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=CPUqPcgS68&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 5359,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:00 GMT",
+        "etag": "W/\"14ef-yEaTPTNM2vCNAomRnjrxxek9GIU\""
+      },
+      "label": "market_El5hNANCcE",
+      "method": "GET",
+      "raw_member": "market_El5hNANCcE.json",
+      "received_utc": "2026-10-25T06:27:00.214606+00:00",
+      "request_started_utc": "2026-10-25T06:27:00.019314+00:00",
+      "sha256": "97e4d4d0fa3189447a07a19fa1a21b61b3968ecf0260d7101933eb3fc372634c",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/El5hNANCcE"
+    },
+    {
+      "attempt": 1,
+      "bytes": 3957,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:00 GMT",
+        "etag": "W/\"f75-OOn5Qqz2hvkr2cqreUY/W3dWqjw\""
+      },
+      "label": "bets_El5hNANCcE",
+      "method": "GET",
+      "raw_member": "bets_El5hNANCcE.json",
+      "received_utc": "2026-10-25T06:27:00.424889+00:00",
+      "request_started_utc": "2026-10-25T06:27:00.223500+00:00",
+      "sha256": "6e94f0e16cab2373c1ce11d0d10af6bbeb2f5d351fc361c59adeea049ba21a58",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=El5hNANCcE&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 5037,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:00 GMT",
+        "etag": "W/\"13ad-G93XVJfH8gWmR5yBZwE65wfsS4k\""
+      },
+      "label": "market_8p0CPyUclS",
+      "method": "GET",
+      "raw_member": "market_8p0CPyUclS.json",
+      "received_utc": "2026-10-25T06:27:00.613237+00:00",
+      "request_started_utc": "2026-10-25T06:27:00.433314+00:00",
+      "sha256": "397e55577f20c260090eceb1b8a75584db05a3b1873323b1b62319003ae8b62c",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/8p0CPyUclS"
+    },
+    {
+      "attempt": 1,
+      "bytes": 5846,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:00 GMT",
+        "etag": "W/\"16d6-XGS0WLmft6C1z4C/+rWPJD4t/WM\""
+      },
+      "label": "bets_8p0CPyUclS",
+      "method": "GET",
+      "raw_member": "bets_8p0CPyUclS.json",
+      "received_utc": "2026-10-25T06:27:00.805141+00:00",
+      "request_started_utc": "2026-10-25T06:27:00.621826+00:00",
+      "sha256": "255b2740150707953760fb9a6784d2132d3a181b7c57659734b2fa8cf3cc03b8",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=8p0CPyUclS&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 6105,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:00 GMT",
+        "etag": "W/\"17d9-PjElQVNNa/0N5Edj0TSP1GXV4k8\""
+      },
+      "label": "market_pugSZSzO8L",
+      "method": "GET",
+      "raw_member": "market_pugSZSzO8L.json",
+      "received_utc": "2026-10-25T06:27:00.995614+00:00",
+      "request_started_utc": "2026-10-25T06:27:00.813850+00:00",
+      "sha256": "e628c6d6571bc1f53980b613bcfd1f1b341ab353b0cfb0ad515e6fa7fea75beb",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/pugSZSzO8L"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1304,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:01 GMT",
+        "etag": "W/\"518-c3rdYa3+Zo7YwV2gF7PCAvTdP2I\""
+      },
+      "label": "bets_pugSZSzO8L",
+      "method": "GET",
+      "raw_member": "bets_pugSZSzO8L.json",
+      "received_utc": "2026-10-25T06:27:01.303750+00:00",
+      "request_started_utc": "2026-10-25T06:27:01.004733+00:00",
+      "sha256": "dead50b0d66534e9bdb247ac0d2fd1a9e5b6a62a19c063d13ef594fde5c71199",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=pugSZSzO8L&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 5170,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:01 GMT",
+        "etag": "W/\"1432-9h87VxkWxYJYvBbudNq1bk0Iaeg\""
+      },
+      "label": "market_6ZLAcAE0Nz",
+      "method": "GET",
+      "raw_member": "market_6ZLAcAE0Nz.json",
+      "received_utc": "2026-10-25T06:27:01.493219+00:00",
+      "request_started_utc": "2026-10-25T06:27:01.312759+00:00",
+      "sha256": "ab996b8392973471350dc1cc65cdde976dd8365e6f7530ecd221f7e00bfd3115",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/6ZLAcAE0Nz"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1982,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:01 GMT",
+        "etag": "W/\"7be-lCIKPpAByn6vO/7HBcTs/E3XJ0w\""
+      },
+      "label": "bets_6ZLAcAE0Nz",
+      "method": "GET",
+      "raw_member": "bets_6ZLAcAE0Nz.json",
+      "received_utc": "2026-10-25T06:27:01.705534+00:00",
+      "request_started_utc": "2026-10-25T06:27:01.502694+00:00",
+      "sha256": "861e3d54a2883f53aadb77f097112d63d143d2adf1f53fbe6a7cec98633b4975",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=6ZLAcAE0Nz&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 7311,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:01 GMT",
+        "etag": "W/\"1c8f-cYJf4lu5j+1DoyOmGBWq0pIdQak\""
+      },
+      "label": "market_OugEz9gc5c",
+      "method": "GET",
+      "raw_member": "market_OugEz9gc5c.json",
+      "received_utc": "2026-10-25T06:27:01.897879+00:00",
+      "request_started_utc": "2026-10-25T06:27:01.715168+00:00",
+      "sha256": "470458cc9fb615d2aca9dca0c574dc14d79232c42bcf8230ba0e08b1299ec215",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/OugEz9gc5c"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1364,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:02 GMT",
+        "etag": "W/\"554-HSJkQG/rHoD2Bzz0BMS7im6ZX94\""
+      },
+      "label": "bets_OugEz9gc5c",
+      "method": "GET",
+      "raw_member": "bets_OugEz9gc5c.json",
+      "received_utc": "2026-10-25T06:27:02.088217+00:00",
+      "request_started_utc": "2026-10-25T06:27:01.907505+00:00",
+      "sha256": "ef1f9c4fce7ffa3a37115422f09bdaed9da1a9b436b24abf43bedc082e8ff624",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=OugEz9gc5c&limit=10"
+    },
+    {
+      "attempt": 1,
+      "bytes": 4782,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:02 GMT",
+        "etag": "W/\"12ae-UbCKYU6ObJvDpdWrdLgGEt9dRfk\""
+      },
+      "label": "market_EPPNNOz0C8",
+      "method": "GET",
+      "raw_member": "market_EPPNNOz0C8.json",
+      "received_utc": "2026-10-25T06:27:02.279706+00:00",
+      "request_started_utc": "2026-10-25T06:27:02.097850+00:00",
+      "sha256": "c114a96d2114540b507b3fd721d95f0aaf03f7af9da906596229dff8568c18f1",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/market/EPPNNOz0C8"
+    },
+    {
+      "attempt": 1,
+      "bytes": 5979,
+      "headers": {
+        "cache-control": "public, max-age=5, stale-while-revalidate=10",
+        "date": "Sun, 25 Oct 2026 06:27:02 GMT",
+        "etag": "W/\"175b-hxsssg8KeH3R4uU57q0PB92aC9M\""
+      },
+      "label": "bets_EPPNNOz0C8",
+      "method": "GET",
+      "raw_member": "bets_EPPNNOz0C8.json",
+      "received_utc": "2026-10-25T06:27:02.484185+00:00",
+      "request_started_utc": "2026-10-25T06:27:02.289952+00:00",
+      "sha256": "fd9725264a4ae14f6858290dd071aee73a02bdd6d3a0c8ca13e19b907283e3aa",
+      "status": 200,
+      "url": "https://api.manifold.markets/v0/bets?contractId=EPPNNOz0C8&limit=10"
+    }
+  ],
+  "rule_version": "PRISME4-collection-v1.1",
+  "schema_version": 1,
+  "status": "success"
+}
