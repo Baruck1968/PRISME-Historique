@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "rule_version": "PRISME4-collection-v1.1",
+  "phase": "prospective_candidate_capture_feasibility",
+  "population_rule": "Freeze the first 30 newest public open BINARY markets returned by search-markets at initial capture; no replacement, no final-outcome selection. Retain each ID, including after closure or resolution.",
+  "candidate_limit": 30,
+  "discovery_query": {
+    "term": "",
+    "filter": "open",
+    "sort": "newest",
+    "contractType": "BINARY",
+    "limit": 30
+  },
+  "scientific_eligibility": "Candidates only. Objective criteria, public outcome still unknown, actual negotiability and shared-event key require a versioned manual/external audit before predictive inclusion.",
+  "manual_audit_rule": "First 10 frozen cohort IDs by SHA256(id); no selection by outcome, probability or liquidity.",
+  "proposed_duration_days": 56,
+  "proposed_daily_utc": "06:00",
+  "clock_and_pairing": "Record actual UTC request/receipt intervals per market. First t with two admissible captures targeting 24h apart; never fabricate/backfill a missed day or equate target slot with actual receipt time.",
+  "pair_interval_diagnostic_tolerance_seconds": 300,
+  "pair_tolerance_status": "Operational diagnostic only; scientific timing acceptance must be explicit before any predictive analysis.",
+  "latest_trade_probe_limit": 10,
+  "latest_trade_freshness_hours": 24,
+  "market_update_history": "Repeated captured states only, not a claim of complete edit history between runs.",
+  "read_only_api": "HTTPS GET api.manifold.markets/v0/search-markets, market/{id}, bets. No API key, POST, trading, orders or transactions.",
+  "output": "Immutable per-run raw ZIP, UTC receipt/request metadata, SHA256, plan/code hashes, previous-manifest hash, observations and errors. Daily slot idempotence only after a complete successful run.",
+  "stop_rule": "No automatic extension beyond 56 days after first successful capture. No predictive scores before temporal, outcome and event audits and independent resolved labels.",
+  "duration_and_schedule": "Proposed; explicit confirmation recorded separately in deployment.json before enabling daily capture. A manual validation is not scheduling.",
+  "visibility_evidence": "Anonymous public-search server privacy filter was inspected: visibility=public when uid is absent. API omits visibility in returned market objects. Entry membership is evidence of public discovery, not an emitted visibility field or proof of all later states."
+}
